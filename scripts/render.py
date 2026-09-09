@@ -29,13 +29,60 @@ def generate():
     for topic, label in TOPICS.items():
         rows = [r for r in papers if topic in r["topics"]]
         output[f"topics/{topic}.md"] = NOTICE + f"# {label}\n\n[返回目录](../README.md) · {len(rows)} 篇主目录论文\n\n" + table(rows)
+        if topic in {"marketing", "simulation"}:
+            extra = [r for r in supplements if topic in r["topics"]]
+            output[f"topics/{topic}.md"] += f"\n## 补充阅读（{len(extra)} 篇）\n\n预印本、名单外 venue、特别轨或背景指南，均不计入上方主目录数。具体理由见[补充列表](../docs/supplementary.md)。\n\n" + table(extra)
+            output[f"topics/{topic}.md"] += "\n[按应用场景阅读](../docs/marketing-simulation.md)。\n"
     for filename, title, rows, description in [
         ("supplementary", "补充文献", supplements, "方法相关，但 venue、track 或贡献类型不符合主目录口径。预印本与已发表材料分别标明状态。"),
         ("pending", "待核验候选", pending, "未计入主目录；所缺官方证据见每条说明。"),
         ("accepted", "官方已接收稿", accepted, "有官方已接收稿或录用记录，计入主目录并与正式发表记录分开标注。"),
     ]:
         output[f"docs/{filename}.md"] = NOTICE + f"# {title}\n\n[返回目录](../README.md)\n\n{description}\n\n" + table(rows) + "\n## 范围与证据\n\n" + "\n".join(f"- **{r['title']}**（{r['publication_status']}）：{r['decision_reason_zh']}" for r in rows) + "\n"
-    main = [NOTICE + '<div align="center">', "", "# Good LLM Stats Papers", "", "Curated research on large language models, statistics, and causal inference.", "", "2022–2026 · 计算机、统计学与经济学方法文献", "", f"[![Papers](https://img.shields.io/badge/Papers-{len(papers)}-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-{len(registry['venues'])}-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-{cutoff.replace('-', '--')}-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)", "", f"[**Suggest a Paper**]({REPO}/issues/new?template=paper-suggestion.yml)", "", "</div>", "", "## Scope", "", "收集 LLM 与统计推断、因果发现/识别/估计、统计学习理论、不确定性评测和合成数据有效性有实质结合的研究。主目录要求目标 venue 的正式发表或官方录用证据。", "", "**排除**：以 LLM 使用、引入或普及为处理变量，研究其对生产率、就业、工资、学习或其他现实结果之因果效应的论文；仅将 causal language modeling 当作因果推断、仅讨论 inference acceleration、以及仅使用 LLM 写代码或润色的论文也不纳入。", "", "期刊按首次正式在线发表年份归类，另保留卷期年份；会议采用会议年份。Findings、特别轨、综述、名单外期刊与预印本保留在补充列表。", "", "本仓库是首轮证据目录。覆盖状态为 partial / search-only，不宣称逐年穷尽；未命中不代表该领域没有相关论文。保存原创中文摘要和来源链接，论文版权属于原作者及出版方。", "", "## At a Glance", "", "| Metric | Value |", "| --- | ---: |", f"| 主目录论文 | {len(papers)} |", f"| 正式发表 / 官方已接收稿 | {len(papers)-len(accepted)} / {len(accepted)} |", f"| 补充 / 待核验 | {len(supplements)} / {len(pending)} |", f"| 目标 venue / 年份单元 | {len(registry['venues'])} / {len(coverage['coverage'])} |", f"| 检索截止日 | {cutoff} |", "", "## How to Use", "", "- [中文研究地图与 8 篇优先阅读](docs/research-map.zh.md)", "- [覆盖与缺口](docs/coverage.md) · [数据字段与口径](docs/metadata.md) · [来源与核验](docs/sources.md)", "- [补充文献](docs/supplementary.md) · [待核验候选](docs/pending.md) · [官方已接收稿](docs/accepted.md)", "- [CSV](exports/papers.csv) · [BibTeX](exports/references.bib) · [结构化主目录](data/papers.yaml)", "", "## Browse by Topic", ""]
+    main = [NOTICE + '<div align="center">',
+        "",
+        "# Good LLM Stats Papers",
+        "",
+        "Curated research on LLMs, statistics, causal inference, marketing, and behavioral simulation.",
+        "",
+        "2022–2026 · 计算机、统计、经济与营销：方法和应用",
+        "",
+        f"[![Papers](https://img.shields.io/badge/Papers-{len(papers)}-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-{len(registry['venues'])}-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-{cutoff.replace('-', '--')}-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)",
+        "",
+        f"[**Suggest a Paper**]({REPO}/issues/new?template=paper-suggestion.yml)",
+        "",
+        "</div>",
+        "",
+        "## Scope",
+        "",
+        "收集 LLM 与统计推断、因果发现/识别/估计、统计学习理论、不确定性评测和合成数据有效性有实质结合的研究，同时纳入营销研究、消费者/经济行为模拟、数字孪生与多智能体社会模拟的实证应用及验证数据集。主目录要求目标 venue 的正式发表或官方录用证据。",
+        "",
+        "**排除**：以 LLM 使用、引入或普及为处理变量，研究其对生产率、就业、工资、学习或其他现实结果之因果效应的论文；仅将 causal language modeling 当作因果推断、仅讨论 inference acceleration、以及仅使用 LLM 写代码或润色的论文也不纳入。",
+        "",
+        "期刊按首次正式在线发表年份归类，另保留卷期年份；会议采用会议年份。Findings、特别轨、综述、名单外期刊与预印本保留在补充列表。",
+        "",
+        "本仓库是持续整理的证据目录，已补充营销与 simulation 应用。覆盖状态为 partial / search-only，不宣称逐年穷尽；未命中不代表该领域没有相关论文。保存原创中文摘要和来源链接，论文版权属于原作者及出版方。",
+        "",
+        "## At a Glance",
+        "",
+        "| Metric | Value |",
+        "| --- | ---: |",
+        f"| 主目录论文 | {len(papers)} |",
+        f"| 正式发表 / 官方已接收稿 | {len(papers)-len(accepted)} / {len(accepted)} |",
+        f"| 补充 / 待核验 | {len(supplements)} / {len(pending)} |",
+        f"| 目标 venue / 年份单元 | {len(registry['venues'])} / {len(coverage['coverage'])} |",
+        f"| 检索截止日 | {cutoff} |",
+        "",
+        "## How to Use",
+        "",
+        "- [中文研究地图与 8 篇方法优先阅读](docs/research-map.zh.md)",
+        "- [营销与 simulation 应用指南](docs/marketing-simulation.md)",
+        "- [覆盖与缺口](docs/coverage.md) · [数据字段与口径](docs/metadata.md) · [来源与核验](docs/sources.md)",
+        "- [补充文献](docs/supplementary.md) · [待核验候选](docs/pending.md) · [官方已接收稿](docs/accepted.md)",
+        "- [CSV](exports/papers.csv) · [BibTeX](exports/references.bib) · [结构化主目录](data/papers.yaml)",
+        "",
+        "## Browse by Topic",
+        ""]
     main += [f"- [{label}](topics/{topic}.md)：{sum(topic in p['topics'] for p in papers)} 篇" for topic, label in TOPICS.items()]
     main += ["", "主题允许交叉，数量不可直接相加。", "", "## Coverage: 2022–2026", "", "| Venue | 2026 | 2025 | 2024 | 2023 | 2022 |", "| --- | ---: | ---: | ---: | ---: | ---: |"]
     for venue in registry["venues"]:

@@ -4,7 +4,7 @@
 
 [返回目录](../README.md) · 18 篇主目录论文
 
-| 年份 / Venue | 论文 | 方法与 LLM 的关系 |
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2026 · AAAI | [CounterBench: Evaluating and Improving Counterfactual Reasoning in Large Language Models](https://ojs.aaai.org/index.php/AAAI/article/view/40287) | 构建 1200 道基于形式规则的 CounterBench，覆盖多种因果图、难度和无意义名称，并提出迭代推理与回溯方法 CoIn。 |
 | 2026 · ACL | [Can Large Language Models Infer Causal Relationships from Real-World Text?](https://aclanthology.org/2026.acl-long.1003/) | 构建来自真实学术文献的 ReCITE 基准，按显式性、关系数量、文本长度和领域评估 LLM 从复杂文本推断因果关系。 |

@@ -8,13 +8,13 @@
 | --- | --- |
 | work_id | 稳定的文献标识，更新时保留 |
 | title / authors | 官方标题与作者 |
-| venue / venue_group | 冻结名单中的 venue 与领域 |
+| venue / venue_group | 当前目标名单中的 venue 与领域 |
 | year / publication_dates | 主发表年份与独立保存的在线、录用、卷期日期 |
 | track | 主会、期刊、Findings 或其他轨道 |
 | publication_status | published、accepted、preprint 或 unknown |
 | official_url / paper_url | 官方发表证据与可得的论文链接 |
 | doi / arxiv_id / openreview_id | 版本匹配与查重标识 |
-| topics | 可交叉的八类主题标签 |
+| topics | 可交叉的十类主题标签；marketing 与 simulation 为应用索引 |
 | summary_zh / llm_role_zh / method_zh | 原创中文摘要、LLM 的角色和方法 |
 | estimand_zh / assumptions_zh / guarantee_zh | 来源支持的估计对象、假设与保证；未知为 null |
 | evidence_basis / evidence_locator | 实际读取的证据类型与位置 |
@@ -26,3 +26,7 @@
 `available-partially-read` 表示取得并局部读取文本，不表示已逐页审计全文。官方元数据核实也不代表定理和实证结论已被独立验证。
 
 覆盖台账中的 `partial` 表示有单篇核验或本地关键词扫描，`search-only` 表示有定向查询；二者都不等于穷尽年度目录。零收录不等于不存在相关论文。
+
+2026-09-09 扩展：新增 Marketing Science、Journal of Marketing Research、Journal of Marketing、Journal of Consumer Research。`simulation` 指 LLM 模拟人、消费者、经济或社会系统；仅以合成文本训练模型或研究模型坍塌的论文不自动加入此标签。`application_type` 记录具体应用场景，`contribution_type` 和 `subtrack` 可标注验证数据集及数据库报告。新加应用不要求理论定理，但必须有实质的研究方法、模拟或验证贡献；一般采用效应研究仍排除。
+
+工作论文按首次预印本年份归档，在 `publication_dates.latest_revision` 中另存最新修订日期；`title_aliases` 保留旧标题，不能将同一工作的版本当成多篇论文。

@@ -4,7 +4,7 @@
 
 [返回目录](../../README.md) · 7 篇
 
-| 年份 / Venue | 论文 | 方法与 LLM 的关系 |
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2023 · NeurIPS | [CLadder: Assessing Causal Reasoning in Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html) | 构建 CLadder 自然语言因果推理基准，覆盖关联、干预和反事实查询，并提出 CausalCoT 提示策略。 |
 | 2023 · NeurIPS | [Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/3927bbdcf0e8d1fa8aa23c26f358a281-Abstract-Conference.html) | 检验基于表示去噪的 Causal Tracing 是否能指示知识编辑位置，发现其定位结论通常不能预测最佳编辑层。 |

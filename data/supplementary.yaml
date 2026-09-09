@@ -205,61 +205,6 @@
   datasets: null
   arxiv_id: null
   openreview_id: null
-- title: 'Large Language Models for Market Research: A Data-Augmentation Approach'
-  authors:
-  - Mengxin Wang
-  - Dennis J. Zhang
-  - Heng Zhang
-  venue: Marketing Science
-  venue_group: other
-  year: 2026
-  track: journal
-  publication_status: published
-  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
-  paper_url: https://doi.org/10.1287/mksc.2025.0009
-  doi: 10.1287/mksc.2025.0009
-  topics:
-  - stats-inference
-  - synthetic-data
-  evidence_basis: official-abstract
-  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
-  scope_decision: supplement
-  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
-  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
-  verified_on: '2026-09-09'
-  discovered_via:
-  - edith
-  - web
-  source_urls:
-  - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
-  code_url: null
-  metadata_conflicts:
-  - field: doi
-    local: 10.48550/arXiv.2412.19363
-    official: 10.1287/mksc.2025.0009
-  summary_zh: 用少量人类数据校正 LLM 合成选择数据，提高联合分析中的偏好估计效率。
-  llm_role_zh: 提供存在偏差但可校正的辅助选择数据。
-  method_zh: 统计数据增广与误差校正估计。
-  publication_dates:
-    published_online: '2026-03-17'
-    issue_year: 2026
-  arxiv_id: '2412.19363'
-  guarantee_zh: 官方摘要报告一致性、渐近正态性及有限样本误差界；条件未逐项复核。
-  work_id: w-4b12b0118c1e
-  publication_records:
-  - venue: Marketing Science
-    year: 2026
-    track: journal
-    publication_status: published
-    doi: 10.1287/mksc.2025.0009
-    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
-    paper_url: https://doi.org/10.1287/mksc.2025.0009
-  verification_status: official-record-checked
-  fulltext_status: abstract-only
-  estimand_zh: null
-  assumptions_zh: null
-  datasets: null
-  openreview_id: null
 - title: Evaluating the statistical realism of LLM-generated social science data
   authors:
   - Yueqi Xie
@@ -283,6 +228,7 @@
   - stats-inference
   - uncertainty
   - synthetic-data
+  - simulation
   summary_zh: 提出SSDataBench，以五类总体统计模式和显著性检验评估15个LLM生成社会科学样本的统计现实性。
   llm_role_zh: LLM在有限人口属性条件下生成合成受访者数据，方法检验其能否代表真实总体。
   method_zh: 比较单变量分布、双变量关联、多变量预测、生命事件序列及其协变量关联，使用bootstrap重复计算通过率。
@@ -453,6 +399,7 @@
   - stats-inference
   - uncertainty
   - synthetic-data
+  - simulation
   summary_zh: 利用同时具有真实与合成数据的历史任务，为当前仅有合成数据的任务构造具有有效性保证的推断。
   llm_role_zh: 应用明确包括LLM生成的silicon samples和LLM-as-a-judge输出。
   method_zh: 提出任务可交换性，把历史任务的真实—合成偏差迁移到当前任务，并扩展到偏离可交换性的稳健保证。
@@ -972,109 +919,6 @@
   assumptions_zh: null
   datasets: null
   openreview_id: null
-- title: 'Frontiers: Can Large Language Models Capture Human Preferences?'
-  authors:
-  - Ali Goli
-  - Amandeep Singh
-  venue: Marketing Science
-  venue_group: other
-  year: 2024
-  track: journal
-  publication_status: published
-  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
-  paper_url: https://doi.org/10.1287/mksc.2023.0306
-  doi: 10.1287/mksc.2023.0306
-  topics:
-  - synthetic-data
-  evidence_basis: official-abstract
-  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
-  scope_decision: supplement
-  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
-  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
-  verified_on: '2026-09-09'
-  discovered_via:
-  - edith
-  - web
-  source_urls:
-  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
-  code_url: null
-  metadata_conflicts: []
-  summary_zh: 比较 LLM 与人类跨期偏好，并用 chain-of-thought conjoint 分析偏好差异。
-  llm_role_zh: 模拟调查受访者。
-  method_zh: 跨期选择对照、chain-of-thought conjoint 与主题分析。
-  publication_dates:
-    published_online: '2024-04-25'
-    issue_year: 2024
-  work_id: w-e9d3e0512c96
-  publication_records:
-  - venue: Marketing Science
-    year: 2024
-    track: journal
-    publication_status: published
-    doi: 10.1287/mksc.2023.0306
-    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
-    paper_url: https://doi.org/10.1287/mksc.2023.0306
-  verification_status: official-record-checked
-  fulltext_status: abstract-only
-  estimand_zh: null
-  assumptions_zh: null
-  guarantee_zh: null
-  datasets: null
-  arxiv_id: null
-  openreview_id: null
-- title: 'Frontiers: Determining the Validity of Large Language Models for Automated
-    Perceptual Analysis'
-  authors:
-  - Peiyao Li
-  - Noah Castelo
-  - Zsolt Katona
-  - Miklos Sarvary
-  venue: Marketing Science
-  venue_group: other
-  year: 2024
-  track: journal
-  publication_status: published
-  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
-  paper_url: https://doi.org/10.1287/mksc.2023.0454
-  doi: 10.1287/mksc.2023.0454
-  topics:
-  - synthetic-data
-  evidence_basis: official-abstract
-  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
-  scope_decision: supplement
-  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
-  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
-  verified_on: '2026-09-09'
-  discovered_via:
-  - edith
-  - web
-  source_urls:
-  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
-  code_url: null
-  metadata_conflicts: []
-  summary_zh: 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。
-  llm_role_zh: 生成品牌相似度和属性评价等合成调查数据。
-  method_zh: 人类与模型感知数据的验证比较。
-  publication_dates:
-    published_online: '2024-01-25'
-    issue_year: 2024
-  work_id: w-2724d5c3bd00
-  publication_records:
-  - venue: Marketing Science
-    year: 2024
-    track: journal
-    publication_status: published
-    doi: 10.1287/mksc.2023.0454
-    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
-    paper_url: https://doi.org/10.1287/mksc.2023.0454
-  verification_status: official-record-checked
-  fulltext_status: abstract-only
-  estimand_zh: null
-  assumptions_zh: null
-  guarantee_zh: null
-  datasets: null
-  arxiv_id: null
-  openreview_id: null
 - title: 'Conformal Prediction for Natural Language Processing: A Survey'
   authors:
   - Margarida Campos
@@ -1240,3 +1084,354 @@
   guarantee_zh: null
   datasets: null
   openreview_id: null
+- work_id: w-94c5d1b3bae1
+  title: 'New Tools, New Rules: A Practical Guide to Effective and Responsible Generative
+    AI Use for Surveys and Experiments in Research'
+  authors:
+  - Simon J. Blanchard
+  - Nofar Duani
+  - Aaron M. Garvey
+  - Oded Netzer
+  - Travis Tae Oh
+  venue: Journal of Marketing
+  venue_group: marketing
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://journals.sagepub.com/doi/10.1177/00222429251349882
+  paper_url: https://journals.sagepub.com/doi/10.1177/00222429251349882
+  doi: 10.1177/00222429251349882
+  topics:
+  - marketing
+  summary_zh: 梳理 GenAI 在调查、实验和开放式回答编码中的使用与有效性检查。
+  llm_role_zh: 辅助研究设计、实施与数据编码。
+  method_zh: 研究流程指南与有效性规范，并提供辅助模板。
+  evidence_basis: official-abstract
+  evidence_locator: 出版方或会议官方页面的标题、作者、摘要和发表信息。
+  scope_decision: supplement
+  decision_reason_zh: 目标期刊中的实践指南与综述，作为应用背景保留，不计入原创方法/模拟验证主目录。
+  limitations_zh: 本轮核查官方摘要；这是一篇研究实践指南，不提供通用的合成受访者有效性保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://journals.sagepub.com/doi/10.1177/00222429251349882
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  publication_dates:
+    online_first: '2025-06-02'
+    issue_year: 2025
+  publication_records:
+  - venue: Journal of Marketing
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1177/00222429251349882
+    official_url: https://journals.sagepub.com/doi/10.1177/00222429251349882
+    paper_url: https://journals.sagepub.com/doi/10.1177/00222429251349882
+- work_id: w-60b49f55bb3a
+  title: The GenAI Future of Consumer Research
+  authors:
+  - Ming-Hui Huang
+  - Roland T. Rust
+  venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://academic.oup.com/jcr/article/52/1/4/8132289
+  paper_url: https://academic.oup.com/jcr/article/52/1/4/8132289
+  doi: 10.1093/jcr/ucaf013
+  topics:
+  - marketing
+  - synthetic-data
+  summary_zh: 讨论消费研究中的数据代表性、输出趋同与模型坍塌，提出未来研究方向。
+  llm_role_zh: 作为生成研究数据与回答的工具，其分布偏差是讨论对象。
+  method_zh: 概念框架与研究议程；讨论保持人类数据和分布尾部的重要性。
+  evidence_basis: official-abstract
+  evidence_locator: 出版方或会议官方页面的标题、作者、摘要和发表信息。
+  scope_decision: supplement
+  decision_reason_zh: JCR 的概念与研究议程文章，按贡献类型列为营销背景补充。
+  limitations_zh: 本轮依据官方摘要；概念建议不能当作已验证的统计校正方法。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://academic.oup.com/jcr/article/52/1/4/8132289
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  publication_dates:
+    online_first: '2025-05-15'
+    issue_year: 2025
+  publication_records:
+  - venue: Journal of Consumer Research
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1093/jcr/ucaf013
+    official_url: https://academic.oup.com/jcr/article/52/1/4/8132289
+    paper_url: https://academic.oup.com/jcr/article/52/1/4/8132289
+- work_id: w-5dc6f3e41809
+  title: Collaborating with Generative AI in Consumer Culture Research
+  authors:
+  - Amber M. Epp
+  - Ashlee Humphreys
+  venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+  paper_url: https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+  doi: 10.1093/jcr/ucaf014
+  topics:
+  - marketing
+  summary_zh: 基于研究者访谈讨论 GenAI 在消费文化定性研究中的协作方式与解释边界。
+  llm_role_zh: 辅助语言资料的生成和分析。
+  method_zh: 访谈研究与协作实践框架，强调理论、身体经验、实证和历史情境。
+  evidence_basis: official-abstract
+  evidence_locator: 出版方或会议官方页面的标题、作者、摘要和发表信息。
+  scope_decision: supplement
+  decision_reason_zh: 目标营销期刊中的定性方法背景文章；没有直接的统计推断或行为模拟验证贡献，单列补充。
+  limitations_zh: 本轮核查官方摘要；定性分析实践与统计有效性保证不同。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  publication_dates:
+    online_first: '2025-05-15'
+    issue_year: 2025
+  publication_records:
+  - venue: Journal of Consumer Research
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1093/jcr/ucaf014
+    official_url: https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+    paper_url: https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+- work_id: w-63528693b759
+  title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+  authors:
+  - Joon Sung Park
+  - Joseph O'Brien
+  - Carrie Jun Cai
+  - Meredith Ringel Morris
+  - Percy Liang
+  - Michael S. Bernstein
+  venue: UIST
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://doi.org/10.1145/3586183.3606763
+  paper_url: https://arxiv.org/abs/2304.03442
+  doi: 10.1145/3586183.3606763
+  topics:
+  - simulation
+  summary_zh: 用记忆、反思和规划构建 25 个虚拟人物，展示个体与群体行为的交互式模拟。
+  llm_role_zh: 驱动虚拟人物的日常行为、记忆和交流。
+  method_zh: 代理架构消融与行为可信度评测；构建小镇交互环境。
+  evidence_basis: official-abstract
+  evidence_locator: ACM 出版记录搜索结果、Stanford HCI 论文页和 arXiv 摘要。
+  scope_decision: supplement
+  decision_reason_zh: UIST 2023 正式论文；UIST 不在当前目标 venue 名单，保留为多智能体 simulation 的基础应用。
+  limitations_zh: 核心评估是行为可信度，不能据此断定模拟人群具有统计代表性。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://doi.org/10.1145/3586183.3606763
+  - https://hci.stanford.edu/publications/paper.php?id=482
+  - https://arxiv.org/abs/2304.03442
+  code_url: https://github.com/joonspk-research/generative_agents
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  arxiv_id: '2304.03442'
+  application_type: interactive-social-agents
+  publication_records:
+  - venue: UIST
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.1145/3586183.3606763
+    official_url: https://doi.org/10.1145/3586183.3606763
+    paper_url: https://arxiv.org/abs/2304.03442
+- work_id: w-c08f0cf5f19e
+  title: LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of
+    Individuals
+  authors:
+  - Joon Sung Park
+  - Carolyn Q. Zou
+  - Jonne Kamphorst
+  - Niles Egan
+  - Aaron Shaw
+  - Benjamin Mako Hill
+  - Carrie Cai
+  - Meredith Ringel Morris
+  - Percy Liang
+  - Robb Willer
+  - Michael S. Bernstein
+  venue: arXiv
+  venue_group: other
+  year: 2024
+  track: preprint
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2411.10109
+  paper_url: https://arxiv.org/pdf/2411.10109v3
+  doi: null
+  topics:
+  - simulation
+  - synthetic-data
+  summary_zh: 基于 1,052 人的访谈、调查或二者组合构建个人代理，并对照人类重测表现验证预测。
+  llm_role_zh: 利用自述信息模拟个体在新问题、经济博弈和实验中的回答。
+  method_zh: 比较访谈、调查、联合信息与人口学画像条件，在留出问题上检验个体预测。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv v3 标题、11 位作者、摘要和版本历史；旧标题为 Generative Agent Simulations of
+    1,000 People。
+  scope_decision: supplement
+  decision_reason_zh: 截至检索日核实到 arXiv v3；未取得目标 venue 发表证据，列为应用预印本。
+  limitations_zh: 当前条目采用 2026 年修订版元数据和摘要；相对重测表现不是绝对预测准确率，且尚无目标 venue 发表证据。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2411.10109
+  code_url: null
+  verification_status: preprint-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  arxiv_id: '2411.10109'
+  title_aliases:
+  - Generative Agent Simulations of 1,000 People
+  publication_dates:
+    first_preprint: '2024-11-15'
+    latest_revision: '2026-06-28'
+  application_type: individual-digital-twins
+  publication_records:
+  - venue: arXiv
+    year: 2024
+    track: preprint
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2411.10109
+    paper_url: https://arxiv.org/pdf/2411.10109v3
+- work_id: w-aa71b7ba15b9
+  title: A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic
+    Environments and Interactions
+  authors:
+  - Jun Zhang
+  - Yuwei Yan
+  - Junbo Yan
+  - Zhiheng Zheng
+  - Jinghua Piao
+  - Depeng Jin
+  - Yong Li
+  venue: ACL
+  venue_group: cs-conference
+  year: 2025
+  track: industry
+  publication_status: published
+  official_url: https://aclanthology.org/2025.acl-industry.94/
+  paper_url: https://aclanthology.org/2025.acl-industry.94.pdf
+  doi: 10.18653/v1/2025.acl-industry.94
+  topics:
+  - simulation
+  summary_zh: AgentSociety 将现实社会环境与并行交互结合，支持大规模 LLM 社会代理仿真。
+  llm_role_zh: 充当与环境和其他主体交互的模拟社会成员。
+  method_zh: 并行仿真框架、环境反馈与规模扩展实验。
+  evidence_basis: official-abstract
+  evidence_locator: 出版方或会议官方页面的标题、作者、摘要和发表信息。
+  scope_decision: supplement
+  decision_reason_zh: ACL 2025 Industry Track 正式论文，按既有主会/特别轨区分列为补充。
+  limitations_zh: 系统可扩展性和行为真实性评估不同于真实人群的因果识别；本轮未复现性能实验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.acl-industry.94/
+  code_url: https://github.com/tsinghua-fib-lab/agentsociety/
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  application_type: large-scale-social-simulation
+  publication_records:
+  - venue: ACL
+    year: 2025
+    track: industry
+    publication_status: published
+    doi: 10.18653/v1/2025.acl-industry.94
+    official_url: https://aclanthology.org/2025.acl-industry.94/
+    paper_url: https://aclanthology.org/2025.acl-industry.94.pdf
+- work_id: w-b12b61e51716
+  title: 'Large Language Models as Simulated Economic Agents: What Can We Learn from
+    Homo Silicus?'
+  authors:
+  - John J. Horton
+  - Apostolos Filippas
+  - Benjamin S. Manning
+  venue: NBER Working Paper
+  venue_group: economics
+  year: 2023
+  track: working-paper
+  publication_status: preprint
+  official_url: https://www.nber.org/papers/w31122
+  paper_url: https://www.nber.org/papers/w31122.pdf
+  doi: 10.3386/w31122
+  topics:
+  - simulation
+  summary_zh: 给 LLM 设定禀赋、信息和偏好，模拟经济行为并对照既有实验结果。
+  llm_role_zh: 作为可编程的经济行为代理，支持实验变体探索。
+  method_zh: 情景模拟与经典经济实验的定性比较；用于形成可由真人实验检验的研究想法。
+  evidence_basis: official-abstract
+  evidence_locator: NBER 官方工作论文页面检索结果、修订日期及 PDF 摘要首页。
+  scope_decision: supplement
+  decision_reason_zh: NBER 工作论文；采用 2026 年修订版的三位作者信息，未按顶刊正式发表计数。
+  limitations_zh: 本轮核查官方摘要和发表记录，未复现实验；模拟吻合不构成真实人群中的外部有效性或因果识别保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.nber.org/papers/w31122
+  code_url: https://github.com/johnjosephhorton/homo_silicus
+  verification_status: preprint-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  publication_dates:
+    first_preprint: 2023-04
+    latest_revision: 2026-02
+  application_type: economic-experiment-simulation
+  publication_records:
+  - venue: NBER Working Paper
+    year: 2023
+    track: working-paper
+    publication_status: preprint
+    doi: 10.3386/w31122
+    official_url: https://www.nber.org/papers/w31122
+    paper_url: https://www.nber.org/papers/w31122.pdf

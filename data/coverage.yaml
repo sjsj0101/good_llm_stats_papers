@@ -3,7 +3,7 @@ status_definitions:
   partial: 已核验相关单篇或执行本地关键词扫描；没有穷尽目录
   search-only: 已做跨年/定向关键词搜索，本单元暂无主目录记录
   not-searched: 本轮没有足以记录该单元已检索的查询证据
-venue_year_units: 145
+venue_year_units: 165
 coverage:
 - venue: ICML
   venue_group: cs-conference
@@ -39,7 +39,7 @@ coverage:
   venue_group: cs-conference
   year: 2023
   status: partial
-  included_count: 1
+  included_count: 2
   official_issue_audit_complete: false
   search_logs:
   - venue: ICML
@@ -79,8 +79,16 @@ coverage:
     notes: Included official PMLR records on ICL theory, conformal factuality, full
       Bayesian inference in context, recursive synthetic training and collapse-aware
       text synthesis.
+  - date: '2026-09-09'
+    queries:
+    - Using Large Language Models to Simulate Multiple Humans and Replicate Human
+      Subject Studies
+    source_urls:
+    - https://proceedings.mlr.press/v202/aher23a.html
+    notes: Supplemental search for LLM behavioral/economic simulation applications.
   verified_article_urls:
   - https://proceedings.mlr.press/v202/li23l.html
+  - https://proceedings.mlr.press/v202/aher23a.html
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
 - venue: ICML
   venue_group: cs-conference
@@ -379,7 +387,7 @@ coverage:
   venue_group: cs-conference
   year: 2025
   status: partial
-  included_count: 6
+  included_count: 7
   official_issue_audit_complete: false
   search_logs:
   - venue: NeurIPS
@@ -422,6 +430,12 @@ coverage:
     notes: 'Strongest represented venue: ICL theory, PPI evaluation/ranking, conformal
       calibration, benchmark uncertainty, hypothesis assessment and model-collapse
       validity. No 2026 proceedings were treated as available before the cutoff.'
+  - date: '2026-09-09'
+    queries:
+    - 'TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets'
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bf234ecf83cd77bc5b77a24ba9338b0-Abstract-Conference.html
+    notes: Supplemental search for LLM behavioral/economic simulation applications.
   verified_article_urls:
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e5911cb61db978c225cf62b6c029192-Abstract-Conference.html
@@ -429,6 +443,7 @@ coverage:
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/3380e8116452e0efbf36f35d95e88c94-Abstract-Conference.html
   - https://proceedings.neurips.cc/paper_files/paper/2025/hash/18b3b2947174ae9b1a8fc91ff89f4eb6-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bf234ecf83cd77bc5b77a24ba9338b0-Abstract-Conference.html
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
 - venue: NeurIPS
   venue_group: cs-conference
@@ -1711,8 +1726,8 @@ coverage:
 - venue: ACL
   venue_group: cs-conference
   year: 2024
-  status: search-only
-  included_count: 0
+  status: partial
+  included_count: 1
   official_issue_audit_complete: false
   search_logs:
   - venue: ACL
@@ -1735,7 +1750,15 @@ coverage:
     status: partial
     notes: Main long-paper and Findings tracks were distinguished explicitly. Two
       Findings papers are stored with scope_decision=supplement.
-  verified_article_urls: []
+  - date: '2026-09-09'
+    queries:
+    - 'EconAgent: Large Language Model-Empowered Agents for Simulating Macroeconomic
+      Activities'
+    source_urls:
+    - https://aclanthology.org/2024.acl-long.829/
+    notes: Supplemental search for LLM behavioral/economic simulation applications.
+  verified_article_urls:
+  - https://aclanthology.org/2024.acl-long.829/
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
 - venue: ACL
   venue_group: cs-conference
@@ -4954,3 +4977,558 @@ coverage:
   verified_article_urls:
   - https://doi.org/10.1093/biomet/asag049
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Marketing Science
+  venue_group: marketing
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Marketing Science
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Marketing Science
+  venue_group: marketing
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Marketing Science
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Marketing Science
+  venue_group: marketing
+  year: 2024
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Marketing Science
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
+    - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Marketing Science
+  venue_group: marketing
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Marketing Science
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0262
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0262
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Marketing Science
+  venue_group: marketing
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Marketing Science
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing Research
+  venue_group: marketing
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing Research
+  venue_group: marketing
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing Research
+  venue_group: marketing
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing Research
+  venue_group: marketing
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing Research
+  venue_group: marketing
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://journals.sagepub.com/doi/10.1177/00222437261476639
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls:
+  - https://journals.sagepub.com/doi/10.1177/00222437261476639
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing
+  venue_group: marketing
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing
+  venue_group: marketing
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing
+  venue_group: marketing
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://journals.sagepub.com/doi/10.1177/00222429241276529
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls:
+  - https://journals.sagepub.com/doi/10.1177/00222429241276529
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing
+  venue_group: marketing
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://journals.sagepub.com/doi/10.1177/00222429251349882
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Marketing
+  venue_group: marketing
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Marketing
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Consumer Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Consumer Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Consumer Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Consumer Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls:
+    - https://academic.oup.com/jcr/article/52/1/4/8132289
+    - https://academic.oup.com/jcr/article-abstract/52/1/32/8132295
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。
+- venue: Journal of Consumer Research
+  venue_group: marketing
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - date: '2026-09-09'
+    venue: Journal of Consumer Research
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - 'EDITH all-years scan: large language model / ChatGPT / GPT-2–6 / generative
+      AI / prediction-powered / synthetic respondents / silicon samples / digital
+      twins / generative agents'
+    source_urls: []
+    notes: Read-only scan across all years of four marketing journals (7,562 records
+      total), plus targeted web search and individual official publication checks.
+      Local year fields were not trusted as a prefilter.
+    web_evidence: Relevant candidates checked individually on publisher pages; public
+      article URLs listed below.
+  verified_article_urls: []
+  gap_zh: 全部年份关键词扫描已完成，但未逐篇审读或穷尽在线发表目录；零主目录记录不代表无相关论文。

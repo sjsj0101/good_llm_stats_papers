@@ -1,17 +1,18 @@
 # Contributing
 
-欢迎提交 LLM + statistics / causal inference 的方法论文或元数据更正。
+欢迎提交 LLM + statistics / causal inference 的方法论文、营销/行为模拟研究或元数据更正。
 
-最简单的方式是使用 [Suggest a Paper](https://github.com/sjsj0101/good_llm_stats_papers/issues/new?template=paper-suggestion.yml)：提供论文链接、官方发表或录用证据，以及具体统计/因果贡献。投稿由维护者审核，提交 Issue 不表示自动纳入。
+最简单的方式是使用 [Suggest a Paper](https://github.com/sjsj0101/good_llm_stats_papers/issues/new?template=paper-suggestion.yml)：提供论文链接、官方发表或录用证据，以及具体统计/因果贡献或应用验证。投稿由维护者审核，提交 Issue 不表示自动纳入。
 
 ## 纳入要求
 
 - 主目录时间窗为 2022–2026，截至当前覆盖台账所记日期；目标 venue 见 `data/venues.yaml`。
 - 必须有官方发表或录用证据。arXiv、作者主页或投稿页面单独不足以证明顶会顶刊发表。
-- 写清 LLM 的角色、统计或因果任务，以及纳入理由。摘要未支持的识别假设、理论保证或实验细节保持为空。
+- 写清 LLM 的角色、统计/因果任务或营销/模拟应用，以及纳入理由。摘要未支持的识别假设、理论保证或实验细节保持为空。
 - 排除研究 LLM 采用对生产率、就业、学习等现实结果之因果效应的论文。
 - 不将 causal language modeling 与因果推断混为一谈；不将模型运行加速当作统计推断。
-- 综述、Findings、特别轨、名单外期刊、预印本与边界应用放入 `data/supplementary.yaml`；证据不充分的记录放入 `data/pending.yaml`。
+- 应用可包括合成消费者、个人数字孪生、经济/金融/社会多智能体模拟及验证数据集；明确区分行为可信度、预测准确率和统计/因果有效性。
+- 综述、Findings、Industry Track 等特别轨、名单外期刊、预印本与边界应用放入 `data/supplementary.yaml`；证据不充分的记录放入 `data/pending.yaml`。
 
 ## 修改数据
 

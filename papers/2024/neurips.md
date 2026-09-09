@@ -4,7 +4,7 @@
 
 [返回目录](../../README.md) · 8 篇
 
-| 年份 / Venue | 论文 | 方法与 LLM 的关系 |
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2024 · NeurIPS | [Benchmarking LLMs via Uncertainty Quantification](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html) | 建立把共形预测不确定性纳入LLM基准评估的框架，比较九个模型系列在五类NLP任务中的准确率与确定性。 |
 | 2024 · NeurIPS | [COLD: Causal reasOning in cLosed Daily activities](https://proceedings.neurips.cc/paper_files/paper/2024/hash/09265e2568cf7a6ff47b506acbc2c6eb-Abstract-Conference.html) | 构建基于日常封闭活动的约 900 万个因果查询，在现实语义和形式验证之间搭桥，并以背门准则衡量事件因果强度。 |

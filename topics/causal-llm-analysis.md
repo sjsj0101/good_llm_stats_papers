@@ -4,7 +4,7 @@
 
 [返回目录](../README.md) · 9 篇主目录论文
 
-| 年份 / Venue | 论文 | 方法与 LLM 的关系 |
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2026 · ACL | [METER: Evaluating Multi-Level Contextual Causal Reasoning in Large Language Models](https://aclanthology.org/2026.acl-long.1668/) | 提出 METER，在统一上下文中覆盖因果阶梯三层，并结合错误模式与内部信息流追踪分析 LLM 随层级上升的性能退化。 |
 | 2026 · AISTATS | [Evaluation of Large Language Models via Coupled Token Generation](https://proceedings.mlr.press/v300/benz26a.html) | 建立共享外生随机性的耦合自回归因果模型，使不同 LLM 在相同随机源下比较，并证明基准评测可显著减少样本。 |

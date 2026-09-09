@@ -4,7 +4,7 @@
 
 [返回目录](../../README.md) · 6 篇
 
-| 年份 / Venue | 论文 | 方法与 LLM 的关系 |
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2025 · ICML | [Can Transformers Learn Full Bayesian Inference in Context?](https://proceedings.mlr.press/v267/reuter25a.html) | 构建可在上下文中输出完整后验样本的Transformer框架，覆盖广义线性模型与潜因子模型，并与MCMC和变分推断比较。 |
 | 2025 · ICML | [Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World](https://proceedings.mlr.press/v267/kazdan25a.html) | 比较纯替换、累积混合及固定子样本三种递归合成训练流程，在高斯估计、核密度估计和语言模型微调中区分爆炸崩溃、稳定与缓慢退化。 |
