@@ -1,0 +1,234 @@
+cutoff: '2026-09-09'
+venues:
+- id: ICML
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: NeurIPS
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: ICLR
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: AISTATS
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: UAI
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: COLT
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: CLeaR
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: ACL
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: EMNLP
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: NAACL
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: AAAI
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: IJCAI
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: KDD
+  group: cs-conference
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: JMLR
+  group: cs-journal
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: TMLR
+  group: cs-journal
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: TACL
+  group: cs-journal
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: AER
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Econometrica
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: QJE
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: JPE
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: REStud
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Review of Economics and Statistics
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Journal of Econometrics
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Quantitative Economics
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Econometric Theory
+  group: economics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: JASA
+  group: statistics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: JRSS-B
+  group: statistics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Annals of Statistics
+  group: statistics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026
+- id: Biometrika
+  group: statistics
+  years:
+  - 2022
+  - 2023
+  - 2024
+  - 2025
+  - 2026

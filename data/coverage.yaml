@@ -1,0 +1,4956 @@
+cutoff: '2026-09-09'
+status_definitions:
+  partial: 已核验相关单篇或执行本地关键词扫描；没有穷尽目录
+  search-only: 已做跨年/定向关键词搜索，本单元暂无主目录记录
+  not-searched: 本轮没有足以记录该单元已检索的查询证据
+venue_year_units: 145
+coverage:
+- venue: ICML
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICML
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal discovery
+    - site:proceedings.mlr.press/v267 large language model causal
+    - site:proceedings.mlr.press Teaching Transformers Causal Reasoning
+    - site:proceedings.mlr.press Preference Learning for AI Alignment causal
+    source_urls:
+    - https://proceedings.mlr.press/v267/huang25af.html
+    - https://proceedings.mlr.press/v267/vashishtha25a.html
+    - https://proceedings.mlr.press/v267/kobalczyk25a.html
+    - https://proceedings.mlr.press/v267/chen25bi.html
+    status: partial
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
+      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
+      evidence and was not cataloged without a stable official proceedings record.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICML
+  venue_group: cs-conference
+  year: 2023
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICML
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal discovery
+    - site:proceedings.mlr.press/v267 large language model causal
+    - site:proceedings.mlr.press Teaching Transformers Causal Reasoning
+    - site:proceedings.mlr.press Preference Learning for AI Alignment causal
+    source_urls:
+    - https://proceedings.mlr.press/v267/huang25af.html
+    - https://proceedings.mlr.press/v267/vashishtha25a.html
+    - https://proceedings.mlr.press/v267/kobalczyk25a.html
+    - https://proceedings.mlr.press/v267/chen25bi.html
+    status: partial
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
+      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
+      evidence and was not cataloged without a stable official proceedings record.
+  - venue: ICML
+    years:
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.mlr.press ICML in-context learning transformer stability
+    - site:proceedings.mlr.press/v235 language model conformal calibration
+    - site:proceedings.mlr.press/v267 language model Bayesian inference model collapse
+      synthetic text
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: partial
+    notes: Included official PMLR records on ICL theory, conformal factuality, full
+      Bayesian inference in context, recursive synthetic training and collapse-aware
+      text synthesis.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v202/li23l.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICML
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICML
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal discovery
+    - site:proceedings.mlr.press/v267 large language model causal
+    - site:proceedings.mlr.press Teaching Transformers Causal Reasoning
+    - site:proceedings.mlr.press Preference Learning for AI Alignment causal
+    source_urls:
+    - https://proceedings.mlr.press/v267/huang25af.html
+    - https://proceedings.mlr.press/v267/vashishtha25a.html
+    - https://proceedings.mlr.press/v267/kobalczyk25a.html
+    - https://proceedings.mlr.press/v267/chen25bi.html
+    status: partial
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
+      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
+      evidence and was not cataloged without a stable official proceedings record.
+  - venue: ICML
+    years:
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.mlr.press ICML in-context learning transformer stability
+    - site:proceedings.mlr.press/v235 language model conformal calibration
+    - site:proceedings.mlr.press/v267 language model Bayesian inference model collapse
+      synthetic text
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: partial
+    notes: Included official PMLR records on ICL theory, conformal factuality, full
+      Bayesian inference in context, recursive synthetic training and collapse-aware
+      text synthesis.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v235/mohri24a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 6
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICML
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal discovery
+    - site:proceedings.mlr.press/v267 large language model causal
+    - site:proceedings.mlr.press Teaching Transformers Causal Reasoning
+    - site:proceedings.mlr.press Preference Learning for AI Alignment causal
+    source_urls:
+    - https://proceedings.mlr.press/v267/huang25af.html
+    - https://proceedings.mlr.press/v267/vashishtha25a.html
+    - https://proceedings.mlr.press/v267/kobalczyk25a.html
+    - https://proceedings.mlr.press/v267/chen25bi.html
+    status: partial
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
+      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
+      evidence and was not cataloged without a stable official proceedings record.
+  - venue: ICML
+    years:
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.mlr.press ICML in-context learning transformer stability
+    - site:proceedings.mlr.press/v235 language model conformal calibration
+    - site:proceedings.mlr.press/v267 language model Bayesian inference model collapse
+      synthetic text
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: partial
+    notes: Included official PMLR records on ICL theory, conformal factuality, full
+      Bayesian inference in context, recursive synthetic training and collapse-aware
+      text synthesis.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v267/reuter25a.html
+  - https://proceedings.mlr.press/v267/kazdan25a.html
+  - https://proceedings.mlr.press/v267/zhu25d.html
+  - https://proceedings.mlr.press/v267/huang25af.html
+  - https://proceedings.mlr.press/v267/kobalczyk25a.html
+  - https://proceedings.mlr.press/v267/vashishtha25a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICML
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICML
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal discovery
+    - site:proceedings.mlr.press/v267 large language model causal
+    - site:proceedings.mlr.press Teaching Transformers Causal Reasoning
+    - site:proceedings.mlr.press Preference Learning for AI Alignment causal
+    source_urls:
+    - https://proceedings.mlr.press/v267/huang25af.html
+    - https://proceedings.mlr.press/v267/vashishtha25a.html
+    - https://proceedings.mlr.press/v267/kobalczyk25a.html
+    - https://proceedings.mlr.press/v267/chen25bi.html
+    status: partial
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
+      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
+      evidence and was not cataloged without a stable official proceedings record.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: NeurIPS
+  venue_group: cs-conference
+  year: 2022
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.neurips.cc language models causal 2022
+    - site:proceedings.neurips.cc language models causal 2023
+    - site:proceedings.neurips.cc large language models causal reasoning 2024
+    - site:proceedings.neurips.cc causal discovery large language models 2025
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper/2024
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    status: partial
+    notes: Official proceedings verified one 2022 mechanism paper, five 2023 papers,
+      four 2024 papers, and one 2025 multimodal causal-discovery paper. 2026 was not
+      yet represented in the official proceedings at the cutoff.
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.neurips.cc large language model conformal prediction uncertainty
+      calibration
+    - site:proceedings.neurips.cc prediction-powered language model
+    - site:proceedings.neurips.cc transformer in-context learning Bayesian statistical
+      theory
+    - site:proceedings.neurips.cc synthetic text model collapse
+    source_urls:
+    - https://proceedings.neurips.cc/
+    status: partial
+    notes: 'Strongest represented venue: ICL theory, PPI evaluation/ranking, conformal
+      calibration, benchmark uncertainty, hypothesis assessment and model-collapse
+      validity. No 2026 proceedings were treated as available before the cutoff.'
+  verified_article_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/c529dba08a146ea8d6cf715ae8930cbe-Abstract-Conference.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  status: partial
+  included_count: 7
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.neurips.cc language models causal 2022
+    - site:proceedings.neurips.cc language models causal 2023
+    - site:proceedings.neurips.cc large language models causal reasoning 2024
+    - site:proceedings.neurips.cc causal discovery large language models 2025
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper/2024
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    status: partial
+    notes: Official proceedings verified one 2022 mechanism paper, five 2023 papers,
+      four 2024 papers, and one 2025 multimodal causal-discovery paper. 2026 was not
+      yet represented in the official proceedings at the cutoff.
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.neurips.cc large language model conformal prediction uncertainty
+      calibration
+    - site:proceedings.neurips.cc prediction-powered language model
+    - site:proceedings.neurips.cc transformer in-context learning Bayesian statistical
+      theory
+    - site:proceedings.neurips.cc synthetic text model collapse
+    source_urls:
+    - https://proceedings.neurips.cc/
+    status: partial
+    notes: 'Strongest represented venue: ICL theory, PPI evaluation/ranking, conformal
+      calibration, benchmark uncertainty, hypothesis assessment and model-collapse
+      validity. No 2026 proceedings were treated as available before the cutoff.'
+  verified_article_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/3927bbdcf0e8d1fa8aa23c26f358a281-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/045c87def0c02e3ad0d3d849766d7f1e-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/2e10b2c2e1aa4f8083c37dfe269873f8-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/b2e63e36c57e153b9015fece2352a9f9-Abstract-Conference.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 8
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.neurips.cc language models causal 2022
+    - site:proceedings.neurips.cc language models causal 2023
+    - site:proceedings.neurips.cc large language models causal reasoning 2024
+    - site:proceedings.neurips.cc causal discovery large language models 2025
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper/2024
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    status: partial
+    notes: Official proceedings verified one 2022 mechanism paper, five 2023 papers,
+      four 2024 papers, and one 2025 multimodal causal-discovery paper. 2026 was not
+      yet represented in the official proceedings at the cutoff.
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.neurips.cc large language model conformal prediction uncertainty
+      calibration
+    - site:proceedings.neurips.cc prediction-powered language model
+    - site:proceedings.neurips.cc transformer in-context learning Bayesian statistical
+      theory
+    - site:proceedings.neurips.cc synthetic text model collapse
+    source_urls:
+    - https://proceedings.neurips.cc/
+    status: partial
+    notes: 'Strongest represented venue: ICL theory, PPI evaluation/ranking, conformal
+      calibration, benchmark uncertainty, hypothesis assessment and model-collapse
+      validity. No 2026 proceedings were treated as available before the cutoff.'
+  verified_article_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/09265e2568cf7a6ff47b506acbc2c6eb-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/d02ff1aeaa5c268dc34790dd1ad21526-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd47cd67caa87f5b1944e00f6781598f-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/af2bb2b2280d36f8842e440b4e275152-Abstract-Conference.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 6
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.neurips.cc language models causal 2022
+    - site:proceedings.neurips.cc language models causal 2023
+    - site:proceedings.neurips.cc large language models causal reasoning 2024
+    - site:proceedings.neurips.cc causal discovery large language models 2025
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper/2024
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    status: partial
+    notes: Official proceedings verified one 2022 mechanism paper, five 2023 papers,
+      four 2024 papers, and one 2025 multimodal causal-discovery paper. 2026 was not
+      yet represented in the official proceedings at the cutoff.
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    queries:
+    - site:proceedings.neurips.cc large language model conformal prediction uncertainty
+      calibration
+    - site:proceedings.neurips.cc prediction-powered language model
+    - site:proceedings.neurips.cc transformer in-context learning Bayesian statistical
+      theory
+    - site:proceedings.neurips.cc synthetic text model collapse
+    source_urls:
+    - https://proceedings.neurips.cc/
+    status: partial
+    notes: 'Strongest represented venue: ICL theory, PPI evaluation/ranking, conformal
+      calibration, benchmark uncertainty, hypothesis assessment and model-collapse
+      validity. No 2026 proceedings were treated as available before the cutoff.'
+  verified_article_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e5911cb61db978c225cf62b6c029192-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/338b4df24eeed6767d6f72b983b845ce-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/3380e8116452e0efbf36f35d95e88c94-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/18b3b2947174ae9b1a8fc91ff89f4eb6-Abstract-Conference.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NeurIPS
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NeurIPS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.neurips.cc language models causal 2022
+    - site:proceedings.neurips.cc language models causal 2023
+    - site:proceedings.neurips.cc large language models causal reasoning 2024
+    - site:proceedings.neurips.cc causal discovery large language models 2025
+    source_urls:
+    - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    - https://proceedings.neurips.cc/paper/2024
+    - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    status: partial
+    notes: Official proceedings verified one 2022 mechanism paper, five 2023 papers,
+      four 2024 papers, and one 2025 multimodal causal-discovery paper. 2026 was not
+      yet represented in the official proceedings at the cutoff.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: ICLR
+  venue_group: cs-conference
+  year: 2022
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum LLM causal discovery ICLR
+    - site:openreview.net/forum Can Large Language Models Infer Causation from Correlation
+    - site:openreview.net/forum Causal Order imperfect experts ICLR 2025
+    source_urls:
+    - https://openreview.net/forum?id=vqIH0ObdqL
+    - https://openreview.net/forum?id=pAoqRlTBtY
+    - https://openreview.net/forum?id=9juyeCqL0u
+    status: partial
+    notes: Only records with an ICLR poster/conference publication status or a PDF
+      banner stating publication were included. Under-review, rejected, and workshop-only
+      submissions were not treated as main-track acceptance.
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:iclr.cc/virtual transformer Bayesian in-context learning
+    - site:openreview.net/forum ICLR conformal language model
+    - site:iclr.cc/virtual/2026 transformer Bayesian in-context statistical theory
+    source_urls:
+    - https://iclr.cc/virtual/2022/poster/6893
+    - https://iclr.cc/virtual/2023/oral/12609
+    - https://iclr.cc/virtual/2024/poster/17755
+    - https://iclr.cc/virtual/2025/poster/30640
+    status: partial
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
+      conformal language modeling and conformal factuality. Targeted 2026 search found
+      additional controlled-theory and causal-structure papers; causal papers were
+      left to the causal worker and the search was not exhaustive.
+  verified_article_urls:
+  - https://iclr.cc/virtual/2022/poster/6893
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICLR
+  venue_group: cs-conference
+  year: 2023
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum LLM causal discovery ICLR
+    - site:openreview.net/forum Can Large Language Models Infer Causation from Correlation
+    - site:openreview.net/forum Causal Order imperfect experts ICLR 2025
+    source_urls:
+    - https://openreview.net/forum?id=vqIH0ObdqL
+    - https://openreview.net/forum?id=pAoqRlTBtY
+    - https://openreview.net/forum?id=9juyeCqL0u
+    status: partial
+    notes: Only records with an ICLR poster/conference publication status or a PDF
+      banner stating publication were included. Under-review, rejected, and workshop-only
+      submissions were not treated as main-track acceptance.
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:iclr.cc/virtual transformer Bayesian in-context learning
+    - site:openreview.net/forum ICLR conformal language model
+    - site:iclr.cc/virtual/2026 transformer Bayesian in-context statistical theory
+    source_urls:
+    - https://iclr.cc/virtual/2022/poster/6893
+    - https://iclr.cc/virtual/2023/oral/12609
+    - https://iclr.cc/virtual/2024/poster/17755
+    - https://iclr.cc/virtual/2025/poster/30640
+    status: partial
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
+      conformal language modeling and conformal factuality. Targeted 2026 search found
+      additional controlled-theory and causal-structure papers; causal papers were
+      left to the causal worker and the search was not exhaustive.
+  verified_article_urls:
+  - https://iclr.cc/virtual/2023/oral/12609
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICLR
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 3
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum LLM causal discovery ICLR
+    - site:openreview.net/forum Can Large Language Models Infer Causation from Correlation
+    - site:openreview.net/forum Causal Order imperfect experts ICLR 2025
+    source_urls:
+    - https://openreview.net/forum?id=vqIH0ObdqL
+    - https://openreview.net/forum?id=pAoqRlTBtY
+    - https://openreview.net/forum?id=9juyeCqL0u
+    status: partial
+    notes: Only records with an ICLR poster/conference publication status or a PDF
+      banner stating publication were included. Under-review, rejected, and workshop-only
+      submissions were not treated as main-track acceptance.
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:iclr.cc/virtual transformer Bayesian in-context learning
+    - site:openreview.net/forum ICLR conformal language model
+    - site:iclr.cc/virtual/2026 transformer Bayesian in-context statistical theory
+    source_urls:
+    - https://iclr.cc/virtual/2022/poster/6893
+    - https://iclr.cc/virtual/2023/oral/12609
+    - https://iclr.cc/virtual/2024/poster/17755
+    - https://iclr.cc/virtual/2025/poster/30640
+    status: partial
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
+      conformal language modeling and conformal factuality. Targeted 2026 search found
+      additional controlled-theory and causal-structure papers; causal papers were
+      left to the causal worker and the search was not exhaustive.
+  verified_article_urls:
+  - https://openreview.net/forum?id=vqIH0ObdqL
+  - https://openreview.net/forum?id=pAoqRlTBtY
+  - https://iclr.cc/virtual/2024/poster/17755
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICLR
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum LLM causal discovery ICLR
+    - site:openreview.net/forum Can Large Language Models Infer Causation from Correlation
+    - site:openreview.net/forum Causal Order imperfect experts ICLR 2025
+    source_urls:
+    - https://openreview.net/forum?id=vqIH0ObdqL
+    - https://openreview.net/forum?id=pAoqRlTBtY
+    - https://openreview.net/forum?id=9juyeCqL0u
+    status: partial
+    notes: Only records with an ICLR poster/conference publication status or a PDF
+      banner stating publication were included. Under-review, rejected, and workshop-only
+      submissions were not treated as main-track acceptance.
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:iclr.cc/virtual transformer Bayesian in-context learning
+    - site:openreview.net/forum ICLR conformal language model
+    - site:iclr.cc/virtual/2026 transformer Bayesian in-context statistical theory
+    source_urls:
+    - https://iclr.cc/virtual/2022/poster/6893
+    - https://iclr.cc/virtual/2023/oral/12609
+    - https://iclr.cc/virtual/2024/poster/17755
+    - https://iclr.cc/virtual/2025/poster/30640
+    status: partial
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
+      conformal language modeling and conformal factuality. Targeted 2026 search found
+      additional controlled-theory and causal-structure papers; causal papers were
+      left to the causal worker and the search was not exhaustive.
+  verified_article_urls:
+  - https://openreview.net/forum?id=9juyeCqL0u
+  - https://iclr.cc/virtual/2025/poster/30640
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ICLR
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum LLM causal discovery ICLR
+    - site:openreview.net/forum Can Large Language Models Infer Causation from Correlation
+    - site:openreview.net/forum Causal Order imperfect experts ICLR 2025
+    source_urls:
+    - https://openreview.net/forum?id=vqIH0ObdqL
+    - https://openreview.net/forum?id=pAoqRlTBtY
+    - https://openreview.net/forum?id=9juyeCqL0u
+    status: partial
+    notes: Only records with an ICLR poster/conference publication status or a PDF
+      banner stating publication were included. Under-review, rejected, and workshop-only
+      submissions were not treated as main-track acceptance.
+  - venue: ICLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:iclr.cc/virtual transformer Bayesian in-context learning
+    - site:openreview.net/forum ICLR conformal language model
+    - site:iclr.cc/virtual/2026 transformer Bayesian in-context statistical theory
+    source_urls:
+    - https://iclr.cc/virtual/2022/poster/6893
+    - https://iclr.cc/virtual/2023/oral/12609
+    - https://iclr.cc/virtual/2024/poster/17755
+    - https://iclr.cc/virtual/2025/poster/30640
+    status: partial
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
+      conformal language modeling and conformal factuality. Targeted 2026 search found
+      additional controlled-theory and causal-structure papers; causal papers were
+      left to the causal worker and the search was not exhaustive.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: AISTATS
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model causal
+    - site:proceedings.mlr.press/v300 large language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v300/benz26a.html
+    status: partial
+    notes: One 2026 causal-coupling paper for LLM evaluation was verified. Earlier
+      years yielded no retained candidate in the bounded search.
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model uncertainty calibration
+    - site:proceedings.mlr.press AISTATS transformer Bayesian in-context learning
+    - site:proceedings.mlr.press/v300 large language model evaluation variable-order
+      Markov
+    source_urls:
+    - https://proceedings.mlr.press/v258/
+    - https://proceedings.mlr.press/v300/
+    status: partial
+    notes: Included two 2025 papers and two 2026 papers covering subjective UQ/calibration,
+      Bayesian model averaging in ICL, paired-token evaluation and information-theoretic
+      ICL. Earlier years were searched but yielded no selected record in this pass.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AISTATS
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model causal
+    - site:proceedings.mlr.press/v300 large language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v300/benz26a.html
+    status: partial
+    notes: One 2026 causal-coupling paper for LLM evaluation was verified. Earlier
+      years yielded no retained candidate in the bounded search.
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model uncertainty calibration
+    - site:proceedings.mlr.press AISTATS transformer Bayesian in-context learning
+    - site:proceedings.mlr.press/v300 large language model evaluation variable-order
+      Markov
+    source_urls:
+    - https://proceedings.mlr.press/v258/
+    - https://proceedings.mlr.press/v300/
+    status: partial
+    notes: Included two 2025 papers and two 2026 papers covering subjective UQ/calibration,
+      Bayesian model averaging in ICL, paired-token evaluation and information-theoretic
+      ICL. Earlier years were searched but yielded no selected record in this pass.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AISTATS
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model causal
+    - site:proceedings.mlr.press/v300 large language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v300/benz26a.html
+    status: partial
+    notes: One 2026 causal-coupling paper for LLM evaluation was verified. Earlier
+      years yielded no retained candidate in the bounded search.
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model uncertainty calibration
+    - site:proceedings.mlr.press AISTATS transformer Bayesian in-context learning
+    - site:proceedings.mlr.press/v300 large language model evaluation variable-order
+      Markov
+    source_urls:
+    - https://proceedings.mlr.press/v258/
+    - https://proceedings.mlr.press/v300/
+    status: partial
+    notes: Included two 2025 papers and two 2026 papers covering subjective UQ/calibration,
+      Bayesian model averaging in ICL, paired-token evaluation and information-theoretic
+      ICL. Earlier years were searched but yielded no selected record in this pass.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AISTATS
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model causal
+    - site:proceedings.mlr.press/v300 large language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v300/benz26a.html
+    status: partial
+    notes: One 2026 causal-coupling paper for LLM evaluation was verified. Earlier
+      years yielded no retained candidate in the bounded search.
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model uncertainty calibration
+    - site:proceedings.mlr.press AISTATS transformer Bayesian in-context learning
+    - site:proceedings.mlr.press/v300 large language model evaluation variable-order
+      Markov
+    source_urls:
+    - https://proceedings.mlr.press/v258/
+    - https://proceedings.mlr.press/v300/
+    status: partial
+    notes: Included two 2025 papers and two 2026 papers covering subjective UQ/calibration,
+      Bayesian model averaging in ICL, paired-token evaluation and information-theoretic
+      ICL. Earlier years were searched but yielded no selected record in this pass.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v258/wang25i.html
+  - https://proceedings.mlr.press/v258/zhang25d.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AISTATS
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model causal
+    - site:proceedings.mlr.press/v300 large language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v300/benz26a.html
+    status: partial
+    notes: One 2026 causal-coupling paper for LLM evaluation was verified. Earlier
+      years yielded no retained candidate in the bounded search.
+  - venue: AISTATS
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press AISTATS large language model uncertainty calibration
+    - site:proceedings.mlr.press AISTATS transformer Bayesian in-context learning
+    - site:proceedings.mlr.press/v300 large language model evaluation variable-order
+      Markov
+    source_urls:
+    - https://proceedings.mlr.press/v258/
+    - https://proceedings.mlr.press/v300/
+    status: partial
+    notes: Included two 2025 papers and two 2026 papers covering subjective UQ/calibration,
+      Bayesian model averaging in ICL, paired-token evaluation and information-theoretic
+      ICL. Earlier years were searched but yielded no selected record in this pass.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v300/zhou26b.html
+  - https://proceedings.mlr.press/v300/benz26a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: UAI
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal UAI
+    - site:proceedings.mlr.press/v244 language model causal
+    - site:proceedings.mlr.press/v337 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v244/lin24a.html
+    - https://proceedings.mlr.press/v337/li26e.html
+    status: partial
+    notes: Retained a 2024 causal preference-optimization paper and a 2026 argumentation-driven
+      causal-discovery paper.
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press UAI large language model uncertainty calibration
+      conformal
+    - site:proceedings.mlr.press UAI long-form text uncertainty language model
+    source_urls:
+    - https://proceedings.mlr.press/v286/
+    status: partial
+    notes: Included two UAI 2025 papers on multi-group uncertainty for long-form generation
+      and the consistency hypothesis for LLM uncertainty. Other years were searched
+      only at a targeted level.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: UAI
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal UAI
+    - site:proceedings.mlr.press/v244 language model causal
+    - site:proceedings.mlr.press/v337 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v244/lin24a.html
+    - https://proceedings.mlr.press/v337/li26e.html
+    status: partial
+    notes: Retained a 2024 causal preference-optimization paper and a 2026 argumentation-driven
+      causal-discovery paper.
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press UAI large language model uncertainty calibration
+      conformal
+    - site:proceedings.mlr.press UAI long-form text uncertainty language model
+    source_urls:
+    - https://proceedings.mlr.press/v286/
+    status: partial
+    notes: Included two UAI 2025 papers on multi-group uncertainty for long-form generation
+      and the consistency hypothesis for LLM uncertainty. Other years were searched
+      only at a targeted level.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: UAI
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal UAI
+    - site:proceedings.mlr.press/v244 language model causal
+    - site:proceedings.mlr.press/v337 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v244/lin24a.html
+    - https://proceedings.mlr.press/v337/li26e.html
+    status: partial
+    notes: Retained a 2024 causal preference-optimization paper and a 2026 argumentation-driven
+      causal-discovery paper.
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press UAI large language model uncertainty calibration
+      conformal
+    - site:proceedings.mlr.press UAI long-form text uncertainty language model
+    source_urls:
+    - https://proceedings.mlr.press/v286/
+    status: partial
+    notes: Included two UAI 2025 papers on multi-group uncertainty for long-form generation
+      and the consistency hypothesis for LLM uncertainty. Other years were searched
+      only at a targeted level.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v244/lin24a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: UAI
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal UAI
+    - site:proceedings.mlr.press/v244 language model causal
+    - site:proceedings.mlr.press/v337 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v244/lin24a.html
+    - https://proceedings.mlr.press/v337/li26e.html
+    status: partial
+    notes: Retained a 2024 causal preference-optimization paper and a 2026 argumentation-driven
+      causal-discovery paper.
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press UAI large language model uncertainty calibration
+      conformal
+    - site:proceedings.mlr.press UAI long-form text uncertainty language model
+    source_urls:
+    - https://proceedings.mlr.press/v286/
+    status: partial
+    notes: Included two UAI 2025 papers on multi-group uncertainty for long-form generation
+      and the consistency hypothesis for LLM uncertainty. Other years were searched
+      only at a targeted level.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v286/liu25a.html
+  - https://proceedings.mlr.press/v286/xiao25a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: UAI
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press large language model causal UAI
+    - site:proceedings.mlr.press/v244 language model causal
+    - site:proceedings.mlr.press/v337 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v244/lin24a.html
+    - https://proceedings.mlr.press/v337/li26e.html
+    status: partial
+    notes: Retained a 2024 causal preference-optimization paper and a 2026 argumentation-driven
+      causal-discovery paper.
+  - venue: UAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press UAI large language model uncertainty calibration
+      conformal
+    - site:proceedings.mlr.press UAI long-form text uncertainty language model
+    source_urls:
+    - https://proceedings.mlr.press/v286/
+    status: partial
+    notes: Included two UAI 2025 papers on multi-group uncertainty for long-form generation
+      and the consistency hypothesis for LLM uncertainty. Other years were searched
+      only at a targeted level.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v337/li26e.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: COLT
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT large language model causal
+    - site:proceedings.mlr.press Conference on Learning Theory LLM causal
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: No paper satisfying both substantive LLM involvement and genuine causal
+      inference was identified. This is a web-search result, not an exhaustive proceedings
+      audit.
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT transformer in-context learning Bayesian pretraining
+    - site:proceedings.mlr.press COLT language model statistical inference synthetic
+      data
+    source_urls:
+    - https://proceedings.mlr.press/v247/siyu24a.html
+    - https://proceedings.mlr.press/v336/cannella26a.html
+    status: partial
+    notes: Included a 2024 official extended abstract on multi-head attention dynamics
+      and a 2026 empirical-Bayes/pretraining theory paper. Results are cataloged as
+      guarantees for each paper's idealized statistical and predictor setting, not
+      all real-world LLMs.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.proceedings.mlr.press "Conference on Learning Theory" "In-Context"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: COLT
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT large language model causal
+    - site:proceedings.mlr.press Conference on Learning Theory LLM causal
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: No paper satisfying both substantive LLM involvement and genuine causal
+      inference was identified. This is a web-search result, not an exhaustive proceedings
+      audit.
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT transformer in-context learning Bayesian pretraining
+    - site:proceedings.mlr.press COLT language model statistical inference synthetic
+      data
+    source_urls:
+    - https://proceedings.mlr.press/v247/siyu24a.html
+    - https://proceedings.mlr.press/v336/cannella26a.html
+    status: partial
+    notes: Included a 2024 official extended abstract on multi-head attention dynamics
+      and a 2026 empirical-Bayes/pretraining theory paper. Results are cataloged as
+      guarantees for each paper's idealized statistical and predictor setting, not
+      all real-world LLMs.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.proceedings.mlr.press "Conference on Learning Theory" "In-Context"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: COLT
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT large language model causal
+    - site:proceedings.mlr.press Conference on Learning Theory LLM causal
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: No paper satisfying both substantive LLM involvement and genuine causal
+      inference was identified. This is a web-search result, not an exhaustive proceedings
+      audit.
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT transformer in-context learning Bayesian pretraining
+    - site:proceedings.mlr.press COLT language model statistical inference synthetic
+      data
+    source_urls:
+    - https://proceedings.mlr.press/v247/siyu24a.html
+    - https://proceedings.mlr.press/v336/cannella26a.html
+    status: partial
+    notes: Included a 2024 official extended abstract on multi-head attention dynamics
+      and a 2026 empirical-Bayes/pretraining theory paper. Results are cataloged as
+      guarantees for each paper's idealized statistical and predictor setting, not
+      all real-world LLMs.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.proceedings.mlr.press "Conference on Learning Theory" "In-Context"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://proceedings.mlr.press/v247/siyu24a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: COLT
+  venue_group: cs-conference
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT large language model causal
+    - site:proceedings.mlr.press Conference on Learning Theory LLM causal
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: No paper satisfying both substantive LLM involvement and genuine causal
+      inference was identified. This is a web-search result, not an exhaustive proceedings
+      audit.
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT transformer in-context learning Bayesian pretraining
+    - site:proceedings.mlr.press COLT language model statistical inference synthetic
+      data
+    source_urls:
+    - https://proceedings.mlr.press/v247/siyu24a.html
+    - https://proceedings.mlr.press/v336/cannella26a.html
+    status: partial
+    notes: Included a 2024 official extended abstract on multi-head attention dynamics
+      and a 2026 empirical-Bayes/pretraining theory paper. Results are cataloged as
+      guarantees for each paper's idealized statistical and predictor setting, not
+      all real-world LLMs.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.proceedings.mlr.press "Conference on Learning Theory" "In-Context"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: COLT
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT large language model causal
+    - site:proceedings.mlr.press Conference on Learning Theory LLM causal
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: No paper satisfying both substantive LLM involvement and genuine causal
+      inference was identified. This is a web-search result, not an exhaustive proceedings
+      audit.
+  - venue: COLT
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press COLT transformer in-context learning Bayesian pretraining
+    - site:proceedings.mlr.press COLT language model statistical inference synthetic
+      data
+    source_urls:
+    - https://proceedings.mlr.press/v247/siyu24a.html
+    - https://proceedings.mlr.press/v336/cannella26a.html
+    status: partial
+    notes: Included a 2024 official extended abstract on multi-head attention dynamics
+      and a 2026 empirical-Bayes/pretraining theory paper. Results are cataloged as
+      guarantees for each paper's idealized statistical and predictor setting, not
+      all real-world LLMs.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.proceedings.mlr.press "Conference on Learning Theory" "In-Context"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://proceedings.mlr.press/v336/cannella26a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: CLeaR
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press Conference on Causal Learning and Reasoning large
+      language model
+    - site:proceedings.mlr.press/v275 language model causal
+    - site:proceedings.mlr.press/v323 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v275/chatzi25a.html
+    - https://proceedings.mlr.press/v323/sheth26a.html
+    - https://proceedings.mlr.press/v323/baldo26a.html
+    status: partial
+    notes: Retained counterfactual token generation (2025), IV discovery (2026), and
+      causal-order retrieval from inconsistent LLM knowledge (2026).
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press CLeaR large language model statistical inference
+      uncertainty calibration
+    - site:proceedings.mlr.press CLeaR transformer in-context learning
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: Targeted official-proceedings searches did not surface a substantive LLM-plus-statistics
+      paper meeting scope. This is not an exhaustive volume-by-volume negative result.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: CLeaR
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press Conference on Causal Learning and Reasoning large
+      language model
+    - site:proceedings.mlr.press/v275 language model causal
+    - site:proceedings.mlr.press/v323 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v275/chatzi25a.html
+    - https://proceedings.mlr.press/v323/sheth26a.html
+    - https://proceedings.mlr.press/v323/baldo26a.html
+    status: partial
+    notes: Retained counterfactual token generation (2025), IV discovery (2026), and
+      causal-order retrieval from inconsistent LLM knowledge (2026).
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press CLeaR large language model statistical inference
+      uncertainty calibration
+    - site:proceedings.mlr.press CLeaR transformer in-context learning
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: Targeted official-proceedings searches did not surface a substantive LLM-plus-statistics
+      paper meeting scope. This is not an exhaustive volume-by-volume negative result.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: CLeaR
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press Conference on Causal Learning and Reasoning large
+      language model
+    - site:proceedings.mlr.press/v275 language model causal
+    - site:proceedings.mlr.press/v323 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v275/chatzi25a.html
+    - https://proceedings.mlr.press/v323/sheth26a.html
+    - https://proceedings.mlr.press/v323/baldo26a.html
+    status: partial
+    notes: Retained counterfactual token generation (2025), IV discovery (2026), and
+      causal-order retrieval from inconsistent LLM knowledge (2026).
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press CLeaR large language model statistical inference
+      uncertainty calibration
+    - site:proceedings.mlr.press CLeaR transformer in-context learning
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: Targeted official-proceedings searches did not surface a substantive LLM-plus-statistics
+      paper meeting scope. This is not an exhaustive volume-by-volume negative result.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: CLeaR
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press Conference on Causal Learning and Reasoning large
+      language model
+    - site:proceedings.mlr.press/v275 language model causal
+    - site:proceedings.mlr.press/v323 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v275/chatzi25a.html
+    - https://proceedings.mlr.press/v323/sheth26a.html
+    - https://proceedings.mlr.press/v323/baldo26a.html
+    status: partial
+    notes: Retained counterfactual token generation (2025), IV discovery (2026), and
+      causal-order retrieval from inconsistent LLM knowledge (2026).
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press CLeaR large language model statistical inference
+      uncertainty calibration
+    - site:proceedings.mlr.press CLeaR transformer in-context learning
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: Targeted official-proceedings searches did not surface a substantive LLM-plus-statistics
+      paper meeting scope. This is not an exhaustive volume-by-volume negative result.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v275/chatzi25a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: CLeaR
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press Conference on Causal Learning and Reasoning large
+      language model
+    - site:proceedings.mlr.press/v275 language model causal
+    - site:proceedings.mlr.press/v323 language model causal
+    source_urls:
+    - https://proceedings.mlr.press/v275/chatzi25a.html
+    - https://proceedings.mlr.press/v323/sheth26a.html
+    - https://proceedings.mlr.press/v323/baldo26a.html
+    status: partial
+    notes: Retained counterfactual token generation (2025), IV discovery (2026), and
+      causal-order retrieval from inconsistent LLM knowledge (2026).
+  - venue: CLeaR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:proceedings.mlr.press CLeaR large language model statistical inference
+      uncertainty calibration
+    - site:proceedings.mlr.press CLeaR transformer in-context learning
+    source_urls:
+    - https://proceedings.mlr.press/
+    status: no-candidate-in-search
+    notes: Targeted official-proceedings searches did not surface a substantive LLM-plus-statistics
+      paper meeting scope. This is not an exhaustive volume-by-volume negative result.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v323/sheth26a.html
+  - https://proceedings.mlr.press/v323/baldo26a.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: ACL
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org large language models causal reasoning ACL
+    - site:aclanthology.org/2025 LLM causal discovery
+    - site:aclanthology.org/2026 large language models causal reasoning
+    source_urls:
+    - https://aclanthology.org/2025.acl-long.471/
+    - https://aclanthology.org/2026.acl-long.1003/
+    - https://aclanthology.org/2026.acl-long.1668/
+    - https://aclanthology.org/2026.acl-long.1833/
+    - https://aclanthology.org/2025.findings-acl.36/
+    status: partial
+    notes: Main long-paper and Findings tracks were distinguished explicitly. Two
+      Findings papers are stored with scope_decision=supplement.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ACL
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org large language models causal reasoning ACL
+    - site:aclanthology.org/2025 LLM causal discovery
+    - site:aclanthology.org/2026 large language models causal reasoning
+    source_urls:
+    - https://aclanthology.org/2025.acl-long.471/
+    - https://aclanthology.org/2026.acl-long.1003/
+    - https://aclanthology.org/2026.acl-long.1668/
+    - https://aclanthology.org/2026.acl-long.1833/
+    - https://aclanthology.org/2025.findings-acl.36/
+    status: partial
+    notes: Main long-paper and Findings tracks were distinguished explicitly. Two
+      Findings papers are stored with scope_decision=supplement.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ACL
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org large language models causal reasoning ACL
+    - site:aclanthology.org/2025 LLM causal discovery
+    - site:aclanthology.org/2026 large language models causal reasoning
+    source_urls:
+    - https://aclanthology.org/2025.acl-long.471/
+    - https://aclanthology.org/2026.acl-long.1003/
+    - https://aclanthology.org/2026.acl-long.1668/
+    - https://aclanthology.org/2026.acl-long.1833/
+    - https://aclanthology.org/2025.findings-acl.36/
+    status: partial
+    notes: Main long-paper and Findings tracks were distinguished explicitly. Two
+      Findings papers are stored with scope_decision=supplement.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ACL
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org large language models causal reasoning ACL
+    - site:aclanthology.org/2025 LLM causal discovery
+    - site:aclanthology.org/2026 large language models causal reasoning
+    source_urls:
+    - https://aclanthology.org/2025.acl-long.471/
+    - https://aclanthology.org/2026.acl-long.1003/
+    - https://aclanthology.org/2026.acl-long.1668/
+    - https://aclanthology.org/2026.acl-long.1833/
+    - https://aclanthology.org/2025.findings-acl.36/
+    status: partial
+    notes: Main long-paper and Findings tracks were distinguished explicitly. Two
+      Findings papers are stored with scope_decision=supplement.
+  verified_article_urls:
+  - https://aclanthology.org/2025.acl-long.471/
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: ACL
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 4
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: ACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org large language models causal reasoning ACL
+    - site:aclanthology.org/2025 LLM causal discovery
+    - site:aclanthology.org/2026 large language models causal reasoning
+    source_urls:
+    - https://aclanthology.org/2025.acl-long.471/
+    - https://aclanthology.org/2026.acl-long.1003/
+    - https://aclanthology.org/2026.acl-long.1668/
+    - https://aclanthology.org/2026.acl-long.1833/
+    - https://aclanthology.org/2025.findings-acl.36/
+    status: partial
+    notes: Main long-paper and Findings tracks were distinguished explicitly. Two
+      Findings papers are stored with scope_decision=supplement.
+  verified_article_urls:
+  - https://aclanthology.org/2026.acl-long.1003/
+  - https://aclanthology.org/2026.acl-long.1668/
+  - https://aclanthology.org/2026.acl-long.1833/
+  - https://aclanthology.org/2026.acl-long.498/
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: EMNLP
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: EMNLP
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org EMNLP large language models causal
+    - site:aclanthology.org/2024 large language models causal EMNLP
+    - site:aclanthology.org/2025 LLM causal discovery EMNLP
+    source_urls:
+    - https://aclanthology.org/2024.emnlp-main.381/
+    - https://aclanthology.org/2025.findings-emnlp.439/
+    - https://aclanthology.org/2023.findings-emnlp.743/
+    status: partial
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
+      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
+      to keep the catalog bounded.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: EMNLP
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: EMNLP
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org EMNLP large language models causal
+    - site:aclanthology.org/2024 large language models causal EMNLP
+    - site:aclanthology.org/2025 LLM causal discovery EMNLP
+    source_urls:
+    - https://aclanthology.org/2024.emnlp-main.381/
+    - https://aclanthology.org/2025.findings-emnlp.439/
+    - https://aclanthology.org/2023.findings-emnlp.743/
+    status: partial
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
+      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
+      to keep the catalog bounded.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: EMNLP
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: EMNLP
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org EMNLP large language models causal
+    - site:aclanthology.org/2024 large language models causal EMNLP
+    - site:aclanthology.org/2025 LLM causal discovery EMNLP
+    source_urls:
+    - https://aclanthology.org/2024.emnlp-main.381/
+    - https://aclanthology.org/2025.findings-emnlp.439/
+    - https://aclanthology.org/2023.findings-emnlp.743/
+    status: partial
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
+      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
+      to keep the catalog bounded.
+  verified_article_urls:
+  - https://aclanthology.org/2024.emnlp-main.381/
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: EMNLP
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: EMNLP
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org EMNLP large language models causal
+    - site:aclanthology.org/2024 large language models causal EMNLP
+    - site:aclanthology.org/2025 LLM causal discovery EMNLP
+    source_urls:
+    - https://aclanthology.org/2024.emnlp-main.381/
+    - https://aclanthology.org/2025.findings-emnlp.439/
+    - https://aclanthology.org/2023.findings-emnlp.743/
+    status: partial
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
+      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
+      to keep the catalog bounded.
+  verified_article_urls:
+  - https://aclanthology.org/2025.emnlp-main.1000/
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: EMNLP
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: EMNLP
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org EMNLP large language models causal
+    - site:aclanthology.org/2024 large language models causal EMNLP
+    - site:aclanthology.org/2025 LLM causal discovery EMNLP
+    source_urls:
+    - https://aclanthology.org/2024.emnlp-main.381/
+    - https://aclanthology.org/2025.findings-emnlp.439/
+    - https://aclanthology.org/2023.findings-emnlp.743/
+    status: partial
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
+      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
+      to keep the catalog bounded.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: NAACL
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NAACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org NAACL causal estimation large language models
+    - site:aclanthology.org/2024.naacl LLM causal
+    - site:aclanthology.org/2025.findings-naacl causal inference large language models
+    source_urls:
+    - https://aclanthology.org/2024.naacl-short.71/
+    - https://aclanthology.org/2025.findings-naacl.427/
+    status: partial
+    notes: DoubleLingo retained as a main short paper. The 2025 Findings survey was
+      used for discovery but not treated as a methods contribution.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NAACL
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NAACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org NAACL causal estimation large language models
+    - site:aclanthology.org/2024.naacl LLM causal
+    - site:aclanthology.org/2025.findings-naacl causal inference large language models
+    source_urls:
+    - https://aclanthology.org/2024.naacl-short.71/
+    - https://aclanthology.org/2025.findings-naacl.427/
+    status: partial
+    notes: DoubleLingo retained as a main short paper. The 2025 Findings survey was
+      used for discovery but not treated as a methods contribution.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NAACL
+  venue_group: cs-conference
+  year: 2024
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NAACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org NAACL causal estimation large language models
+    - site:aclanthology.org/2024.naacl LLM causal
+    - site:aclanthology.org/2025.findings-naacl causal inference large language models
+    source_urls:
+    - https://aclanthology.org/2024.naacl-short.71/
+    - https://aclanthology.org/2025.findings-naacl.427/
+    status: partial
+    notes: DoubleLingo retained as a main short paper. The 2025 Findings survey was
+      used for discovery but not treated as a methods contribution.
+  verified_article_urls:
+  - https://aclanthology.org/2024.naacl-long.20/
+  - https://aclanthology.org/2024.naacl-short.71/
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NAACL
+  venue_group: cs-conference
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NAACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org NAACL causal estimation large language models
+    - site:aclanthology.org/2024.naacl LLM causal
+    - site:aclanthology.org/2025.findings-naacl causal inference large language models
+    source_urls:
+    - https://aclanthology.org/2024.naacl-short.71/
+    - https://aclanthology.org/2025.findings-naacl.427/
+    status: partial
+    notes: DoubleLingo retained as a main short paper. The 2025 Findings survey was
+      used for discovery but not treated as a methods contribution.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: NAACL
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: NAACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org NAACL causal estimation large language models
+    - site:aclanthology.org/2024.naacl LLM causal
+    - site:aclanthology.org/2025.findings-naacl causal inference large language models
+    source_urls:
+    - https://aclanthology.org/2024.naacl-short.71/
+    - https://aclanthology.org/2025.findings-naacl.427/
+    status: partial
+    notes: DoubleLingo retained as a main short paper. The 2025 Findings survey was
+      used for discovery but not treated as a methods contribution.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: AAAI
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AAAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ojs.aaai.org/index.php/AAAI large language model causal discovery
+    - site:ojs.aaai.org/index.php/AAAI large language model causal reasoning
+    - site:ojs.aaai.org/index.php/AAAI counterfactual reasoning large language models
+    source_urls:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    - https://ojs.aaai.org/index.php/AAAI/article/view/30086
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33669
+    - https://ojs.aaai.org/index.php/AAAI/article/view/34542
+    - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    status: partial
+    notes: CounterBench (AAAI-26 technical track) retained. Other verified candidates
+      were triaged as adjacent or left for root follow-up; the 2026 bias-path paper
+      is explicitly a Special Track on AI for Social Impact paper.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ojs.aaai.org "large language models" "causal discovery"
+    - site.ojs.aaai.org/index.php/AAAI "causal" "language model" 2025
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AAAI
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AAAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ojs.aaai.org/index.php/AAAI large language model causal discovery
+    - site:ojs.aaai.org/index.php/AAAI large language model causal reasoning
+    - site:ojs.aaai.org/index.php/AAAI counterfactual reasoning large language models
+    source_urls:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    - https://ojs.aaai.org/index.php/AAAI/article/view/30086
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33669
+    - https://ojs.aaai.org/index.php/AAAI/article/view/34542
+    - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    status: partial
+    notes: CounterBench (AAAI-26 technical track) retained. Other verified candidates
+      were triaged as adjacent or left for root follow-up; the 2026 bias-path paper
+      is explicitly a Special Track on AI for Social Impact paper.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ojs.aaai.org "large language models" "causal discovery"
+    - site.ojs.aaai.org/index.php/AAAI "causal" "language model" 2025
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AAAI
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AAAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ojs.aaai.org/index.php/AAAI large language model causal discovery
+    - site:ojs.aaai.org/index.php/AAAI large language model causal reasoning
+    - site:ojs.aaai.org/index.php/AAAI counterfactual reasoning large language models
+    source_urls:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    - https://ojs.aaai.org/index.php/AAAI/article/view/30086
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33669
+    - https://ojs.aaai.org/index.php/AAAI/article/view/34542
+    - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    status: partial
+    notes: CounterBench (AAAI-26 technical track) retained. Other verified candidates
+      were triaged as adjacent or left for root follow-up; the 2026 bias-path paper
+      is explicitly a Special Track on AI for Social Impact paper.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ojs.aaai.org "large language models" "causal discovery"
+    - site.ojs.aaai.org/index.php/AAAI "causal" "language model" 2025
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AAAI
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AAAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ojs.aaai.org/index.php/AAAI large language model causal discovery
+    - site:ojs.aaai.org/index.php/AAAI large language model causal reasoning
+    - site:ojs.aaai.org/index.php/AAAI counterfactual reasoning large language models
+    source_urls:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    - https://ojs.aaai.org/index.php/AAAI/article/view/30086
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33669
+    - https://ojs.aaai.org/index.php/AAAI/article/view/34542
+    - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    status: partial
+    notes: CounterBench (AAAI-26 technical track) retained. Other verified candidates
+      were triaged as adjacent or left for root follow-up; the 2026 bias-path paper
+      is explicitly a Special Track on AI for Social Impact paper.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ojs.aaai.org "large language models" "causal discovery"
+    - site.ojs.aaai.org/index.php/AAAI "causal" "language model" 2025
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://ojs.aaai.org/index.php/AAAI/article/view/34777
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AAAI
+  venue_group: cs-conference
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: AAAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ojs.aaai.org/index.php/AAAI large language model causal discovery
+    - site:ojs.aaai.org/index.php/AAAI large language model causal reasoning
+    - site:ojs.aaai.org/index.php/AAAI counterfactual reasoning large language models
+    source_urls:
+    - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    - https://ojs.aaai.org/index.php/AAAI/article/view/30086
+    - https://ojs.aaai.org/index.php/AAAI/article/view/33669
+    - https://ojs.aaai.org/index.php/AAAI/article/view/34542
+    - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    status: partial
+    notes: CounterBench (AAAI-26 technical track) retained. Other verified candidates
+      were triaged as adjacent or left for root follow-up; the 2026 bias-path paper
+      is explicitly a Special Track on AI for Social Impact paper.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ojs.aaai.org "large language models" "causal discovery"
+    - site.ojs.aaai.org/index.php/AAAI "causal" "language model" 2025
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: IJCAI
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: IJCAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ijcai.org/proceedings large language model causal
+    - site:ijcai.org/proceedings/2024 large language causal
+    - site:ijcai.org/proceedings/2025 causal-aware LLM
+    source_urls:
+    - https://www.ijcai.org/proceedings/2024/693
+    - https://www.ijcai.org/proceedings/2025/478
+    status: search-only
+    notes: The 2024 abstract-reasoning paper only suggested causal paths and was excluded.
+      Root is independently validating the 2025 causal-aware LLM candidate to avoid
+      duplicate work.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ijcai.org/proceedings "large language" "causal"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: IJCAI
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: IJCAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ijcai.org/proceedings large language model causal
+    - site:ijcai.org/proceedings/2024 large language causal
+    - site:ijcai.org/proceedings/2025 causal-aware LLM
+    source_urls:
+    - https://www.ijcai.org/proceedings/2024/693
+    - https://www.ijcai.org/proceedings/2025/478
+    status: search-only
+    notes: The 2024 abstract-reasoning paper only suggested causal paths and was excluded.
+      Root is independently validating the 2025 causal-aware LLM candidate to avoid
+      duplicate work.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ijcai.org/proceedings "large language" "causal"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: IJCAI
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: IJCAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ijcai.org/proceedings large language model causal
+    - site:ijcai.org/proceedings/2024 large language causal
+    - site:ijcai.org/proceedings/2025 causal-aware LLM
+    source_urls:
+    - https://www.ijcai.org/proceedings/2024/693
+    - https://www.ijcai.org/proceedings/2025/478
+    status: search-only
+    notes: The 2024 abstract-reasoning paper only suggested causal paths and was excluded.
+      Root is independently validating the 2025 causal-aware LLM candidate to avoid
+      duplicate work.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ijcai.org/proceedings "large language" "causal"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: IJCAI
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: IJCAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ijcai.org/proceedings large language model causal
+    - site:ijcai.org/proceedings/2024 large language causal
+    - site:ijcai.org/proceedings/2025 causal-aware LLM
+    source_urls:
+    - https://www.ijcai.org/proceedings/2024/693
+    - https://www.ijcai.org/proceedings/2025/478
+    status: search-only
+    notes: The 2024 abstract-reasoning paper only suggested causal paths and was excluded.
+      Root is independently validating the 2025 causal-aware LLM candidate to avoid
+      duplicate work.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ijcai.org/proceedings "large language" "causal"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://www.ijcai.org/proceedings/2025/478
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: IJCAI
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: IJCAI
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:ijcai.org/proceedings large language model causal
+    - site:ijcai.org/proceedings/2024 large language causal
+    - site:ijcai.org/proceedings/2025 causal-aware LLM
+    source_urls:
+    - https://www.ijcai.org/proceedings/2024/693
+    - https://www.ijcai.org/proceedings/2025/478
+    status: search-only
+    notes: The 2024 abstract-reasoning paper only suggested causal paths and was excluded.
+      Root is independently validating the 2025 causal-aware LLM candidate to avoid
+      duplicate work.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.ijcai.org/proceedings "large language" "causal"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: KDD
+  venue_group: cs-conference
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: KDD
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:dl.acm.org/doi large language model causal discovery KDD
+    - site:dl.acm.org/doi 10.1145 causal discovery LLM KDD 2025
+    source_urls:
+    - https://doi.org/10.1145/3711896.3736874
+    status: search-only
+    notes: No KDD record was added in this worker file. Root is independently validating
+      the 2025 LLM/data-driven causal-discovery paper to avoid duplication.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.dl.acm.org/doi "KDD" "large language models" "causal"
+    - '"Causal Discovery through Synergizing" authors'
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: KDD
+  venue_group: cs-conference
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: KDD
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:dl.acm.org/doi large language model causal discovery KDD
+    - site:dl.acm.org/doi 10.1145 causal discovery LLM KDD 2025
+    source_urls:
+    - https://doi.org/10.1145/3711896.3736874
+    status: search-only
+    notes: No KDD record was added in this worker file. Root is independently validating
+      the 2025 LLM/data-driven causal-discovery paper to avoid duplication.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.dl.acm.org/doi "KDD" "large language models" "causal"
+    - '"Causal Discovery through Synergizing" authors'
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: KDD
+  venue_group: cs-conference
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: KDD
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:dl.acm.org/doi large language model causal discovery KDD
+    - site:dl.acm.org/doi 10.1145 causal discovery LLM KDD 2025
+    source_urls:
+    - https://doi.org/10.1145/3711896.3736874
+    status: search-only
+    notes: No KDD record was added in this worker file. Root is independently validating
+      the 2025 LLM/data-driven causal-discovery paper to avoid duplication.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.dl.acm.org/doi "KDD" "large language models" "causal"
+    - '"Causal Discovery through Synergizing" authors'
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: KDD
+  venue_group: cs-conference
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: KDD
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:dl.acm.org/doi large language model causal discovery KDD
+    - site:dl.acm.org/doi 10.1145 causal discovery LLM KDD 2025
+    source_urls:
+    - https://doi.org/10.1145/3711896.3736874
+    status: search-only
+    notes: No KDD record was added in this worker file. Root is independently validating
+      the 2025 LLM/data-driven causal-discovery paper to avoid duplication.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.dl.acm.org/doi "KDD" "large language models" "causal"
+    - '"Causal Discovery through Synergizing" authors'
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://doi.org/10.1145/3711896.3736874
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: KDD
+  venue_group: cs-conference
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: KDD
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:dl.acm.org/doi large language model causal discovery KDD
+    - site:dl.acm.org/doi 10.1145 causal discovery LLM KDD 2025
+    source_urls:
+    - https://doi.org/10.1145/3711896.3736874
+    status: search-only
+    notes: No KDD record was added in this worker file. Root is independently validating
+      the 2025 LLM/data-driven causal-discovery paper to avoid duplication.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.dl.acm.org/doi "KDD" "large language models" "causal"
+    - '"Causal Discovery through Synergizing" authors'
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: JMLR
+  venue_group: cs-journal
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model causal discovery
+    - site:jmlr.org/papers large language model causal reasoning
+    source_urls:
+    - https://www.jmlr.org/papers/
+    status: no-candidate-in-search
+    notes: No substantive LLM-plus-causal-methods JMLR paper was identified. TMLR
+      was searched and recorded separately.
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model uncertainty calibration conformal
+      prediction
+    - site:jmlr.org/papers large language model statistical inference
+    source_urls:
+    - https://jmlr.org/papers/v25/23-1042.html
+    - https://www.jmlr.org/papers/v27/25-1557.html
+    status: partial
+    notes: Included the 2024 linear-ICL training-theory article and the 2026 UQLM
+      software paper. Generic uncertainty/calibration papers without a substantive
+      LLM role were excluded; journal search was targeted rather than a full issue
+      census.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.jmlr.org "in-context" 2025 2026 statistics
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JMLR
+  venue_group: cs-journal
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model causal discovery
+    - site:jmlr.org/papers large language model causal reasoning
+    source_urls:
+    - https://www.jmlr.org/papers/
+    status: no-candidate-in-search
+    notes: No substantive LLM-plus-causal-methods JMLR paper was identified. TMLR
+      was searched and recorded separately.
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model uncertainty calibration conformal
+      prediction
+    - site:jmlr.org/papers large language model statistical inference
+    source_urls:
+    - https://jmlr.org/papers/v25/23-1042.html
+    - https://www.jmlr.org/papers/v27/25-1557.html
+    status: partial
+    notes: Included the 2024 linear-ICL training-theory article and the 2026 UQLM
+      software paper. Generic uncertainty/calibration papers without a substantive
+      LLM role were excluded; journal search was targeted rather than a full issue
+      census.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.jmlr.org "in-context" 2025 2026 statistics
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JMLR
+  venue_group: cs-journal
+  year: 2024
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model causal discovery
+    - site:jmlr.org/papers large language model causal reasoning
+    source_urls:
+    - https://www.jmlr.org/papers/
+    status: no-candidate-in-search
+    notes: No substantive LLM-plus-causal-methods JMLR paper was identified. TMLR
+      was searched and recorded separately.
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model uncertainty calibration conformal
+      prediction
+    - site:jmlr.org/papers large language model statistical inference
+    source_urls:
+    - https://jmlr.org/papers/v25/23-1042.html
+    - https://www.jmlr.org/papers/v27/25-1557.html
+    status: partial
+    notes: Included the 2024 linear-ICL training-theory article and the 2026 UQLM
+      software paper. Generic uncertainty/calibration papers without a substantive
+      LLM role were excluded; journal search was targeted rather than a full issue
+      census.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.jmlr.org "in-context" 2025 2026 statistics
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://jmlr.org/papers/v25/23-1042.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JMLR
+  venue_group: cs-journal
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model causal discovery
+    - site:jmlr.org/papers large language model causal reasoning
+    source_urls:
+    - https://www.jmlr.org/papers/
+    status: no-candidate-in-search
+    notes: No substantive LLM-plus-causal-methods JMLR paper was identified. TMLR
+      was searched and recorded separately.
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model uncertainty calibration conformal
+      prediction
+    - site:jmlr.org/papers large language model statistical inference
+    source_urls:
+    - https://jmlr.org/papers/v25/23-1042.html
+    - https://www.jmlr.org/papers/v27/25-1557.html
+    status: partial
+    notes: Included the 2024 linear-ICL training-theory article and the 2026 UQLM
+      software paper. Generic uncertainty/calibration papers without a substantive
+      LLM role were excluded; journal search was targeted rather than a full issue
+      census.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.jmlr.org "in-context" 2025 2026 statistics
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JMLR
+  venue_group: cs-journal
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model causal discovery
+    - site:jmlr.org/papers large language model causal reasoning
+    source_urls:
+    - https://www.jmlr.org/papers/
+    status: no-candidate-in-search
+    notes: No substantive LLM-plus-causal-methods JMLR paper was identified. TMLR
+      was searched and recorded separately.
+  - venue: JMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:jmlr.org/papers large language model uncertainty calibration conformal
+      prediction
+    - site:jmlr.org/papers large language model statistical inference
+    source_urls:
+    - https://jmlr.org/papers/v25/23-1042.html
+    - https://www.jmlr.org/papers/v27/25-1557.html
+    status: partial
+    notes: Included the 2024 linear-ICL training-theory article and the 2026 UQLM
+      software paper. Generic uncertainty/calibration papers without a substantive
+      LLM role were excluded; journal search was targeted rather than a full issue
+      census.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.jmlr.org "in-context" 2025 2026 statistics
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls:
+  - https://www.jmlr.org/papers/v27/25-1557.html
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: TMLR
+  venue_group: cs-journal
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net causal parrots TMLR
+    - site:openreview.net causal reasoning large language models accepted by TMLR
+    source_urls:
+    - https://openreview.net/forum?id=tv46tCzs83
+    - https://openreview.net/forum?id=mqoxLkX210
+    status: partial
+    notes: Two papers with explicit TMLR publication/acceptance evidence were retained.
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum TMLR large language model uncertainty quantification
+      confidence calibration
+    - site:groups.google.com/g/tmlr-announce-weekly Generating with Confidence
+    source_urls:
+    - https://jmlr.org/tmlr/
+    - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+    - https://openreview.net/forum?id=DWkJCSxKU5
+    status: partial
+    notes: Included a 2024 black-box LLM UQ paper. Publication status is supported
+      by TMLR's official weekly publication announcement plus the linked OpenReview
+      article, rather than an unverified submission page alone.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TMLR
+  venue_group: cs-journal
+  year: 2023
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net causal parrots TMLR
+    - site:openreview.net causal reasoning large language models accepted by TMLR
+    source_urls:
+    - https://openreview.net/forum?id=tv46tCzs83
+    - https://openreview.net/forum?id=mqoxLkX210
+    status: partial
+    notes: Two papers with explicit TMLR publication/acceptance evidence were retained.
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum TMLR large language model uncertainty quantification
+      confidence calibration
+    - site:groups.google.com/g/tmlr-announce-weekly Generating with Confidence
+    source_urls:
+    - https://jmlr.org/tmlr/
+    - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+    - https://openreview.net/forum?id=DWkJCSxKU5
+    status: partial
+    notes: Included a 2024 black-box LLM UQ paper. Publication status is supported
+      by TMLR's official weekly publication announcement plus the linked OpenReview
+      article, rather than an unverified submission page alone.
+  verified_article_urls:
+  - https://openreview.net/forum?id=tv46tCzs83
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TMLR
+  venue_group: cs-journal
+  year: 2024
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net causal parrots TMLR
+    - site:openreview.net causal reasoning large language models accepted by TMLR
+    source_urls:
+    - https://openreview.net/forum?id=tv46tCzs83
+    - https://openreview.net/forum?id=mqoxLkX210
+    status: partial
+    notes: Two papers with explicit TMLR publication/acceptance evidence were retained.
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum TMLR large language model uncertainty quantification
+      confidence calibration
+    - site:groups.google.com/g/tmlr-announce-weekly Generating with Confidence
+    source_urls:
+    - https://jmlr.org/tmlr/
+    - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+    - https://openreview.net/forum?id=DWkJCSxKU5
+    status: partial
+    notes: Included a 2024 black-box LLM UQ paper. Publication status is supported
+      by TMLR's official weekly publication announcement plus the linked OpenReview
+      article, rather than an unverified submission page alone.
+  verified_article_urls:
+  - https://openreview.net/forum?id=mqoxLkX210
+  - https://openreview.net/forum?id=DWkJCSxKU5
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TMLR
+  venue_group: cs-journal
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net causal parrots TMLR
+    - site:openreview.net causal reasoning large language models accepted by TMLR
+    source_urls:
+    - https://openreview.net/forum?id=tv46tCzs83
+    - https://openreview.net/forum?id=mqoxLkX210
+    status: partial
+    notes: Two papers with explicit TMLR publication/acceptance evidence were retained.
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum TMLR large language model uncertainty quantification
+      confidence calibration
+    - site:groups.google.com/g/tmlr-announce-weekly Generating with Confidence
+    source_urls:
+    - https://jmlr.org/tmlr/
+    - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+    - https://openreview.net/forum?id=DWkJCSxKU5
+    status: partial
+    notes: Included a 2024 black-box LLM UQ paper. Publication status is supported
+      by TMLR's official weekly publication announcement plus the linked OpenReview
+      article, rather than an unverified submission page alone.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TMLR
+  venue_group: cs-journal
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net causal parrots TMLR
+    - site:openreview.net causal reasoning large language models accepted by TMLR
+    source_urls:
+    - https://openreview.net/forum?id=tv46tCzs83
+    - https://openreview.net/forum?id=mqoxLkX210
+    status: partial
+    notes: Two papers with explicit TMLR publication/acceptance evidence were retained.
+  - venue: TMLR
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:openreview.net/forum TMLR large language model uncertainty quantification
+      confidence calibration
+    - site:groups.google.com/g/tmlr-announce-weekly Generating with Confidence
+    source_urls:
+    - https://jmlr.org/tmlr/
+    - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+    - https://openreview.net/forum?id=DWkJCSxKU5
+    status: partial
+    notes: Included a 2024 black-box LLM UQ paper. Publication status is supported
+      by TMLR's official weekly publication announcement plus the linked OpenReview
+      article, rather than an unverified submission page alone.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: TACL
+  venue_group: cs-journal
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model causal reasoning
+    - site:aclanthology.org TACL LLM causal discovery
+    source_urls:
+    - https://aclanthology.org/venues/tacl/
+    status: no-candidate-in-search
+    notes: No retained candidate surfaced; this is not an exhaustive issue-by-issue
+      audit.
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model calibration uncertainty confidence
+      interval
+    - site:aclanthology.org TACL conformal language model
+    source_urls:
+    - https://aclanthology.org/2022.tacl-1.50/
+    - https://aclanthology.org/2024.tacl-1.82/
+    status: partial
+    notes: Included the 2024 conformal-prediction survey as a navigation supplement,
+      not a core paper. A 2022 dialogue-agent overconfidence paper was screened but
+      not selected because its model role did not clearly meet the intended modern
+      LLM/statistical-method intersection.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.aclanthology.org/tacl "conformal" OR "causal" "language"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TACL
+  venue_group: cs-journal
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model causal reasoning
+    - site:aclanthology.org TACL LLM causal discovery
+    source_urls:
+    - https://aclanthology.org/venues/tacl/
+    status: no-candidate-in-search
+    notes: No retained candidate surfaced; this is not an exhaustive issue-by-issue
+      audit.
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model calibration uncertainty confidence
+      interval
+    - site:aclanthology.org TACL conformal language model
+    source_urls:
+    - https://aclanthology.org/2022.tacl-1.50/
+    - https://aclanthology.org/2024.tacl-1.82/
+    status: partial
+    notes: Included the 2024 conformal-prediction survey as a navigation supplement,
+      not a core paper. A 2022 dialogue-agent overconfidence paper was screened but
+      not selected because its model role did not clearly meet the intended modern
+      LLM/statistical-method intersection.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.aclanthology.org/tacl "conformal" OR "causal" "language"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TACL
+  venue_group: cs-journal
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model causal reasoning
+    - site:aclanthology.org TACL LLM causal discovery
+    source_urls:
+    - https://aclanthology.org/venues/tacl/
+    status: no-candidate-in-search
+    notes: No retained candidate surfaced; this is not an exhaustive issue-by-issue
+      audit.
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model calibration uncertainty confidence
+      interval
+    - site:aclanthology.org TACL conformal language model
+    source_urls:
+    - https://aclanthology.org/2022.tacl-1.50/
+    - https://aclanthology.org/2024.tacl-1.82/
+    status: partial
+    notes: Included the 2024 conformal-prediction survey as a navigation supplement,
+      not a core paper. A 2022 dialogue-agent overconfidence paper was screened but
+      not selected because its model role did not clearly meet the intended modern
+      LLM/statistical-method intersection.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.aclanthology.org/tacl "conformal" OR "causal" "language"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TACL
+  venue_group: cs-journal
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model causal reasoning
+    - site:aclanthology.org TACL LLM causal discovery
+    source_urls:
+    - https://aclanthology.org/venues/tacl/
+    status: no-candidate-in-search
+    notes: No retained candidate surfaced; this is not an exhaustive issue-by-issue
+      audit.
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model calibration uncertainty confidence
+      interval
+    - site:aclanthology.org TACL conformal language model
+    source_urls:
+    - https://aclanthology.org/2022.tacl-1.50/
+    - https://aclanthology.org/2024.tacl-1.82/
+    status: partial
+    notes: Included the 2024 conformal-prediction survey as a navigation supplement,
+      not a core paper. A 2022 dialogue-agent overconfidence paper was screened but
+      not selected because its model role did not clearly meet the intended modern
+      LLM/statistical-method intersection.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.aclanthology.org/tacl "conformal" OR "causal" "language"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: TACL
+  venue_group: cs-journal
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model causal reasoning
+    - site:aclanthology.org TACL LLM causal discovery
+    source_urls:
+    - https://aclanthology.org/venues/tacl/
+    status: no-candidate-in-search
+    notes: No retained candidate surfaced; this is not an exhaustive issue-by-issue
+      audit.
+  - venue: TACL
+    years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site:aclanthology.org TACL large language model calibration uncertainty confidence
+      interval
+    - site:aclanthology.org TACL conformal language model
+    source_urls:
+    - https://aclanthology.org/2022.tacl-1.50/
+    - https://aclanthology.org/2024.tacl-1.82/
+    status: partial
+    notes: Included the 2024 conformal-prediction survey as a navigation supplement,
+      not a core paper. A 2022 dialogue-agent overconfidence paper was screened but
+      not selected because its model role did not clearly meet the intended modern
+      LLM/statistical-method intersection.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.aclanthology.org/tacl "conformal" OR "causal" "language"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: AER
+  venue_group: economics
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AER
+  venue_group: economics
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AER
+  venue_group: economics
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AER
+  venue_group: economics
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: AER
+  venue_group: economics
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Econometrica
+  venue_group: economics
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometrica
+  venue_group: economics
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometrica
+  venue_group: economics
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometrica
+  venue_group: economics
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometrica
+  venue_group: economics
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: QJE
+  venue_group: economics
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: QJE
+  venue_group: economics
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: QJE
+  venue_group: economics
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: QJE
+  venue_group: economics
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: QJE
+  venue_group: economics
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: JPE
+  venue_group: economics
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JPE
+  venue_group: economics
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JPE
+  venue_group: economics
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JPE
+  venue_group: economics
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JPE
+  venue_group: economics
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: REStud
+  venue_group: economics
+  year: 2022
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: REStud
+  venue_group: economics
+  year: 2023
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: REStud
+  venue_group: economics
+  year: 2024
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: REStud
+  venue_group: economics
+  year: 2025
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: REStud
+  venue_group: economics
+  year: 2026
+  status: partial
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - \b(?:large[ -]language[ -]model|ChatGPT|GPT[- ]?[23456]\b|generative (?:AI|artificial
+      intelligence)|prediction[- ]powered|synthetic respondents)
+    status: partial
+    source_urls: []
+    notes: EDITH 所有年份的五大刊 13,038 条原文及清理后的摘要完成关键词扫描；网络定向补查记录见 econ-search-*.txt。非逐篇人工全文筛读，非完整卷期审计。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Review of Economics and Statistics
+  venue_group: economics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Review of Economics and Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:direct.mit.edu/rest/article large language model OR ChatGPT
+    - Review of Economics and Statistics LLM measurement error inference
+    - Crossref ISSN 0034-6535 query large language model ChatGPT LLM
+    source_urls:
+    - https://direct.mit.edu/rest
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM statistical/causal-method
+      contribution was located. MIT Press web hits were from other journals. This
+      is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Review of Economics and Statistics
+  venue_group: economics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Review of Economics and Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:direct.mit.edu/rest/article large language model OR ChatGPT
+    - Review of Economics and Statistics LLM measurement error inference
+    - Crossref ISSN 0034-6535 query large language model ChatGPT LLM
+    source_urls:
+    - https://direct.mit.edu/rest
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM statistical/causal-method
+      contribution was located. MIT Press web hits were from other journals. This
+      is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Review of Economics and Statistics
+  venue_group: economics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Review of Economics and Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:direct.mit.edu/rest/article large language model OR ChatGPT
+    - Review of Economics and Statistics LLM measurement error inference
+    - Crossref ISSN 0034-6535 query large language model ChatGPT LLM
+    source_urls:
+    - https://direct.mit.edu/rest
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM statistical/causal-method
+      contribution was located. MIT Press web hits were from other journals. This
+      is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Review of Economics and Statistics
+  venue_group: economics
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Review of Economics and Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:direct.mit.edu/rest/article large language model OR ChatGPT
+    - Review of Economics and Statistics LLM measurement error inference
+    - Crossref ISSN 0034-6535 query large language model ChatGPT LLM
+    source_urls:
+    - https://direct.mit.edu/rest
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM statistical/causal-method
+      contribution was located. MIT Press web hits were from other journals. This
+      is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Review of Economics and Statistics
+  venue_group: economics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Review of Economics and Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:direct.mit.edu/rest/article large language model OR ChatGPT
+    - Review of Economics and Statistics LLM measurement error inference
+    - Crossref ISSN 0034-6535 query large language model ChatGPT LLM
+    source_urls:
+    - https://direct.mit.edu/rest
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM statistical/causal-method
+      contribution was located. MIT Press web hits were from other journals. This
+      is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Journal of Econometrics
+  venue_group: economics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of Econometrics
+    years: 2022-2026-09-09
+    queries:
+    - site:sciencedirect.com/journal/journal-of-econometrics large language model
+      OR ChatGPT OR LLM
+    - Journal of Econometrics large language model statistical inference
+    - Crossref ISSN 0304-4076 query large language model ChatGPT LLM
+    source_urls:
+    - https://www.sciencedirect.com/journal/journal-of-econometrics
+    status: no-candidate-in-search
+    notes: No paper with an explicit substantive LLM role in statistical/econometric
+      inference was located. Fuzzy metadata results concerned generic uses of the
+      words large/model/language or unrelated topics. This is a search result, not
+      an exhaustive issue-by-issue negative finding.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.sciencedirect.com/science/article "Journal of Econometrics" "language model"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Journal of Econometrics
+  venue_group: economics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of Econometrics
+    years: 2022-2026-09-09
+    queries:
+    - site:sciencedirect.com/journal/journal-of-econometrics large language model
+      OR ChatGPT OR LLM
+    - Journal of Econometrics large language model statistical inference
+    - Crossref ISSN 0304-4076 query large language model ChatGPT LLM
+    source_urls:
+    - https://www.sciencedirect.com/journal/journal-of-econometrics
+    status: no-candidate-in-search
+    notes: No paper with an explicit substantive LLM role in statistical/econometric
+      inference was located. Fuzzy metadata results concerned generic uses of the
+      words large/model/language or unrelated topics. This is a search result, not
+      an exhaustive issue-by-issue negative finding.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.sciencedirect.com/science/article "Journal of Econometrics" "language model"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Journal of Econometrics
+  venue_group: economics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of Econometrics
+    years: 2022-2026-09-09
+    queries:
+    - site:sciencedirect.com/journal/journal-of-econometrics large language model
+      OR ChatGPT OR LLM
+    - Journal of Econometrics large language model statistical inference
+    - Crossref ISSN 0304-4076 query large language model ChatGPT LLM
+    source_urls:
+    - https://www.sciencedirect.com/journal/journal-of-econometrics
+    status: no-candidate-in-search
+    notes: No paper with an explicit substantive LLM role in statistical/econometric
+      inference was located. Fuzzy metadata results concerned generic uses of the
+      words large/model/language or unrelated topics. This is a search result, not
+      an exhaustive issue-by-issue negative finding.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.sciencedirect.com/science/article "Journal of Econometrics" "language model"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Journal of Econometrics
+  venue_group: economics
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of Econometrics
+    years: 2022-2026-09-09
+    queries:
+    - site:sciencedirect.com/journal/journal-of-econometrics large language model
+      OR ChatGPT OR LLM
+    - Journal of Econometrics large language model statistical inference
+    - Crossref ISSN 0304-4076 query large language model ChatGPT LLM
+    source_urls:
+    - https://www.sciencedirect.com/journal/journal-of-econometrics
+    status: no-candidate-in-search
+    notes: No paper with an explicit substantive LLM role in statistical/econometric
+      inference was located. Fuzzy metadata results concerned generic uses of the
+      words large/model/language or unrelated topics. This is a search result, not
+      an exhaustive issue-by-issue negative finding.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.sciencedirect.com/science/article "Journal of Econometrics" "language model"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Journal of Econometrics
+  venue_group: economics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of Econometrics
+    years: 2022-2026-09-09
+    queries:
+    - site:sciencedirect.com/journal/journal-of-econometrics large language model
+      OR ChatGPT OR LLM
+    - Journal of Econometrics large language model statistical inference
+    - Crossref ISSN 0304-4076 query large language model ChatGPT LLM
+    source_urls:
+    - https://www.sciencedirect.com/journal/journal-of-econometrics
+    status: no-candidate-in-search
+    notes: No paper with an explicit substantive LLM role in statistical/econometric
+      inference was located. Fuzzy metadata results concerned generic uses of the
+      words large/model/language or unrelated topics. This is a search result, not
+      an exhaustive issue-by-issue negative finding.
+  - years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+    - 2026
+    queries:
+    - site.sciencedirect.com/science/article "Journal of Econometrics" "language model"
+    source_urls: []
+    status: search-only
+    notes: 跨年份定向搜索；单篇发现后核验。没有逐年抓取全部目录；01/02 与 root-kdd-verification 日志共同保存结果。
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Quantitative Economics
+  venue_group: economics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Quantitative Economics
+    years: 2022-2026-09-09
+    queries:
+    - site:onlinelibrary.wiley.com/doi Quantitative Economics large language model
+      OR ChatGPT
+    - Quantitative Economics LLM statistical inference
+    - Quantitative Economics large language model accepted
+    source_urls:
+    - https://onlinelibrary.wiley.com/journal/17597331
+    status: no-candidate-in-search
+    notes: No official journal candidate was located. LABOR-LLM search hits described
+      a manuscript submitted to Quantitative Economics rather than an accepted or
+      published article and did not meet the statistical-inference inclusion gate.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Quantitative Economics
+  venue_group: economics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Quantitative Economics
+    years: 2022-2026-09-09
+    queries:
+    - site:onlinelibrary.wiley.com/doi Quantitative Economics large language model
+      OR ChatGPT
+    - Quantitative Economics LLM statistical inference
+    - Quantitative Economics large language model accepted
+    source_urls:
+    - https://onlinelibrary.wiley.com/journal/17597331
+    status: no-candidate-in-search
+    notes: No official journal candidate was located. LABOR-LLM search hits described
+      a manuscript submitted to Quantitative Economics rather than an accepted or
+      published article and did not meet the statistical-inference inclusion gate.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Quantitative Economics
+  venue_group: economics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Quantitative Economics
+    years: 2022-2026-09-09
+    queries:
+    - site:onlinelibrary.wiley.com/doi Quantitative Economics large language model
+      OR ChatGPT
+    - Quantitative Economics LLM statistical inference
+    - Quantitative Economics large language model accepted
+    source_urls:
+    - https://onlinelibrary.wiley.com/journal/17597331
+    status: no-candidate-in-search
+    notes: No official journal candidate was located. LABOR-LLM search hits described
+      a manuscript submitted to Quantitative Economics rather than an accepted or
+      published article and did not meet the statistical-inference inclusion gate.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Quantitative Economics
+  venue_group: economics
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Quantitative Economics
+    years: 2022-2026-09-09
+    queries:
+    - site:onlinelibrary.wiley.com/doi Quantitative Economics large language model
+      OR ChatGPT
+    - Quantitative Economics LLM statistical inference
+    - Quantitative Economics large language model accepted
+    source_urls:
+    - https://onlinelibrary.wiley.com/journal/17597331
+    status: no-candidate-in-search
+    notes: No official journal candidate was located. LABOR-LLM search hits described
+      a manuscript submitted to Quantitative Economics rather than an accepted or
+      published article and did not meet the statistical-inference inclusion gate.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Quantitative Economics
+  venue_group: economics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Quantitative Economics
+    years: 2022-2026-09-09
+    queries:
+    - site:onlinelibrary.wiley.com/doi Quantitative Economics large language model
+      OR ChatGPT
+    - Quantitative Economics LLM statistical inference
+    - Quantitative Economics large language model accepted
+    source_urls:
+    - https://onlinelibrary.wiley.com/journal/17597331
+    status: no-candidate-in-search
+    notes: No official journal candidate was located. LABOR-LLM search hits described
+      a manuscript submitted to Quantitative Economics rather than an accepted or
+      published article and did not meet the statistical-inference inclusion gate.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Econometric Theory
+  venue_group: economics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Econometric Theory
+    years: 2022-2026-09-09
+    queries:
+    - site:cambridge.org/core/journals/econometric-theory large language model OR
+      ChatGPT
+    - Econometric Theory journal LLM statistical inference
+    - Econometric Theory large language models 2025 2026
+    source_urls:
+    - https://www.cambridge.org/core/journals/econometric-theory
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM role was located. Search
+      results were unrelated Cambridge titles or generic machine-learning econometrics.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometric Theory
+  venue_group: economics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Econometric Theory
+    years: 2022-2026-09-09
+    queries:
+    - site:cambridge.org/core/journals/econometric-theory large language model OR
+      ChatGPT
+    - Econometric Theory journal LLM statistical inference
+    - Econometric Theory large language models 2025 2026
+    source_urls:
+    - https://www.cambridge.org/core/journals/econometric-theory
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM role was located. Search
+      results were unrelated Cambridge titles or generic machine-learning econometrics.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometric Theory
+  venue_group: economics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Econometric Theory
+    years: 2022-2026-09-09
+    queries:
+    - site:cambridge.org/core/journals/econometric-theory large language model OR
+      ChatGPT
+    - Econometric Theory journal LLM statistical inference
+    - Econometric Theory large language models 2025 2026
+    source_urls:
+    - https://www.cambridge.org/core/journals/econometric-theory
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM role was located. Search
+      results were unrelated Cambridge titles or generic machine-learning econometrics.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometric Theory
+  venue_group: economics
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Econometric Theory
+    years: 2022-2026-09-09
+    queries:
+    - site:cambridge.org/core/journals/econometric-theory large language model OR
+      ChatGPT
+    - Econometric Theory journal LLM statistical inference
+    - Econometric Theory large language models 2025 2026
+    source_urls:
+    - https://www.cambridge.org/core/journals/econometric-theory
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM role was located. Search
+      results were unrelated Cambridge titles or generic machine-learning econometrics.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Econometric Theory
+  venue_group: economics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Econometric Theory
+    years: 2022-2026-09-09
+    queries:
+    - site:cambridge.org/core/journals/econometric-theory large language model OR
+      ChatGPT
+    - Econometric Theory journal LLM statistical inference
+    - Econometric Theory large language models 2025 2026
+    source_urls:
+    - https://www.cambridge.org/core/journals/econometric-theory
+    status: no-candidate-in-search
+    notes: No official journal candidate with an explicit LLM role was located. Search
+      results were unrelated Cambridge titles or generic machine-learning econometrics.
+      This is not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: JASA
+  venue_group: statistics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of the American Statistical Association
+    years: 2022-2026-09-09
+    queries:
+    - site:tandfonline.com/doi JASA large language model statistical inference 2022..2026
+    - site:tandfonline.com/doi/abs/10.1080/01621459 large language model
+    - site:tandfonline.com/doi/full/10.1080/01621459 LLM watermark
+    - Journal of the American Statistical Association large model based data agent
+    source_urls:
+    - https://www.tandfonline.com/journals/uasa20
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    status: partial
+    notes: Four official article pages located. Three are included as statistical/theoretical
+      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
+      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
+      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
+      and metadata searches were not an issue-by-issue exhaustive audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JASA
+  venue_group: statistics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of the American Statistical Association
+    years: 2022-2026-09-09
+    queries:
+    - site:tandfonline.com/doi JASA large language model statistical inference 2022..2026
+    - site:tandfonline.com/doi/abs/10.1080/01621459 large language model
+    - site:tandfonline.com/doi/full/10.1080/01621459 LLM watermark
+    - Journal of the American Statistical Association large model based data agent
+    source_urls:
+    - https://www.tandfonline.com/journals/uasa20
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    status: partial
+    notes: Four official article pages located. Three are included as statistical/theoretical
+      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
+      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
+      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
+      and metadata searches were not an issue-by-issue exhaustive audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JASA
+  venue_group: statistics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of the American Statistical Association
+    years: 2022-2026-09-09
+    queries:
+    - site:tandfonline.com/doi JASA large language model statistical inference 2022..2026
+    - site:tandfonline.com/doi/abs/10.1080/01621459 large language model
+    - site:tandfonline.com/doi/full/10.1080/01621459 LLM watermark
+    - Journal of the American Statistical Association large model based data agent
+    source_urls:
+    - https://www.tandfonline.com/journals/uasa20
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    status: partial
+    notes: Four official article pages located. Three are included as statistical/theoretical
+      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
+      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
+      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
+      and metadata searches were not an issue-by-issue exhaustive audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JASA
+  venue_group: statistics
+  year: 2025
+  status: partial
+  included_count: 2
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of the American Statistical Association
+    years: 2022-2026-09-09
+    queries:
+    - site:tandfonline.com/doi JASA large language model statistical inference 2022..2026
+    - site:tandfonline.com/doi/abs/10.1080/01621459 large language model
+    - site:tandfonline.com/doi/full/10.1080/01621459 LLM watermark
+    - Journal of the American Statistical Association large model based data agent
+    source_urls:
+    - https://www.tandfonline.com/journals/uasa20
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    status: partial
+    notes: Four official article pages located. Three are included as statistical/theoretical
+      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
+      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
+      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
+      and metadata searches were not an issue-by-issue exhaustive audit.
+  verified_article_urls:
+  - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+  - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JASA
+  venue_group: statistics
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Journal of the American Statistical Association
+    years: 2022-2026-09-09
+    queries:
+    - site:tandfonline.com/doi JASA large language model statistical inference 2022..2026
+    - site:tandfonline.com/doi/abs/10.1080/01621459 large language model
+    - site:tandfonline.com/doi/full/10.1080/01621459 LLM watermark
+    - Journal of the American Statistical Association large model based data agent
+    source_urls:
+    - https://www.tandfonline.com/journals/uasa20
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    status: partial
+    notes: Four official article pages located. Three are included as statistical/theoretical
+      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
+      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
+      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
+      and metadata searches were not an issue-by-issue exhaustive audit.
+  verified_article_urls:
+  - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: JRSS-B
+  venue_group: statistics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: 'Journal of the Royal Statistical Society: Series B (Statistical Methodology)'
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/jrsssb/article large language model statistics 2022..2026
+    - site:academic.oup.com/jrsssb/article LLM watermark
+    - 10.1093/jrsssb/qkaf056
+    source_urls:
+    - https://academic.oup.com/jrsssb
+    - https://doi.org/10.1093/jrsssb/qkaf056
+    status: partial
+    notes: 'One included article located: Robust detection of watermarks for large
+      language models under human edits, published online 2025-08-20 and assigned
+      to volume 88(2), 2026, pages 491-515. Search was not an exhaustive issue-by-issue
+      audit.'
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JRSS-B
+  venue_group: statistics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: 'Journal of the Royal Statistical Society: Series B (Statistical Methodology)'
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/jrsssb/article large language model statistics 2022..2026
+    - site:academic.oup.com/jrsssb/article LLM watermark
+    - 10.1093/jrsssb/qkaf056
+    source_urls:
+    - https://academic.oup.com/jrsssb
+    - https://doi.org/10.1093/jrsssb/qkaf056
+    status: partial
+    notes: 'One included article located: Robust detection of watermarks for large
+      language models under human edits, published online 2025-08-20 and assigned
+      to volume 88(2), 2026, pages 491-515. Search was not an exhaustive issue-by-issue
+      audit.'
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JRSS-B
+  venue_group: statistics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: 'Journal of the Royal Statistical Society: Series B (Statistical Methodology)'
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/jrsssb/article large language model statistics 2022..2026
+    - site:academic.oup.com/jrsssb/article LLM watermark
+    - 10.1093/jrsssb/qkaf056
+    source_urls:
+    - https://academic.oup.com/jrsssb
+    - https://doi.org/10.1093/jrsssb/qkaf056
+    status: partial
+    notes: 'One included article located: Robust detection of watermarks for large
+      language models under human edits, published online 2025-08-20 and assigned
+      to volume 88(2), 2026, pages 491-515. Search was not an exhaustive issue-by-issue
+      audit.'
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JRSS-B
+  venue_group: statistics
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: 'Journal of the Royal Statistical Society: Series B (Statistical Methodology)'
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/jrsssb/article large language model statistics 2022..2026
+    - site:academic.oup.com/jrsssb/article LLM watermark
+    - 10.1093/jrsssb/qkaf056
+    source_urls:
+    - https://academic.oup.com/jrsssb
+    - https://doi.org/10.1093/jrsssb/qkaf056
+    status: partial
+    notes: 'One included article located: Robust detection of watermarks for large
+      language models under human edits, published online 2025-08-20 and assigned
+      to volume 88(2), 2026, pages 491-515. Search was not an exhaustive issue-by-issue
+      audit.'
+  verified_article_urls:
+  - https://doi.org/10.1093/jrsssb/qkaf056
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: JRSS-B
+  venue_group: statistics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: 'Journal of the Royal Statistical Society: Series B (Statistical Methodology)'
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/jrsssb/article large language model statistics 2022..2026
+    - site:academic.oup.com/jrsssb/article LLM watermark
+    - 10.1093/jrsssb/qkaf056
+    source_urls:
+    - https://academic.oup.com/jrsssb
+    - https://doi.org/10.1093/jrsssb/qkaf056
+    status: partial
+    notes: 'One included article located: Robust detection of watermarks for large
+      language models under human edits, published online 2025-08-20 and assigned
+      to volume 88(2), 2026, pages 491-515. Search was not an exhaustive issue-by-issue
+      audit.'
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Annals of Statistics
+  venue_group: statistics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: The Annals of Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:projecteuclid.org/journals/annals-of-statistics large language model
+    - site:projecteuclid.org Annals of Statistics LLM watermark
+    - site:projecteuclid.org Statistical Impossibility and Possibility of Aligning
+      LLMs
+    - site:imstat.org Statistical Impossibility LLM
+    source_urls:
+    - https://projecteuclid.org/journals/annals-of-statistics
+    - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    status: partial
+    notes: One included published article located in volume 53(1), 2025, pages 322-351.
+      A second manuscript, Statistical Impossibility and Possibility of Aligning LLMs
+      with Human Preferences, is reported by multiple author/institution pages as
+      accepted/in press in 2026 but lacked a publisher-hosted record at the cutoff,
+      so it is recorded as arXiv preprint/pending. Search was not an exhaustive issue-by-issue
+      audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Annals of Statistics
+  venue_group: statistics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: The Annals of Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:projecteuclid.org/journals/annals-of-statistics large language model
+    - site:projecteuclid.org Annals of Statistics LLM watermark
+    - site:projecteuclid.org Statistical Impossibility and Possibility of Aligning
+      LLMs
+    - site:imstat.org Statistical Impossibility LLM
+    source_urls:
+    - https://projecteuclid.org/journals/annals-of-statistics
+    - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    status: partial
+    notes: One included published article located in volume 53(1), 2025, pages 322-351.
+      A second manuscript, Statistical Impossibility and Possibility of Aligning LLMs
+      with Human Preferences, is reported by multiple author/institution pages as
+      accepted/in press in 2026 but lacked a publisher-hosted record at the cutoff,
+      so it is recorded as arXiv preprint/pending. Search was not an exhaustive issue-by-issue
+      audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Annals of Statistics
+  venue_group: statistics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: The Annals of Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:projecteuclid.org/journals/annals-of-statistics large language model
+    - site:projecteuclid.org Annals of Statistics LLM watermark
+    - site:projecteuclid.org Statistical Impossibility and Possibility of Aligning
+      LLMs
+    - site:imstat.org Statistical Impossibility LLM
+    source_urls:
+    - https://projecteuclid.org/journals/annals-of-statistics
+    - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    status: partial
+    notes: One included published article located in volume 53(1), 2025, pages 322-351.
+      A second manuscript, Statistical Impossibility and Possibility of Aligning LLMs
+      with Human Preferences, is reported by multiple author/institution pages as
+      accepted/in press in 2026 but lacked a publisher-hosted record at the cutoff,
+      so it is recorded as arXiv preprint/pending. Search was not an exhaustive issue-by-issue
+      audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Annals of Statistics
+  venue_group: statistics
+  year: 2025
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: The Annals of Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:projecteuclid.org/journals/annals-of-statistics large language model
+    - site:projecteuclid.org Annals of Statistics LLM watermark
+    - site:projecteuclid.org Statistical Impossibility and Possibility of Aligning
+      LLMs
+    - site:imstat.org Statistical Impossibility LLM
+    source_urls:
+    - https://projecteuclid.org/journals/annals-of-statistics
+    - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    status: partial
+    notes: One included published article located in volume 53(1), 2025, pages 322-351.
+      A second manuscript, Statistical Impossibility and Possibility of Aligning LLMs
+      with Human Preferences, is reported by multiple author/institution pages as
+      accepted/in press in 2026 but lacked a publisher-hosted record at the cutoff,
+      so it is recorded as arXiv preprint/pending. Search was not an exhaustive issue-by-issue
+      audit.
+  verified_article_urls:
+  - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Annals of Statistics
+  venue_group: statistics
+  year: 2026
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: The Annals of Statistics
+    years: 2022-2026-09-09
+    queries:
+    - site:projecteuclid.org/journals/annals-of-statistics large language model
+    - site:projecteuclid.org Annals of Statistics LLM watermark
+    - site:projecteuclid.org Statistical Impossibility and Possibility of Aligning
+      LLMs
+    - site:imstat.org Statistical Impossibility LLM
+    source_urls:
+    - https://projecteuclid.org/journals/annals-of-statistics
+    - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    status: partial
+    notes: One included published article located in volume 53(1), 2025, pages 322-351.
+      A second manuscript, Statistical Impossibility and Possibility of Aligning LLMs
+      with Human Preferences, is reported by multiple author/institution pages as
+      accepted/in press in 2026 but lacked a publisher-hosted record at the cutoff,
+      so it is recorded as arXiv preprint/pending. Search was not an exhaustive issue-by-issue
+      audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+- venue: Biometrika
+  venue_group: statistics
+  year: 2022
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Biometrika
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/biomet/article large language model
+    - site:academic.oup.com/biomet LLM watermark
+    - Optimal Watermark Generation under Type I and Type II Errors Biometrika
+    - 10.1093/biomet/asag049
+    source_urls:
+    - https://academic.oup.com/biomet
+    - https://doi.org/10.1093/biomet/asag049
+    status: partial
+    notes: One included Oxford Academic Accepted Manuscript located in the Miscellanea
+      section, dated 2026-08-08. It is recorded as accepted, not published. Search
+      was not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Biometrika
+  venue_group: statistics
+  year: 2023
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Biometrika
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/biomet/article large language model
+    - site:academic.oup.com/biomet LLM watermark
+    - Optimal Watermark Generation under Type I and Type II Errors Biometrika
+    - 10.1093/biomet/asag049
+    source_urls:
+    - https://academic.oup.com/biomet
+    - https://doi.org/10.1093/biomet/asag049
+    status: partial
+    notes: One included Oxford Academic Accepted Manuscript located in the Miscellanea
+      section, dated 2026-08-08. It is recorded as accepted, not published. Search
+      was not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Biometrika
+  venue_group: statistics
+  year: 2024
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Biometrika
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/biomet/article large language model
+    - site:academic.oup.com/biomet LLM watermark
+    - Optimal Watermark Generation under Type I and Type II Errors Biometrika
+    - 10.1093/biomet/asag049
+    source_urls:
+    - https://academic.oup.com/biomet
+    - https://doi.org/10.1093/biomet/asag049
+    status: partial
+    notes: One included Oxford Academic Accepted Manuscript located in the Miscellanea
+      section, dated 2026-08-08. It is recorded as accepted, not published. Search
+      was not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Biometrika
+  venue_group: statistics
+  year: 2025
+  status: search-only
+  included_count: 0
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Biometrika
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/biomet/article large language model
+    - site:academic.oup.com/biomet LLM watermark
+    - Optimal Watermark Generation under Type I and Type II Errors Biometrika
+    - 10.1093/biomet/asag049
+    source_urls:
+    - https://academic.oup.com/biomet
+    - https://doi.org/10.1093/biomet/asag049
+    status: partial
+    notes: One included Oxford Academic Accepted Manuscript located in the Miscellanea
+      section, dated 2026-08-08. It is recorded as accepted, not published. Search
+      was not an exhaustive issue-by-issue audit.
+  verified_article_urls: []
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
+- venue: Biometrika
+  venue_group: statistics
+  year: 2026
+  status: partial
+  included_count: 1
+  official_issue_audit_complete: false
+  search_logs:
+  - venue: Biometrika
+    years: 2022-2026-09-09
+    queries:
+    - site:academic.oup.com/biomet/article large language model
+    - site:academic.oup.com/biomet LLM watermark
+    - Optimal Watermark Generation under Type I and Type II Errors Biometrika
+    - 10.1093/biomet/asag049
+    source_urls:
+    - https://academic.oup.com/biomet
+    - https://doi.org/10.1093/biomet/asag049
+    status: partial
+    notes: One included Oxford Academic Accepted Manuscript located in the Miscellanea
+      section, dated 2026-08-08. It is recorded as accepted, not published. Search
+      was not an exhaustive issue-by-issue audit.
+  verified_article_urls:
+  - https://doi.org/10.1093/biomet/asag049
+  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。

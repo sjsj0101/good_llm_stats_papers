@@ -1,0 +1,1242 @@
+- venue_group: cs-conference
+  year: 2026
+  track: special-ai-for-social-impact
+  publication_status: published
+  scope_decision: supplement
+  evidence_basis: official-abstract
+  code_url: null
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  limitations_zh: 核查了官方摘要与发表记录，尚未逐项核验因果假设、证明或复现实验。
+  fulltext_status: abstract-only
+  publication_dates:
+    conference_year: 2026
+    online_first: '2026-03-14'
+  doi: 10.1609/aaai.v40i46.41308
+  arxiv_id: null
+  title: 'Uncovering Bias Paths with LLM-guided Causal Discovery: An Active Learning
+    and Dynamic Scoring Approach'
+  authors:
+  - Khadija Zanna
+  - Akane Sano
+  venue: AAAI
+  official_url: https://ojs.aaai.org/index.php/AAAI/article/view/41308
+  paper_url: null
+  topics:
+  - causal-discovery
+  summary_zh: 结合变量语义先验、主动查询与动态评分，发现公平性相关因果路径。
+  llm_role_zh: 根据变量元数据提供因果结构先验与置信度。
+  method_zh: 互信息、偏相关及 LLM 置信度构成查询评分；半合成 Adult 数据评测。
+  decision_reason_zh: 方法相关，但属于 AAAI AI for Social Impact 特别轨；保守列入补充，不混入主技术轨计数。
+  evidence_locator: 'AAAI 官方摘要及 Section: AAAI Special Track on AI for Social Impact
+    II。'
+  source_urls:
+  - https://ojs.aaai.org/index.php/AAAI/article/view/41308
+  work_id: w-ccd407524261
+  publication_records:
+  - venue: AAAI
+    year: 2026
+    track: special-ai-for-social-impact
+    publication_status: published
+    doi: 10.1609/aaai.v40i46.41308
+    official_url: https://ojs.aaai.org/index.php/AAAI/article/view/41308
+    paper_url: null
+  verification_status: official-record-checked
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'Performing Valid Inference with AI/ML-Generated Covariates: A Guide for
+    Empirical Practice'
+  authors:
+  - Timothy Christensen
+  - Stephen Hansen
+  venue: AEA Papers and Proceedings
+  venue_group: economics
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.aeaweb.org/articles?id=10.1257/pandp.20261020
+  paper_url: https://doi.org/10.1257/pandp.20261020
+  doi: 10.1257/pandp.20261020
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 面向实证研究者说明AI/ML生成协变量的偏差校正，并展示无需大规模验证样本的实现。
+  llm_role_zh: LLM属于论文所讨论的AI生成文本测量工具，但方法适用于更广泛的机器学习变量。
+  method_zh: 将生成协变量视为含测量误差，采用无须大量验证数据的校正方法并通过ValidMLInference软件实现。
+  evidence_basis: official-abstract
+  evidence_locator: American Economic Association official article metadata and abstract
+  scope_decision: supplement
+  decision_reason_zh: 正式经济学方法短文且与LLM测量误差高度相关，但非指定目标期刊，LLM也不是唯一对象。
+  limitations_zh: 六页实践指南简述已有校正方法；完整理论应结合其基础工作阅读。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.aeaweb.org/articles?id=10.1257/pandp.20261020
+  code_url: null
+  estimand_zh: 含AI/ML生成协变量的回归参数。
+  publication_dates:
+    issue: May 2026
+    volume: '116'
+    pages: 92-97
+  work_id: w-afcc10c86c2d
+  publication_records:
+  - venue: AEA Papers and Proceedings
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1257/pandp.20261020
+    official_url: https://www.aeaweb.org/articles?id=10.1257/pandp.20261020
+    paper_url: https://doi.org/10.1257/pandp.20261020
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Large Language Models: An Applied Econometric Framework'
+  authors:
+  - Jens Ludwig
+  - Sendhil Mullainathan
+  - Ashesh Rambachan
+  venue: Annual Review of Economics
+  venue_group: economics
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.annualreviews.org/content/journals/10.1146/annurev-economics-120925-105620
+  paper_url: https://arxiv.org/abs/2412.07031
+  doi: 10.1146/annurev-economics-120925-105620
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 区分LLM用于预测与用于测量后下游估计两类任务，分别给出训练泄漏与验证样本条件下的计量框架。
+  llm_role_zh: LLM输出直接作为文本预测器或经济概念测量变量进入实证分析。
+  method_zh: 预测任务要求训练数据与研究样本无泄漏；估计任务用小规模验证样本校正LLM标签误差并恢复一致、精确的估计。
+  evidence_basis: fulltext
+  evidence_locator: Annual Reviews official article/full text and NBER official published-version
+    record
+  scope_decision: supplement
+  decision_reason_zh: 是LLM实证计量方法的重要正式综述，但不属于八本指定目标期刊，故列为补充锚点。
+  limitations_zh: 框架强调必要防护条件；具体结论依赖研究者能控制训练泄漏或取得适当验证样本。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.annualreviews.org/content/journals/10.1146/annurev-economics-120925-105620
+  - https://www.nber.org/papers/w33344
+  - https://arxiv.org/abs/2412.07031
+  code_url: https://github.com/asheshrambachan/LanguageModel_Labels
+  arxiv_id: '2412.07031'
+  assumptions_zh: 预测需满足训练数据与评估样本无泄漏；估计需有能识别LLM测量误差的验证数据。
+  guarantee_zh: 在相应条件下恢复熟悉的计量一致性和精度保证。
+  publication_dates:
+    review_in_advance: '2026-04-06'
+    volume_publication: 2026-08
+    volume: '18'
+    pages: 283-316
+  work_id: w-7e6e50ec1471
+  publication_records:
+  - venue: Annual Review of Economics
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1146/annurev-economics-120925-105620
+    official_url: https://www.annualreviews.org/content/journals/10.1146/annurev-economics-120925-105620
+    paper_url: https://arxiv.org/abs/2412.07031
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'SUVA: A Probabilistic Framework for Auditing LLMs with an Application to
+    Social Preferences'
+  authors:
+  - Yan Leng
+  - Yuan Yuan
+  venue: Information Systems Research
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://pubsonline.informs.org/doi/10.1287/isre.2024.0857
+  paper_url: https://doi.org/10.1287/isre.2024.0857
+  doi: 10.1287/isre.2024.0857
+  topics:
+  - causal-llm-analysis
+  evidence_basis: official-abstract
+  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
+  scope_decision: supplement
+  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
+  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://pubsonline.informs.org/doi/10.1287/isre.2024.0857
+  code_url: null
+  metadata_conflicts: []
+  summary_zh: 以概率化的 state–understanding–value–action 框架审计 LLM 的推理文本与最终选择。
+  llm_role_zh: 被审计的决策模型；文本推理和最终选择均作为可观测输出。
+  method_zh: 概率审计框架与行为经济学任务验证。
+  publication_dates:
+    published_online: '2026-02-23'
+    issue_year: 2026
+  work_id: w-a8d244e77483
+  publication_records:
+  - venue: Information Systems Research
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1287/isre.2024.0857
+    official_url: https://pubsonline.informs.org/doi/10.1287/isre.2024.0857
+    paper_url: https://doi.org/10.1287/isre.2024.0857
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Large Language Models for Market Research: A Data-Augmentation Approach'
+  authors:
+  - Mengxin Wang
+  - Dennis J. Zhang
+  - Heng Zhang
+  venue: Marketing Science
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
+  paper_url: https://doi.org/10.1287/mksc.2025.0009
+  doi: 10.1287/mksc.2025.0009
+  topics:
+  - stats-inference
+  - synthetic-data
+  evidence_basis: official-abstract
+  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
+  scope_decision: supplement
+  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
+  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
+  code_url: null
+  metadata_conflicts:
+  - field: doi
+    local: 10.48550/arXiv.2412.19363
+    official: 10.1287/mksc.2025.0009
+  summary_zh: 用少量人类数据校正 LLM 合成选择数据，提高联合分析中的偏好估计效率。
+  llm_role_zh: 提供存在偏差但可校正的辅助选择数据。
+  method_zh: 统计数据增广与误差校正估计。
+  publication_dates:
+    published_online: '2026-03-17'
+    issue_year: 2026
+  arxiv_id: '2412.19363'
+  guarantee_zh: 官方摘要报告一致性、渐近正态性及有限样本误差界；条件未逐项复核。
+  work_id: w-4b12b0118c1e
+  publication_records:
+  - venue: Marketing Science
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1287/mksc.2025.0009
+    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009
+    paper_url: https://doi.org/10.1287/mksc.2025.0009
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- title: Evaluating the statistical realism of LLM-generated social science data
+  authors:
+  - Yueqi Xie
+  - Lemeng Liang
+  - Shuzhen Li
+  - Yifu Lu
+  - Zhiwen Xiao
+  - Mengdi Shi
+  - Junming Huang
+  - Mengdi Wang
+  - Yu Xie
+  venue: Proceedings of the National Academy of Sciences
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.pnas.org/doi/10.1073/pnas.2538145123
+  paper_url: https://doi.org/10.1073/pnas.2538145123
+  doi: 10.1073/pnas.2538145123
+  topics:
+  - stats-inference
+  - uncertainty
+  - synthetic-data
+  summary_zh: 提出SSDataBench，以五类总体统计模式和显著性检验评估15个LLM生成社会科学样本的统计现实性。
+  llm_role_zh: LLM在有限人口属性条件下生成合成受访者数据，方法检验其能否代表真实总体。
+  method_zh: 比较单变量分布、双变量关联、多变量预测、生命事件序列及其协变量关联，使用bootstrap重复计算通过率。
+  evidence_basis: fulltext
+  evidence_locator: PNAS official full text and PubMed Central metadata; institutional
+    publication record corroboration
+  scope_decision: supplement
+  decision_reason_zh: 与模型生成样本有效性直接相关且为正式论文，但非指定统计/计量目标期刊，提供诊断框架而非有效下游推断校正。
+  limitations_zh: 结论主要针对稀疏条件生成；真实调查被当作最佳可用基准但仍可能含覆盖、无回答和测量偏差。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.pnas.org/doi/10.1073/pnas.2538145123
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13167774/
+  - https://www.iser.essex.ac.uk/research/publications/publication-589078
+  code_url: https://github.com/lszshu/SSDataBench
+  datasets:
+  - NLSY
+  - CFPS
+  - Add Health
+  - Understanding Society
+  - U.S. Census
+  - CPS-ASEC
+  - GSS
+  publication_dates:
+    online: '2026-05-08'
+    issue_date: '2026-05-12'
+    volume: '123'
+    issue: '19'
+    article: e2538145123
+  work_id: w-518550d547fd
+  publication_records:
+  - venue: Proceedings of the National Academy of Sciences
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1073/pnas.2538145123
+    official_url: https://www.pnas.org/doi/10.1073/pnas.2538145123
+    paper_url: https://doi.org/10.1073/pnas.2538145123
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  arxiv_id: null
+  openreview_id: null
+- title: Leveraging Virtual Contact and Social Networks to Foster Interethnic Harmony
+  authors:
+  - Abu Siddique
+  - Michael Vlassopoulos
+  - Yves Zenou
+  venue: QJE
+  venue_group: economics
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://academic.oup.com/qje/article/141/2/1449/8426299
+  paper_url: null
+  doi: 10.1093/qje/qjag001
+  topics:
+  - stats-inference
+  summary_zh: 在纪录片接触的田野实验中，用 GPT-4 对开放式回答做重复分类，作为辅助机制测量。
+  llm_role_zh: 开放式调查回答的分类工具。
+  method_zh: 主要研究设计是纪录片接触的集群随机实验；附录对 GPT-4 标签做五次重复与众数汇总。
+  evidence_basis: fulltext
+  evidence_locator: 官方发表页与摘要；EDITH 原文第 1446 行、附录 F（1486–1492 行）。
+  scope_decision: supplement
+  decision_reason_zh: QJE2026 正式论文，但 LLM 仅承担辅助文本编码，没有独立 LLM 统计/因果方法贡献；作为应用边界补充。该文研究的处理是纪录片接触，不属于被排除的
+    LLM 采用效应论文。
+  limitations_zh: 本地全文关键词筛查及相关段落复核；未进行全部方法和附录的逐页审读。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://academic.oup.com/qje/article/141/2/1449/8426299
+  code_url: null
+  metadata_conflicts: []
+  publication_dates:
+    online_first: '2026-01-15'
+    issue_year: 2026
+  work_id: w-b5da9ff0fc29
+  publication_records:
+  - venue: QJE
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1093/qje/qjag001
+    official_url: https://academic.oup.com/qje/article/141/2/1449/8426299
+    paper_url: null
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: Optimal Watermark Localization in Mixed-Source Large Language Model Texts
+  authors:
+  - Jose H. Blanchet
+  - T. Tony Cai
+  - Xiang Li
+  - Hao Liu
+  - Qi Long
+  - Weijie J. Su
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2608.14906
+  paper_url: https://arxiv.org/abs/2608.14906
+  doi: null
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 把混合来源文本中的水印定位表述为token级多重检验，推导检测、发现与分类的相变并提出自适应阈值法。
+  llm_role_zh: 在被改写、插入或释义后的LLM文本中定位残存水印token。
+  method_zh: 基于枢轴统计量构造稀疏多重检验渐近模型，推导清晰边界并提出SPOT自适应阈值程序。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv abstract; author technical-report page and repository corroboration
+  scope_decision: supplement
+  decision_reason_zh: LLM水印定位的多重检验与相变理论为实质统计贡献，但截至截止日仅为预印本且无目标期刊正式接受证据。
+  limitations_zh: 理论边界限定于坐标式枢轴定位规则和指定渐近参数区间，且尚未同行评审。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2608.14906
+  - https://tony-cai.com/papers/
+  - https://lx10077.github.io/research/generative-ai/
+  code_url: https://github.com/SHL20/WatermarkLocalization
+  arxiv_id: '2608.14906'
+  guarantee_zh: 给出全局检测边界、发现和分类相变；SPOT达到最优发现边界并相对同质枢轴规则达到近最优功效。
+  publication_dates:
+    arxiv_original: '2026-08-14'
+  work_id: w-cc87b8c63d59
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2608.14906
+    paper_url: https://arxiv.org/abs/2608.14906
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- title: Valid Inference with Synthetic Data via Task Exchangeability
+  authors:
+  - Lezhi Tan
+  - Tijana Zrnic
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2606.13629
+  paper_url: https://arxiv.org/abs/2606.13629
+  doi: null
+  topics:
+  - stats-inference
+  - uncertainty
+  - synthetic-data
+  summary_zh: 利用同时具有真实与合成数据的历史任务，为当前仅有合成数据的任务构造具有有效性保证的推断。
+  llm_role_zh: 应用明确包括LLM生成的silicon samples和LLM-as-a-judge输出。
+  method_zh: 提出任务可交换性，把历史任务的真实—合成偏差迁移到当前任务，并扩展到偏离可交换性的稳健保证。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv abstract and official author repository README
+  scope_decision: supplement
+  decision_reason_zh: 直接回答LLM合成数据偏差下如何进行有效推断并给出可证明保证，但截至截止日仅为预印本。
+  limitations_zh: 截至截止日为预印本；保证依赖跨任务可交换性或文中给定的偏离控制条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2606.13629
+  - https://github.com/CarrieTan13/synthetic-data-inference
+  code_url: https://github.com/CarrieTan13/synthetic-data-inference
+  arxiv_id: '2606.13629'
+  assumptions_zh: 当前任务与具有真实及合成观测的历史任务满足适当的任务可交换性；扩展方法允许受控偏离。
+  guarantee_zh: 摘要明确声明在任务可交换性下提供有效统计推断，并给出超出严格可交换性的扩展。
+  datasets:
+  - ANES silicon samples
+  - Pew American Trends Panel simulations
+  - Chatbot Arena human and autorater votes
+  publication_dates:
+    arxiv_original: '2026-06-11'
+  work_id: w-0ec48947833a
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2606.13629
+    paper_url: https://arxiv.org/abs/2606.13629
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  openreview_id: null
+- title: Eliciting and Improving the Causal Reasoning Abilities of Large Language
+    Models with Conditional Statements
+  authors:
+  - Xiao Liu
+  - Da Yin
+  - Chen Zhang
+  - Dongyan Zhao
+  - Yansong Feng
+  venue: Computational Linguistics
+  venue_group: cs-journal
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://aclanthology.org/2025.cl-2.3/
+  paper_url: https://aclanthology.org/2025.cl-2.3.pdf
+  doi: 10.1162/coli_a_00548
+  topics:
+  - causal-reasoning
+  summary_zh: 比较代码 LLM 与通用 LLM 的溯因和反事实推理，发现条件语句式代码提示有助于因果推理，并以相关代码语料微调模型。
+  llm_role_zh: 研究对象与被微调模型；比较其对文本提示和代码提示的因果推理。
+  method_zh: 设计含条件结构的代码提示，干预提示结构与格式，并用代码语料微调后评测。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology Computational Linguistics vol.51(2) page, abstract,
+    authors, DOI and PDF.
+  scope_decision: supplement
+  decision_reason_zh: 论文方法相关且发表于 Computational Linguistics；该期刊不在本轮冻结的 29 个目标 venue
+    名单内，保留为补充，不误标为 TACL。
+  limitations_zh: 依据官方摘要；文中“干预提示”的完整实验控制未逐项复核。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.cl-2.3/
+  - https://aclanthology.org/2025.cl-2.3.pdf
+  code_url: null
+  work_id: w-400225e0f6f2
+  publication_records:
+  - venue: Computational Linguistics
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1162/coli_a_00548
+    official_url: https://aclanthology.org/2025.cl-2.3/
+    paper_url: https://aclanthology.org/2025.cl-2.3.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Exploring Multi-Modal Data with Tool-Augmented LLM Agents for Precise Causal
+    Discovery
+  authors:
+  - ChengAo Shen
+  - Zhengzhang Chen
+  - Dongsheng Luo
+  - Dongkuan Xu
+  - Haifeng Chen
+  - Jingchao Ni
+  venue: 'Findings of the Association for Computational Linguistics: ACL'
+  venue_group: cs-conference
+  year: 2025
+  track: findings
+  publication_status: published
+  official_url: https://aclanthology.org/2025.findings-acl.36/
+  paper_url: https://aclanthology.org/2025.findings-acl.36.pdf
+  doi: 10.18653/v1/2025.findings-acl.36
+  topics:
+  - causal-discovery
+  summary_zh: 提出 MatMCD，以数据增强智能体检索多模态文本线索，再由因果约束智能体结合统计发现图进行关系修正。
+  llm_role_zh: 工具增强的多智能体系统，用于检索、总结与因果约束推理。
+  method_zh: 在统计因果图上叠加检索增强的多模态证据和多智能体协作，并在七个数据集评估。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology Findings ACL 2025 page with title, authors, abstract,
+    DOI and PDF.
+  scope_decision: supplement
+  decision_reason_zh: ACL Findings 正式发表且方法相关，按任务要求作为补充而非主会纳入。
+  limitations_zh: 摘要报告经验改进；多智能体输出可靠性和识别条件需阅读全文。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.findings-acl.36/
+  - https://aclanthology.org/2025.findings-acl.36.pdf
+  code_url: null
+  work_id: w-e13b61d2457d
+  publication_records:
+  - venue: 'Findings of the Association for Computational Linguistics: ACL'
+    year: 2025
+    track: findings
+    publication_status: published
+    doi: 10.18653/v1/2025.findings-acl.36
+    official_url: https://aclanthology.org/2025.findings-acl.36/
+    paper_url: https://aclanthology.org/2025.findings-acl.36.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Causal-LLM: A Unified One-Shot Framework for Prompt- and Data-Driven Causal
+    Graph Discovery'
+  authors:
+  - Amartya Roy
+  - N Devharish
+  - Shreya Ganguly
+  - Kripabandhu Ghosh
+  venue: 'Findings of the Association for Computational Linguistics: EMNLP'
+  venue_group: cs-conference
+  year: 2025
+  track: findings
+  publication_status: published
+  official_url: https://aclanthology.org/2025.findings-emnlp.439/
+  paper_url: https://aclanthology.org/2025.findings-emnlp.439.pdf
+  doi: 10.18653/v1/2025.findings-emnlp.439
+  topics:
+  - causal-discovery
+  summary_zh: 提出一次性完整因果图发现框架：有元数据时用提示式上下文学习，无元数据时用数据驱动 Causal-LLM，避免逐边迭代的局部偏差。
+  llm_role_zh: 直接输出整张因果图或作为数据驱动图发现模型的核心。
+  method_zh: 比较一轮全图提示与数据驱动模型，在 Asia、Sachs、ALARM、HEPAR2 等 DAG 基准上评估。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology Findings EMNLP 2025 page with authors, abstract,
+    DOI and PDF.
+  scope_decision: supplement
+  decision_reason_zh: EMNLP Findings 正式发表且直接贡献 LLM 因果发现，按要求列为补充。
+  limitations_zh: 依据官方摘要；其大幅性能比较和公平性案例未独立复现。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.findings-emnlp.439/
+  - https://aclanthology.org/2025.findings-emnlp.439.pdf
+  code_url: null
+  work_id: w-a2ea9c071d01
+  publication_records:
+  - venue: 'Findings of the Association for Computational Linguistics: EMNLP'
+    year: 2025
+    track: findings
+    publication_status: published
+    doi: 10.18653/v1/2025.findings-emnlp.439
+    official_url: https://aclanthology.org/2025.findings-emnlp.439/
+    paper_url: https://aclanthology.org/2025.findings-emnlp.439.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'LAMBDA: A Large Model Based Data Agent'
+  authors:
+  - Maojun Sun
+  - Ruijian Han
+  - Binyan Jiang
+  - Houduo Qi
+  - Defeng Sun
+  - Yancheng Yuan
+  - Jian Huang
+  venue: JASA
+  venue_group: statistics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+  paper_url: https://arxiv.org/abs/2407.17535
+  doi: 10.1080/01621459.2025.2510000
+  topics:
+  - stats-inference
+  summary_zh: 提出由程序员与检查员代理协作的LLM数据分析系统，可执行统计建模、诊断和报告生成。
+  llm_role_zh: LLM负责规划、写代码、检查结果并通过工具完成数据分析。
+  method_zh: 采用双代理工作流、知识整合和可选人工干预，把自然语言问题转为可审计的数据分析步骤。
+  evidence_basis: fulltext
+  evidence_locator: Taylor & Francis official full text and issue table; author-hosted
+    PDF and repository corroboration
+  scope_decision: supplement
+  decision_reason_zh: 虽为目标统计期刊正式论文且LLM角色实质，但核心是数据分析代理系统；未提出保证统计推断有效性的新理论，故不进入主方法目录。
+  limitations_zh: 论文以系统设计和案例评测为主，没有为系统生成的置信区间或结论提供统一的有限样本有效性保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+  - https://www.polyu.edu.hk/ama/profile/dfsun/files/LAMBDA%20%20A%20Large%20Model%20Based%20Data%20Agent.pdf
+  - https://arxiv.org/abs/2407.17535
+  code_url: https://github.com/AMA-CMFAI/LAMBDA
+  arxiv_id: '2407.17535'
+  publication_dates:
+    online: '2025-07-17'
+    issue_year: '2026'
+    volume: '121'
+    issue: '553'
+    pages: 1-13
+  work_id: w-61718a93c5f7
+  publication_records:
+  - venue: JASA
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1080/01621459.2025.2510000
+    official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
+    paper_url: https://arxiv.org/abs/2407.17535
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'Systemic Discrimination: Theory and Measurement'
+  authors:
+  - J. Aislinn Bohren
+  - Peter Hull
+  - Alex Imas
+  venue: QJE
+  venue_group: economics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://academic.oup.com/qje/article/140/3/1743/8123617
+  paper_url: https://doi.org/10.1093/qje/qjaf022
+  doi: 10.1093/qje/qjaf022
+  topics:
+  - causal-estimation
+  - synthetic-data
+  summary_zh: 提出测量系统性歧视的 iterated audit 设计；一个实验用 LLM 生成带有性别差异的推荐信。
+  llm_role_zh: 生成实验信号，辅助构造推荐信节点。
+  method_zh: 系统性歧视的理论分解与 iterated audit。
+  evidence_basis: fulltext
+  evidence_locator: 官方全文摘要、I Introduction 与 VI.B Methods；EDITH 原文 VI.B。
+  scope_decision: supplement
+  decision_reason_zh: LLM 为 iterated audit 生成推荐信，属于因果实验应用的边界案例；不是 LLM 采用效应研究，但核心方法不是针对
+    LLM 推断设计，单列补充。
+  limitations_zh: 本地全文关键词筛查及相关段落复核；未进行全部方法和附录的逐页审读。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://academic.oup.com/qje/article/140/3/1743/8123617
+  code_url: null
+  metadata_conflicts: []
+  publication_dates:
+    published_online: '2025-05-01'
+    issue_year: 2025
+  work_id: w-7ac68cdb94c6
+  publication_records:
+  - venue: QJE
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1093/qje/qjaf022
+    official_url: https://academic.oup.com/qje/article/140/3/1743/8123617
+    paper_url: https://doi.org/10.1093/qje/qjaf022
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: How People Use Statistics
+  authors:
+  - Pedro Bordalo
+  - John Conlon
+  - Nicola Gennaioli
+  - Spencer Kwon
+  - Andrei Shleifer
+  venue: REStud
+  venue_group: economics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://academic.oup.com/restud/article/93/1/250/8140836
+  paper_url: https://doi.org/10.1093/restud/rdaf022
+  doi: 10.1093/restud/rdaf022
+  topics:
+  - stats-inference
+  summary_zh: 用注意力模型解释人类概率判断偏差，并用 GPT-3.5 编码受试者自由文本解释以测量注意力。
+  llm_role_zh: 辅助编码调查回答中的注意力特征。
+  method_zh: 行为统计模型与实验检验；GPT 编码与直接询问等测量方式并列。
+  evidence_basis: fulltext
+  evidence_locator: 官方全文 3.4 Applying the model、5.4 attention elicitation 与摘要。
+  scope_decision: supplement
+  decision_reason_zh: 目标经济学期刊中的 LLM 测量应用，非 LLM 采用效应研究；没有专门解决 LLM 测量误差或推断有效性的方法，作为边界应用单列。
+  limitations_zh: 已读官方摘要及相关方法段落；未逐页审计全部实验与附录。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://academic.oup.com/restud/article/93/1/250/8140836
+  code_url: null
+  publication_dates:
+    published_online: '2025-05-22'
+    issue_year: 2026
+  notes: 主年份使用首次正式在线发表年，卷期年份为2026。
+  work_id: w-815bfd05fb22
+  publication_records:
+  - venue: REStud
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1093/restud/rdaf022
+    official_url: https://academic.oup.com/restud/article/93/1/250/8140836
+    paper_url: https://doi.org/10.1093/restud/rdaf022
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Large Language Models for Statistical Inference: Context Augmentation with
+    Applications to the Two-Sample Problem and Regression'
+  authors:
+  - Marc Ratkovic
+  venue: arXiv
+  venue_group: other
+  year: 2025
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2506.23862
+  paper_url: https://arxiv.org/abs/2506.23862
+  doi: null
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 用LLM为观测文本生成上下文以构造两样本检验和文本对文本回归，并研究识别、影响函数与交叉拟合效率。
+  llm_role_zh: LLM生成的上下文是推断统计量的辅助随机变量，而非仅作文本标注。
+  method_zh: 对字符串与生成上下文定义条款函数，采用负对照、枢轴统计量和重复交叉拟合，推导极限分布与误差界。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv abstract; University of Mannheim project page and LMU Statistics
+    seminar abstract corroboration
+  scope_decision: supplement
+  decision_reason_zh: 直接提出以LLM生成上下文支持频率学推断的统计方法，但截至截止日仅为预印本。
+  limitations_zh: 尚未同行评审；有效性与效率结果依赖支持、可忽略性和正则条件，网页核验未覆盖全部技术假设。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2506.23862
+  - https://www.sowi.uni-mannheim.de/en/ratkovic/research-1/
+  - https://cms-cdn.lmu.de/media/16-stat/stat/download-documents/colloquium/ws2526/ratkovic.pdf
+  code_url: null
+  arxiv_id: '2506.23862'
+  assumptions_zh: 机构摘要列出支持、可忽略性及附加正则条件。
+  guarantee_zh: 给出识别条件、影响函数分解和连接样本量、上下文数量与交叉拟合次数的误差界。
+  publication_dates:
+    arxiv_original: '2025-06-30'
+  work_id: w-4c935f684d58
+  publication_records:
+  - venue: arXiv
+    year: 2025
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2506.23862
+    paper_url: https://arxiv.org/abs/2506.23862
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  datasets: null
+  openreview_id: null
+- title: Optimal Estimation of Watermark Proportions in Hybrid AI-Human Texts
+  authors:
+  - Xiang Li
+  - Garrett Wen
+  - Weiqing He
+  - Jiayuan Wu
+  - Qi Long
+  - Weijie J. Su
+  venue: arXiv
+  venue_group: other
+  year: 2025
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2506.22343
+  paper_url: https://arxiv.org/abs/2506.22343
+  doi: null
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 估计人类与水印LLM混合文本中的水印保留比例，给出不可识别边界、有效估计量和极小极大下界。
+  llm_role_zh: 目标参数直接度量混合文本中保留LLM水印依赖的token比例。
+  method_zh: 在枢轴统计量的混合模型中分析识别性；为连续枢轴构造高效估计量并证明最优率。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv abstract; author research page and official code repository
+    corroboration
+  scope_decision: supplement
+  decision_reason_zh: LLM水印比例识别与最优估计是直接统计方法贡献，但截至截止日仅为预印本且无目标期刊正式接受证据。
+  limitations_zh: 仅为预印本；作者机构页面称JASA in revision，不构成接受或发表证据。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2506.22343
+  - https://lx10077.github.io/research/generative-ai/
+  - https://www.med.upenn.edu/long-lab/publications
+  code_url: https://github.com/lx10077/WatermarkProportion
+  arxiv_id: '2506.22343'
+  estimand_zh: 混合文本中仍保留水印枢轴依赖的比例参数。
+  guarantee_zh: 对连续枢轴类证明识别性并给出极小极大下界；所提估计量达到相应下界。
+  publication_dates:
+    arxiv_original: '2025-06-27'
+  work_id: w-d1ff228ae5e2
+  publication_records:
+  - venue: arXiv
+    year: 2025
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2506.22343
+    paper_url: https://arxiv.org/abs/2506.22343
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- title: Inference for Regression with Variables Generated by AI or Machine Learning
+  authors:
+  - Laura Battaglia
+  - Timothy Christensen
+  - Stephen Hansen
+  - Szymon Sacher
+  venue: CEPR Discussion Paper
+  venue_group: economics
+  year: 2024
+  track: other
+  publication_status: preprint
+  official_url: https://cepr.org/index.php/publications/dp19115
+  paper_url: https://arxiv.org/abs/2402.15585
+  doi: null
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 研究把AI/ML生成变量直接当作真实回归变量造成的测量误差偏差，并提出两类校正推断方法。
+  llm_role_zh: LLM是生成经济概念、主题与文本测量变量的一类核心工具，但方法也覆盖其他AI/ML生成变量。
+  method_zh: 一是显式偏差校正及相应置信区间，二是联合估计回归模型与潜在真实变量。
+  evidence_basis: official-abstract
+  evidence_locator: CEPR official discussion-paper page and abstract; arXiv and author-hosted
+    PDF corroboration
+  scope_decision: supplement
+  decision_reason_zh: 直接处理LLM/AI生成回归变量的测量误差与有效推断，但截至截止日为讨论稿/预印本且未发现目标计量期刊正式发表证据。
+  limitations_zh: 方法覆盖广义AI/ML而非专为LLM设计；当前状态是讨论稿/预印本，不能从相邻检索结果推断其已发表于Econometrica或其他期刊。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://cepr.org/index.php/publications/dp19115
+  - https://arxiv.org/abs/2402.15585
+  - https://sekhansen.github.io/pdf_files/reg_unstruct.pdf
+  code_url: null
+  arxiv_id: '2402.15585'
+  estimand_zh: 含AI/ML生成协变量的回归参数。
+  guarantee_zh: 官方摘要称两种校正可修复朴素估计的偏差与无效推断；详细适用条件见全文。
+  publication_dates:
+    cepr_published: '2024-05-29'
+    cepr_revised: '2025-05-01'
+  work_id: w-ae66974e2599
+  publication_records:
+  - venue: CEPR Discussion Paper
+    year: 2024
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://cepr.org/index.php/publications/dp19115
+    paper_url: https://arxiv.org/abs/2402.15585
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'Frontiers: Can Large Language Models Capture Human Preferences?'
+  authors:
+  - Ali Goli
+  - Amandeep Singh
+  venue: Marketing Science
+  venue_group: other
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
+  paper_url: https://doi.org/10.1287/mksc.2023.0306
+  doi: 10.1287/mksc.2023.0306
+  topics:
+  - synthetic-data
+  evidence_basis: official-abstract
+  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
+  scope_decision: supplement
+  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
+  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
+  code_url: null
+  metadata_conflicts: []
+  summary_zh: 比较 LLM 与人类跨期偏好，并用 chain-of-thought conjoint 分析偏好差异。
+  llm_role_zh: 模拟调查受访者。
+  method_zh: 跨期选择对照、chain-of-thought conjoint 与主题分析。
+  publication_dates:
+    published_online: '2024-04-25'
+    issue_year: 2024
+  work_id: w-e9d3e0512c96
+  publication_records:
+  - venue: Marketing Science
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: 10.1287/mksc.2023.0306
+    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306
+    paper_url: https://doi.org/10.1287/mksc.2023.0306
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Frontiers: Determining the Validity of Large Language Models for Automated
+    Perceptual Analysis'
+  authors:
+  - Peiyao Li
+  - Noah Castelo
+  - Zsolt Katona
+  - Miklos Sarvary
+  venue: Marketing Science
+  venue_group: other
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
+  paper_url: https://doi.org/10.1287/mksc.2023.0454
+  doi: 10.1287/mksc.2023.0454
+  topics:
+  - synthetic-data
+  evidence_basis: official-abstract
+  evidence_locator: 官方期刊摘要与 EDITH 本地结构化摘要；未逐页复核理论证明。
+  scope_decision: supplement
+  decision_reason_zh: 方法相关，来源是 EDITH 中的相邻商学期刊；该期刊不在本次 29 个主检索 venue 名单，单列补充。
+  limitations_zh: 官方摘要核验；定理条件和局限尚未逐页核查。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - edith
+  - web
+  source_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
+  code_url: null
+  metadata_conflicts: []
+  summary_zh: 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。
+  llm_role_zh: 生成品牌相似度和属性评价等合成调查数据。
+  method_zh: 人类与模型感知数据的验证比较。
+  publication_dates:
+    published_online: '2024-01-25'
+    issue_year: 2024
+  work_id: w-2724d5c3bd00
+  publication_records:
+  - venue: Marketing Science
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: 10.1287/mksc.2023.0454
+    official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454
+    paper_url: https://doi.org/10.1287/mksc.2023.0454
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Conformal Prediction for Natural Language Processing: A Survey'
+  authors:
+  - Margarida Campos
+  - António Farinhas
+  - Chrysoula Zerva
+  - Mário A. T. Figueiredo
+  - André F. T. Martins
+  venue: TACL
+  venue_group: cs-journal
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://aclanthology.org/2024.tacl-1.82/
+  paper_url: https://aclanthology.org/2024.tacl-1.82.pdf
+  doi: 10.1162/tacl_a_00715
+  topics:
+  - uncertainty
+  summary_zh: 系统梳理conformal prediction的统计保证及其在NLP和LLM风险控制、幻觉与不确定性量化中的应用与开放问题。
+  llm_role_zh: LLM是综述覆盖的重要NLP应用对象之一，但论文自身不提出新的LLM推断算法。
+  method_zh: 文献综述与方法分类，比较exchangeability、覆盖保证、校准成本及NLP应用场景。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology official TACL article page, journal volume page
+    and PDF
+  scope_decision: supplement
+  decision_reason_zh: 正式TACL综述，适合作为conformal-NLP/LLM文献导航；因非原创实证或理论贡献，不计入核心主收录。
+  limitations_zh: 综述范围覆盖广泛NLP且不限于LLM，结论依赖所纳入的截至2024年文献。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2024.tacl-1.82/
+  - https://aclanthology.org/events/tacl-2024/
+  - https://aclanthology.org/2024.tacl-1.82.pdf
+  code_url: null
+  work_id: w-bf1e25583b73
+  publication_records:
+  - venue: TACL
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: 10.1162/tacl_a_00715
+    official_url: https://aclanthology.org/2024.tacl-1.82/
+    paper_url: https://aclanthology.org/2024.tacl-1.82.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: ChatGPT outperforms crowd workers for text-annotation tasks
+  authors:
+  - Fabrizio Gilardi
+  - Meysam Alizadeh
+  - Maël Kubli
+  venue: Proceedings of the National Academy of Sciences
+  venue_group: other
+  year: 2023
+  track: journal
+  publication_status: published
+  official_url: https://www.pnas.org/doi/10.1073/pnas.2305016120
+  paper_url: https://doi.org/10.1073/pnas.2305016120
+  doi: 10.1073/pnas.2305016120
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 比较ChatGPT零样本文本标注与众包和研究助理标注的准确率、一致性、成本与速度。
+  llm_role_zh: ChatGPT直接充当文本标注者，为下游社会科学数据分析生成标签。
+  method_zh: 在四个既有数据集和6,183篇文本上对比人工与模型标签，以专家/既有金标准评估。
+  evidence_basis: fulltext
+  evidence_locator: PNAS official article full text and metadata
+  scope_decision: supplement
+  decision_reason_zh: 是LLM标注测量的重要实证锚点，但不提供对标注误差进行下游有效推断的校正理论。
+  limitations_zh: 结论针对所测任务和2023时点模型；高标注准确率不能单独保证后续回归或因果推断有效。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.pnas.org/doi/10.1073/pnas.2305016120
+  code_url: null
+  datasets:
+  - four text-annotation datasets
+  - 6183 documents
+  publication_dates:
+    online: '2023-07-18'
+    volume: '120'
+    issue: '30'
+    article: e2305016120
+  work_id: w-bf9b5421a9ef
+  publication_records:
+  - venue: Proceedings of the National Academy of Sciences
+    year: 2023
+    track: journal
+    publication_status: published
+    doi: 10.1073/pnas.2305016120
+    official_url: https://www.pnas.org/doi/10.1073/pnas.2305016120
+    paper_url: https://doi.org/10.1073/pnas.2305016120
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  arxiv_id: null
+  openreview_id: null
+- title: Prediction-powered inference
+  authors:
+  - Anastasios N. Angelopoulos
+  - Stephen Bates
+  - Clara Fannjiang
+  - Michael I. Jordan
+  - Tijana Zrnic
+  venue: Science
+  venue_group: other
+  year: 2023
+  track: journal
+  publication_status: published
+  official_url: https://www.science.org/doi/10.1126/science.adi6000
+  paper_url: https://arxiv.org/abs/2301.09633
+  doi: 10.1126/science.adi6000
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 结合少量带标签样本与大量模型预测，在模型可能有系统误差时构造有效置信区间。
+  llm_role_zh: 原论文针对一般预测模型而非LLM；它是后续LLM标注和模型辅助推断的基础方法锚点。
+  method_zh: 以真实标签样本估计预测误差并校正模型辅助估计，使置信区间在弱模型假设下保持覆盖。
+  evidence_basis: official-abstract
+  evidence_locator: Science official DOI metadata/abstract, PubMed record, arXiv abstract,
+    and author-hosted paper
+  scope_decision: supplement
+  decision_reason_zh: 重要模型辅助推断基准，但没有实质、明确的LLM角色，按范围规则只能作补充背景。
+  limitations_zh: 不能把一般机器学习预测器的结果自动等同于LLM专门结论；具体应用仍需验证标签样本。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.science.org/doi/10.1126/science.adi6000
+  - https://pubmed.ncbi.nlm.nih.gov/37943906/
+  - https://arxiv.org/abs/2301.09633
+  - https://www.stat.ubc.ca/~john/papers/AngelopoulosScience2023.pdf
+  code_url: null
+  arxiv_id: '2301.09633'
+  assumptions_zh: 需要一组带真实标签的数据用于估计和校正预测误差。
+  publication_dates:
+    online: '2023-11-09'
+    issue_date: '2023-11-10'
+    volume: '382'
+    issue: '6671'
+    pages: 669-674
+  work_id: w-38a49de3cebf
+  publication_records:
+  - venue: Science
+    year: 2023
+    track: journal
+    publication_status: published
+    doi: 10.1126/science.adi6000
+    official_url: https://www.science.org/doi/10.1126/science.adi6000
+    paper_url: https://arxiv.org/abs/2301.09633
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null

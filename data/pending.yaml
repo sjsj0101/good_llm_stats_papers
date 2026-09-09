@@ -1,0 +1,60 @@
+- title: 'Statistical Impossibility and Possibility of Aligning LLMs with Human Preferences:
+    From Condorcet Paradox to Nash Equilibrium'
+  authors:
+  - Kaizhao Liu
+  - Qi Long
+  - Zhekun Shi
+  - Weijie J. Su
+  - Jiancong Xiao
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2503.10990
+  paper_url: https://arxiv.org/abs/2503.10990
+  doi: null
+  topics:
+  - statistical-theory
+  - uncertainty
+  summary_zh: 刻画用标量奖励表示群体偏好的不可能性，并用Nash均衡式对齐给出保留少数偏好的可能性结果。
+  llm_role_zh: LLM对多元人类偏好的对齐是理论问题本身。
+  method_zh: 以Condorcet循环判定奖励表示条件，在Luce概率偏好模型下分析循环概率，并构造基于混合策略的NLHF算法。
+  evidence_basis: official-abstract
+  evidence_locator: arXiv abstract and comments; multiple author/institutional publication
+    pages corroborate Annals of Statistics in-press claim
+  scope_decision: pending
+  decision_reason_zh: 方法与AoS范围高度吻合，作者页称已接收/在印；截止日未找到Project Euclid或IMS正式接受页，不能升级为期刊accepted。
+  limitations_zh: 期刊状态仅由作者和机构页面支持，缺少出版社正式记录；因此按预印本处理。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2503.10990
+  - https://www.med.upenn.edu/long-lab/publications
+  - https://jiancongxiao.github.io/publications/
+  - https://drzfct.github.io/publications.html
+  code_url: null
+  arxiv_id: '2503.10990'
+  guarantee_zh: 摘要声明奖励可表示当且仅当不存在Condorcet循环，并在一般Luce模型下给出循环高概率出现及Nash方案的可能性结果。
+  metadata_conflicts:
+  - Author and institutional pages report Annals of Statistics in press/accepted in
+    2026, but no publisher-hosted acceptance record was located by the cutoff.
+  publication_dates:
+    arxiv_original: '2025-03-14'
+    arxiv_revision_year: '2026'
+  work_id: w-6c05cb1ad3c6
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2503.10990
+    paper_url: https://arxiv.org/abs/2503.10990
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null

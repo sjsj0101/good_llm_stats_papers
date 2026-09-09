@@ -1,0 +1,32 @@
+name: Suggest a paper
+description: Submit an LLM + statistics or causal inference paper for maintainer review
+title: "[Paper suggestion] "
+body:
+  - type: input
+    id: paper-url
+    attributes:
+      label: Paper URL
+      description: DOI, OpenReview, arXiv, or official paper page.
+    validations:
+      required: true
+  - type: input
+    id: venue-evidence
+    attributes:
+      label: Official venue evidence
+      description: Link to the official publication or acceptance record, if available.
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Statistical or causal contribution
+      description: What is the method, and what role does the LLM play?
+    validations:
+      required: true
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope acknowledgement
+      options:
+        - label: This is not a study of the real-world causal effects of LLM adoption.
+          required: true
+        - label: I understand that maintainers decide scope and venue eligibility.
+          required: true

@@ -1,0 +1,3915 @@
+- title: 'CounterBench: Evaluating and Improving Counterfactual Reasoning in Large
+    Language Models'
+  authors:
+  - Yuefei Chen
+  - Vivek K. Singh
+  - Jing Ma
+  - Ruixiang Tang
+  venue: AAAI
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://ojs.aaai.org/index.php/AAAI/article/view/40287
+  paper_url: https://ojs.aaai.org/index.php/AAAI/article/view/40287
+  doi: 10.1609/aaai.v40i36.40287
+  topics:
+  - causal-reasoning
+  summary_zh: 构建 1200 道基于形式规则的 CounterBench，覆盖多种因果图、难度和无意义名称，并提出迭代推理与回溯方法 CoIn。
+  llm_role_zh: 研究对象与推理器；在形式反事实问题上接受评测并由 CoIn 引导。
+  method_zh: 从形式因果规则生成反事实问答，设计难度和名称扰动，以迭代搜索和回溯改善推理。
+  evidence_basis: official-abstract
+  evidence_locator: AAAI OJS official AAAI-26 article page with authors, abstract,
+    issue/track, DOI and publication date.
+  scope_decision: include
+  decision_reason_zh: AAAI 2026 正式技术轨论文，反事实推理评测与方法均为核心。
+  limitations_zh: 依据官方摘要；直接 PDF URL 未单独记录，paper_url 使用官方文章入口。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://ojs.aaai.org/index.php/AAAI/article/view/40287
+  - https://doi.org/10.1609/aaai.v40i36.40287
+  code_url: null
+  work_id: w-530c8c30586a
+  publication_records:
+  - venue: AAAI
+    year: 2026
+    track: main
+    publication_status: published
+    doi: 10.1609/aaai.v40i36.40287
+    official_url: https://ojs.aaai.org/index.php/AAAI/article/view/40287
+    paper_url: https://ojs.aaai.org/index.php/AAAI/article/view/40287
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Can Large Language Models Infer Causal Relationships from Real-World Text?
+  authors:
+  - Ryan Saklad
+  - Aman Chadha
+  - Oleg V. Pavlov
+  - Raha Moraffah
+  venue: ACL
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2026.acl-long.1003/
+  paper_url: https://aclanthology.org/2026.acl-long.1003.pdf
+  doi: 10.18653/v1/2026.acl-long.1003
+  topics:
+  - causal-reasoning
+  summary_zh: 构建来自真实学术文献的 ReCITE 基准，按显式性、关系数量、文本长度和领域评估 LLM 从复杂文本推断因果关系。
+  llm_role_zh: 研究对象；从真实长文本抽取并推断多重因果关系。
+  method_zh: 从学术文献构造多领域基准，按文本复杂性分层并以 F1 评估多种模型。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology ACL 2026 long-paper page, authors, abstract, DOI,
+    PDF and code link.
+  scope_decision: include
+  decision_reason_zh: ACL 2026 主会长文，真实文本因果关系推断是核心。
+  limitations_zh: 基准考察文本中的因果关系识别，不等同于从观测数值数据识别因果效应。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2026.acl-long.1003/
+  - https://aclanthology.org/2026.acl-long.1003.pdf
+  code_url: https://github.com/Ryan-Saklad/ReCITE
+  work_id: w-5ade7e8fcd7f
+  publication_records:
+  - venue: ACL
+    year: 2026
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2026.acl-long.1003
+    official_url: https://aclanthology.org/2026.acl-long.1003/
+    paper_url: https://aclanthology.org/2026.acl-long.1003.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'METER: Evaluating Multi-Level Contextual Causal Reasoning in Large Language
+    Models'
+  authors:
+  - Pengfeng Li
+  - Chen Huang
+  - Chaoqun Hao
+  - Hongyao Chen
+  - Xiao-Yong Wei
+  - Wenqiang Lei
+  - See-Kiong Ng
+  venue: ACL
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2026.acl-long.1668/
+  paper_url: https://aclanthology.org/2026.acl-long.1668.pdf
+  doi: 10.18653/v1/2026.acl-long.1668
+  topics:
+  - causal-reasoning
+  - causal-llm-analysis
+  summary_zh: 提出 METER，在统一上下文中覆盖因果阶梯三层，并结合错误模式与内部信息流追踪分析 LLM 随层级上升的性能退化。
+  llm_role_zh: 研究对象；在关联、干预和反事实层级受测并被做内部机制分析。
+  method_zh: 构建多层上下文基准，开展模型评测、错误分型和内部信息流因果追踪。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology ACL 2026 long-paper page, authors, abstract, DOI
+    and PDF.
+  scope_decision: include
+  decision_reason_zh: ACL 2026 主会长文，形式因果阶梯与机制分析同时满足范围。
+  limitations_zh: 依据官方摘要；信息流追踪的具体干预定义未阅读全文核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2026.acl-long.1668/
+  - https://aclanthology.org/2026.acl-long.1668.pdf
+  code_url: https://github.com/SCUNLP/METER
+  work_id: w-66100c5dd9a4
+  publication_records:
+  - venue: ACL
+    year: 2026
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2026.acl-long.1668
+    official_url: https://aclanthology.org/2026.acl-long.1668/
+    paper_url: https://aclanthology.org/2026.acl-long.1668.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'NoisyCausal: A Benchmark for Evaluating Causal Reasoning Under Structured
+    Noise'
+  authors:
+  - Zhi Xu
+  - Yun Fu
+  venue: ACL
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2026.acl-long.1833/
+  paper_url: https://aclanthology.org/2026.acl-long.1833.pdf
+  doi: 10.18653/v1/2026.acl-long.1833
+  topics:
+  - causal-reasoning
+  summary_zh: 构建从真值因果图生成、含干扰项、数值扰动、混杂与部分可观测性的 NoisyCausal，并提出显式构图后再推理的模块化方法。
+  llm_role_zh: 既是变量/因果图抽取器，也是结构化提示下的推理器。
+  method_zh: 向自然语言因果情境注入可控结构噪声，引导 LLM 提取变量、构图并重写为图约束提示。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology ACL 2026 long-paper page with full abstract, authors,
+    DOI and PDF.
+  scope_decision: include
+  decision_reason_zh: ACL 2026 主会长文，明确覆盖混杂、干预与结构化因果推理。
+  limitations_zh: 数据由真值图合成并语言化；对开放世界文本的外部有效性需另行检验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2026.acl-long.1833/
+  - https://aclanthology.org/2026.acl-long.1833.pdf
+  code_url: null
+  work_id: w-e6da9447e326
+  publication_records:
+  - venue: ACL
+    year: 2026
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2026.acl-long.1833
+    official_url: https://aclanthology.org/2026.acl-long.1833/
+    paper_url: https://aclanthology.org/2026.acl-long.1833.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Valid Survey Simulations with Limited Human Data: The Roles of Prompting,
+    Fine-Tuning, and Rectification'
+  authors:
+  - Stefan Krsteski
+  - Giuseppe Russo
+  - Serina Chang
+  - Robert West
+  - Kristina Gligorić
+  venue: ACL
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2026.acl-long.498/
+  paper_url: https://aclanthology.org/2026.acl-long.498.pdf
+  doi: 10.18653/v1/2026.acl-long.498
+  topics:
+  - stats-inference
+  - synthetic-data
+  summary_zh: 比较LLM调查回答的提示、微调与PPI式事后校正，显示仅合成带来显著偏差，而把多数有限真人预算用于校正可大幅降低总体均值估计偏差。
+  llm_role_zh: LLM按人口属性与历史回答生成合成调查响应，作为总体估计的有偏代理。
+  method_zh: 面板调查模拟、PPI/置信驱动校正、有限总体均值估计与人类预算分配。
+  evidence_basis: fulltext
+  evidence_locator: ACL Anthology official metadata/abstract and official PDF methodology
+  scope_decision: include
+  decision_reason_zh: 官方ACL长文，直接评估LLM合成调查数据的统计有效性并用校正恢复估计。
+  limitations_zh: 两组面板调查和特定问题域限制外部有效性；未复核所有置信区间覆盖表。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2026.acl-long.498/
+  - https://aclanthology.org/2026.acl-long.498.pdf
+  code_url: null
+  work_id: w-51d999928030
+  publication_records:
+  - venue: ACL
+    year: 2026
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2026.acl-long.498
+    official_url: https://aclanthology.org/2026.acl-long.498/
+    paper_url: https://aclanthology.org/2026.acl-long.498.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: An Information-Theoretic Approach to Understanding Transformers’ In-Context
+    Learning of Variable-Order Markov Chains
+  authors:
+  - Ruida Zhou
+  - Chao Tian
+  - Suhas Diggavi
+  venue: AISTATS
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v300/zhou26b.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v300/main/assets/zhou26b/zhou26b.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 研究Transformer在上下文中学习变阶马尔可夫链的有限样本准确率，并构造可精确实现贝叶斯context-tree weighting的多层Transformer。
+  llm_role_zh: Transformer作为语言序列上下文学习的受控理论模型。
+  method_zh: 变阶马尔可夫链、Bayesian CTW、显式Transformer构造与有限样本实验。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR AISTATS 2026 official proceedings page
+  scope_decision: include
+  decision_reason_zh: 官方AISTATS主会论文，提供语言式上下文学习的贝叶斯与信息论分析。
+  limitations_zh: 受控马尔可夫链设定不等同于现实LLM；未复核全部构造细节。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v300/zhou26b.html
+  - https://raw.githubusercontent.com/mlresearch/v300/main/assets/zhou26b/zhou26b.pdf
+  code_url: null
+  work_id: w-fcdd67f19e93
+  publication_records:
+  - venue: AISTATS
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v300/zhou26b.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v300/main/assets/zhou26b/zhou26b.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Evaluation of Large Language Models via Coupled Token Generation
+  authors:
+  - Nina L. Corvelo Benz
+  - Stratis Tsirtsis
+  - Eleni Straitouri
+  - Ivi Chatzi
+  - Ander Artola Velasco
+  - Suhas Thejaswi
+  - Manuel Gomez Rodriguez
+  venue: AISTATS
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v300/benz26a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v300/main/assets/benz26a/benz26a.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  - causal-llm-analysis
+  - stats-inference
+  - uncertainty
+  summary_zh: 建立共享外生随机性的耦合自回归因果模型，使不同 LLM 在相同随机源下比较，并证明基准评测可显著减少样本。
+  llm_role_zh: 被比较的随机生成模型；其 token 过程被嵌入共同因果耦合。
+  method_zh: 构造耦合自回归生成 SCM，分析基准估计与成对比较排序，并在 Llama、Mistral、Qwen 上验证。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 300 official AISTATS 2026 page with authors, abstract,
+    proof claim and PDF.
+  scope_decision: include
+  decision_reason_zh: AISTATS 2026 正式论文，以因果耦合和统计样本效率改进 LLM 评估。
+  limitations_zh: 因果模型描述生成随机性，不估计外部处理效应。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v300/benz26a.html
+  - https://raw.githubusercontent.com/mlresearch/v300/main/assets/benz26a/benz26a.pdf
+  code_url: null
+  guarantee_zh: 官方摘要称耦合生成在基准评测中可用可证明更少的样本得到与普通生成相同结论。
+  work_id: w-956b63bf239c
+  publication_records:
+  - venue: AISTATS
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v300/benz26a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v300/main/assets/benz26a/benz26a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Optimal Watermark Generation under Type I and Type II Errors
+  authors:
+  - Hengzhi He
+  - Shirong Xu
+  - Alexander Nemecek
+  - Jiping Li
+  - Erman Ayday
+  - Guang Cheng
+  venue: Biometrika
+  venue_group: statistics
+  year: 2026
+  track: other
+  publication_status: accepted
+  official_url: https://doi.org/10.1093/biomet/asag049
+  paper_url: https://arxiv.org/abs/2512.05333
+  doi: 10.1093/biomet/asag049
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。
+  llm_role_zh: LLM输出分布的水印生成被明确表述为统计假设检验设计问题。
+  method_zh: 以一般f散度度量保真损失，对固定假阳性与假阴性约束推导紧下界和最优水印分布。
+  evidence_basis: official-abstract
+  evidence_locator: Oxford Academic Biometrika Accepted Manuscript listing and abstract;
+    arXiv abstract and author publication page corroboration
+  scope_decision: include
+  decision_reason_zh: Biometrika官方页面已标记Accepted Manuscript；LLM水印检验与最优统计设计是核心。
+  limitations_zh: 截至截止日属于正式接受稿而非已编入卷期的最终版本，故与published记录分开。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://doi.org/10.1093/biomet/asag049
+  - https://academic.oup.com/biomet
+  - https://arxiv.org/abs/2512.05333
+  - https://hehz2020.github.io/
+  code_url: null
+  arxiv_id: '2512.05333'
+  guarantee_zh: 在给定I/II类错误约束及一般f散度下提供紧保真损失下界和达到下界的构造。
+  publication_dates:
+    accepted_manuscript: '2026-08-08'
+  notes: 'Oxford Academic section: Miscellanea.'
+  work_id: w-13cfa0841282
+  publication_records:
+  - venue: Biometrika
+    year: 2026
+    track: other
+    publication_status: accepted
+    doi: 10.1093/biomet/asag049
+    official_url: https://doi.org/10.1093/biomet/asag049
+    paper_url: https://arxiv.org/abs/2512.05333
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'IV Co-Scientist: Multi-Agent LLM Framework for Causal Instrumental Variable
+    Discovery'
+  authors:
+  - Ivaxi Sheth
+  - Zhijing Jin
+  - Bryan Wilder
+  - Dominik Janzing
+  - Mario Fritz
+  venue: CLeaR
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v323/sheth26a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v323/main/assets/sheth26a/sheth26a.pdf
+  doi: null
+  topics:
+  - causal-discovery
+  - causal-estimation
+  summary_zh: 提出多智能体 IV Co-Scientist，为给定处理—结果对提出、批判和改进工具变量，并检验能否复现已知及避开失效 IV。
+  llm_role_zh: 多智能体科学助手；生成并互评候选工具变量。
+  method_zh: 两阶段评测已知有效/失效 IV，再用多智能体提议—批判—修正流程，并加入无真值时的一致性统计检验。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 323 official CLeaR 2026 page with title, authors,
+    abstract and PDF.
+  scope_decision: include
+  decision_reason_zh: CLeaR 2026 正式论文，直接解决混杂下的工具变量发现。
+  limitations_zh: 摘要报告“潜在新有效 IV”，但有效性仍依赖排除限制等不可完全由 LLM 保证的条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v323/sheth26a.html
+  - https://raw.githubusercontent.com/mlresearch/v323/main/assets/sheth26a/sheth26a.pdf
+  code_url: null
+  estimand_zh: 存在未观测混杂时由工具变量识别的处理因果效应。
+  assumptions_zh: 候选 IV 需满足相关性、独立性与排除限制；摘要明确区分已知有效与已被否定的工具变量。
+  work_id: w-41e3255fea07
+  publication_records:
+  - venue: CLeaR
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v323/sheth26a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v323/main/assets/sheth26a/sheth26a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Retrieving Classes of Causal Orders with Inconsistent Knowledge Bases
+  authors:
+  - Federico Baldo
+  - Simon Ferreira
+  - Charles K. Assaad
+  venue: CLeaR
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v323/baldo26a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v323/main/assets/baldo26a/baldo26a.pdf
+  doi: null
+  topics:
+  - causal-discovery
+  - causal-estimation
+  summary_zh: 把易幻觉的 LLM 因果知识转化为成对一致性分数，恢复因果顺序的抽象与最优无环竞赛图集合，并用于效应估计。
+  llm_role_zh: 从变量文本元数据提供不一致但可评分的因果知识库。
+  method_zh: 由成对一致性分数构造半完全部分有向图，求最大定向 PDAG 和一致性最优的无环竞赛图集合。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 323 official CLeaR 2026 page with authors, abstract
+    and PDF.
+  scope_decision: include
+  decision_reason_zh: CLeaR 2026 正式论文，以不一致 LLM 知识恢复因果序并连接效应估计。
+  limitations_zh: 一致性是可靠性的代理，不等于外部真值；摘要未声称消除 LLM 幻觉。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v323/baldo26a.html
+  - https://raw.githubusercontent.com/mlresearch/v323/main/assets/baldo26a/baldo26a.pdf
+  code_url: null
+  work_id: w-bfd8269b95ea
+  publication_records:
+  - venue: CLeaR
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v323/baldo26a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v323/main/assets/baldo26a/baldo26a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Universal Priors: Solving Empirical Bayes via Bayesian Inference and Pretraining'
+  authors:
+  - Nick Cannella
+  - Anzo Teh
+  - Yanjun Han
+  - Yury Polyanskiy
+  venue: COLT
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v336/cannella26a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v336/main/assets/cannella26a/cannella26a.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  - synthetic-data
+  summary_zh: 把经验贝叶斯问题改写为在合成任务分布上预训练后进行贝叶斯预测，并在Poisson经验贝叶斯中给出接近最优的统一遗憾界与后验收缩结果。
+  llm_role_zh: Transformer式预测器在合成数据上预训练，用来近似经验贝叶斯的通用先验解。
+  method_zh: 层级贝叶斯建模、合成预训练、Poisson经验贝叶斯、后验收缩和近最优遗憾分析。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR COLT 2026 official proceedings page and linked paper
+  scope_decision: include
+  decision_reason_zh: 官方COLT主会论文，直接连接Transformer预训练、合成任务与经验贝叶斯统计理论。
+  limitations_zh: 定理针对Poisson经验贝叶斯和理想化预训练/预测器设定，不能外推为所有现实LLM均满足相同遗憾或收缩保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v336/cannella26a.html
+  - https://raw.githubusercontent.com/mlresearch/v336/main/assets/cannella26a/cannella26a.pdf
+  code_url: null
+  work_id: w-6aca74c0b0f3
+  publication_records:
+  - venue: COLT
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v336/cannella26a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v336/main/assets/cannella26a/cannella26a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Towards Better Statistical Understanding of Watermarking LLMs
+  authors:
+  - Zhongze Cai
+  - Shang Liu
+  - Hanzhao Wang
+  - Huaiyang Zhong
+  - Xiaocheng Li
+  venue: JASA
+  venue_group: statistics
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+  paper_url: https://doi.org/10.1080/01621459.2026.2618290
+  doi: 10.1080/01621459.2026.2618290
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 把红绿词表水印的质量—可检测性权衡写成约束优化问题，并给出在线生成算法和渐近最优性分析。
+  llm_role_zh: LLM逐token生成过程及其水印检测是全部理论与实验的对象。
+  method_zh: 以对偶梯度上升在线调节水印强度，用KL散度解释目标函数，并分析Pareto边界。
+  evidence_basis: fulltext
+  evidence_locator: Taylor & Francis official full text, abstract, theorem discussion,
+    and publication-history panel
+  scope_decision: include
+  decision_reason_zh: 目标统计期刊正式论文，明确贡献水印检验与优化理论。
+  limitations_zh: 核验了官方全文中的摘要和方法主线，未重算数值实验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+  code_url: null
+  guarantee_zh: 摘要与正文给出在线算法的渐近Pareto最优性。
+  datasets:
+  - Llama generations
+  - OPT generations
+  publication_dates:
+    received: '2024-10-15'
+    accepted: '2026-01-01'
+    accepted_author_version: '2026-01-30'
+    online: '2026-04-14'
+    volume: '121'
+    issue: '553'
+    pages: 247-258
+  work_id: w-959a91138bdd
+  publication_records:
+  - venue: JASA
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1080/01621459.2026.2618290
+    official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
+    paper_url: https://doi.org/10.1080/01621459.2026.2618290
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'UQLM: A Python Package for Uncertainty Quantification in Large Language
+    Models'
+  authors:
+  - Dylan Bouchard
+  - Mohit Singh Chauhan
+  - David Skarbrevik
+  - Ho-Kyeong Ra
+  - Viren Bajaj
+  - Zeya Ahmad
+  venue: JMLR
+  venue_group: cs-journal
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.jmlr.org/papers/v27/25-1557.html
+  paper_url: https://www.jmlr.org/papers/volume27/25-1557/25-1557.pdf
+  doi: null
+  topics:
+  - uncertainty
+  summary_zh: 提供统一的LLM不确定性量化软件接口，把多类幻觉检测和回答可靠性评分标准化为0到1的置信分数，并支持黑盒与白盒模型。
+  llm_role_zh: LLM是被量化回答不确定性与幻觉风险的生成模型。
+  method_zh: 整合基于一致性、语义、似然与LLM评判器的不确定性评分，并提供可复现实验接口。
+  evidence_basis: official-abstract
+  evidence_locator: JMLR volume 27 official article page and software paper PDF
+  scope_decision: include
+  decision_reason_zh: JMLR正式软件论文，主题直接是LLM回答层面的不确定性量化与可靠评估。
+  limitations_zh: 以软件整合和基准为主，不提供新的有限样本覆盖定理；分数校准质量依赖具体模型、任务和所选评分器。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.jmlr.org/papers/v27/25-1557.html
+  - https://www.jmlr.org/papers/volume27/25-1557/25-1557.pdf
+  code_url: https://github.com/cvs-health/uqlm
+  work_id: w-b5297525c6b1
+  publication_records:
+  - venue: JMLR
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: null
+    official_url: https://www.jmlr.org/papers/v27/25-1557.html
+    paper_url: https://www.jmlr.org/papers/volume27/25-1557/25-1557.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Leveraging Large Language Models for Causal Discovery: a Constraint-based,
+    Argumentation-driven Approach'
+  authors:
+  - Zihao Li
+  - Fabrizio Russo
+  venue: UAI
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v337/li26e.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v337/main/assets/li26e/li26e.pdf
+  doi: null
+  topics:
+  - causal-discovery
+  summary_zh: 提出 ABAPC-LLM，将 LLM 从变量名和描述提取的语义结构约束作为不完美专家意见，与统计证据通过因果假设论证框架保守整合。
+  llm_role_zh: 提供可争辩、可与数据约束联合审查的语义结构约束。
+  method_zh: 以 Causal ABA 维持输入约束与输出图之间的对应，并设计降低记忆偏差的语义随机基准。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 337 official UAI 2026 page with title, authors, abstract
+    and PDF.
+  scope_decision: include
+  decision_reason_zh: UAI 2026 正式论文，LLM—统计证据混合因果发现方法具有明确约束语义。
+  limitations_zh: 依据官方摘要；ABA 的具体保证及冲突解析细节需阅读全文。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v337/li26e.html
+  - https://raw.githubusercontent.com/mlresearch/v337/main/assets/li26e/li26e.pdf
+  code_url: null
+  work_id: w-95a7d81f4e3f
+  publication_records:
+  - venue: UAI
+    year: 2026
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v337/li26e.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v337/main/assets/li26e/li26e.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  scope_decision: include
+  evidence_basis: official-abstract
+  code_url: null
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  limitations_zh: 核查了官方摘要与发表记录，尚未逐项核验因果假设、证明或复现实验。
+  fulltext_status: abstract-only
+  publication_dates:
+    conference_year: 2025
+    online_first: '2025-04-11'
+  doi: 10.1609/aaai.v39i24.34777
+  arxiv_id: null
+  title: 'Causal Prompting: Debiasing Large Language Model Prompting Based on Front-Door
+    Adjustment'
+  authors:
+  - Congzhi Zhang
+  - Linhai Zhang
+  - Jialong Wu
+  - Yulan He
+  - Deyu Zhou
+  venue: AAAI
+  official_url: https://ojs.aaai.org/index.php/AAAI/article/view/34777
+  paper_url: null
+  topics:
+  - causal-llm-analysis
+  summary_zh: 将思维链设为中介，利用前门调整构造去偏提示方法。
+  llm_role_zh: 作为因果图中的生成模型，产生作为中介的思维链与输出回答。
+  method_zh: 结构因果模型、前门调整与思维链编码器对比学习。
+  decision_reason_zh: AAAI 正式 NLP 技术轨；有明确因果调整方法，不是 LLM 采用对现实结果的效应研究。
+  evidence_locator: AAAI 官方摘要、Published 2025-04-11、Technical Track on Natural Language
+    Processing III。
+  source_urls:
+  - https://ojs.aaai.org/index.php/AAAI/article/view/34777
+  work_id: w-cd551d0253b6
+  publication_records:
+  - venue: AAAI
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.1609/aaai.v39i24.34777
+    official_url: https://ojs.aaai.org/index.php/AAAI/article/view/34777
+    paper_url: null
+  verification_status: official-record-checked
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: On the Reliability of Large Language Models for Causal Discovery
+  authors:
+  - Tao Feng
+  - Lizhen Qu
+  - Niket Tandon
+  - Zhuang Li
+  - Xiaoxi Kang
+  - Gholamreza Haffari
+  venue: ACL
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2025.acl-long.471/
+  paper_url: https://aclanthology.org/2025.acl-long.471.pdf
+  doi: 10.18653/v1/2025.acl-long.471
+  topics:
+  - causal-discovery
+  - causal-reasoning
+  summary_zh: 利用可访问预训练语料的 OLMo 和 BLOOM 分析 LLM 因果发现的可靠性，区分记忆、错误预训练关系和上下文变化的影响。
+  llm_role_zh: 研究对象；从变量语义与上下文预测因果关系。
+  method_zh: 把模型输出与预训练语料中的关系频率及正确性对照，并系统改变上下文。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology ACL 2025 long-paper page with title, authors, abstract,
+    DOI and PDF.
+  scope_decision: include
+  decision_reason_zh: ACL 2025 主会长文，直接检验 LLM 因果发现的记忆污染与上下文可靠性。
+  limitations_zh: 依据官方摘要；未独立复算预训练语料证据。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.acl-long.471/
+  - https://aclanthology.org/2025.acl-long.471.pdf
+  code_url: null
+  work_id: w-348c5c5a2a79
+  publication_records:
+  - venue: ACL
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2025.acl-long.471
+    official_url: https://aclanthology.org/2025.acl-long.471/
+    paper_url: https://aclanthology.org/2025.acl-long.471.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: On Subjective Uncertainty Quantification and Calibration in Natural Language
+    Generation
+  authors:
+  - Ziyu Wang
+  - Christopher C. Holmes
+  venue: AISTATS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v258/wang25i.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v258/main/assets/wang25i/wang25i.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - statistical-theory
+  summary_zh: 从贝叶斯决策论定义自由文本生成的任务相关主观不确定性与校准，并以缺失数据和超额风险刻画认知不确定性。
+  llm_role_zh: 黑箱LLM自由文本预测是决策风险与校准的核心对象。
+  method_zh: 相似度效用、贝叶斯决策风险、缺失数据视角和认知不确定性分解。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR AISTATS 2025 official page lines 14-16
+  scope_decision: include
+  decision_reason_zh: 官方AISTATS主会论文，提供LLM生成不确定性的原则化统计定义。
+  limitations_zh: 仅核验官方摘要，未复核相似度效用假设对不同任务的敏感性。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v258/wang25i.html
+  - https://raw.githubusercontent.com/mlresearch/v258/main/assets/wang25i/wang25i.pdf
+  code_url: null
+  work_id: w-9c061d5a8f54
+  publication_records:
+  - venue: AISTATS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v258/wang25i.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v258/main/assets/wang25i/wang25i.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: What and How does In-Context Learning Learn? Bayesian Model Averaging, Parameterization,
+    and Generalization
+  authors:
+  - Yufeng Zhang
+  - Fengzhuo Zhang
+  - Zhuoran Yang
+  - Zhaoran Wang
+  venue: AISTATS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v258/zhang25d.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v258/main/assets/zhang25d/zhang25d.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 证明理想预训练LLM在动态提示模型下执行贝叶斯模型平均，并用PAC-Bayes界分解预训练误差，得到上下文平均误差率。
+  llm_role_zh: LLM上下文学习器是贝叶斯模型平均和泛化分析对象。
+  method_zh: 动态提示模型、Gaussian线性ICL、贝叶斯模型平均、PAC-Bayes泛化界与误设分析。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR AISTATS 2025 official page lines 14-16
+  scope_decision: include
+  decision_reason_zh: 官方AISTATS主会论文，直接给出LLM上下文学习的统计理论。
+  limitations_zh: 未逐条复核理想预训练和Gaussian设定下的定理条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v258/zhang25d.html
+  - https://raw.githubusercontent.com/mlresearch/v258/main/assets/zhang25d/zhang25d.pdf
+  code_url: null
+  work_id: w-646a057338da
+  publication_records:
+  - venue: AISTATS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v258/zhang25d.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v258/main/assets/zhang25d/zhang25d.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'A statistical framework of watermarks for large language models: Pivot,
+    detection efficiency and optimal rules'
+  authors:
+  - Xiang Li
+  - Feng Ruan
+  - Huiyuan Wang
+  - Qi Long
+  - Weijie J. Su
+  venue: Annals of Statistics
+  venue_group: statistics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+  paper_url: https://www.weijie-su.com/files/watermark.pdf
+  doi: 10.1214/24-AOS2468
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 建立LLM水印统一统计框架，以枢轴量和大偏差效率比较检测规则并推导最优检验。
+  llm_role_zh: LLM生成文本的水印嵌入与检测构成统计检验问题。
+  method_zh: 构造水印枢轴量，以大偏差理论刻画检测效率，并对两类代表性水印推导高功效规则。
+  evidence_basis: official-abstract
+  evidence_locator: Project Euclid official article page and abstract; author-hosted
+    final PDF corroboration
+  scope_decision: include
+  decision_reason_zh: 目标统计期刊正式论文，提供直接面向LLM水印的统计检验理论。
+  limitations_zh: 核验基于官方摘要与作者终稿，未逐项复核所有证明附录。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+  - https://www.weijie-su.com/files/watermark.pdf
+  - https://lx10077.github.io/publications/
+  code_url: null
+  guarantee_zh: 文中以大偏差速率给出检测效率比较，并为所研究水印构造最优规则。
+  publication_dates:
+    volume: '53'
+    issue: '1'
+    pages: 322-351
+  work_id: w-e11a0604c1ef
+  publication_records:
+  - venue: Annals of Statistics
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1214/24-AOS2468
+    official_url: https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short
+    paper_url: https://www.weijie-su.com/files/watermark.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: Counterfactual Token Generation in Large Language Models
+  authors:
+  - Ivi Chatzi
+  - Nina L. Corvelo Benz
+  - Eleni Straitouri
+  - Stratis Tsirtsis
+  - Manuel Gomez-Rodriguez
+  venue: CLeaR
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v275/chatzi25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v275/main/assets/chatzi25a/chatzi25a.pdf
+  doi: null
+  topics:
+  - causal-reasoning
+  - synthetic-data
+  summary_zh: 基于 Gumbel-Max 结构因果模型建立 token 生成的反事实耦合，使现有 LLM 无需微调即可生成“若早先 token 不同”的反事实文本。
+  llm_role_zh: 被附加反事实生成语义的自回归生成器。
+  method_zh: 为自回归 token 序列显式构造共享外生随机性的 SCM，并实现低开销反事实采样。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 275 official CLeaR 2025 paper page, authors, abstract
+    and PDF.
+  scope_decision: include
+  decision_reason_zh: CLeaR 2025 正式论文，反事实 SCM 与 LLM token 生成直接结合。
+  limitations_zh: 反事实定义针对模型生成过程，不等同于现实世界事件反事实。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v275/chatzi25a.html
+  - https://raw.githubusercontent.com/mlresearch/v275/main/assets/chatzi25a/chatzi25a.pdf
+  code_url: null
+  work_id: w-6fc02bf87bba
+  publication_records:
+  - venue: CLeaR
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v275/chatzi25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v275/main/assets/chatzi25a/chatzi25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Benchmarking Debiasing Methods for LLM-based Parameter Estimates
+  authors:
+  - Nicolas Audinet de Pieuchon
+  - Adel Daoud
+  - Connor Thomas Jerzak
+  - Moa Johansson
+  - Richard Johansson
+  venue: EMNLP
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2025.emnlp-main.1000/
+  paper_url: https://aclanthology.org/2025.emnlp-main.1000.pdf
+  doi: 10.18653/v1/2025.emnlp-main.1000
+  topics:
+  - stats-inference
+  summary_zh: 在有限专家标注下比较PPI与设计型监督学习对LLM文本标注所致参数偏差的修正，刻画随标注量变化的偏差—方差权衡。
+  llm_role_zh: LLM为大规模文本提供可能有偏的代理标签，直接进入回归系数或流行率估计。
+  method_zh: PPI、DSL、重复抽样、标准化RMSE与有限样本效率比较。
+  evidence_basis: fulltext
+  evidence_locator: ACL Anthology official EMNLP page plus PDF methods/results excerpts
+  scope_decision: include
+  decision_reason_zh: 官方EMNLP主会论文，直接检验LLM辅助参数估计的去偏方法。
+  limitations_zh: 经验比较覆盖四数据集和若干标注器，摘要未给出统一优胜方法；未将任何真实世界LLM采用效应纳入。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2025.emnlp-main.1000/
+  - https://aclanthology.org/2025.emnlp-main.1000.pdf
+  code_url: null
+  work_id: w-d46d8026dc12
+  publication_records:
+  - venue: EMNLP
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2025.emnlp-main.1000
+    official_url: https://aclanthology.org/2025.emnlp-main.1000/
+    paper_url: https://aclanthology.org/2025.emnlp-main.1000.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Causal Order: The Key to Leveraging Imperfect Experts in Causal Inference'
+  authors:
+  - Aniket Vashishtha
+  - Abbavaram Gowtham Reddy
+  - Abhinav Kumar
+  - Saketh Bachu
+  - Vineeth N Balasubramanian
+  - Amit Sharma
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://openreview.net/forum?id=9juyeCqL0u
+  paper_url: https://openreview.net/pdf?id=9juyeCqL0u
+  doi: null
+  topics:
+  - causal-discovery
+  - causal-estimation
+  summary_zh: 指出成对提示无法区分直接与间接效应，提出以因果顺序作为 LLM 专家接口，并用三变量提示和投票减少环与下游效应误差。
+  llm_role_zh: 不完美领域专家；提供变量因果顺序而非稀疏 DAG 边。
+  method_zh: 理论比较图与因果序接口，设计 triplet prompting 和投票集成，再用于结构发现与效应推断。
+  evidence_basis: fulltext
+  evidence_locator: OpenReview official PDF banner 'Published as a conference paper
+    at ICLR 2025', title page and abstract.
+  scope_decision: include
+  decision_reason_zh: ICLR 2025 正式论文，以 LLM 因果知识接口直接改进发现和效应估计。
+  limitations_zh: LLM 仍作为不完美专家；方法通过顺序和集成缓解而非消除语义错误。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://openreview.net/forum?id=9juyeCqL0u
+  - https://openreview.net/pdf?id=9juyeCqL0u
+  code_url: https://github.com/AniketVashishtha/Causal_Order_Imperfect_Experts
+  openreview_id: 9juyeCqL0u
+  work_id: w-67d4bce357d3
+  publication_records:
+  - venue: ICLR
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=9juyeCqL0u
+    paper_url: https://openreview.net/pdf?id=9juyeCqL0u
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: Conformal Language Model Reasoning with Coherent Factuality
+  authors:
+  - Maxon Rubin-Toles
+  - Maya Gambhir
+  - Keshav Ramji
+  - Aaron Roth
+  - Surbhi Goel
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://iclr.cc/virtual/2025/poster/30640
+  paper_url: https://proceedings.iclr.cc/paper_files/paper/2025/file/679fcceef65c3d855aa885bd024542c1-Paper-Conference.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 定义考虑推理步骤依赖的“连贯事实性”，在可推导图的子图上使用分割共形预测，过滤并排序LLM推理声明。
+  llm_role_zh: LLM数学推理链及其声明依赖结构是共形保证对象。
+  method_zh: 可推导图、子图级split conformal和结构化声明过滤。
+  evidence_basis: fulltext
+  evidence_locator: ICLR official poster and official proceedings PDF abstract/introduction
+  scope_decision: include
+  decision_reason_zh: 官方ICLR主会论文，将LLM推理依赖纳入共形事实性保证。
+  limitations_zh: 核验摘要与导言；未复核图构造误差对覆盖的影响。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://iclr.cc/virtual/2025/poster/30640
+  - https://proceedings.iclr.cc/paper_files/paper/2025/file/679fcceef65c3d855aa885bd024542c1-Paper-Conference.pdf
+  code_url: https://github.com/maxrubintoles/Conformal_LM_Reasoning
+  work_id: w-908f389f7331
+  publication_records:
+  - venue: ICLR
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://iclr.cc/virtual/2025/poster/30640
+    paper_url: https://proceedings.iclr.cc/paper_files/paper/2025/file/679fcceef65c3d855aa885bd024542c1-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Can Transformers Learn Full Bayesian Inference in Context?
+  authors:
+  - Arik Reuter
+  - Tim G. J. Rudner
+  - Vincent Fortuin
+  - David Rügamer
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/reuter25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/reuter25a/reuter25a.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 构建可在上下文中输出完整后验样本的Transformer框架，覆盖广义线性模型与潜因子模型，并与MCMC和变分推断比较。
+  llm_role_zh: Transformer作为摊销的上下文贝叶斯推断器。
+  method_zh: prior-fitted networks、连续正规化流与后验采样。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR ICML 2025 official page lines 14-16
+  scope_decision: include
+  decision_reason_zh: 官方ICML主会论文，完整贝叶斯推断而非点预测是核心贡献。
+  limitations_zh: 官方摘要称后验样本质量接近基线；未复核校准诊断与模型族范围。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/reuter25a.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/reuter25a/reuter25a.pdf
+  code_url: https://github.com/ArikReuter/ICL_for_Full_Bayesian_Inference
+  work_id: w-cbf497517af6
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/reuter25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/reuter25a/reuter25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating
+    World'
+  authors:
+  - Joshua Kazdan
+  - Rylan Schaeffer
+  - Apratim Dey
+  - Matthias Gerstgrasser
+  - Rafael Rafailov
+  - David L. Donoho
+  - Sanmi Koyejo
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/kazdan25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/kazdan25a/kazdan25a.pdf
+  doi: null
+  topics:
+  - synthetic-data
+  - statistical-theory
+  summary_zh: 比较纯替换、累积混合及固定子样本三种递归合成训练流程，在高斯估计、核密度估计和语言模型微调中区分爆炸崩溃、稳定与缓慢退化。
+  llm_role_zh: 语言模型微调是三类核心实验设定之一，用于检验合成文本污染的训练动态。
+  method_zh: 递归训练流程比较、测试损失动态与统计估计/语言模型实验。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR ICML 2025 official page lines 14-16
+  scope_decision: include
+  decision_reason_zh: 官方ICML主会论文，直接研究LLM合成数据递归使用的统计稳定性。
+  limitations_zh: 论文跨多种生成模型；本记录未把非语言实验外推为LLM专属结论。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/kazdan25a.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/kazdan25a/kazdan25a.pdf
+  code_url: null
+  work_id: w-00e8c6592220
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/kazdan25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/kazdan25a/kazdan25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: How to Synthesize Text Data without Model Collapse?
+  authors:
+  - Xuekai Zhu
+  - Daixuan Cheng
+  - Hengli Li
+  - Kaiyan Zhang
+  - Ermo Hua
+  - Xingtai Lv
+  - Ning Ding
+  - Zhouhan Lin
+  - Zilong Zheng
+  - Bowen Zhou
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/zhu25d.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25d/zhu25d.pdf
+  doi: null
+  topics:
+  - synthetic-data
+  - statistical-theory
+  summary_zh: 发现合成文本比例与LM性能负相关，并以分布偏移和n-gram过度集中解释；提出对人类文本做token编辑的半合成方案并给出有限测试误差上界。
+  llm_role_zh: 语言模型预训练、持续预训练和监督微调均直接使用所研究的合成文本。
+  method_zh: 合成比例实验、文本分布统计、token编辑与有限误差上界。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR ICML 2025 official page lines 14-16
+  scope_decision: include
+  decision_reason_zh: 官方ICML主会论文，合成数据统计性质与LLM模型崩溃是核心。
+  limitations_zh: 未复核有限上界所需的生成与编辑假设。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/zhu25d.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25d/zhu25d.pdf
+  code_url: null
+  work_id: w-c75945777204
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/zhu25d.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/zhu25d/zhu25d.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Internal Causal Mechanisms Robustly Predict Language Model Out-of-Distribution
+    Behaviors
+  authors:
+  - Jing Huang
+  - Junyi Tao
+  - Thomas Icard
+  - Diyi Yang
+  - Christopher Potts
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/huang25af.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/huang25af/huang25af.pdf
+  doi: null
+  topics:
+  - causal-llm-analysis
+  summary_zh: 用内部因果变量进行反事实模拟和值探测，在符号操作、知识检索和指令跟随任务上预测 LLM 分布外正确性。
+  llm_role_zh: 研究对象；其内部机制作为行为预测信号。
+  method_zh: 识别具有因果作用的内部变量，以反事实模拟和值探针预测输出正确性，并与非因果特征比较。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 267 official ICML 2025 page, authors, abstract, PDF
+    and software link.
+  scope_decision: include
+  decision_reason_zh: ICML 2025 正式论文，核心是 LLM 内部因果机制的分布外预测效力。
+  limitations_zh: 依据官方摘要；内部变量的因果识别假设需阅读全文核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/huang25af.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/huang25af/huang25af.pdf
+  code_url: null
+  work_id: w-773c1ff94d98
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/huang25af.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/huang25af/huang25af.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Preference Learning for AI Alignment: a Causal Perspective'
+  authors:
+  - Kasia Kobalczyk
+  - Mihaela Van Der Schaar
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/kobalczyk25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/kobalczyk25a/kobalczyk25a.pdf
+  doi: null
+  topics:
+  - causal-estimation
+  summary_zh: 将 LLM 奖励模型的偏好学习放入因果框架，识别因果错识别、偏好异质性和用户特定混杂，并提出面向干预的数据收集要求。
+  llm_role_zh: 对齐对象；从人类偏好数据训练其奖励模型。
+  method_zh: 建立偏好学习的因果表述，列出可靠泛化所需假设，分析朴素奖励模型失效并讨论因果修正。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 267 official ICML 2025 page with title, authors, abstract,
+    PDF and software link.
+  scope_decision: include
+  decision_reason_zh: ICML 2025 正式论文，因果识别与混杂是 LLM 偏好学习的核心方法问题。
+  limitations_zh: 官方摘要偏框架和失效分析；未据此虚构具体估计器保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/kobalczyk25a.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/kobalczyk25a/kobalczyk25a.pdf
+  code_url: null
+  work_id: w-45da01517fe3
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/kobalczyk25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/kobalczyk25a/kobalczyk25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Teaching Transformers Causal Reasoning through Axiomatic Training
+  authors:
+  - Aniket Vashishtha
+  - Abhinav Kumar
+  - Atharva Pandey
+  - Abbavaram Gowtham Reddy
+  - Kabir Ahuja
+  - Vineeth N. Balasubramanian
+  - Amit Sharma
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/vashishtha25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/vashishtha25a/vashishtha25a.pdf
+  doi: null
+  topics:
+  - causal-reasoning
+  summary_zh: 提出因果公理训练，将传递性和 d-separation 等规则转化为示范，使小型 transformer 能从线性链泛化到更长、反序和分支图。
+  llm_role_zh: 被训练的因果推理模型，并与 GPT-4、Gemini Pro、Phi-3 等 LLM 比较。
+  method_zh: 从因果公理生成前提—假设—结论示范，以被动数据训练 transformer 并测试图结构分布外泛化。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 267 official ICML 2025 page with authors, abstract,
+    PDF and OpenReview link.
+  scope_decision: include
+  decision_reason_zh: ICML 2025 正式论文，以形式因果公理改进语言模型推理。
+  limitations_zh: 主要实验含从头训练的 6700 万参数模型；与现成大模型的直接可迁移性受设定限制。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/vashishtha25a.html
+  - https://raw.githubusercontent.com/mlresearch/v267/main/assets/vashishtha25a/vashishtha25a.pdf
+  code_url: null
+  arxiv_id: '2407.07612'
+  work_id: w-b219775eec26
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/vashishtha25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v267/main/assets/vashishtha25a/vashishtha25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  openreview_id: null
+- venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  scope_decision: include
+  evidence_basis: official-abstract
+  code_url: null
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  limitations_zh: 核查了官方摘要与发表记录，尚未逐项核验因果假设、证明或复现实验。
+  fulltext_status: abstract-only
+  publication_dates:
+    conference_year: 2025
+  doi: 10.24963/ijcai.2025/478
+  arxiv_id: null
+  title: 'Causal-aware Large Language Models: Enhancing Decision-Making Through Learning,
+    Adapting and Acting'
+  authors:
+  - Wei Chen
+  - Jiahao Zhang
+  - Haipeng Zhu
+  - Boyan Xu
+  - Zhifeng Hao
+  - Keli Zhang
+  - Junjian Ye
+  - Ruichu Cai
+  venue: IJCAI
+  official_url: https://www.ijcai.org/proceedings/2025/478
+  paper_url: https://www.ijcai.org/proceedings/2025/0478.pdf
+  topics:
+  - causal-discovery
+  - causal-reasoning
+  summary_zh: 用 LLM 初始化环境因果图，再利用环境反馈更新结构并指导决策。
+  llm_role_zh: 从环境信息中提取因果实体与关系。
+  method_zh: SCM 与学习—适应—行动循环；在 Crafter 任务中评价。
+  decision_reason_zh: 正式 IJCAI 主轨研究；LLM 与因果结构学习、干预反馈有实质结合。
+  evidence_locator: IJCAI 官方论文页 Main Track、作者、摘要。
+  source_urls:
+  - https://www.ijcai.org/proceedings/2025/478
+  work_id: w-fd2579569479
+  publication_records:
+  - venue: IJCAI
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.24963/ijcai.2025/478
+    official_url: https://www.ijcai.org/proceedings/2025/478
+    paper_url: https://www.ijcai.org/proceedings/2025/0478.pdf
+  verification_status: official-record-checked
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: Debiasing Watermarks for Large Language Models via Maximal Coupling
+  authors:
+  - Yangxinyu Xie
+  - Xiang Li
+  - Tanwi Mallick
+  - Weijie J. Su
+  - Ruixun Zhang
+  venue: JASA
+  venue_group: statistics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+  paper_url: https://arxiv.org/abs/2411.11203
+  doi: 10.1080/01621459.2025.2520455
+  topics:
+  - stats-inference
+  - statistical-theory
+  summary_zh: 用最大耦合构造无偏LLM水印，在保持原生成分布的同时维持可检测性，并分析其统计性质。
+  llm_role_zh: 方法修改LLM token采样并对生成文本做水印假设检验。
+  method_zh: 将原始与水印token分布作最大耦合，配合序列检验比较质量、偏差与检测能力。
+  evidence_basis: official-abstract
+  evidence_locator: Taylor & Francis official metadata/abstract; author-hosted JASA
+    PDF and official code repository corroboration
+  scope_decision: include
+  decision_reason_zh: 目标统计期刊正式论文，LLM水印的无偏生成和检测理论是核心。
+  limitations_zh: 出版社页面的可抓取文本较少，具体技术细节由作者论文和arXiv摘要交叉核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+  - https://ruixunzhang.com/paper/2025_JASA_watermarks.pdf
+  - https://arxiv.org/abs/2411.11203
+  - https://www.alcf.anl.gov/publications/debiasing-watermarks-large-language-models-maximal-coupling
+  code_url: https://github.com/Xieyangxinyu/Debiasing-Watermarks-for-Large-Language-Models-via-Maximal-Coupling
+  arxiv_id: '2411.11203'
+  publication_dates:
+    online: '2025-08-05'
+    volume: '120'
+    issue: '551'
+    pages: 1424-1436
+  work_id: w-fff7bd867f15
+  publication_records:
+  - venue: JASA
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1080/01621459.2025.2520455
+    official_url: https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
+    paper_url: https://arxiv.org/abs/2411.11203
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: 'On the Algorithmic Bias of Aligning Large Language Models with RLHF: Preference
+    Collapse and Matching Regularization'
+  authors:
+  - Jiancong Xiao
+  - Ziniu Li
+  - Xingyu Xie
+  - Emily Getzen
+  - Cong Fang
+  - Qi Long
+  - Weijie J. Su
+  venue: JASA
+  venue_group: statistics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+  paper_url: https://doi.org/10.1080/01621459.2025.2555067
+  doi: 10.1080/01621459.2025.2555067
+  topics:
+  - statistical-theory
+  - uncertainty
+  summary_zh: 研究RLHF中标准KL正则化导致奖励最大化与目标偏好分布错配的算法偏差，并提出概率匹配正则化。
+  llm_role_zh: LLM的偏好对齐分布是理论对象，方法直接针对RLHF训练。
+  method_zh: 从连续时间动力系统刻画偏好坍缩，并在Bradley–Terry–Luce和Plackett–Luce偏好模型下设计PM-RLHF正则化。
+  evidence_basis: official-abstract
+  evidence_locator: Taylor & Francis article abstract and publication-history panel;
+    author publication page corroboration
+  scope_decision: include
+  decision_reason_zh: 目标统计期刊正式论文，LLM对齐问题与可证明的统计偏好模型是核心贡献。
+  limitations_zh: 网页摘要足以核验主要定理范围，但未逐条复核补充材料中的全部实验设置。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+  - https://www.weijie-su.com/llm/
+  code_url: null
+  guarantee_zh: 在文中指定的偏好模型条件下，PM-RLHF可匹配目标分布；摘要报告OPT和Llama实验改进。
+  publication_dates:
+    received: '2024-06-14'
+    accepted: '2025-08-18'
+    accepted_author_version: '2025-09-17'
+    online: '2025-12-22'
+    volume: '120'
+    issue: '552'
+    pages: 2154-2164
+  work_id: w-1dd3f6d42337
+  publication_records:
+  - venue: JASA
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1080/01621459.2025.2555067
+    official_url: https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067
+    paper_url: https://doi.org/10.1080/01621459.2025.2555067
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  arxiv_id: null
+  openreview_id: null
+- title: Robust detection of watermarks for large language models under human edits
+  authors:
+  - Xiang Li
+  - Feng Ruan
+  - Huiyuan Wang
+  - Qi Long
+  - Weijie J. Su
+  venue: JRSS-B
+  venue_group: statistics
+  year: 2025
+  track: journal
+  publication_status: published
+  official_url: https://doi.org/10.1093/jrsssb/qkaf056
+  paper_url: https://arxiv.org/abs/2411.13868
+  doi: 10.1093/jrsssb/qkaf056
+  topics:
+  - stats-inference
+  - statistical-theory
+  - uncertainty
+  summary_zh: 研究人工编辑后LLM水印的稳健检测，提出截断拟合优度检验并刻画不同编辑强度下的检测边界。
+  llm_role_zh: LLM水印文本及其被人工编辑后的检测有效性是主要对象。
+  method_zh: 把编辑污染写成混合模型，构造自适应Tr-GoF统计量，并以检测效率和极小极大理论分析。
+  evidence_basis: official-abstract
+  evidence_locator: Oxford official article metadata/abstract; Published 22 September
+    2025, Accepted 16 August 2025; independent review in cs_causal/validation.md and
+    root jrss-date-correction.json.
+  scope_decision: include
+  decision_reason_zh: 目标统计期刊正式论文，直接贡献稳健水印假设检验与最优性理论。
+  limitations_zh: 正式卷期年份与在线首发年份不同；主year按2025在线首发记录，2026正式卷期另存于publication_dates。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://doi.org/10.1093/jrsssb/qkaf056
+  - https://academic.oup.com/jrsssb/article-abstract/88/2/491/8261309
+  code_url: https://github.com/lx10077/TrGoF
+  arxiv_id: '2411.13868'
+  guarantee_zh: 在论文的编辑混合模型中给出自适应检测与最优检测边界结果。
+  publication_dates:
+    received: '2024-11-21'
+    accepted: '2025-08-16'
+    online_first: '2025-09-22'
+    issue_year: 2026
+    volume: '88'
+    issue: '2'
+    pages: 491-515
+  metadata_conflicts:
+  - Initial batch gave online 2025-08-20; independent review and root verification
+    corrected this to official Published date 2025-09-22. Main year remains 2025;
+    issue year is 2026.
+  work_id: w-427272305872
+  publication_records:
+  - venue: JRSS-B
+    year: 2025
+    track: journal
+    publication_status: published
+    doi: 10.1093/jrsssb/qkaf056
+    official_url: https://doi.org/10.1093/jrsssb/qkaf056
+    paper_url: https://arxiv.org/abs/2411.13868
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  datasets: null
+  openreview_id: null
+- venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  scope_decision: include
+  evidence_basis: official-abstract
+  code_url: null
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  limitations_zh: 核查了官方摘要与发表记录，尚未逐项核验因果假设、证明或复现实验。
+  fulltext_status: abstract-only
+  publication_dates:
+    conference_year: 2025
+    online_first: '2025-08-03'
+  doi: 10.1145/3711896.3736874
+  arxiv_id: null
+  title: Causal Discovery through Synergizing Large Language Model and Data-Driven
+    Reasoning
+  authors:
+  - Huaming Du
+  - Yujia Zheng
+  - Baoyu Jing
+  - Yu Zhao
+  - Gang Kou
+  - Guisong Liu
+  - Tao Gu
+  - Weimin Li
+  - Carl Yang
+  venue: KDD
+  official_url: https://doi.org/10.1145/3711896.3736874
+  paper_url: https://www.cs.emory.edu/~jyang71/files/llmcd.pdf
+  topics:
+  - causal-discovery
+  summary_zh: LLM-CD 将变量语义先验与数据驱动的因果发现迭代结合。
+  llm_role_zh: 提供变量元数据中的语义信息和候选结构知识。
+  method_zh: 将 LLM 推理嵌入传统因果发现算法的多个阶段。
+  decision_reason_zh: KDD 官方 research track 名单与 DOI 记录均确认；方法核心是 LLM 辅助因果结构学习。
+  evidence_locator: KDD2025 research track 官方名单对应标题/DOI/9 位作者；ACM 索引摘要；作者版 PDF 首页。
+  source_urls:
+  - https://doi.org/10.1145/3711896.3736874
+  - https://kdd.org/kdd2025/research-track-papers-2/
+  - https://www.cs.emory.edu/~jyang71/files/llmcd.pdf
+  work_id: w-d0120c85d0f6
+  publication_records:
+  - venue: KDD
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.1145/3711896.3736874
+    official_url: https://doi.org/10.1145/3711896.3736874
+    paper_url: https://www.cs.emory.edu/~jyang71/files/llmcd.pdf
+  verification_status: official-record-checked
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  openreview_id: null
+- title: Conformal Information Pursuit for Interactively Guiding Large Language Models
+  authors:
+  - Kwan Ho Ryan Chan
+  - Yuyan Ge
+  - Edgar Dobriban
+  - Hamed Hassani
+  - Rene Vidal
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/823a3d2cf462fb815978314023e48f65-Paper-Conference.pdf
+  doi: 10.52202/085713-3021
+  topics:
+  - uncertainty
+  summary_zh: 用共形预测集合平均大小替代失准的LLM条件熵来指导顺序提问，在交互问答中减少查询并保持预测能力。
+  llm_role_zh: 指令微调LLM是顺序提问和最终预测的交互代理。
+  method_zh: 共形信息追踪、预测集合与条件熵关系、顺序查询策略。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-12 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，共形UQ直接用于校正LLM交互式信息获取。
+  limitations_zh: 摘要只覆盖20 Questions与MediQ；未复核停止规则的理论保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/823a3d2cf462fb815978314023e48f65-Paper-Conference.pdf
+  code_url: null
+  work_id: w-84db0db4127d
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-3021
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/823a3d2cf462fb815978314023e48f65-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Conformal Prediction Beyond the Seen: A Missing Mass Perspective for Uncertainty
+    Quantification in Generative Models'
+  authors:
+  - Sima Noorani
+  - Shayan Kiyani
+  - George J. Pappas
+  - Hamed Hassani
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e5911cb61db978c225cf62b6c029192-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/2e5911cb61db978c225cf62b6c029192-Paper-Conference.pdf
+  doi: 10.52202/085713-1084
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 在仅能查询黑箱生成模型时，以missing mass和Good–Turing估计构造CPQ，联合权衡覆盖、查询预算与预测集合信息量。
+  llm_role_zh: 黑箱LLM开放式问答、推理和信息抽取是主要实现与实验场景。
+  method_zh: 查询策略优化、missing-mass导数估计、Good–Turing估计与有限样本预测集合。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-12 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，经典统计missing-mass理论被实质用于黑箱LLM共形推断。
+  limitations_zh: 未复核最优性结论所需的查询oracle和输出空间假设。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e5911cb61db978c225cf62b6c029192-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/2e5911cb61db978c225cf62b6c029192-Paper-Conference.pdf
+  code_url: null
+  work_id: w-b2a304d18477
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-1084
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/2e5911cb61db978c225cf62b6c029192-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/2e5911cb61db978c225cf62b6c029192-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Exploiting LLMs for Automatic Hypothesis Assessment via a Logit-Based Calibrated
+    Prior
+  authors:
+  - Yue Gong
+  - Raul Fernandez
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/338b4df24eeed6767d6f72b983b845ce-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/338b4df24eeed6767d6f72b983b845ce-Paper-Conference.pdf
+  doi: 10.52202/085713-1215
+  topics:
+  - statistical-theory
+  - uncertainty
+  summary_zh: 从LLM输出logit诱导变量对相关系数的连续校准先验，用先验预期程度衡量观察相关关系的新颖性，并报告可信区间覆盖。
+  llm_role_zh: LLM权重中的知识被转化为相关系数的先验分布。
+  method_zh: logit到连续分布的校准、Pearson相关先验、可信区间与假设排序。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-12 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，LLM辅助统计假设评估和校准先验是核心。
+  limitations_zh: 摘要报告95%可信区间仅有89.2%覆盖；未复核校准集与预训练污染检验细节。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/338b4df24eeed6767d6f72b983b845ce-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/338b4df24eeed6767d6f72b983b845ce-Paper-Conference.pdf
+  code_url: null
+  work_id: w-ca508e582631
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-1215
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/338b4df24eeed6767d6f72b983b845ce-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/338b4df24eeed6767d6f72b983b845ce-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Revealing Multimodal Causality with Large Language Models
+  authors:
+  - Jin Li
+  - Shoujin Wang
+  - Qi Zhang
+  - Feng Liu
+  - Tongliang Liu
+  - Longbing Cao
+  - Shui Yu
+  - Fang Chen
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/92e9846e694ccee9c80260d47053d8b5-Paper-Conference.pdf
+  doi: 10.52202/085713-3395
+  topics:
+  - causal-discovery
+  - causal-reasoning
+  summary_zh: 提出 MLLM-CD，从多模态非结构化数据发现因果因子与关系，结合对比因子发现、统计结构学习和多模态反事实迭代。
+  llm_role_zh: 多模态因子发现与反事实推理模块。
+  method_zh: 对比样本识别跨模态因子，统计算法发现结构，再由 MLLM 反事实推理迭代修正。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS 2025 official abstract page, Main Conference Track, authors,
+    abstract, DOI and code link.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2025 主会论文，LLM 与统计因果发现、反事实推理构成完整方法。
+  limitations_zh: 依据官方摘要；多模态因子的识别条件未阅读全文核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/92e9846e694ccee9c80260d47053d8b5-Paper-Conference.pdf
+  code_url: https://github.com/JinLi-i/MLLM-CD
+  work_id: w-9d68c6b6a0c4
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-3395
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/92e9846e694ccee9c80260d47053d8b5-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/92e9846e694ccee9c80260d47053d8b5-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Self-Verification Provably Prevents Model Collapse in Recursive Synthetic
+    Training
+  authors:
+  - Shi Fu
+  - Yingjie Wang
+  - Yuzhu Chen
+  - Li Shen
+  - Dacheng Tao
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/3380e8116452e0efbf36f35d95e88c94-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/3380e8116452e0efbf36f35d95e88c94-Paper-Conference.pdf
+  doi: 10.52202/085713-1213
+  topics:
+  - synthetic-data
+  - statistical-theory
+  summary_zh: 证明递归合成训练在缺少足量真实数据时产生指数误差增长，并给出仅靠模型内部置信度自验证即可避免崩溃的有限样本误差界。
+  llm_role_zh: 理论框架明确扩展到LLM递归合成训练并刻画稳定条件。
+  method_zh: 递归训练动力学、内部置信过滤与有限样本误差界。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-10 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，对LLM合成数据训练稳定性给出正式保证。
+  limitations_zh: 摘要未呈现LLM扩展的具体建模条件，故不将保证解释为无条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/3380e8116452e0efbf36f35d95e88c94-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/3380e8116452e0efbf36f35d95e88c94-Paper-Conference.pdf
+  code_url: null
+  work_id: w-e26022a3ec64
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-1213
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/3380e8116452e0efbf36f35d95e88c94-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/3380e8116452e0efbf36f35d95e88c94-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Signal and Noise: A Framework for Reducing Uncertainty in Language Model
+    Evaluation'
+  authors:
+  - David Heineman
+  - Valentin Hofmann
+  - Ian Magnusson
+  - Yuling Gu
+  - Noah A. Smith
+  - Hanna Hajishirzi
+  - Kyle Lo
+  - Jesse Dodge
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/18b3b2947174ae9b1a8fc91ff89f4eb6-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/18b3b2947174ae9b1a8fc91ff89f4eb6-Paper-Conference.pdf
+  doi: 10.52202/085713-0576
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 定义基准区分模型的信号与对训练步随机性的噪声，分析信噪比对小规模决策和缩放律预测误差的影响，并测试降低噪声的干预。
+  llm_role_zh: 465个开放权重语言模型的50K评测结果用于估计基准可靠性。
+  method_zh: 跨checkpoint方差、信噪比指标、基准过滤与模型checkpoint平均。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-11 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，聚焦LLM基准评估的统计可靠性和随机误差。
+  limitations_zh: 摘要未说明信号指标在所有任务上的识别假设，未复核数据生成细节。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2025/hash/18b3b2947174ae9b1a8fc91ff89f4eb6-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2025/file/18b3b2947174ae9b1a8fc91ff89f4eb6-Paper-Conference.pdf
+  code_url: null
+  work_id: w-67c507c40a01
+  publication_records:
+  - venue: NeurIPS
+    year: 2025
+    track: main
+    publication_status: published
+    doi: 10.52202/085713-0576
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/18b3b2947174ae9b1a8fc91ff89f4eb6-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/18b3b2947174ae9b1a8fc91ff89f4eb6-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Multi-group Uncertainty Quantification for Long-form Text Generation
+  authors:
+  - Terrance Liu
+  - Steven Wu
+  venue: UAI
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v286/liu25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v286/main/assets/liu25a/liu25a.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 揭示长文本声明校准和共形保证在总体上成立却可在群组内失效，并用多重校准与多重有效共形预测改善群组内保证。
+  llm_role_zh: LLM传记长文本及其中的声明是群组条件不确定性分析对象。
+  method_zh: 声明级校准、文本级共形预测、多重校准和多重有效共形预测。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR UAI 2025 official page lines 14-17
+  scope_decision: include
+  decision_reason_zh: 官方UAI主会论文，直接检验并修复LLM不确定性保证的群组有效性。
+  limitations_zh: 测试床主要是传记生成；未核验其他长文本领域的外部有效性。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v286/liu25a.html
+  - https://raw.githubusercontent.com/mlresearch/v286/main/assets/liu25a/liu25a.pdf
+  code_url: null
+  work_id: w-826fcfa34442
+  publication_records:
+  - venue: UAI
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v286/liu25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v286/main/assets/liu25a/liu25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: The Consistency Hypothesis in Uncertainty Quantification for Large Language
+    Models
+  authors:
+  - Quan Xiao
+  - Debarun Bhattacharjya
+  - Balaji Ganesan
+  - Radu Marinescu
+  - Katya Mirylenka
+  - Nhan H Pham
+  - Michael Glass
+  - Junkyu Lee
+  venue: UAI
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v286/xiao25a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v286/main/assets/xiao25a/xiao25a.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 把“生成一致性可代理置信度”形式化为三个可检验命题，设计统计检验与符合度指标，并据此构造无数据黑箱UQ方法。
+  llm_role_zh: LLM重复生成的一致性是被检验的置信度代理。
+  method_zh: 三类一致性假设、对应统计检验、跨任务符合度指标与相似度聚合。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR UAI 2025 official page lines 13-15
+  scope_decision: include
+  decision_reason_zh: 官方UAI主会论文，以显式统计检验审查LLM不确定性方法的基础假设。
+  limitations_zh: 摘要报告八个数据集和三类任务；未复核检验功效和多重检验处理。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v286/xiao25a.html
+  - https://raw.githubusercontent.com/mlresearch/v286/main/assets/xiao25a/xiao25a.pdf
+  code_url: null
+  work_id: w-ba06edd34d11
+  publication_records:
+  - venue: UAI
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v286/xiao25a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v286/main/assets/xiao25a/xiao25a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Training Dynamics of Multi-Head Softmax Attention for In-Context Learning:
+    Emergence, Convergence, and Optimality (extended abstract)'
+  authors:
+  - Chen Siyu
+  - Sheen Heejune
+  - Wang Tianhao
+  - Yang Zhuoran
+  venue: COLT
+  venue_group: cs-conference
+  year: 2024
+  track: other
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v247/siyu24a.html
+  paper_url: https://proceedings.mlr.press/v247/siyu24a/siyu24a.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 研究多头softmax注意力学习多任务线性回归时的梯度流，证明适当初始化下全局收敛、注意力头发生任务分配，并给出相对最优多头模型的常数因子性能界。
+  llm_role_zh: 多头softmax注意力模型作为受控的Transformer上下文学习器。
+  method_zh: 多任务线性回归、梯度流、谱域常微分方程、任务分配阶段分析与单头/多头精度分离。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR COLT 2024 official extended-abstract proceedings page
+  scope_decision: include
+  decision_reason_zh: COLT正式论文集记录，提供多头注意力上下文学习的训练动力学与最优性理论。
+  limitations_zh: PMLR条目是单页extended abstract，证据只支持摘要层结论；定理限于多任务线性回归和特定注意力/初始化设定，不代表实际LLM普遍行为。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v247/siyu24a.html
+  - https://proceedings.mlr.press/v247/siyu24a/siyu24a.pdf
+  code_url: null
+  work_id: w-922f1999bb38
+  publication_records:
+  - venue: COLT
+    year: 2024
+    track: other
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v247/siyu24a.html
+    paper_url: https://proceedings.mlr.press/v247/siyu24a/siyu24a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Can Large Language Models Learn Independent Causal Mechanisms?
+  authors:
+  - Gaël Gendron
+  - Bao Trung Nguyen
+  - Alex Yuxuan Peng
+  - Michael J. Witbrock
+  - Gillian Dobbie
+  venue: EMNLP
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2024.emnlp-main.381/
+  paper_url: https://aclanthology.org/2024.emnlp-main.381.pdf
+  doi: 10.18653/v1/2024.emnlp-main.381
+  topics:
+  - causal-llm-analysis
+  summary_zh: 以独立因果机制原则设计多个稀疏交互语言建模模块，研究这种因果约束能否改善分布外抽象与因果推理。
+  llm_role_zh: 被重新设计和训练的语言模型架构。
+  method_zh: 将模型分解为稀疏交互模块，测试机制独立性、领域专门化和分布外泛化。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology EMNLP 2024 main-paper page with authors, abstract,
+    DOI and PDF.
+  scope_decision: include
+  decision_reason_zh: EMNLP 2024 主会论文，以独立因果机制作为 LLM 架构和分析原则。
+  limitations_zh: 依据官方摘要；“因果机制”是模型架构层面的原则，外部现实因果识别并非其目标。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2024.emnlp-main.381/
+  - https://aclanthology.org/2024.emnlp-main.381.pdf
+  code_url: null
+  work_id: w-302caacbdb8b
+  publication_records:
+  - venue: EMNLP
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2024.emnlp-main.381
+    official_url: https://aclanthology.org/2024.emnlp-main.381/
+    paper_url: https://aclanthology.org/2024.emnlp-main.381.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Can Large Language Models Infer Causation from Correlation?
+  authors:
+  - Zhijing Jin
+  - Jiarui Liu
+  - Zhiheng Lyu
+  - Spencer Poff
+  - Mrinmaya Sachan
+  - Rada Mihalcea
+  - Mona T. Diab
+  - Bernhard Schölkopf
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://openreview.net/forum?id=vqIH0ObdqL
+  paper_url: https://openreview.net/pdf?id=vqIH0ObdqL
+  doi: null
+  topics:
+  - causal-discovery
+  - causal-reasoning
+  summary_zh: 构建超过 20 万样本的 Corr2Cause 基准，把相关性陈述映射为因果关系问题，显示多种 LLM 在分布外扰动下接近随机表现。
+  llm_role_zh: 研究对象；测试并微调 LLM 从相关关系推断因果结构的能力。
+  method_zh: 从因果图与条件独立关系生成自然语言问题，进行零样本与微调、分布内外评估。
+  evidence_basis: fulltext
+  evidence_locator: OpenReview PDF title page and abstract; banner states 'Published
+    as a conference paper at ICLR 2024'.
+  scope_decision: include
+  decision_reason_zh: ICLR 2024 正式论文，直接评估形式因果发现与泛化。
+  limitations_zh: 依据官方全文摘要与发表横幅；未复核全部数据生成细节。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://openreview.net/forum?id=vqIH0ObdqL
+  - https://openreview.net/pdf?id=vqIH0ObdqL
+  code_url: https://github.com/causalNLP/corr2cause
+  arxiv_id: '2306.05836'
+  openreview_id: vqIH0ObdqL
+  work_id: w-5c6d70da3e06
+  publication_records:
+  - venue: ICLR
+    year: 2024
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=vqIH0ObdqL
+    paper_url: https://openreview.net/pdf?id=vqIH0ObdqL
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+- title: 'Causal Modelling Agents: Causal Graph Discovery through Synergising Metadata-
+    and Data-driven Reasoning'
+  authors:
+  - Ahmed Abdulaal
+  - Adamos Hadjivasiliou
+  - Nina Montana-Brown
+  - Tiantian He
+  - Ayodeji Ijishakin
+  - Ivana Drobnjak
+  - Daniel C. Castro
+  - Daniel C. Alexander
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://openreview.net/forum?id=pAoqRlTBtY
+  paper_url: https://openreview.net/pdf?id=pAoqRlTBtY
+  doi: null
+  topics:
+  - causal-discovery
+  summary_zh: 提出 Causal Modelling Agent，将 LLM 从变量元数据提取的知识与深层结构因果模型的数据证据协同用于因果图发现。
+  llm_role_zh: 充当元数据推理模块，为数据驱动结构学习提供候选关系与背景知识。
+  method_zh: 将 LLM 元数据推理和 DSCM 结合，在标准基准及阿尔茨海默病案例中评估。
+  evidence_basis: official-abstract
+  evidence_locator: OpenReview forum title, author list, abstract, and status 'ICLR
+    2024 poster'.
+  scope_decision: include
+  decision_reason_zh: ICLR 2024 已接收主会论文，LLM 是混合因果发现算法的实质组件。
+  limitations_zh: 依据官方摘要；未阅读全文核查具体识别假设和理论保证。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://openreview.net/forum?id=pAoqRlTBtY
+  - https://openreview.net/pdf?id=pAoqRlTBtY
+  code_url: null
+  openreview_id: pAoqRlTBtY
+  work_id: w-7ffd16de4218
+  publication_records:
+  - venue: ICLR
+    year: 2024
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=pAoqRlTBtY
+    paper_url: https://openreview.net/pdf?id=pAoqRlTBtY
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: Conformal Language Modeling
+  authors:
+  - Victor Quach
+  - Adam Fisch
+  - Tal Schuster
+  - Adam Yala
+  - Jae Ho Sohn
+  - Tommi Jaakkola
+  - Regina Barzilay
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://iclr.cc/virtual/2024/poster/17755
+  paper_url: https://proceedings.iclr.cc/paper_files/paper/2024/file/31421b112e5f7faf4fc577b74e45dab2-Paper-Conference.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 为语言模型采样校准停止规则和拒绝规则，构造至少含一个可接受回答的候选集合，并对回答片段给出分布无关保证。
+  llm_role_zh: 任意支持采样的语言模型API是共形预测集合的生成器。
+  method_zh: 共形校准、序贯停止、候选拒绝与组件级正确性集合。
+  evidence_basis: fulltext
+  evidence_locator: ICLR official poster and official proceedings PDF abstract
+  scope_decision: include
+  decision_reason_zh: 官方ICLR主会论文，直接建立语言生成的共形预测框架。
+  limitations_zh: 核验摘要与官方PDF开头；未复核保证的全部可交换性条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://iclr.cc/virtual/2024/poster/17755
+  - https://proceedings.iclr.cc/paper_files/paper/2024/file/31421b112e5f7faf4fc577b74e45dab2-Paper-Conference.pdf
+  - https://openreview.net/forum?id=pzUhfQ74c5
+  code_url: null
+  openreview_id: pzUhfQ74c5
+  work_id: w-8b9218d788b2
+  publication_records:
+  - venue: ICLR
+    year: 2024
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://iclr.cc/virtual/2024/poster/17755
+    paper_url: https://proceedings.iclr.cc/paper_files/paper/2024/file/31421b112e5f7faf4fc577b74e45dab2-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: Language Models with Conformal Factuality Guarantees
+  authors:
+  - Christopher Mohri
+  - Tatsunori Hashimoto
+  venue: ICML
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v235/mohri24a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v235/main/assets/mohri24a/mohri24a.pdf
+  doi: null
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 把语言模型输出正确性转化为不确定性集合问题，提出逐步降低回答具体度的共形事实性框架，以少量人工标注获得高概率正确性保证。
+  llm_role_zh: 黑箱语言模型是被校准并输出事实性保证的核心系统。
+  method_zh: 共形预测、蕴含集合和回退式生成，在问答与数学推理任务上评估。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR ICML 2024 official proceedings page
+  scope_decision: include
+  decision_reason_zh: 官方ICML主会论文，直接将共形推断用于语言模型事实性。
+  limitations_zh: 摘要报告80–90%正确性保证；未核验具体覆盖口径及数据依赖条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v235/mohri24a.html
+  - https://raw.githubusercontent.com/mlresearch/v235/main/assets/mohri24a/mohri24a.pdf
+  code_url: null
+  work_id: w-885e91e951bb
+  publication_records:
+  - venue: ICML
+    year: 2024
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v235/mohri24a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v235/main/assets/mohri24a/mohri24a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Trained Transformers Learn Linear Models In-Context
+  authors:
+  - Ruiqi Zhang
+  - Spencer Frei
+  - Peter L. Bartlett
+  venue: JMLR
+  venue_group: cs-journal
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://jmlr.org/papers/v25/23-1042.html
+  paper_url: https://www.jmlr.org/papers/volume25/23-1042/23-1042.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 分析单层线性自注意力在随机线性回归任务上的梯度流，证明合适初始化下收敛到全局最优，并刻画新提示分布中的预测误差与协变量偏移脆弱性。
+  llm_role_zh: 训练后的线性自注意力Transformer作为受控的上下文监督学习器。
+  method_zh: 线性回归任务分布、非凸梯度流、全局收敛、最优线性预测比较与分布偏移分析。
+  evidence_basis: official-abstract
+  evidence_locator: JMLR volume 25 official article page and linked 55-page paper
+  scope_decision: include
+  decision_reason_zh: JMLR正式理论论文，直接研究训练所得Transformer如何在上下文中实现线性模型学习及其统计稳健性。
+  limitations_zh: 核心定理针对单层线性自注意力和线性回归任务；不能据此声称通用现实LLM具有相同收敛或偏移稳健性。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://jmlr.org/papers/v25/23-1042.html
+  - https://www.jmlr.org/papers/volume25/23-1042/23-1042.pdf
+  code_url: null
+  work_id: w-1ef8728cb7af
+  publication_records:
+  - venue: JMLR
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: null
+    official_url: https://jmlr.org/papers/v25/23-1042.html
+    paper_url: https://www.jmlr.org/papers/volume25/23-1042/23-1042.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation
+    Systems'
+  authors:
+  - Jon Saad-Falcon
+  - Omar Khattab
+  - Christopher Potts
+  - Matei Zaharia
+  venue: NAACL
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2024.naacl-long.20/
+  paper_url: https://aclanthology.org/2024.naacl-long.20.pdf
+  doi: 10.18653/v1/2024.naacl-long.20
+  topics:
+  - stats-inference
+  - synthetic-data
+  summary_zh: 以合成训练数据训练轻量语言模型评审器，并用少量人工标注通过PPI校正，估计RAG系统的上下文相关性、忠实性和答案相关性。
+  llm_role_zh: 语言模型既生成合成评审训练数据，也作为自动评审器；PPI修正其预测误差。
+  method_zh: 合成数据、轻量LM评审器、预测增强推断和跨域RAG评估。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology official NAACL page abstract and metadata
+  scope_decision: include
+  decision_reason_zh: 官方NAACL长文，PPI是获得可靠RAG评估的实质组件。
+  limitations_zh: 摘要未列出PPI区间的全部覆盖诊断，未复核正文公式。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2024.naacl-long.20/
+  - https://aclanthology.org/2024.naacl-long.20.pdf
+  code_url: null
+  work_id: w-c4d20ccff0f9
+  publication_records:
+  - venue: NAACL
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2024.naacl-long.20
+    official_url: https://aclanthology.org/2024.naacl-long.20/
+    paper_url: https://aclanthology.org/2024.naacl-long.20.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'DoubleLingo: Causal Estimation with Large Language Models'
+  authors:
+  - Marko Veljanovski
+  - Zach Wood-Doughty
+  venue: NAACL
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2024.naacl-short.71/
+  paper_url: https://aclanthology.org/2024.naacl-short.71.pdf
+  doi: 10.18653/v1/2024.naacl-short.71
+  topics:
+  - causal-estimation
+  summary_zh: 将 LLM 作为文本混杂变量的灵活 nuisance 模型嵌入双重机器学习，获得理论一致的因果效应估计。
+  llm_role_zh: 从高维文本学习倾向或结果 nuisance 函数，而最终效应由正交化估计器给出。
+  method_zh: 采用样本分割与双重机器学习正交化，结合 LLM 文本表示/预测以估计处理效应。
+  evidence_basis: official-abstract
+  evidence_locator: ACL Anthology official page with short-paper volume, authors,
+    abstract, DOI and PDF.
+  scope_decision: include
+  decision_reason_zh: NAACL 2024 正式短文，LLM 与双重机器学习结合是核心因果估计贡献。
+  limitations_zh: 依据官方摘要；一致性所需具体收敛率条件未阅读全文核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2024.naacl-short.71/
+  - https://aclanthology.org/2024.naacl-short.71.pdf
+  code_url: null
+  estimand_zh: 非随机数据中的平均处理效应。
+  assumptions_zh: 需调整同时影响处理和结果的文本混杂，并满足双重机器学习的 nuisance 收敛与识别条件。
+  guarantee_zh: 官方摘要称该方法可得到理论上一致的因果效应估计。
+  work_id: w-e9d052b3d9db
+  publication_records:
+  - venue: NAACL
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2024.naacl-short.71
+    official_url: https://aclanthology.org/2024.naacl-short.71/
+    paper_url: https://aclanthology.org/2024.naacl-short.71.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Benchmarking LLMs via Uncertainty Quantification
+  authors:
+  - Fanghua Ye
+  - Mingming Yang
+  - Jianhui Pang
+  - Longyue Wang
+  - Derek F. Wong
+  - Emine Yilmaz
+  - Shuming Shi
+  - Zhaopeng Tu
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/1bdcb065d40203a00bd39831153338bb-Paper-Datasets_and_Benchmarks_Track.pdf
+  doi: 10.52202/079017-0491
+  topics:
+  - uncertainty
+  summary_zh: 建立把共形预测不确定性纳入LLM基准评估的框架，比较九个模型系列在五类NLP任务中的准确率与确定性。
+  llm_role_zh: LLM是被评估对象，其答案概率被转化为有覆盖意义的预测集合。
+  method_zh: 共形预测集合与跨模型、跨任务基准测试。
+  evidence_basis: fulltext
+  evidence_locator: NeurIPS official Datasets and Benchmarks abstract and official
+    PDF methods section
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS数据与基准轨论文，统计不确定性是LLM评价的核心维度。
+  limitations_zh: 核验官方摘要及PDF共形预测背景；未复核代码和所有任务结果。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/1bdcb065d40203a00bd39831153338bb-Paper-Datasets_and_Benchmarks_Track.pdf
+  code_url: https://github.com/smartyfh/LLM-Uncertainty-Bench
+  work_id: w-6c4876882176
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-0491
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/1bdcb065d40203a00bd39831153338bb-Abstract-Datasets_and_Benchmarks_Track.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/1bdcb065d40203a00bd39831153338bb-Paper-Datasets_and_Benchmarks_Track.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'COLD: Causal reasOning in cLosed Daily activities'
+  authors:
+  - Abhinav Joshi
+  - Areeb Ahmad
+  - Ashutosh Modi
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/09265e2568cf7a6ff47b506acbc2c6eb-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/09265e2568cf7a6ff47b506acbc2c6eb-Paper-Conference.pdf
+  doi: 10.52202/079017-0167
+  topics:
+  - causal-reasoning
+  - causal-estimation
+  summary_zh: 构建基于日常封闭活动的约 900 万个因果查询，在现实语义和形式验证之间搭桥，并以背门准则衡量事件因果强度。
+  llm_role_zh: 研究对象；在日常活动的因果结构问题上接受大规模评测。
+  method_zh: 从活动流程生成结构化因果查询，采用多项选择评测，并用平均处理效应和背门调整作补充分析。
+  evidence_basis: fulltext
+  evidence_locator: NeurIPS abstract page plus official PDF sections on benchmark
+    generation, prompt evaluation and backdoor/ATE analysis.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2024 主会论文，形式因果查询、背门准则和 LLM 评测均为核心。
+  limitations_zh: 依据官方摘要和正文相关段落；未复查全部 900 万查询的生成代码。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/09265e2568cf7a6ff47b506acbc2c6eb-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/09265e2568cf7a6ff47b506acbc2c6eb-Paper-Conference.pdf
+  code_url: null
+  estimand_zh: 日常活动事件之间的平均处理效应/因果强度。
+  work_id: w-ae312a98f396
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-0167
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/09265e2568cf7a6ff47b506acbc2c6eb-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/09265e2568cf7a6ff47b506acbc2c6eb-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Discovery of the Hidden World with Large Language Models
+  authors:
+  - Chenxi Liu
+  - Yongqiang Chen
+  - Tongliang Liu
+  - Mingming Gong
+  - James Cheng
+  - Bo Han
+  - Kun Zhang
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/b99a07486702417d3b1bd64ec2cf74ad-Paper-Conference.pdf
+  doi: 10.52202/079017-3249
+  topics:
+  - causal-discovery
+  summary_zh: 提出 COAT，让 LLM 从非结构化观测提出并标注高层变量，再由因果发现算法构图并反馈迭代改进变量。
+  llm_role_zh: 因果表征助手；从文本等非结构化数据提出语义因子和标注规则。
+  method_zh: 迭代结合 LLM 因子提议/标注与统计因果发现，以局部 Markov blanket 为目标并给出相关理论分析。
+  evidence_basis: fulltext
+  evidence_locator: NeurIPS official abstract page and PDF abstract/introduction including
+    COAT loop and proposition claims.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2024 主会论文，LLM 与统计因果发现深度耦合。
+  limitations_zh: 正文说明理论保证依赖文中设定；本记录未独立证明。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/b99a07486702417d3b1bd64ec2cf74ad-Paper-Conference.pdf
+  code_url: https://causalcoat.github.io
+  work_id: w-e924df9e1b64
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3249
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/b99a07486702417d3b1bd64ec2cf74ad-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Does Reasoning Emerge? Examining the Probabilities of Causation in Large
+    Language Models
+  authors:
+  - Javier González
+  - Aditya V. Nori
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/d5a1f97d2b922da92e880d13b7d2bf02-Paper-Conference.pdf
+  doi: 10.52202/079017-3739
+  topics:
+  - causal-reasoning
+  - causal-estimation
+  summary_zh: 以因果必要性概率和充分性概率为核心，建立评估 LLM 是否能近似现实推理机制的理论与实践框架。
+  llm_role_zh: 作为自然语言接口的抽象机器，接受关于必要性与充分性的因果查询。
+  method_zh: 分析 PN/PS 可由 LLM 交互近似的条件，并用数学示例进行说明。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS 2024 official abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2024 主会论文，使用正式因果量 PN/PS 评估 LLM。
+  limitations_zh: 官方摘要仅概述数学示例；完整可识别条件需查阅全文。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/d5a1f97d2b922da92e880d13b7d2bf02-Paper-Conference.pdf
+  code_url: null
+  estimand_zh: 因果必要性概率（PN）与充分性概率（PS）。
+  work_id: w-72b00828d748
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3739
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d5a1f97d2b922da92e880d13b7d2bf02-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/d5a1f97d2b922da92e880d13b7d2bf02-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Large language model validity via enhanced conformal prediction methods
+  authors:
+  - John J. Cherian
+  - Isaac Gibbs
+  - Emmanuel J. Candès
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d02ff1aeaa5c268dc34790dd1ad21526-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/d02ff1aeaa5c268dc34790dd1ad21526-Paper-Conference.pdf
+  doi: 10.52202/079017-3645
+  topics:
+  - uncertainty
+  - stats-inference
+  summary_zh: 针对LLM回答过滤的条件有效性与效用损失，扩展条件共形方法以自适应放宽保证，并通过可微条件共形过程改进评分器。
+  llm_role_zh: LLM生成的声明是条件共形校准与筛选的直接对象。
+  method_zh: 条件共形推断、自适应保证强度与对校准过程求导的评分器优化。
+  evidence_basis: fulltext
+  evidence_locator: NeurIPS official abstract and official PDF abstract
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，提供LLM输出有效性的共形统计方法。
+  limitations_zh: 核验摘要与PDF开头；未复核条件有效性的全部函数类和正则条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/d02ff1aeaa5c268dc34790dd1ad21526-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/d02ff1aeaa5c268dc34790dd1ad21526-Paper-Conference.pdf
+  code_url: null
+  work_id: w-7a3b3537d488
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3645
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/d02ff1aeaa5c268dc34790dd1ad21526-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/d02ff1aeaa5c268dc34790dd1ad21526-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Prediction-Powered Ranking of Large Language Models
+  authors:
+  - Ivi Chatzi
+  - Eleni Straitouri
+  - Suhas Thejaswi
+  - Manuel Gomez Rodriguez
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd47cd67caa87f5b1944e00f6781598f-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/cd47cd67caa87f5b1944e00f6781598f-Paper-Conference.pdf
+  doi: 10.52202/079017-3594
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 用少量人类两两偏好和大量强LLM偏好构造每个候选模型的排名集合，并给出对人类偏好真排名的渐近覆盖保证。
+  llm_role_zh: 强LLM提供代理偏好标签，被评估对象也是LLM。
+  method_zh: 预测增强排名推断、排名集合与渐近覆盖理论，在LMSYS Chatbot Arena上验证。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-11 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，LLM辅助统计排名与不确定性保证是核心。
+  limitations_zh: 官方摘要仅明确渐近覆盖，未复核有限样本性质。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd47cd67caa87f5b1944e00f6781598f-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/cd47cd67caa87f5b1944e00f6781598f-Paper-Conference.pdf
+  code_url: null
+  work_id: w-b3cb75e6cccc
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3594
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/cd47cd67caa87f5b1944e00f6781598f-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/cd47cd67caa87f5b1944e00f6781598f-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Stratified Prediction-Powered Inference for Effective Hybrid Evaluation of
+    Language Models
+  authors:
+  - Adam Fisch
+  - Joshua Maynez
+  - R. Alex Hofer
+  - Bhuwan Dhingra
+  - Amir Globerson
+  - William W. Cohen
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/c9fcd02e6445c7dfbad6986abee53d0d-Paper-Conference.pdf
+  doi: 10.52202/079017-3541
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 提出分层预测增强推断StratPPI，以少量人工标签和大量自动标签构造任意维参数的有效置信区间，并通过分层与样本分配提高LLM评估效率。
+  llm_role_zh: 自动评估器为语言模型评估提供大规模代理标签，目标也是语言模型性能。
+  method_zh: 分层抽样、PPI校正、无分布假设的置信区间与最优样本分配分析。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract lines 8-10 and DOI
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，直接解决LLM评估中的有效统计推断。
+  limitations_zh: 仅核验官方摘要，未复核有限样本公式和实验数据集细节。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/c9fcd02e6445c7dfbad6986abee53d0d-Paper-Conference.pdf
+  code_url: null
+  work_id: w-d3a7ef46fbf8
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3541
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/c9fcd02e6445c7dfbad6986abee53d0d-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/c9fcd02e6445c7dfbad6986abee53d0d-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Unveiling Causal Reasoning in Large Language Models: Reality or Mirage?'
+  authors:
+  - Haoang Chi
+  - He Li
+  - Wenjing Yang
+  - Feng Liu
+  - Long Lan
+  - Xiaoguang Ren
+  - Tongliang Liu
+  - Bo Han
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/af2bb2b2280d36f8842e440b4e275152-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/af2bb2b2280d36f8842e440b4e275152-Paper-Conference.pdf
+  doi: 10.52202/079017-3064
+  topics:
+  - causal-reasoning
+  summary_zh: 以新鲜语料 CausalProbe-2024 区分参数记忆与真正因果推理，并提出结合一般知识和目标提示的 G²-Reasoner。
+  llm_role_zh: 研究对象与推理器；测试其在新鲜及虚构情境中的因果能力。
+  method_zh: 从自回归机制作理论讨论，构建近乎未见的新基准，并比较提示增强方法。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS 2024 official abstract page, Main Conference Track, authors,
+    abstract and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2024 主会论文，基准和方法均围绕 LLM 因果推理。
+  limitations_zh: 依据官方摘要；“层级 1/2”划分的完整论证未逐段复核。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2024/hash/af2bb2b2280d36f8842e440b4e275152-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2024/file/af2bb2b2280d36f8842e440b4e275152-Paper-Conference.pdf
+  code_url: null
+  work_id: w-eff070307f43
+  publication_records:
+  - venue: NeurIPS
+    year: 2024
+    track: main
+    publication_status: published
+    doi: 10.52202/079017-3064
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/af2bb2b2280d36f8842e440b4e275152-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/af2bb2b2280d36f8842e440b4e275152-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Causal Reasoning and Large Language Models: Opening a New Frontier for Causality'
+  authors:
+  - Emre Kıcıman
+  - Robert Osazuwa Ness
+  - Amit Sharma
+  - Chenhao Tan
+  venue: TMLR
+  venue_group: cs-journal
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://openreview.net/forum?id=mqoxLkX210
+  paper_url: https://openreview.net/pdf?id=mqoxLkX210
+  doi: null
+  topics:
+  - causal-discovery
+  - causal-reasoning
+  summary_zh: 系统评测 LLM 生成因果论证的能力，涵盖成对因果发现、反事实推理和事件必要性/充分性，并讨论与形式因果工具结合。
+  llm_role_zh: 作为基于语义元数据的因果知识与论证生成器。
+  method_zh: 跨多项因果任务开展行为评测与稳健性检查，比较 LLM 与既有因果算法。
+  evidence_basis: fulltext
+  evidence_locator: OpenReview/TMLR forum status 'Accepted by TMLR' and official paper
+    abstract/full text.
+  scope_decision: include
+  decision_reason_zh: TMLR 正式接收，直接覆盖因果发现与反事实推理。
+  limitations_zh: 全文强调 LLM 生成的是因果论证文本，不能替代可验证的形式因果分析。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://openreview.net/forum?id=mqoxLkX210
+  - https://openreview.net/pdf?id=mqoxLkX210
+  code_url: null
+  arxiv_id: '2305.00050'
+  openreview_id: mqoxLkX210
+  work_id: w-aae69eea1af6
+  publication_records:
+  - venue: TMLR
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=mqoxLkX210
+    paper_url: https://openreview.net/pdf?id=mqoxLkX210
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+- title: 'Generating with Confidence: Uncertainty Quantification for Black-box Large
+    Language Models'
+  authors:
+  - Zhen Lin
+  - Shubhendu Trivedi
+  - Jimeng Sun
+  venue: TMLR
+  venue_group: cs-journal
+  year: 2024
+  track: journal
+  publication_status: published
+  official_url: https://openreview.net/forum?id=DWkJCSxKU5
+  paper_url: https://openreview.net/pdf?id=DWkJCSxKU5
+  doi: null
+  topics:
+  - uncertainty
+  summary_zh: 面向只能采样、不能读取logit的黑盒LLM，区分候选回答间的语义离散度与单个回答的可靠置信度，并用该不确定性支持选择性生成和幻觉检测。
+  llm_role_zh: 黑盒LLM既生成多样候选，也是不确定性量化和选择性回答的直接对象。
+  method_zh: 多次采样、语义相似度与离散度聚合、回答级置信评分、选择性预测评估。
+  evidence_basis: official-abstract
+  evidence_locator: TMLR official weekly publication announcement identifying the
+    paper, authors, abstract and OpenReview publication page
+  scope_decision: include
+  decision_reason_zh: TMLR正式发表记录，提出不依赖内部logit的LLM不确定性量化方法。
+  limitations_zh: 黑盒采样会增加调用成本；经验置信分数不自动等同于分布无关覆盖保证，且结果依赖语义相似度模型。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://groups.google.com/g/tmlr-announce-weekly/c/IfK5iKWnLMg
+  - https://jmlr.org/tmlr/
+  - https://openreview.net/forum?id=DWkJCSxKU5
+  - https://openreview.net/pdf?id=DWkJCSxKU5
+  code_url: https://github.com/zlin7/UQ-NLG
+  work_id: w-ad47ff618841
+  publication_records:
+  - venue: TMLR
+    year: 2024
+    track: journal
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=DWkJCSxKU5
+    paper_url: https://openreview.net/pdf?id=DWkJCSxKU5
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Optimizing Language Models for Human Preferences is a Causal Inference Problem
+  authors:
+  - Victoria Lin
+  - Eli Ben-Michael
+  - Louis-Philippe Morency
+  venue: UAI
+  venue_group: cs-conference
+  year: 2024
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v244/lin24a.html
+  paper_url: https://raw.githubusercontent.com/mlresearch/v244/main/assets/lin24a/lin24a.pdf
+  doi: null
+  topics:
+  - causal-estimation
+  summary_zh: 把基于直接结果数据的语言模型偏好优化形式化为因果问题，提出 CPO 与双重稳健 DR-CPO 以降低偏差和方差。
+  llm_role_zh: 被优化的生成模型；其文本作为处理，读者反应数值作为结果。
+  method_zh: 构造无偏代理目标，并以双重稳健修正结合结果与倾向模型，在混杂条件下优化 LLM。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR volume 244 official paper page with title, authors, UAI 2024
+    proceedings metadata, abstract and PDF.
+  scope_decision: include
+  decision_reason_zh: UAI 2024 正式论文，以因果估计方法解决 LLM 偏好优化。
+  limitations_zh: 依据官方摘要；具体可识别性条件和有限样本性质未逐项阅读全文核验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v244/lin24a.html
+  - https://raw.githubusercontent.com/mlresearch/v244/main/assets/lin24a/lin24a.pdf
+  code_url: null
+  estimand_zh: 在文本干预下的期望读者结果/偏好。
+  guarantee_zh: 摘要称 CPO 的代理目标无偏，DR-CPO 在保留偏差保证时降低方差。
+  work_id: w-07cc11ba80c7
+  publication_records:
+  - venue: UAI
+    year: 2024
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v244/lin24a.html
+    paper_url: https://raw.githubusercontent.com/mlresearch/v244/main/assets/lin24a/lin24a.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  assumptions_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation
+    in Natural Language Generation'
+  authors:
+  - Lorenz Kuhn
+  - Yarin Gal
+  - Sebastian Farquhar
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://iclr.cc/virtual/2023/oral/12609
+  paper_url: https://openreview.net/forum?id=VD-AYtP0dve
+  doi: null
+  topics:
+  - uncertainty
+  summary_zh: 提出语义熵，把意义等价的不同表述聚类后度量LLM生成不确定性，在问答上比词面或概率基线更能预测正确性。
+  llm_role_zh: LLM的自由文本输出及其语义等价类是熵度量对象。
+  method_zh: 多次采样、语义等价判定与语义熵估计。
+  evidence_basis: official-abstract
+  evidence_locator: ICLR 2023 official oral page lines 163-173
+  scope_decision: include
+  decision_reason_zh: 官方ICLR主会口头报告页面确认发表，且提出LLM专用不确定性统计量。
+  limitations_zh: 仅核验官方摘要，未复核语义聚类误差与具体估计偏差。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://iclr.cc/virtual/2023/oral/12609
+  - https://openreview.net/forum?id=VD-AYtP0dve
+  code_url: null
+  openreview_id: VD-AYtP0dve
+  work_id: w-a5c2f9d170b9
+  publication_records:
+  - venue: ICLR
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://iclr.cc/virtual/2023/oral/12609
+    paper_url: https://openreview.net/forum?id=VD-AYtP0dve
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: 'Transformers as Algorithms: Generalization and Stability in In-context Learning'
+  authors:
+  - Yingcong Li
+  - Muhammed Emrullah Ildiz
+  - Dimitris Papailiopoulos
+  - Samet Oymak
+  venue: ICML
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v202/li23l.html
+  paper_url: https://proceedings.mlr.press/v202/li23l/li23l.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 把上下文学习形式化为算法学习问题，以算法稳定性连接Transformer的超额风险，并给出多任务与新任务泛化界。
+  llm_role_zh: Transformer/LLM式上下文学习器是统计泛化理论的核心对象。
+  method_zh: 稳定性分析、超额风险分解、i.i.d.与动态序列提示的泛化界及回归实验。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR ICML 2023 official proceedings page
+  scope_decision: include
+  decision_reason_zh: 官方ICML主会论文，直接提供上下文学习的统计泛化保证。
+  limitations_zh: 仅按官方摘要概括，未复核各界的常数与技术条件。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v202/li23l.html
+  - https://proceedings.mlr.press/v202/li23l/li23l.pdf
+  code_url: null
+  work_id: w-61ba71c14b51
+  publication_records:
+  - venue: ICML
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v202/li23l.html
+    paper_url: https://proceedings.mlr.press/v202/li23l/li23l.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'CLadder: Assessing Causal Reasoning in Language Models'
+  authors:
+  - Zhijing Jin
+  - Yuen Chen
+  - Felix Leeb
+  - Luigi Gresele
+  - Ojasv Kamal
+  - Zhiheng LYU
+  - Kevin Blin
+  - Fernando Gonzalez Adauto
+  - Max Kleiman-Weiner
+  - Mrinmaya Sachan
+  - Bernhard Schölkopf
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/631bb9434d718ea309af82566347d607-Paper-Conference.pdf
+  doi: 10.52202/075280-1353
+  topics:
+  - causal-reasoning
+  summary_zh: 构建 CLadder 自然语言因果推理基准，覆盖关联、干预和反事实查询，并提出 CausalCoT 提示策略。
+  llm_role_zh: 研究对象；在由形式因果推理引擎生成真值的任务上受测。
+  method_zh: 从因果图和形式查询生成 1 万条自然语言样本，以 oracle 引擎给出答案并评测多种 LLM。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS proceedings abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2023 主会论文，是形式因果推理评测的核心基准。
+  limitations_zh: 依据官方摘要页；未阅读全文复核所有提示与误差分析。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/631bb9434d718ea309af82566347d607-Paper-Conference.pdf
+  code_url: https://github.com/causalNLP/cladder
+  work_id: w-a5b9f85e677f
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.52202/075280-1353
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/631bb9434d718ea309af82566347d607-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Does Localization Inform Editing? Surprising Differences in Causality-Based
+    Localization vs. Knowledge Editing in Language Models
+  authors:
+  - Peter Hase
+  - Mohit Bansal
+  - Been Kim
+  - Asma Ghandeharioun
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/3927bbdcf0e8d1fa8aa23c26f358a281-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/3927bbdcf0e8d1fa8aa23c26f358a281-Paper-Conference.pdf
+  doi: 10.52202/075280-0774
+  topics:
+  - causal-llm-analysis
+  summary_zh: 检验基于表示去噪的 Causal Tracing 是否能指示知识编辑位置，发现其定位结论通常不能预测最佳编辑层。
+  llm_role_zh: 研究对象；通过内部干预比较事实定位与参数编辑结果。
+  method_zh: 在预训练语言模型中对表示作去噪干预，并与多种事实编辑、擦除和增强任务的层级效果比较。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS proceedings abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2023 主会论文，直接审视 LLM 因果追踪方法的有效性。
+  limitations_zh: 属于模型内部机制的因果干预，而非现实世界处理效应估计。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/3927bbdcf0e8d1fa8aa23c26f358a281-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/3927bbdcf0e8d1fa8aa23c26f358a281-Paper-Conference.pdf
+  code_url: null
+  work_id: w-4fa15b570ee2
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.52202/075280-0774
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/3927bbdcf0e8d1fa8aa23c26f358a281-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/3927bbdcf0e8d1fa8aa23c26f358a281-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Interpretability at Scale: Identifying Causal Mechanisms in Alpaca'
+  authors:
+  - Zhengxuan Wu
+  - Atticus Geiger
+  - Thomas Icard
+  - Christopher Potts
+  - Noah Goodman
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f6a8b109d4d4fd64c75e94aaf85d9697-Paper-Conference.pdf
+  doi: null
+  topics:
+  - causal-llm-analysis
+  summary_zh: 提出 Boundless DAS，以因果抽象和可学习对齐搜索定位 Alpaca 在数值推理任务中的可解释内部因果变量。
+  llm_role_zh: 研究对象；分析指令微调 LLM 内部表征与符号因果模型的对应关系。
+  method_zh: 扩展分布式对齐搜索，用梯度学习神经表征与两个布尔因果变量之间的干预式对齐。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS proceedings abstract page, Main Conference Track and abstract.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2023 主会论文，使用明确的因果抽象与干预方法分析 LLM 机制。
+  limitations_zh: 官方摘要未列 DOI；仅记录可核实元数据，未推断缺失 DOI。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/f6a8b109d4d4fd64c75e94aaf85d9697-Paper-Conference.pdf
+  code_url: null
+  work_id: w-7d514ee3369e
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/f6a8b109d4d4fd64c75e94aaf85d9697-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f6a8b109d4d4fd64c75e94aaf85d9697-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment
+    Tasks'
+  authors:
+  - Allen Nie
+  - Yuhui Zhang
+  - Atharva Shailesh Amdekar
+  - Chris Piech
+  - Tatsunori B Hashimoto
+  - Tobias Gerstenberg
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f751c6f8bfb52c60f43942896fe65904-Paper-Conference.pdf
+  doi: 10.52202/075280-3426
+  topics:
+  - causal-reasoning
+  summary_zh: 汇集认知科学中的因果与道德判断情境，用统计分析比较 LLM 与人类对规范、可避免性等因素的权重。
+  llm_role_zh: 研究对象；对文本情境作因果责任与道德判断。
+  method_zh: 从 24 篇认知科学研究构造标注数据，按因素分解人类与多种 LLM 的判断一致性。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS proceedings abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2023 主会论文，以因果判断及统计分解实质评测语言模型。
+  limitations_zh: 任务含道德判断；本记录只纳入其明确的因果判断部分。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/f751c6f8bfb52c60f43942896fe65904-Paper-Conference.pdf
+  code_url: null
+  work_id: w-0123eb9cb624
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.52202/075280-3426
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/f751c6f8bfb52c60f43942896fe65904-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/f751c6f8bfb52c60f43942896fe65904-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Passive learning of active causal strategies in agents and language models
+  authors:
+  - Andrew Lampinen
+  - Stephanie Chan
+  - Ishita Dasgupta
+  - Andrew Nam
+  - Jane Wang
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/045c87def0c02e3ad0d3d849766d7f1e-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/045c87def0c02e3ad0d3d849766d7f1e-Paper-Conference.pdf
+  doi: 10.52202/075280-0062
+  topics:
+  - causal-reasoning
+  summary_zh: 研究仅从被动数据学习的智能体能否在测试时形成主动干预策略，并显示语言解释可帮助语言模型泛化到新因果结构。
+  llm_role_zh: 作为被动预训练模型，通过少样本解释学习实验设计与干预策略。
+  method_zh: 给出可行性分析，并在因果环境与高维观测任务中测试模仿学习智能体和语言模型。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS proceedings abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2023 主会论文，LLM 的主动因果干预策略是实质研究对象。
+  limitations_zh: 官方摘要同时涵盖一般智能体和语言模型；本记录仅概括其中 LLM 相关部分。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/045c87def0c02e3ad0d3d849766d7f1e-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/045c87def0c02e3ad0d3d849766d7f1e-Paper-Conference.pdf
+  code_url: null
+  work_id: w-20067a2b4a97
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.52202/075280-0062
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/045c87def0c02e3ad0d3d849766d7f1e-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/045c87def0c02e3ad0d3d849766d7f1e-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: Pretraining task diversity and the emergence of non-Bayesian in-context learning
+    for regression
+  authors:
+  - Allan Raventós
+  - Mansheej Paul
+  - Feng Chen
+  - Surya Ganguli
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/2e10b2c2e1aa4f8083c37dfe269873f8-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/2e10b2c2e1aa4f8083c37dfe269873f8-Paper-Conference.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 发现预训练任务多样性存在上下文学习涌现阈值：阈值下模型接近基于预训练任务先验的贝叶斯估计，阈值上则转向近似岭回归并能处理新任务。
+  llm_role_zh: 预训练Transformer用于刻画LLM上下文回归的贝叶斯与非贝叶斯行为。
+  method_zh: 线性回归任务族、有限任务先验、贝叶斯基线、岭回归比较与任务多样性扫描。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract and paper pages
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，核心是上下文学习的贝叶斯统计解释与失效边界。
+  limitations_zh: 摘要层面核验；未复核阈值的精确定义与实验超参数。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/2e10b2c2e1aa4f8083c37dfe269873f8-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/2e10b2c2e1aa4f8083c37dfe269873f8-Paper-Conference.pdf
+  code_url: null
+  work_id: w-ae1dcfa11044
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/2e10b2c2e1aa4f8083c37dfe269873f8-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/2e10b2c2e1aa4f8083c37dfe269873f8-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Transformers as Statisticians: Provable In-Context Learning with In-Context
+    Algorithm Selection'
+  authors:
+  - Yu Bai
+  - Fan Chen
+  - Huan Wang
+  - Caiming Xiong
+  - Song Mei
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/b2e63e36c57e153b9015fece2352a9f9-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/b2e63e36c57e153b9015fece2352a9f9-Paper-Conference.pdf
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 构造并分析可在上下文中实现最小二乘、岭回归、Lasso与广义线性模型学习的Transformer，并证明预测能力、规模与预训练样本复杂度。
+  llm_role_zh: Transformer被视为能在提示内选择和执行统计算法的LLM理论模型。
+  method_zh: 显式Transformer构造、上下文梯度下降、算法选择机制与样本复杂度分析。
+  evidence_basis: fulltext
+  evidence_locator: NeurIPS official abstract plus official PDF abstract/introduction
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，统计理论与LLM上下文算法选择高度相关。
+  limitations_zh: 核验了官方摘要及PDF导言；未逐项复核所有证明。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2023/hash/b2e63e36c57e153b9015fece2352a9f9-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2023/file/b2e63e36c57e153b9015fece2352a9f9-Paper-Conference.pdf
+  code_url: null
+  work_id: w-85ef2652a1e8
+  publication_records:
+  - venue: NeurIPS
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2023/hash/b2e63e36c57e153b9015fece2352a9f9-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2023/file/b2e63e36c57e153b9015fece2352a9f9-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: 'Causal Parrots: Large Language Models May Talk Causality But Are Not Causal'
+  authors:
+  - Matej Zečević
+  - Moritz Willig
+  - Devendra Singh Dhami
+  - Kristian Kersting
+  venue: TMLR
+  venue_group: cs-journal
+  year: 2023
+  track: journal
+  publication_status: published
+  official_url: https://openreview.net/forum?id=tv46tCzs83
+  paper_url: https://openreview.net/pdf?id=tv46tCzs83
+  doi: null
+  topics:
+  - causal-reasoning
+  - causal-llm-analysis
+  summary_zh: 提出 meta-SCM 视角，区分语言中因果事实的相关性复述与可干预的真正因果模型，并用实验检验大模型是否只是“因果鹦鹉”。
+  llm_role_zh: 研究对象；评估大模型对因果事实与形式因果关系的表征能力。
+  method_zh: 以结构因果模型和 meta-SCM 作概念分析，并在符号与语义变化条件下测试语言模型。
+  evidence_basis: fulltext
+  evidence_locator: OpenReview/TMLR PDF title page, abstract, and publication banner
+    ('Published in Transactions on Machine Learning Research (08/2023)').
+  scope_decision: include
+  decision_reason_zh: TMLR 正式发表，核心问题是 LLM 是否具备结构因果含义上的推理能力。
+  limitations_zh: 本记录依据正式全文摘要和发表标识；未独立复现其实验。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://openreview.net/forum?id=tv46tCzs83
+  - https://openreview.net/pdf?id=tv46tCzs83
+  code_url: null
+  openreview_id: tv46tCzs83
+  work_id: w-b362d8beb6e3
+  publication_records:
+  - venue: TMLR
+    year: 2023
+    track: journal
+    publication_status: published
+    doi: null
+    official_url: https://openreview.net/forum?id=tv46tCzs83
+    paper_url: https://openreview.net/pdf?id=tv46tCzs83
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: An Explanation of In-context Learning as Implicit Bayesian Inference
+  authors:
+  - Sang Michael Xie
+  - Aditi Raghunathan
+  - Percy Liang
+  - Tengyu Ma
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2022
+  track: main
+  publication_status: published
+  official_url: https://iclr.cc/virtual/2022/poster/6893
+  paper_url: https://openreview.net/forum?id=RdJVFCHjUMI
+  doi: null
+  topics:
+  - statistical-theory
+  summary_zh: 在预训练文本由混合隐马尔可夫模型生成的理论设定中，把上下文学习解释为对共享潜在概念的隐式贝叶斯推断，并刻画预训练与提示分布失配时仍能成立的条件。
+  llm_role_zh: 语言模型是理论对象；GPT-3式上下文学习是所解释的核心现象。
+  method_zh: 混合HMM生成模型、潜变量贝叶斯推断理论与合成GINC实验。
+  evidence_basis: official-abstract
+  evidence_locator: ICLR 2022 official poster page, title/authors/year/abstract; OpenReview
+    linked from official page
+  scope_decision: include
+  decision_reason_zh: 官方ICLR主会页面确认发表，且论文直接给出LLM上下文学习的贝叶斯统计理论。
+  limitations_zh: 本记录仅核验官方摘要，未逐条复核正文中的全部定理假设。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://iclr.cc/virtual/2022/poster/6893
+  - https://openreview.net/forum?id=RdJVFCHjUMI
+  code_url: null
+  openreview_id: RdJVFCHjUMI
+  work_id: w-3207c712e53d
+  publication_records:
+  - venue: ICLR
+    year: 2022
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://iclr.cc/virtual/2022/poster/6893
+    paper_url: https://openreview.net/forum?id=RdJVFCHjUMI
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+- title: Locating and Editing Factual Associations in GPT
+  authors:
+  - Kevin Meng
+  - David Bau
+  - Alex Andonian
+  - Yonatan Belinkov
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2022
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf
+  doi: 10.52202/068431-1262
+  topics:
+  - causal-llm-analysis
+  summary_zh: 通过因果干预定位 GPT 中决定事实预测的神经激活，并提出 ROME 直接编辑中层前馈权重中的事实关联。
+  llm_role_zh: 研究对象；分析自回归语言模型内部事实存储与召回机制。
+  method_zh: 对隐藏激活实施干预式因果追踪，再用秩一权重更新验证定位假说，并在反事实断言上评估。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS 2022 official abstract page, Main Conference Track, abstract
+    and DOI.
+  scope_decision: include
+  decision_reason_zh: NeurIPS 2022 主会论文，明确使用内部因果干预研究 GPT 机制。
+  limitations_zh: 研究对象包含自回归 transformer 语言模型；并非现实世界因果效应估计。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf
+  code_url: null
+  work_id: w-d64cf012f2d0
+  publication_records:
+  - venue: NeurIPS
+    year: 2022
+    track: main
+    publication_status: published
+    doi: 10.52202/068431-1262
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/6f1d43d5a82a37e89b0665b33bf3a182-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2022/file/6f1d43d5a82a37e89b0665b33bf3a182-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
+- title: What Can Transformers Learn In-Context? A Case Study of Simple Function Classes
+  authors:
+  - Shivam Garg
+  - Dimitris Tsipras
+  - Percy S. Liang
+  - Gregory Valiant
+  venue: NeurIPS
+  venue_group: cs-conference
+  year: 2022
+  track: main
+  publication_status: published
+  official_url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/c529dba08a146ea8d6cf715ae8930cbe-Abstract-Conference.html
+  paper_url: https://proceedings.neurips.cc/paper_files/paper/2022/file/c529dba08a146ea8d6cf715ae8930cbe-Paper-Conference.pdf
+  doi: 10.52202/068431-2217
+  topics:
+  - statistical-theory
+  summary_zh: 用线性、稀疏线性及非线性函数类检验Transformer的上下文学习能力，显示其在受控问题上可接近最小二乘、Lasso等经典估计器。
+  llm_role_zh: Transformer是LLM上下文学习机制的受控统计模型。
+  method_zh: 从头训练Transformer，并与最小二乘、Lasso和梯度下降估计器在分布偏移下比较。
+  evidence_basis: official-abstract
+  evidence_locator: NeurIPS official abstract and paper pages
+  scope_decision: include
+  decision_reason_zh: 官方NeurIPS主会论文，实质研究LLM式上下文学习与经典统计估计器的对应。
+  limitations_zh: 官方摘要支持主要结论；未核验全部实验设置与附录。
+  verified_on: '2026-09-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.neurips.cc/paper_files/paper/2022/hash/c529dba08a146ea8d6cf715ae8930cbe-Abstract-Conference.html
+  - https://proceedings.neurips.cc/paper_files/paper/2022/file/c529dba08a146ea8d6cf715ae8930cbe-Paper-Conference.pdf
+  code_url: null
+  work_id: w-d01da3a58f5e
+  publication_records:
+  - venue: NeurIPS
+    year: 2022
+    track: main
+    publication_status: published
+    doi: 10.52202/068431-2217
+    official_url: https://proceedings.neurips.cc/paper_files/paper/2022/hash/c529dba08a146ea8d6cf715ae8930cbe-Abstract-Conference.html
+    paper_url: https://proceedings.neurips.cc/paper_files/paper/2022/file/c529dba08a146ea8d6cf715ae8930cbe-Paper-Conference.pdf
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates: null
+  arxiv_id: null
+  openreview_id: null
