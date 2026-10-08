@@ -2,7 +2,7 @@
 
 [返回目录](../README.md) · [覆盖说明](coverage.md)
 
-当前主目录 84 篇，其中营销与行为模拟的应用入口见[应用指南](marketing-simulation.md)。按你的筛选要求，研究 LLM 使用、引入或普及对生产率、就业等现实结果之因果效应的文章不纳入。以下阅读顺序按与统计/因果研究设计的直接联系排列，不是论文质量排名。
+当前主目录 87 篇，其中营销与行为模拟的应用入口见[应用指南](marketing-simulation.md)。按你的筛选要求，研究 LLM 使用、引入或普及对生产率、就业等现实结果之因果效应的文章不纳入。以下阅读顺序按与统计/因果研究设计的直接联系排列，不是论文质量排名。
 
 ## 建议先读
 
@@ -18,6 +18,12 @@
 | 8 | LLM 文本上的统计检验 | [A statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules](https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short) · Annals of Statistics 2025 | 从枢轴量、检测效率与最优规则理解统计学顶刊的切入点；这条线主要是统计方法用于 LLM。 |
 
 ## 方法之间的关系
+
+### 非结构化数据的因果估计：重点补充
+
+[Leveraging generative AI for causal inference with unstructured data](https://doi.org/10.1073/pnas.2530532123)（Imai 与 Nakamura，PNAS 2026）已列入重点补充。它用生成模型的内部表示学习混杂调整变量，连接文本混杂、图像特征处理效应与文本结构模型。可在 DoubleLingo 之后阅读，重点比较表示保留的信息、deconfounder 的识别条件、重叠与交叉拟合。PNAS 在当前主目录期刊名单之外，因此不计入上方主目录数量。
+
+[GPI 与相近论文阅读指南](unstructured-causal.md) 区分主目录与补充阅读，包含本轮正式收录的 10 篇论文，并标明正式发表与预印本状态。该方向的定向核验日期为 2026-10-08，不代表其他主题已更新至该日。
 
 **LLM 辅助统计/因果研究**最值得先沿两条线读。一条把模型预测、标签或合成回答当作带误差的辅助数据，再用真实观测做校正；另一条把模型当作提供图结构、变量顺序或 IV 候选的知识来源。两条线的关键区别在于：前者主要处理估计误差，后者还必须处理识别信息是否可信。上述 DoubleLingo、分层 PPI、调查校正、Causal Order 与 IV Co-Scientist 分别提供了具体入口。
 

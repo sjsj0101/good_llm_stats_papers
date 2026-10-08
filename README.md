@@ -8,7 +8,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 2022–2026 · 计算机、统计、经济与营销：方法和应用
 
-[![Papers](https://img.shields.io/badge/Papers-84-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-33-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-2026--09--09-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)
+[![Papers](https://img.shields.io/badge/Papers-87-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-33-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-2026--09--09-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)
 
 [**Suggest a Paper**](https://github.com/sjsj0101/good_llm_stats_papers/issues/new?template=paper-suggestion.yml)
 
@@ -28,11 +28,13 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 | Metric | Value |
 | --- | ---: |
-| 主目录论文 | 84 |
-| 正式发表 / 官方已接收稿 | 82 / 2 |
-| 补充 / 待核验 | 27 / 1 |
+| 主目录论文 | 87 |
+| 正式发表 / 官方已接收稿 | 85 / 2 |
+| 补充 / 待核验 | 34 / 1 |
 | 目标 venue / 年份单元 | 33 / 165 |
-| 检索截止日 | 2026-09-09 |
+| 基础检索截止日 | 2026-09-09 |
+
+后续定向增补的范围、日期与限制见[来源与核验](docs/sources.md)；不代表其他主题或全部 venue 已同步更新。
 
 ## How to Use
 
@@ -44,11 +46,11 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 ## Browse by Topic
 
-- [LLM 辅助统计推断](topics/stats-inference.md)：20 篇
+- [LLM 辅助统计推断](topics/stats-inference.md)：23 篇
 - [统计学习理论与上下文学习](topics/statistical-theory.md)：23 篇
-- [不确定性、校准与统计评测](topics/uncertainty.md)：23 篇
+- [不确定性、校准与统计评测](topics/uncertainty.md)：24 篇
 - [因果发现与识别](topics/causal-discovery.md)：12 篇
-- [因果估计与推断](topics/causal-estimation.md)：9 篇
+- [因果估计与推断](topics/causal-estimation.md)：12 篇
 - [因果推理能力与评测](topics/causal-reasoning.md)：18 篇
 - [LLM 的因果与概率分析](topics/causal-llm-analysis.md)：9 篇
 - [合成数据与调查有效性](topics/synthetic-data.md)：13 篇
@@ -61,7 +63,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 | Venue | 2026 | 2025 | 2024 | 2023 | 2022 |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| ICML | 0 | [6](papers/2025/icml.md) | [1](papers/2024/icml.md) | [2](papers/2023/icml.md) | 0 |
+| ICML | 0 | [7](papers/2025/icml.md) | [1](papers/2024/icml.md) | [2](papers/2023/icml.md) | 0 |
 | NeurIPS | 0 | [7](papers/2025/neurips.md) | [8](papers/2024/neurips.md) | [7](papers/2023/neurips.md) | [2](papers/2022/neurips.md) |
 | ICLR | 0 | [2](papers/2025/iclr.md) | [3](papers/2024/iclr.md) | [1](papers/2023/iclr.md) | [1](papers/2022/iclr.md) |
 | AISTATS | [2](papers/2026/aistats.md) | [2](papers/2025/aistats.md) | 0 | 0 | 0 |
@@ -69,7 +71,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 | COLT | [1](papers/2026/colt.md) | 0 | [1](papers/2024/colt.md) | 0 | 0 |
 | CLeaR | [2](papers/2026/clear.md) | [1](papers/2025/clear.md) | 0 | 0 | 0 |
 | ACL | [4](papers/2026/acl.md) | [1](papers/2025/acl.md) | [1](papers/2024/acl.md) | 0 | 0 |
-| EMNLP | 0 | [1](papers/2025/emnlp.md) | [1](papers/2024/emnlp.md) | 0 | 0 |
+| EMNLP | 0 | [1](papers/2025/emnlp.md) | [1](papers/2024/emnlp.md) | [1](papers/2023/emnlp.md) | 0 |
 | NAACL | 0 | 0 | [2](papers/2024/naacl.md) | 0 | 0 |
 | AAAI | [1](papers/2026/aaai.md) | [1](papers/2025/aaai.md) | 0 | 0 | 0 |
 | IJCAI | 0 | [1](papers/2025/ijcai.md) | 0 | 0 | 0 |
@@ -86,7 +88,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 | Journal of Econometrics | 0 | 0 | 0 | 0 | 0 |
 | Quantitative Economics | 0 | 0 | 0 | 0 | 0 |
 | Econometric Theory | 0 | 0 | 0 | 0 | 0 |
-| JASA | [1](papers/2026/jasa.md) | [2](papers/2025/jasa.md) | 0 | 0 | 0 |
+| JASA | [2](papers/2026/jasa.md) | [2](papers/2025/jasa.md) | 0 | 0 | 0 |
 | JRSS-B | 0 | [1](papers/2025/jrss-b.md) | 0 | 0 | 0 |
 | Annals of Statistics | 0 | [1](papers/2025/annals-of-statistics.md) | 0 | 0 | 0 |
 | Biometrika | [1](papers/2026/biometrika.md) | 0 | 0 | 0 | 0 |
@@ -103,7 +105,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 - **2026** · [Marketing Science](papers/2026/marketing-science.md) — 1 篇
 - **2026** · [Journal of Marketing Research](papers/2026/journal-of-marketing-research.md) — 1 篇
 - **2026** · [JMLR](papers/2026/jmlr.md) — 1 篇
-- **2026** · [JASA](papers/2026/jasa.md) — 1 篇
+- **2026** · [JASA](papers/2026/jasa.md) — 2 篇
 - **2026** · [COLT](papers/2026/colt.md) — 1 篇
 - **2026** · [CLeaR](papers/2026/clear.md) — 2 篇
 - **2026** · [Biometrika](papers/2026/biometrika.md) — 1 篇
@@ -117,7 +119,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 - **2025** · [JRSS-B](papers/2025/jrss-b.md) — 1 篇
 - **2025** · [JASA](papers/2025/jasa.md) — 2 篇
 - **2025** · [IJCAI](papers/2025/ijcai.md) — 1 篇
-- **2025** · [ICML](papers/2025/icml.md) — 6 篇
+- **2025** · [ICML](papers/2025/icml.md) — 7 篇
 - **2025** · [ICLR](papers/2025/iclr.md) — 2 篇
 - **2025** · [EMNLP](papers/2025/emnlp.md) — 1 篇
 - **2025** · [CLeaR](papers/2025/clear.md) — 1 篇
@@ -141,6 +143,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 - **2023** · [NeurIPS](papers/2023/neurips.md) — 7 篇
 - **2023** · [ICML](papers/2023/icml.md) — 2 篇
 - **2023** · [ICLR](papers/2023/iclr.md) — 1 篇
+- **2023** · [EMNLP](papers/2023/emnlp.md) — 1 篇
 - **2022** · [NeurIPS](papers/2022/neurips.md) — 2 篇
 - **2022** · [ICLR](papers/2022/iclr.md) — 1 篇
 
@@ -187,6 +190,7 @@ python3 scripts/render.py --check
 
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
+| 2026 · JASA | [Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629) | 利用生成或再生成文本的 LLM 内部表示，识别和估计指定文本特征对人类评价的平均因果效应。 |
 | 2026 · JASA | [Towards Better Statistical Understanding of Watermarking LLMs](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290) | 把红绿词表水印的质量—可检测性权衡写成约束优化问题，并给出在线生成算法和渐近最优性分析。 |
 
 ### COLT 2026
@@ -288,6 +292,7 @@ python3 scripts/render.py --check
 | 2025 · ICML | [Collapse or Thrive: Perils and Promises of Synthetic Data in a Self-Generating World](https://proceedings.mlr.press/v267/kazdan25a.html) | 比较纯替换、累积混合及固定子样本三种递归合成训练流程，在高斯估计、核密度估计和语言模型微调中区分爆炸崩溃、稳定与缓慢退化。 |
 | 2025 · ICML | [How to Synthesize Text Data without Model Collapse?](https://proceedings.mlr.press/v267/zhu25d.html) | 发现合成文本比例与LM性能负相关，并以分布偏移和n-gram过度集中解释；提出对人类文本做token编辑的半合成方案并给出有限测试误差上界。 |
 | 2025 · ICML | [Internal Causal Mechanisms Robustly Predict Language Model Out-of-Distribution Behaviors](https://proceedings.mlr.press/v267/huang25af.html) | 用内部因果变量进行反事实模拟和值探测，在符号操作、知识检索和指令跟随任务上预测 LLM 分布外正确性。 |
+| 2025 · ICML | [Isolated Causal Effects of Natural Language](https://proceedings.mlr.press/v267/lin25k.html) | 区分目标语言属性的独立效应与伴随属性效应，结合双重稳健估计、表示信息保真、重叠和敏感性分析。 |
 | 2025 · ICML | [Preference Learning for AI Alignment: a Causal Perspective](https://proceedings.mlr.press/v267/kobalczyk25a.html) | 将 LLM 奖励模型的偏好学习放入因果框架，识别因果错识别、偏好异质性和用户特定混杂，并提出面向干预的数据收集要求。 |
 | 2025 · ICML | [Teaching Transformers Causal Reasoning through Axiomatic Training](https://proceedings.mlr.press/v267/vashishtha25a.html) | 提出因果公理训练，将传递性和 d-separation 等规则转化为示范，使小型 transformer 能从线性链泛化到更长、反序和分支图。 |
 
@@ -449,6 +454,12 @@ python3 scripts/render.py --check
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2023 · ICLR | [Semantic Uncertainty: Linguistic Invariances for Uncertainty Estimation in Natural Language Generation](https://iclr.cc/virtual/2023/oral/12609) | 提出语义熵，把意义等价的不同表述聚类后度量LLM生成不确定性，在问答上比词面或概率基线更能预测正确性。 |
+
+### EMNLP 2023
+
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
+| --- | --- | --- |
+| 2023 · EMNLP | [Text-Transport: Toward Learning Causal Effects of Natural Language](https://aclanthology.org/2023.emnlp-main.82/) | 用文本分布比权重迁移语言属性效应，比较 GPT-3 概率与嵌入分类器两种权重构造。 |
 
 ### NeurIPS 2022
 

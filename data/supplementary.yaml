@@ -1435,3 +1435,409 @@
     doi: 10.3386/w31122
     official_url: https://www.nber.org/papers/w31122
     paper_url: https://www.nber.org/papers/w31122.pdf
+- work_id: w-a0ee33ec7f3c
+  title: Leveraging generative AI for causal inference with unstructured data
+  title_aliases:
+  - Leveraging Generative Artificial Intelligence for Causal Inference with Unstructured Data
+  authors:
+  - Kosuke Imai
+  - Kentaro Nakamura
+  venue: Proceedings of the National Academy of Sciences
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.pnas.org/doi/10.1073/pnas.2530532123
+  paper_url: https://imai.sites.fas.harvard.edu/research/files/GPI.pdf
+  doi: 10.1073/pnas.2530532123
+  arxiv_id: '2507.03897'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 提出 GPI，用生成模型内部表示学习混杂调整变量，估计文本、图像相关的因果效应并量化不确定性。
+  llm_role_zh: 用开源 LLM 重现文本并提取内部表示；图像应用使用扩散模型。
+  method_zh: 从可生成原始内容的表示学习低维 deconfounder；文本混杂应用采用交叉拟合 DML，并研究跨模型估计组合。
+  estimand_zh: 文本混杂应用的 ATT、图像特征的 ATE，以及结构模型中的修辞说服力参数。
+  assumptions_zh: 依应用设定要求一致性、潜在可忽略性、表示与混杂特征的结构条件及调整后的重叠；图像处理另需特征可分离条件。
+  guarantee_zh: 作者在相应识别假设下论证有效 deconfounder 可识别目标效应；估计与推断另需正则和收敛条件。
+  datasets:
+  - Weiboscope social media posts
+  - UCLA Protest Image Dataset
+  - Political rhetoric conjoint experiment
+  code_url: https://gpi-pack.github.io/
+  evidence_basis: fulltext
+  evidence_locator: PNAS 出版版正文第 1–5 页；arXiv v4 附录 S2/S3 关键假设与识别段落；National Academy of Sciences 提交的
+    Crossref 登记及 PubMed PMID 42691082 核对作者、DOI、卷期与日期。PNAS 网页转 cookieAbsent，PMC 页面未能读取。
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  scope_decision: supplement
+  decision_reason_zh: 与 LLM 辅助因果估计高度相关，列为重点补充；PNAS 不在当前主目录目标期刊名单，且保留与预印本的版本关联。
+  limitations_zh: 表示保留原始内容不等于自动满足无遗漏混杂；deconfounder 的学习依赖网络容量、调参与重叠。未逐条审计证明或复现实验；发表字段由出版社提交的 Crossref
+    登记、出版 PDF 与 PubMed 索引交叉核验。
+  verified_on: '2026-10-08'
+  publication_dates:
+    online_first: '2026-09-03'
+    accepted: '2026-07-29'
+    issue_date: '2026-09-08'
+    volume: '123'
+    issue: '36'
+    article: e2530532123
+    arxiv_original: '2025-07-05'
+    latest_revision: '2026-08-16'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.pnas.org/doi/10.1073/pnas.2530532123
+  - https://api.crossref.org/works/10.1073/pnas.2530532123
+  - https://pubmed.ncbi.nlm.nih.gov/42691082/
+  - https://imai.sites.fas.harvard.edu/research/files/GPI.pdf
+  - https://arxiv.org/abs/2507.03897
+  - https://arxiv.org/html/2507.03897v4
+  - https://gpi-pack.github.io/
+  publication_records:
+  - venue: Proceedings of the National Academy of Sciences
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1073/pnas.2530532123
+    official_url: https://www.pnas.org/doi/10.1073/pnas.2530532123
+    paper_url: https://imai.sites.fas.harvard.edu/research/files/GPI.pdf
+- work_id: w-77c20fd979ac
+  title: GenAI Powered Dynamic Causal Inference with Unstructured Data
+  authors:
+  - Kentaro Nakamura
+  - Kosuke Imai
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: preprint
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2605.07834
+  paper_url: https://arxiv.org/html/2605.07834v2
+  doi: null
+  arxiv_id: '2605.07834'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 把文本视为有序片段，用生成模型表示调整随位置变化的混杂，估计动态随机干预下的最终结果。
+  llm_role_zh: 以Llama 3.1 8B逐段再生成文本并提取内部表示。
+  method_zh: 结合边际结构模型、序列去混杂神经网络、交叉拟合和半参数推断；香港抗议论据实验用于比较特征出现位置。
+  estimand_zh: 改变各位置处理概率的随机干预下，受访者最终结果的总体均值。
+  assumptions_zh: 非结构化对象随机分配、序列可分离、分段确定性解码、有界相对重叠；渐近推断另需干扰函数估计条件。
+  guarantee_zh: 作者在假设下给出非参数识别、一致性与渐近正态性；模拟覆盖率是作者报告，未复现。
+  datasets:
+  - Hong Kong experiment (Fong and Grimmer, 2023)
+  code_url: null
+  evidence_basis: fulltext
+  evidence_locator: arXiv abstract/submission history and v2 Sections 1, 3.1–3.3, 5, 6.
+  verification_status: preprint-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 未找到正式发表或接收证据，也未确认独立代码链接。当前实证为文本与单一最终结果；不能将其表述为已验证视频连续结果方法。仅局部阅读，未审计证明或复现。
+  verified_on: '2026-10-08'
+  publication_dates:
+    arxiv_original: '2026-05-08'
+    latest_revision: '2026-09-15'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2605.07834
+  - https://arxiv.org/html/2605.07834v2
+  - https://k-nakam.github.io/
+  scope_decision: supplement
+  decision_reason_zh: 将 GPI 扩展至非结构化序列的动态因果估计，方法直接相关；目前仅核实预印本，列入补充。
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: preprint
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2605.07834
+    paper_url: https://arxiv.org/html/2605.07834v2
+- work_id: w-4f424dfd6219
+  title: Causal Inference with Video Features as Treatments
+  authors:
+  - Kentaro Nakamura
+  - Adam Breuer
+  - Michael H. Crespin
+  - Bryce J. Dietrich
+  - Kosuke Imai
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: preprint
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2607.06126
+  paper_url: https://arxiv.org/html/2607.06126v2
+  doi: null
+  arxiv_id: '2607.06126'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 利用视频与转录文本的生成表示和纵向网络，估计视频特征动态干预下的观众反应轨迹。
+  llm_role_zh: Cosmos处理视觉片段，Llama 3.1 8B再生成转录文本并提供文字表示。
+  method_zh: 分段生成表示、纵向去混杂网络和动态随机干预，配合半参数估计及轨迹置信带。
+  estimand_zh: 动态随机干预下的平均潜在结果轨迹。
+  assumptions_zh: 视频随机分配、序列可分离、分段确定性解码以及论文所列重叠和估计条件；特征自身并未随机化。
+  guarantee_zh: 作者在假设下建立非参数识别及一致、渐近正态估计，报告轨迹同时置信带；未独立审计证明。
+  datasets:
+  - Super Mario Bros. video causal benchmark (10,000 levels)
+  - 2020 U.S. presidential campaign television advertisements
+  code_url: null
+  evidence_basis: fulltext
+  evidence_locator: arXiv abstract/submission history and v2 Sections 1, 3.1–3.2, 5, 6; introduction
+    states Mario benchmark ground-truth null effect.
+  verification_status: preprint-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 未找到正式发表或接收证据及独立代码链接。实现使用视觉与转录文字，未直接刻画原始声学特征；细分片段增加计算成本。局部阅读，未复现。
+  verified_on: '2026-10-08'
+  publication_dates:
+    arxiv_original: '2026-07-07'
+    latest_revision: '2026-09-15'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2607.06126
+  - https://arxiv.org/html/2607.06126v2
+  - https://k-nakam.github.io/
+  scope_decision: supplement
+  decision_reason_zh: GPI 的视频与连续结果轨迹扩展，包含 LLM 转录文本表示；目前仅核实预印本，列入补充。
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: preprint
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2607.06126
+    paper_url: https://arxiv.org/html/2607.06126v2
+- work_id: w-6583410f820f
+  title: Adjustment for Confounding using Pre-Trained Representations
+  authors:
+  - Rickmer Schulte
+  - David Rügamer
+  - Thomas Nagler
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/schulte25a.html
+  paper_url: https://arxiv.org/html/2506.14329v1
+  doi: null
+  arxiv_id: '2506.14329'
+  openreview_id: D2cDJzotb8
+  topics:
+  - causal-estimation
+  - stats-inference
+  - statistical-theory
+  summary_zh: 分析预训练表示何时足以调整非结构化混杂，以及表示的维度和变换如何影响 DML 推断。
+  llm_role_zh: 文本实验提取 BERT 的末层表示；影像实验使用 DenseNet-121。属于预训练表示方法，不能写成现代生成式 LLM 实验。
+  method_zh: 以预训练表示估计结果回归与倾向分数，再进行 DML 平均处理效应推断；分析哪些常见稀疏性假设不随表示变换保持，以及神经网络适应内在维度的条件。
+  estimand_zh: 二元处理的平均处理效应 ATE。
+  assumptions_zh: 原始处理前非结构化数据须足以调整混杂；表示至少满足论文定义的 P-valid 条件；渐近推断另需正性、平滑与结构复杂度、nuisance 收敛率等条件。
+  guarantee_zh: 作者在明确的表示有效性与正则条件下给出 DML 的渐近正态性；没有证明任意预训练表示都能消除混杂。
+  code_url: https://github.com/rickmer-schulte/Pretrained-Causal-Adjust
+  evidence_basis: fulltext
+  evidence_locator: 'PMLR article page: title/authors/ICML 2025/volume/pages; arXiv v1 Sections 3.1,
+    5.3, 6.1, Appendix C.1. OpenReview direct page returned challenge; PMLR is independent official
+    publication proof.'
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 表示有效性是条件而非由预训练自动保证。实验使用半合成处理和结果；本轮局部读取正文，未逐项审计证明或复现实验。
+  verified_on: '2026-10-08'
+  publication_dates:
+    conference_year: 2025
+    conference_dates: 2025-07-13/2025-07-19
+    arxiv_original: '2025-06-17'
+    pages: 53557-53580
+    volume: '267'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/schulte25a.html
+  - https://arxiv.org/abs/2506.14329
+  - https://arxiv.org/html/2506.14329v1
+  - https://github.com/rickmer-schulte/Pretrained-Causal-Adjust
+  datasets: null
+  scope_decision: supplement
+  decision_reason_zh: ICML 正式发表；研究预训练表示的因果调整条件，但实证以 BERT 编码器和影像网络为主，作为生成式 LLM 因果估计的相邻方法背景补充。
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/schulte25a.html
+    paper_url: https://arxiv.org/html/2506.14329v1
+- work_id: w-eae80c0178bb
+  title: 'DoubleMLDeep: Estimation of Causal Effects with Multimodal Data'
+  authors:
+  - Sven Klaassen
+  - Jan Teichert-Kluge
+  - Philipp Bach
+  - Victor Chernozhukov
+  - Martin Spindler
+  - Suhas Vijaykumar
+  venue: arXiv
+  venue_group: other
+  year: 2024
+  track: preprint
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2402.01785
+  paper_url: https://arxiv.org/html/2402.01785v1
+  doi: null
+  arxiv_id: '2402.01785'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 融合表格、文本和图像的预训练表示，学习处理与结果干扰函数，在部分线性 DML 中估计处理系数。
+  llm_role_zh: 架构讨论 BERT、RoBERTa 或 Llama 等文本模型；实际报告的模拟使用 Twitter 预训练 RoBERTa、ImageNet-21k 预训练 ViT
+    与 SAINT。不要把 Llama 作为已经完成的实验模型。
+  method_zh: 中间表示融合，同时估计处理与结果 nuisance 函数；样本分割后解部分线性 DML 得分方程。
+  estimand_zh: 部分线性模型中的处理系数；在条件外生性等条件下解释为平均处理效应。
+  assumptions_zh: 条件外生性、部分线性结构、相应 nuisance 误差乘积收敛条件及正则条件。
+  guarantee_zh: 在 DML 条件成立时继承根号样本量一致性及渐近正态性；本文并未保证任意 Transformer 训练均满足所需速率。
+  code_url: null
+  evidence_basis: fulltext
+  evidence_locator: arXiv abs v1 (only version listed); HTML Sections 1, 4.2, 5, 5.1, 5.2. Official
+    university ESIF presentation page checked only as activity evidence.
+  verification_status: preprint-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 半合成设计的标签并不能由输入完全预测，作者明确指出仍有不可调整的残余混杂；不能把实验改进写成已消除所有混杂。仅局部正文核验，未复现。
+  verified_on: '2026-10-08'
+  publication_dates:
+    arxiv_original: '2024-02-01'
+    latest_revision: '2024-02-01'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2402.01785
+  - https://arxiv.org/html/2402.01785v1
+  - https://www.bwl.uni-hamburg.de/en/ueber-die-fakultaet/aktuelles/2024/1119-teichert-kluge-konferenzbesuch.html
+  datasets: null
+  scope_decision: supplement
+  decision_reason_zh: 非结构化多模态信息进入 DML 的直接近邻；仅确认预印本，且已报告实验使用编码型预训练表示，列入补充。
+  publication_records:
+  - venue: arXiv
+    year: 2024
+    track: preprint
+    publication_status: preprint
+    doi: null
+    official_url: https://arxiv.org/abs/2402.01785
+    paper_url: https://arxiv.org/html/2402.01785v1
+- work_id: w-826dc6c8bb75
+  title: Causal Estimation for Text Data with (Apparent) Overlap Violations
+  authors:
+  - Lin Gui
+  - Victor Veitch
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://iclr.cc/virtual/2023/poster/11330
+  paper_url: https://arxiv.org/pdf/2210.00079
+  doi: null
+  arxiv_id: '2210.00079'
+  openreview_id: Ha2MnQM9Ph
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 针对文本属性可由全文预测引起的表面重叠违背，用 DistilBERT 学习处理无关表示并进行因果估计。
+  llm_role_zh: 以 DistilBERT 多头网络学习条件结果和保留混杂信息；属于预训练编码型语言模型方法，不是生成式 LLM。
+  method_zh: 处理无关的二维条件结果表示、表示上的非参数倾向估计和 DML。
+  estimand_zh: 论文因果分解下的 controlled direct effect 变体，按处理组的非目标文本分布平均；不宜笼统写为一般 ATE。
+  assumptions_zh: 正文因果 DAG、相关文本部分上的重叠，以及作者意图属性与读者感知属性相同；推断另需结果预测和倾向估计的收敛率与正则条件。
+  guarantee_zh: 在明示条件下识别 CDE，并给出一致估计和渐近有效区间。
+  code_url: null
+  evidence_basis: fulltext
+  evidence_locator: ICLR official 2023 poster page; arXiv v3 PDF pp.4–7 (Sections 3, 4.2 and Theorems
+    1–2), p.8 experimental protocol. Direct OpenReview returned challenge; ICLR site and paper masthead
+    establish publication.
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: CDE 的解释依赖特定文本因果分解；意图等于感知是较强条件。局部正文阅读，未证明所有现实文本任务满足条件。
+  verified_on: '2026-10-08'
+  publication_dates:
+    conference_year: 2023
+    arxiv_original: '2022-09-30'
+    latest_revision: '2023-02-07'
+  discovered_via:
+  - web
+  source_urls:
+  - https://iclr.cc/virtual/2023/poster/11330
+  - https://iclr.cc/Downloads/2023
+  - https://openreview.net/forum?id=Ha2MnQM9Ph
+  - https://arxiv.org/abs/2210.00079
+  - https://arxiv.org/pdf/2210.00079
+  datasets: null
+  scope_decision: supplement
+  decision_reason_zh: ICLR 正式发表；使用 DistilBERT 处理文本特征效应与重叠问题，作为生成式 LLM 因果估计的前置方法背景补充。
+  publication_records:
+  - venue: ICLR
+    year: 2023
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://iclr.cc/virtual/2023/poster/11330
+    paper_url: https://arxiv.org/pdf/2210.00079
+- work_id: w-8fa7cbb43d2d
+  title: 'Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach'
+  authors:
+  - Zelin Zhang
+  - Kejia Yang
+  - Jonathan Z. Zhang
+  - Robert W. Palmatier
+  venue: Management Science
+  publication_status: published
+  official_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
+  doi: 10.1287/mnsc.2022.4443
+  summary_zh: 用 Siamese BERT 抽取与聚类评论意见，再以 GRF/AIPW 分析意见的主效应和交互效应。
+  evidence_basis: official-abstract-and-local-text
+  evidence_locator: INFORMS 官方元数据与摘要；本轮 EDITH 原文第 3.1 节式(24)–(26)、第 5.3 节 AIPW 与敏感性分析。官方 PDF 入口仅返回摘要，原文方法没有独立重复读取。
+  limitations_zh: 不把评分系数或GRF预测自动解释为真实因果效应；正式PDF入口仅返回摘要。按项目在线年应是2022，卷期2023另存。Management Science也不在目前目标venue名单。
+  venue_group: other
+  year: 2022
+  track: journal
+  paper_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
+  arxiv_id: null
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  - marketing
+  llm_role_zh: Siamese BERT 提供意见表示和聚类；属于编码型预训练 NLP 应用，而非生成式 LLM。
+  method_zh: 以其余意见和协变量作调整，结合 GRF、Robinson 残差化、AIPW 及敏感性分析；方法细节来自本轮 EDITH 原文局部核查。
+  estimand_zh: 消费者评论意见的主效应与交互效应；因果解释仍需识别条件。
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  verified_on: '2026-10-08'
+  discovered_via:
+  - edith
+  - web
+  publication_dates:
+    online_first: '2022-05-27'
+    issue_year: 2023
+    volume: '69'
+    issue: '4'
+    pages: 2339-2360
+  source_urls:
+  - https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
+  scope_decision: supplement
+  decision_reason_zh: 本轮 EDITH 发现并经官方来源核验；以 BERT 意见表示和 GRF/AIPW 支持消费者评论效应分析，作为应用背景补充；Management Science
+    不在当前主目录期刊名单。
+  publication_records:
+  - venue: Management Science
+    year: 2022
+    track: journal
+    publication_status: published
+    doi: 10.1287/mnsc.2022.4443
+    official_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
+    paper_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443

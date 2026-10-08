@@ -141,7 +141,7 @@ coverage:
   venue_group: cs-conference
   year: 2025
   status: partial
-  included_count: 6
+  included_count: 7
   official_issue_audit_complete: false
   search_logs:
   - venue: ICML
@@ -162,9 +162,9 @@ coverage:
     - https://proceedings.mlr.press/v267/kobalczyk25a.html
     - https://proceedings.mlr.press/v267/chen25bi.html
     status: partial
-    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
-      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
-      evidence and was not cataloged without a stable official proceedings record.
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable as a stable
+      PMLR volume in this bounded search; CARE appeared only through OpenReview/profile evidence
+      and was not cataloged without a stable official proceedings record.
   - venue: ICML
     years:
     - 2023
@@ -173,14 +173,21 @@ coverage:
     queries:
     - site:proceedings.mlr.press ICML in-context learning transformer stability
     - site:proceedings.mlr.press/v235 language model conformal calibration
-    - site:proceedings.mlr.press/v267 language model Bayesian inference model collapse
-      synthetic text
+    - site:proceedings.mlr.press/v267 language model Bayesian inference model collapse synthetic
+      text
     source_urls:
     - https://proceedings.mlr.press/
     status: partial
-    notes: Included official PMLR records on ICL theory, conformal factuality, full
-      Bayesian inference in context, recursive synthetic training and collapse-aware
-      text synthesis.
+    notes: Included official PMLR records on ICL theory, conformal factuality, full Bayesian inference
+      in context, recursive synthetic training and collapse-aware text synthesis.
+  - date: '2026-10-08'
+    queries:
+    - site:proceedings.mlr.press "Isolated Causal Effects"
+    source_urls:
+    - https://proceedings.mlr.press/v267/lin25k.html
+    - https://arxiv.org/abs/2410.14812
+    - https://arxiv.org/html/2410.14812v3
+    notes: 同轮 GPI 近邻定向查询与官方单篇核验后正式收录；不代表完整年度覆盖。
   verified_article_urls:
   - https://proceedings.mlr.press/v267/reuter25a.html
   - https://proceedings.mlr.press/v267/kazdan25a.html
@@ -188,6 +195,7 @@ coverage:
   - https://proceedings.mlr.press/v267/huang25af.html
   - https://proceedings.mlr.press/v267/kobalczyk25a.html
   - https://proceedings.mlr.press/v267/vashishtha25a.html
+  - https://proceedings.mlr.press/v267/lin25k.html
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
 - venue: ICML
   venue_group: cs-conference
@@ -1854,8 +1862,8 @@ coverage:
 - venue: EMNLP
   venue_group: cs-conference
   year: 2023
-  status: search-only
-  included_count: 0
+  status: partial
+  included_count: 1
   official_issue_audit_complete: false
   search_logs:
   - venue: EMNLP
@@ -1874,10 +1882,18 @@ coverage:
     - https://aclanthology.org/2025.findings-emnlp.439/
     - https://aclanthology.org/2023.findings-emnlp.743/
     status: partial
-    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023
-      ChatGPT causal-reasoning Findings paper was verified but left in evidence notes
-      to keep the catalog bounded.
-  verified_article_urls: []
+    notes: One 2024 main paper and one 2025 Findings supplement retained. The 2023 ChatGPT causal-reasoning
+      Findings paper was verified but left in evidence notes to keep the catalog bounded.
+  - date: '2026-10-08'
+    queries:
+    - site:aclanthology.org "Text-Transport"
+    source_urls:
+    - https://aclanthology.org/2023.emnlp-main.82/
+    - https://aclanthology.org/2023.emnlp-main.82.pdf
+    - https://arxiv.org/abs/2310.20697
+    notes: 同轮 GPI 近邻定向查询与官方单篇核验后正式收录；不代表完整年度覆盖。
+  verified_article_urls:
+  - https://aclanthology.org/2023.emnlp-main.82/
   gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。
 - venue: EMNLP
   venue_group: cs-conference
@@ -4584,7 +4600,7 @@ coverage:
   venue_group: statistics
   year: 2026
   status: partial
-  included_count: 1
+  included_count: 2
   official_issue_audit_complete: false
   search_logs:
   - venue: Journal of the American Statistical Association
@@ -4601,14 +4617,28 @@ coverage:
     - https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2520455
     - https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2510000
     status: partial
-    notes: Four official article pages located. Three are included as statistical/theoretical
-      LLM methods; LAMBDA is supplement because its main contribution is a data-agent
-      workflow without a new validity guarantee. Online dates are 2025-12-22, 2026-04-14,
-      2025-08-05, and 2025-07-17 respectively; LAMBDA appears in a 2026 issue. Web
-      and metadata searches were not an issue-by-issue exhaustive audit.
+    notes: Four official article pages located. Three are included as statistical/theoretical LLM
+      methods; LAMBDA is supplement because its main contribution is a data-agent workflow without
+      a new validity guarantee. Online dates are 2025-12-22, 2026-04-14, 2025-08-05, and 2025-07-17
+      respectively; LAMBDA appears in a 2026 issue. Web and metadata searches were not an issue-by-issue
+      exhaustive audit.
+  - date: '2026-10-08'
+    queries:
+    - '"10.1080/01621459.2026.2689629"'
+    - site:tandfonline.com/doi/ "2689629"
+    source_urls:
+    - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629
+    - https://api.crossref.org/works/10.1080/01621459.2026.2689629
+    - https://arxiv.org/abs/2410.00903
+    - https://arxiv.org/abs/2410.00903v1
+    - https://arxiv.org/html/2410.00903v5
+    - https://github.com/k-nakam/gpi_replication
+    - https://gpi-pack.github.io/
+    notes: 同轮 GPI 近邻定向查询与来源核验后正式收录；仅核验相关单篇，没有完成年度目录审计。JASA 出版信息由出版社提交的 Crossref 登记核对。
   verified_article_urls:
   - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290
-  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+  - https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629
+  gap_zh: 基础检索截止 2026-09-09，2026-10-08 仅定向增补文本 GPI；未逐项核对全年 online-first/全部卷期，不宣称穷尽。
 - venue: JRSS-B
   venue_group: statistics
   year: 2022

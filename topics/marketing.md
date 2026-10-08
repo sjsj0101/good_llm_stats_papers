@@ -13,7 +13,7 @@
 | 2024 · Marketing Science | [Frontiers: Can Large Language Models Capture Human Preferences?](https://pubsonline.informs.org/doi/10.1287/mksc.2023.0306) | 比较 LLM 与人类跨期偏好，并用 chain-of-thought conjoint 分析偏好差异。 |
 | 2024 · Marketing Science | [Frontiers: Determining the Validity of Large Language Models for Automated Perceptual Analysis](https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454) | 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。 |
 
-## 补充阅读（3 篇）
+## 补充阅读（4 篇）
 
 预印本、名单外 venue、特别轨或背景指南，均不计入上方主目录数。具体理由见[补充列表](../docs/supplementary.md)。
 
@@ -22,5 +22,6 @@
 | 2025 · Journal of Marketing | [New Tools, New Rules: A Practical Guide to Effective and Responsible Generative AI Use for Surveys and Experiments in Research](https://journals.sagepub.com/doi/10.1177/00222429251349882) | 梳理 GenAI 在调查、实验和开放式回答编码中的使用与有效性检查。 |
 | 2025 · Journal of Consumer Research | [The GenAI Future of Consumer Research](https://academic.oup.com/jcr/article/52/1/4/8132289) | 讨论消费研究中的数据代表性、输出趋同与模型坍塌，提出未来研究方向。 |
 | 2025 · Journal of Consumer Research | [Collaborating with Generative AI in Consumer Culture Research](https://academic.oup.com/jcr/article-abstract/52/1/32/8132295) | 基于研究者访谈讨论 GenAI 在消费文化定性研究中的协作方式与解释边界。 |
+| 2022 · Management Science | [Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443) | 用 Siamese BERT 抽取与聚类评论意见，再以 GRF/AIPW 分析意见的主效应和交互效应。 |
 
 [按应用场景阅读](../docs/marketing-simulation.md)。

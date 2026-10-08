@@ -4396,3 +4396,180 @@
     doi: 10.52202/085713-2132
     official_url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/5bf234ecf83cd77bc5b77a24ba9338b0-Abstract-Conference.html
     paper_url: https://proceedings.neurips.cc/paper_files/paper/2025/file/5bf234ecf83cd77bc5b77a24ba9338b0-Paper-Conference.pdf
+- work_id: w-dbafef6d94e3
+  title: 'Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments'
+  title_aliases:
+  - 'Causal Representation Learning with Generative Artificial Intelligence: Application to Texts
+    as Treatments'
+  authors:
+  - Kosuke Imai
+  - Kentaro Nakamura
+  venue: JASA
+  venue_group: statistics
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629
+  paper_url: https://arxiv.org/abs/2410.00903
+  doi: 10.1080/01621459.2026.2689629
+  arxiv_id: '2410.00903'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 利用生成或再生成文本的 LLM 内部表示，识别和估计指定文本特征对人类评价的平均因果效应。
+  llm_role_zh: LLM生成/再生成处理文本并输出内部表征；结果来自人类受访者。
+  method_zh: 从内部表征学习与处理特征分离的低维去混杂表示，再以双重机器学习估计ATE；附录讨论感知处理的工具变量扩展。
+  estimand_zh: 固定其余混杂特征分布时，二元文本处理特征的平均处理效应。
+  assumptions_zh: 一致性、提示随机分配、处理及混杂特征为文本函数、特征可分离、确定性解码；渐近推断另有误差率条件。
+  guarantee_zh: 作者在所列假设下给出非参数识别与渐近推断结果；未独立审计证明。
+  datasets:
+  - Candidate Profile Experiment (Fong and Grimmer, 2016)
+  - Hong Kong experiment (Fong and Grimmer, 2023)
+  code_url: https://github.com/k-nakam/gpi_replication
+  evidence_basis: fulltext
+  evidence_locator: 'Publisher-deposited Crossref record (Informa UK Limited): title/authors/JASA/published-online;
+    arXiv v1/v5 metadata; v5 Sections 2, 3.1–3.3, 6 and Appendix S3 heading; paper-linked replication
+    repository.'
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 出版社网页403，发表字段来自出版社提交的Crossref登记。理论依赖可分离性和生成表示等条件，使用LLM本身不能消除混杂；仅局部阅读，未复现实验。 arXiv
+    v5 提交日期与 HTML 页内日期有差异，latest_revision 按提交历史记录。
+  verified_on: '2026-10-08'
+  publication_dates:
+    arxiv_original: '2024-10-01'
+    latest_revision: '2026-06-11'
+    online_first: '2026-07-27'
+    crossref_created: '2026-06-23'
+  discovered_via:
+  - web
+  source_urls:
+  - https://api.crossref.org/works/10.1080/01621459.2026.2689629
+  - https://arxiv.org/abs/2410.00903
+  - https://arxiv.org/abs/2410.00903v1
+  - https://arxiv.org/html/2410.00903v5
+  - https://github.com/k-nakam/gpi_replication
+  - https://gpi-pack.github.io/
+  scope_decision: include
+  decision_reason_zh: JASA 正式发表且为生成式 LLM 辅助文本处理效应识别与估计的方法论文；出版社提交的 Crossref 登记支持发表身份。
+  publication_records:
+  - venue: JASA
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1080/01621459.2026.2689629
+    official_url: https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629
+    paper_url: https://arxiv.org/abs/2410.00903
+- work_id: w-b037a9b29dac
+  title: Isolated Causal Effects of Natural Language
+  authors:
+  - Victoria Lin
+  - Louis-Philippe Morency
+  - Eli Ben-Michael
+  venue: ICML
+  venue_group: cs-conference
+  year: 2025
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v267/lin25k.html
+  paper_url: https://arxiv.org/html/2410.14812v3
+  doi: null
+  arxiv_id: '2410.14812'
+  openreview_id: Z0jnz149L1
+  topics:
+  - causal-estimation
+  - stats-inference
+  - uncertainty
+  summary_zh: 区分目标语言属性的独立效应与伴随属性效应，结合双重稳健估计、表示信息保真、重叠和敏感性分析。
+  llm_role_zh: 比较 BERT、RoBERTa、MiniLM、MPNet、SenteCon 等表示；在 SvT 数据使用先前由 GPT-3.5 提示抽取的协变量。生成式 LLM 是被比较的变量抽取方案之一，非整个方法的唯一基础。
+  method_zh: 将非目标语言调整到共同目标分布，以结果模型与重要性权重构造双重稳健估计；用 fidelity、overlap 和 OVB 敏感性分析审查效应及表示。
+  estimand_zh: 目标文本属性的 isolated average treatment effect，以及相应 treated-population estimand。
+  assumptions_zh: 第2节列出一致性、给定非目标语言后无未测混杂、重叠；非目标语言近似造成的信息损失需要另行评估。
+  guarantee_zh: 给出识别和双重稳健估计框架，并将遗漏信息对效应偏差的影响联系到敏感性界；不保证任意嵌入可实现完全隔离。
+  code_url: https://github.com/torylin/isolated-text-effects
+  evidence_basis: fulltext
+  evidence_locator: PMLR ICML 2025 page; arXiv v3 Sections 2–3, 4.2.1, Appendix C.2/Table 2. Initially
+    read v2, then checked current v3 (2025-06-04) for assumptions/model roles.
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 部分应用的真实效应与文本数据来源存在外部有效性问题，正文效应区间可能很宽；LLM 协变量继承自 SvT 数据而非本文重新调用 GPT-3.5。本轮局部阅读，未复现实验。
+  verified_on: '2026-10-08'
+  publication_dates:
+    conference_year: 2025
+    conference_dates: 2025-07-13/2025-07-19
+    arxiv_original: '2024-10-18'
+    latest_revision: '2025-06-04'
+    pages: 37919-37941
+    volume: '267'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v267/lin25k.html
+  - https://arxiv.org/abs/2410.14812
+  - https://arxiv.org/html/2410.14812v3
+  datasets: null
+  scope_decision: include
+  decision_reason_zh: ICML 主会正式发表，直接贡献于文本属性效应定义、双重稳健估计和敏感性分析，包含 GPT-3.5 抽取协变量的实质比较。
+  publication_records:
+  - venue: ICML
+    year: 2025
+    track: main
+    publication_status: published
+    doi: null
+    official_url: https://proceedings.mlr.press/v267/lin25k.html
+    paper_url: https://arxiv.org/html/2410.14812v3
+- work_id: w-a193e9cf732c
+  title: 'Text-Transport: Toward Learning Causal Effects of Natural Language'
+  authors:
+  - Victoria Lin
+  - Louis-Philippe Morency
+  - Eli Ben-Michael
+  venue: EMNLP
+  venue_group: cs-conference
+  year: 2023
+  track: main
+  publication_status: published
+  official_url: https://aclanthology.org/2023.emnlp-main.82/
+  paper_url: https://aclanthology.org/2023.emnlp-main.82.pdf
+  doi: 10.18653/v1/2023.emnlp-main.82
+  arxiv_id: '2310.20697'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - stats-inference
+  summary_zh: 用文本分布比权重迁移语言属性效应，比较 GPT-3 概率与嵌入分类器两种权重构造。
+  llm_role_zh: TEXT-TRANSPORT_LM 使用 GPT-3 的 text-davinci-003，通过提示与输入文本概率估计源/目标分布比；分类器版本使用 MPNet 表示。
+  method_zh: 密度比重要性加权、跨域自然语言因果效应迁移及不确定性估计。
+  estimand_zh: 目标文本分布下的自然语言属性效应；自然伴随的其他语言变化也可能进入效应，区别于 ICML2025 的 isolated effect。
+  assumptions_zh: 需要可作因果估计的源域、保持相关结果生成机制的迁移条件，以及目标分布相对于源分布绝对连续；任意完全不重叠的文本域不可保证迁移。
+  guarantee_zh: 论文推导估计器的不确定性结果；GPT-3 给出的文本分布比仍是近似，不能将模型概率直接视作真实数据分布。
+  code_url: null
+  evidence_basis: fulltext
+  evidence_locator: 'ACL Anthology official main-volume page; PDF Sections 3, 9 and Appendix D.2–D.3:
+    GPT-3 text-davinci-003, MPNet and source/target support restriction.'
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  limitations_zh: 需要有效源域和支持重叠；语言模型概率可能继承预训练偏差。不能把摘要中的 any text distribution 脱离绝对连续条件使用。本轮局部正文阅读，未复现实验。
+  verified_on: '2026-10-08'
+  publication_dates:
+    conference_year: 2023
+    conference_month: 2023-12
+    arxiv_original: '2023-10-31'
+    pages: 1288-1304
+  discovered_via:
+  - web
+  source_urls:
+  - https://aclanthology.org/2023.emnlp-main.82/
+  - https://aclanthology.org/2023.emnlp-main.82.pdf
+  - https://arxiv.org/abs/2310.20697
+  datasets: null
+  scope_decision: include
+  decision_reason_zh: EMNLP 主会正式发表；GPT-3 参与文本密度比与效应迁移估计，具有实质因果方法贡献。
+  publication_records:
+  - venue: EMNLP
+    year: 2023
+    track: main
+    publication_status: published
+    doi: 10.18653/v1/2023.emnlp-main.82
+    official_url: https://aclanthology.org/2023.emnlp-main.82/
+    paper_url: https://aclanthology.org/2023.emnlp-main.82.pdf

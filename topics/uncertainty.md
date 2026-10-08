@@ -2,7 +2,7 @@
 
 # 不确定性、校准与统计评测
 
-[返回目录](../README.md) · 23 篇主目录论文
+[返回目录](../README.md) · 24 篇主目录论文
 
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 2025 · AISTATS | [On Subjective Uncertainty Quantification and Calibration in Natural Language Generation](https://proceedings.mlr.press/v258/wang25i.html) | 从贝叶斯决策论定义自由文本生成的任务相关主观不确定性与校准，并以缺失数据和超额风险刻画认知不确定性。 |
 | 2025 · Annals of Statistics | [A statistical framework of watermarks for large language models: Pivot, detection efficiency and optimal rules](https://projecteuclid.org/journals/annals-of-statistics/volume-53/issue-1/A-statistical-framework-of-watermarks-for-large-language-models/10.1214/24-AOS2468.short) | 建立LLM水印统一统计框架，以枢轴量和大偏差效率比较检测规则并推导最优检验。 |
 | 2025 · ICLR | [Conformal Language Model Reasoning with Coherent Factuality](https://iclr.cc/virtual/2025/poster/30640) | 定义考虑推理步骤依赖的“连贯事实性”，在可推导图的子图上使用分割共形预测，过滤并排序LLM推理声明。 |
+| 2025 · ICML | [Isolated Causal Effects of Natural Language](https://proceedings.mlr.press/v267/lin25k.html) | 区分目标语言属性的独立效应与伴随属性效应，结合双重稳健估计、表示信息保真、重叠和敏感性分析。 |
 | 2025 · JASA | [On the Algorithmic Bias of Aligning Large Language Models with RLHF: Preference Collapse and Matching Regularization](https://www.tandfonline.com/doi/abs/10.1080/01621459.2025.2555067) | 研究RLHF中标准KL正则化导致奖励最大化与目标偏好分布错配的算法偏差，并提出概率匹配正则化。 |
 | 2025 · JRSS-B | [Robust detection of watermarks for large language models under human edits](https://doi.org/10.1093/jrsssb/qkaf056) | 研究人工编辑后LLM水印的稳健检测，提出截断拟合优度检验并刻画不同编辑强度下的检测边界。 |
 | 2025 · NeurIPS | [Conformal Information Pursuit for Interactively Guiding Large Language Models](https://proceedings.neurips.cc/paper_files/paper/2025/hash/823a3d2cf462fb815978314023e48f65-Abstract-Conference.html) | 用共形预测集合平均大小替代失准的LLM条件熵来指导顺序提问，在交互问答中减少查询并保持预测能力。 |

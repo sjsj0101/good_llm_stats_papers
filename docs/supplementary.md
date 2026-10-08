@@ -35,6 +35,13 @@
 | 2024 · arXiv · 预印本 | [LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals](https://arxiv.org/abs/2411.10109) | 基于 1,052 人的访谈、调查或二者组合构建个人代理，并对照人类重测表现验证预测。 |
 | 2025 · ACL · industry | [A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic Environments and Interactions](https://aclanthology.org/2025.acl-industry.94/) | AgentSociety 将现实社会环境与并行交互结合，支持大规模 LLM 社会代理仿真。 |
 | 2023 · NBER Working Paper · 预印本 | [Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?](https://www.nber.org/papers/w31122) | 给 LLM 设定禀赋、信息和偏好，模拟经济行为并对照既有实验结果。 |
+| 2026 · Proceedings of the National Academy of Sciences | [Leveraging generative AI for causal inference with unstructured data](https://www.pnas.org/doi/10.1073/pnas.2530532123) | 提出 GPI，用生成模型内部表示学习混杂调整变量，估计文本、图像相关的因果效应并量化不确定性。 |
+| 2026 · arXiv · 预印本 | [GenAI Powered Dynamic Causal Inference with Unstructured Data](https://arxiv.org/abs/2605.07834) | 把文本视为有序片段，用生成模型表示调整随位置变化的混杂，估计动态随机干预下的最终结果。 |
+| 2026 · arXiv · 预印本 | [Causal Inference with Video Features as Treatments](https://arxiv.org/abs/2607.06126) | 利用视频与转录文本的生成表示和纵向网络，估计视频特征动态干预下的观众反应轨迹。 |
+| 2025 · ICML | [Adjustment for Confounding using Pre-Trained Representations](https://proceedings.mlr.press/v267/schulte25a.html) | 分析预训练表示何时足以调整非结构化混杂，以及表示的维度和变换如何影响 DML 推断。 |
+| 2024 · arXiv · 预印本 | [DoubleMLDeep: Estimation of Causal Effects with Multimodal Data](https://arxiv.org/abs/2402.01785) | 融合表格、文本和图像的预训练表示，学习处理与结果干扰函数，在部分线性 DML 中估计处理系数。 |
+| 2023 · ICLR | [Causal Estimation for Text Data with (Apparent) Overlap Violations](https://iclr.cc/virtual/2023/poster/11330) | 针对文本属性可由全文预测引起的表面重叠违背，用 DistilBERT 学习处理无关表示并进行因果估计。 |
+| 2022 · Management Science | [Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443) | 用 Siamese BERT 抽取与聚类评论意见，再以 GRF/AIPW 分析意见的主效应和交互效应。 |
 
 ## 范围与证据
 
@@ -65,3 +72,10 @@
 - **LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals**（preprint）：截至检索日核实到 arXiv v3；未取得目标 venue 发表证据，列为应用预印本。
 - **A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic Environments and Interactions**（published）：ACL 2025 Industry Track 正式论文，按既有主会/特别轨区分列为补充。
 - **Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?**（preprint）：NBER 工作论文；采用 2026 年修订版的三位作者信息，未按顶刊正式发表计数。
+- **Leveraging generative AI for causal inference with unstructured data**（published）：与 LLM 辅助因果估计高度相关，列为重点补充；PNAS 不在当前主目录目标期刊名单，且保留与预印本的版本关联。
+- **GenAI Powered Dynamic Causal Inference with Unstructured Data**（preprint）：将 GPI 扩展至非结构化序列的动态因果估计，方法直接相关；目前仅核实预印本，列入补充。
+- **Causal Inference with Video Features as Treatments**（preprint）：GPI 的视频与连续结果轨迹扩展，包含 LLM 转录文本表示；目前仅核实预印本，列入补充。
+- **Adjustment for Confounding using Pre-Trained Representations**（published）：ICML 正式发表；研究预训练表示的因果调整条件，但实证以 BERT 编码器和影像网络为主，作为生成式 LLM 因果估计的相邻方法背景补充。
+- **DoubleMLDeep: Estimation of Causal Effects with Multimodal Data**（preprint）：非结构化多模态信息进入 DML 的直接近邻；仅确认预印本，且已报告实验使用编码型预训练表示，列入补充。
+- **Causal Estimation for Text Data with (Apparent) Overlap Violations**（published）：ICLR 正式发表；使用 DistilBERT 处理文本特征效应与重叠问题，作为生成式 LLM 因果估计的前置方法背景补充。
+- **Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach**（published）：本轮 EDITH 发现并经官方来源核验；以 BERT 意见表示和 GRF/AIPW 支持消费者评论效应分析，作为应用背景补充；Management Science 不在当前主目录期刊名单。
