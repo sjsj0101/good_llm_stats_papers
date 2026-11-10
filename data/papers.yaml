@@ -2811,21 +2811,25 @@
   doi: 10.52202/079017-3249
   topics:
   - causal-discovery
-  summary_zh: 提出 COAT，让 LLM 从非结构化观测提出并标注高层变量，再由因果发现算法构图并反馈迭代改进变量。
+  summary_zh: 提出 COAT，让 LLM 从非结构化观测提出并标注高层变量，再由因果发现算法构图并反馈迭代改进变量。 已关联2026年JMLR扩展版，不另计篇数。
   llm_role_zh: 因果表征助手；从文本等非结构化数据提出语义因子和标注规则。
   method_zh: 迭代结合 LLM 因子提议/标注与统计因果发现，以局部 Markov blanket 为目标并给出相关理论分析。
   evidence_basis: fulltext
-  evidence_locator: NeurIPS official abstract page and PDF abstract/introduction including
-    COAT loop and proposition claims.
+  evidence_locator: NeurIPS official abstract page and PDF abstract/introduction including COAT loop and
+    proposition claims. Journal-version metadata and abstract additionally checked on 2026-11-10 at official
+    JMLR 27(229); existing conference-content verification date is retained.
   scope_decision: include
   decision_reason_zh: NeurIPS 2024 主会论文，LLM 与统计因果发现深度耦合。
-  limitations_zh: 正文说明理论保证依赖文中设定；本记录未独立证明。
+  limitations_zh: 正文说明理论保证依赖文中设定；本记录未独立证明。 2026-11-10 定向补核 JMLR 27(229):1–95 的同作者 COAT 扩展版，保留本研究稳定 ID
+    与 NeurIPS 2024 归档，不重复计数；新增期刊版仅核验官方元数据和摘要，未通读其扩展理论。
   verified_on: '2026-09-09'
   discovered_via:
   - web
   source_urls:
   - https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
   - https://proceedings.neurips.cc/paper_files/paper/2024/file/b99a07486702417d3b1bd64ec2cf74ad-Paper-Conference.pdf
+  - https://www.jmlr.org/beta/papers/v27/25-2137.html
+  - https://causalcoat.github.io/discovering-and-reasoning
   code_url: https://causalcoat.github.io
   work_id: w-e924df9e1b64
   publication_records:
@@ -2836,6 +2840,18 @@
     doi: 10.52202/079017-3249
     official_url: https://proceedings.neurips.cc/paper_files/paper/2024/hash/b99a07486702417d3b1bd64ec2cf74ad-Abstract-Conference.html
     paper_url: https://proceedings.neurips.cc/paper_files/paper/2024/file/b99a07486702417d3b1bd64ec2cf74ad-Paper-Conference.pdf
+  - title: Discovering and Reasoning of Causality in the Hidden World with Large Language Models
+    venue: JMLR
+    year: 2026
+    track: journal
+    publication_status: published
+    official_url: https://www.jmlr.org/beta/papers/v27/25-2137.html
+    paper_url: https://www.jmlr.org/papers/volume27/25-2137/25-2137.pdf
+    verified_on: '2026-11-10'
+    volume: 27
+    article_number: 229
+    pages: 1-95
+    version_relation: extended-journal-version
   verification_status: official-record-checked
   fulltext_status: available-partially-read
   estimand_zh: null
