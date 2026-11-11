@@ -16,7 +16,7 @@
 | 2024 · Marketing Science | [Frontiers: Determining the Validity of Large Language Models for Automated Perceptual Analysis](https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454) | 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。 |
 | 2023 · ICML | [Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies](https://proceedings.mlr.press/v202/aher23a.html) | 用 Turing Experiments 模拟参与者群体，复现经济学、语言和社会心理实验并识别系统偏差。 |
 
-## 补充阅读（6 篇）
+## 补充阅读（7 篇）
 
 预印本、名单外 venue、特别轨或背景指南，均不计入上方主目录数。具体理由见[补充列表](../docs/supplementary.md)。
 
@@ -28,5 +28,6 @@
 | 2024 · arXiv · 预印本 | [LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals](https://arxiv.org/abs/2411.10109) | 基于 1,052 人的访谈、调查或二者组合构建个人代理，并对照人类重测表现验证预测。 |
 | 2025 · ACL · industry | [A Parallelized Framework for Simulating Large-Scale LLM Agents with Realistic Environments and Interactions](https://aclanthology.org/2025.acl-industry.94/) | AgentSociety 将现实社会环境与并行交互结合，支持大规模 LLM 社会代理仿真。 |
 | 2023 · NBER Working Paper · 预印本 | [Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?](https://www.nber.org/papers/w31122) | 给 LLM 设定禀赋、信息和偏好，模拟经济行为并对照既有实验结果。 |
+| 2026 · arXiv · 预印本 | [Causally Fair Generation with Large Language Models](https://arxiv.org/abs/2610.04444) | 以参考人群数据和因果图约束LLM生成，选择性移除用户指定的因果路径效应，并保留被允许的路径；同时处理不按因果顺序给出信息的查询。 |
 
 [按应用场景阅读](../docs/marketing-simulation.md)。

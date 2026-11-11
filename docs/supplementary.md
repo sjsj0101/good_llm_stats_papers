@@ -42,6 +42,7 @@
 | 2024 · arXiv · 预印本 | [DoubleMLDeep: Estimation of Causal Effects with Multimodal Data](https://arxiv.org/abs/2402.01785) | 融合表格、文本和图像的预训练表示，学习处理与结果干扰函数，在部分线性 DML 中估计处理系数。 |
 | 2023 · ICLR | [Causal Estimation for Text Data with (Apparent) Overlap Violations](https://iclr.cc/virtual/2023/poster/11330) | 针对文本属性可由全文预测引起的表面重叠违背，用 DistilBERT 学习处理无关表示并进行因果估计。 |
 | 2022 · Management Science | [Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach](https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443) | 用 Siamese BERT 抽取与聚类评论意见，再以 GRF/AIPW 分析意见的主效应和交互效应。 |
+| 2026 · arXiv · 预印本 | [Causally Fair Generation with Large Language Models](https://arxiv.org/abs/2610.04444) | 以参考人群数据和因果图约束LLM生成，选择性移除用户指定的因果路径效应，并保留被允许的路径；同时处理不按因果顺序给出信息的查询。 |
 
 ## 范围与证据
 
@@ -79,3 +80,4 @@
 - **DoubleMLDeep: Estimation of Causal Effects with Multimodal Data**（preprint）：非结构化多模态信息进入 DML 的直接近邻；仅确认预印本，且已报告实验使用编码型预训练表示，列入补充。
 - **Causal Estimation for Text Data with (Apparent) Overlap Violations**（published）：ICLR 正式发表；使用 DistilBERT 处理文本特征效应与重叠问题，作为生成式 LLM 因果估计的前置方法背景补充。
 - **Uncovering Synergy and Dysergy in Consumer Reviews: A Machine Learning Approach**（published）：本轮 EDITH 发现并经官方来源核验；以 BERT 意见表示和 GRF/AIPW 支持消费者评论效应分析，作为应用背景补充；Management Science 不在当前主目录期刊名单。
+- **Causally Fair Generation with Large Language Models**（preprint）：因果约束与生成分布控制是核心技术贡献；本轮仅核验到预印本，故进入补充而非正式顶会顶刊主目录。

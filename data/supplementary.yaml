@@ -1841,3 +1841,54 @@
     doi: 10.1287/mnsc.2022.4443
     official_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
     paper_url: https://pubsonline.informs.org/doi/10.1287/mnsc.2022.4443
+- work_id: w-bf2ea10dffed
+  title: Causally Fair Generation with Large Language Models
+  authors:
+  - Patrik Okanovic
+  - Torsten Hoefler
+  - Drago Plecko
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2610.04444
+  paper_url: https://arxiv.org/abs/2610.04444
+  doi: null
+  arxiv_id: '2610.04444'
+  openreview_id: null
+  topics:
+  - causal-estimation
+  - synthetic-data
+  - simulation
+  summary_zh: 以参考人群数据和因果图约束LLM生成，选择性移除用户指定的因果路径效应，并保留被允许的路径；同时处理不按因果顺序给出信息的查询。
+  llm_role_zh: 生成多变量信息与叙事；因果约束用于控制生成分布中的群体差异，而不是研究现实中的LLM采用效应。
+  method_zh: 结合概念提取、人群分布锚定、因果图和交互式效应移除，再构造生成提示；理论结论限定于适配后的人群模型及相应因果假设。
+  evidence_basis: abstract-and-selected-fulltext
+  evidence_locator: arXiv title/authors/date/abstract plus HTML introduction and limitations section; no official
+    target-venue acceptance record verified.
+  scope_decision: supplement
+  decision_reason_zh: 因果约束与生成分布控制是核心技术贡献；本轮仅核验到预印本，故进入补充而非正式顶会顶刊主目录。
+  limitations_zh: 依赖足够且有代表性的参考人群数据和可信因果图，LLM提出的图可能需要领域专家修正；未核查全部证明、未复现实验。尚无本轮可确认的正式录用证据，不将检索未找到解释为确定未录用。
+  verified_on: '2026-11-11'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2610.04444
+  - https://arxiv.org/html/2610.04444v1
+  code_url: null
+  verification_status: needs-official-verification
+  fulltext_status: available-partially-read
+  publication_dates:
+    arxiv_original: '2026-10-03'
+  estimand_zh: 生成分布中用户选定的直接、间接及混杂路径效应；允许路径由任务设定指定。
+  assumptions_zh: 参考人群数据适用、因果图可信及文中识别假设；并非任意生成器的无条件公平保证。
+  guarantee_zh: null
+  datasets: null
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    official_url: https://arxiv.org/abs/2610.04444
+    paper_url: https://arxiv.org/abs/2610.04444
