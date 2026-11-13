@@ -39,3 +39,9 @@ EDITH 推进 1 篇 BERT 评论分析应用，官方在线年核实为 2022，现
 核验 [Causally Fair Generation with Large Language Models](https://arxiv.org/abs/2610.04444) 的三位作者、2026-10-03首发日期、摘要与部分正文。仅确认预印本身份，加入补充、不计主目录，不推断顶会或期刊录用。因果约束针对生成分布，不是LLM采用效果研究；数据代表性与因果图假设仍是适用条件。
 
 本轮重新实际查询文献库：4项精确短语，0命中、无截断；另做网络发现和原始来源核验。基础2026-09-09及既有定向覆盖边界不变，不声称已补齐其后的全部成果；未复现实验。
+
+## 2026-11-13：JMR OnlineFirst 状态修正
+
+[Evaluating Novel Unstructured Treatments with Generative AI](https://journals.sagepub.com/doi/10.1177/00222437261476639) 的官方页面现显示 Research article / OnlineFirst，首次在线日期为2026-08-03。将原 accepted 更新为 published，移除题名前缀 EXPRESS，并核对四位作者（官方署名 James C. Reeder 含 III 后缀）；保留原稳定ID、DOI及2026归档，不重复计数，也不把今天写成发表日期。主目录仍87篇，其中86篇正式发表、1篇已接收。
+
+本轮文献库3项精确短语查询成功，0命中、无截断；另做官方来源定向核验。内容短评仍为摘要层级，未通读全文或复现实验；基础覆盖日期与其他条目核验日期不变。

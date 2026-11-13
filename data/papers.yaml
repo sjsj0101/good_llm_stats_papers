@@ -4216,8 +4216,7 @@
     official_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0262
     paper_url: https://pubsonline.informs.org/doi/10.1287/mksc.2025.0262
 - work_id: w-05a4530d803f
-  title: 'EXPRESS: Evaluating Novel Unstructured Treatments with Generative AI: A
-    Causal Prediction Framework'
+  title: 'Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework'
   authors:
   - Paul B. Ellickson
   - Wreetabrata Kar
@@ -4227,7 +4226,7 @@
   venue_group: marketing
   year: 2026
   track: journal
-  publication_status: accepted
+  publication_status: published
   official_url: https://journals.sagepub.com/doi/10.1177/00222437261476639
   paper_url: https://journals.sagepub.com/doi/10.1177/00222437261476639
   doi: 10.1177/00222437261476639
@@ -4238,11 +4237,11 @@
   llm_role_zh: 为非结构化内容构造表示，并生成待筛选的新内容。
   method_zh: 内容表示、因果预测与拒绝采样；在 34 个邮件营销活动的数据中检验。
   evidence_basis: official-abstract
-  evidence_locator: SAGE 摘要、Keywords 与 Accepted Manuscripts 状态。
+  evidence_locator: SAGE 官方 Research article / OnlineFirst 状态、2026-08-03 首次在线日期、题名与四位作者；内容短评仍仅依据官方摘要。
   scope_decision: include
-  decision_reason_zh: JMR 官方已接收稿；LLM 是内容处理效应预测的方法组件，研究对象不是采用 LLM 的因果效应。
-  limitations_zh: 已接收稿，尚无正式卷期；官方摘要没有列全识别假设，不能据摘要将预测阈值视为普适的因果有效性保证。
-  verified_on: '2026-09-09'
+  decision_reason_zh: JMR 官方 OnlineFirst 正式文章；LLM 是内容处理效应预测的方法组件，研究对象不是采用 LLM 的因果效应。
+  limitations_zh: 已 OnlineFirst，尚未核验到正式卷期；仅依据官方摘要，不能将应用中的预测阈值视为普适的因果有效性保证。未通读全文、审计识别假设或复现实验。
+  verified_on: '2026-11-13'
   discovered_via:
   - web
   source_urls:
@@ -4260,10 +4259,12 @@
   - venue: Journal of Marketing Research
     year: 2026
     track: journal
-    publication_status: accepted
+    publication_status: published
     doi: 10.1177/00222437261476639
     official_url: https://journals.sagepub.com/doi/10.1177/00222437261476639
     paper_url: https://journals.sagepub.com/doi/10.1177/00222437261476639
+    title: 'Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework'
+    verified_on: '2026-11-13'
 - work_id: w-5e29088d143c
   title: Using Large Language Models to Simulate Multiple Humans and Replicate Human
     Subject Studies

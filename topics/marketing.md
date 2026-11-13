@@ -6,7 +6,7 @@
 
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
-| 2026 · Journal of Marketing Research · 已接收稿 | [EXPRESS: Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework](https://journals.sagepub.com/doi/10.1177/00222437261476639) | 用 LLM 表示历史营销内容，并通过拒绝采样约束外推，预测新内容的因果效果。 |
+| 2026 · Journal of Marketing Research | [Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework](https://journals.sagepub.com/doi/10.1177/00222437261476639) | 用 LLM 表示历史营销内容，并通过拒绝采样约束外推，预测新内容的因果效果。 |
 | 2026 · Marketing Science | [Large Language Models for Market Research: A Data-Augmentation Approach](https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009) | 用少量人类数据校正 LLM 合成选择数据，提高联合分析中的偏好估计效率。 |
 | 2025 · Marketing Science · 数据报告 | [Database Report: Twin-2K-500: A Data Set for Building Digital Twins of over 2,000 People Based on Their Answers to over 500 Questions](https://pubsonline.informs.org/doi/10.1287/mksc.2025.0262) | 提供 2,058 人、四轮、500 多道问题的数据及重测基准，用于构建和验证个人数字孪生。 |
 | 2024 · Journal of Marketing | [AI–Human Hybrids for Marketing Research: Leveraging Large Language Models (LLMs) as Collaborators](https://journals.sagepub.com/doi/10.1177/00222429241276529) | 通过合成受访者、访谈和调查复现，评估人类与 LLM 协作开展营销研究的有效性。 |

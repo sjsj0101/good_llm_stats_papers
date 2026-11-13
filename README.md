@@ -29,7 +29,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 | Metric | Value |
 | --- | ---: |
 | 主目录论文 | 87 |
-| 正式发表 / 官方已接收稿 | 85 / 2 |
+| 正式发表 / 官方已接收稿 | 86 / 1 |
 | 补充 / 待核验 | 35 / 1 |
 | 目标 venue / 年份单元 | 33 / 165 |
 | 基础检索截止日 | 2026-09-09 |
@@ -178,7 +178,7 @@ python3 scripts/render.py --check
 
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
-| 2026 · Journal of Marketing Research · 已接收稿 | [EXPRESS: Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework](https://journals.sagepub.com/doi/10.1177/00222437261476639) | 用 LLM 表示历史营销内容，并通过拒绝采样约束外推，预测新内容的因果效果。 |
+| 2026 · Journal of Marketing Research | [Evaluating Novel Unstructured Treatments with Generative AI: A Causal Prediction Framework](https://journals.sagepub.com/doi/10.1177/00222437261476639) | 用 LLM 表示历史营销内容，并通过拒绝采样约束外推，预测新内容的因果效果。 |
 
 ### JMLR 2026
 
