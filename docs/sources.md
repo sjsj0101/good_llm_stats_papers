@@ -45,3 +45,9 @@ EDITH 推进 1 篇 BERT 评论分析应用，官方在线年核实为 2022，现
 [Evaluating Novel Unstructured Treatments with Generative AI](https://journals.sagepub.com/doi/10.1177/00222437261476639) 的官方页面现显示 Research article / OnlineFirst，首次在线日期为2026-08-03。将原 accepted 更新为 published，移除题名前缀 EXPRESS，并核对四位作者（官方署名 James C. Reeder 含 III 后缀）；保留原稳定ID、DOI及2026归档，不重复计数，也不把今天写成发表日期。主目录仍87篇，其中86篇正式发表、1篇已接收。
 
 本轮文献库3项精确短语查询成功，0命中、无截断；另做官方来源定向核验。内容短评仍为摘要层级，未通读全文或复现实验；基础覆盖日期与其他条目核验日期不变。
+
+## 2026-11-14：Biometrika 水印论文正式卷期修正
+
+[Optimal watermark generation under Type I and Type II errors](https://doi.org/10.1093/biomet/asag049) 的OUP官方可读索引显示113(4)、文章asag049，2026-08-08在线发表、2026-10-26完成排版。出版商提交的[Crossref记录](https://api.crossref.org/works/10.1093/biomet/asag049)交叉确认六位作者、卷期、在线日期及VoR链接；直接OUP页面返回访问验证，未绕过或据此声称阅读全文。将原accepted改为published，按官方题名调整大小写，保留稳定ID、DOI与2026归档。主目录仍87篇，现均为正式发表；补充35、待核验1不变。排版历史不等于科学更正声明。
+
+本轮文献库3项精确短语查询成功、0命中、无截断；定向网络核验只更新本条元数据，内容短评仍依据摘要，未审计理论证明或复现实验。基础覆盖日期和其他论文核验日期不变。

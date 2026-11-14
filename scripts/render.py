@@ -39,6 +39,7 @@ def generate():
         ("accepted", "官方已接收稿", accepted, "有官方已接收稿或录用记录，计入主目录并与正式发表记录分开标注。"),
     ]:
         output[f"docs/{filename}.md"] = NOTICE + f"# {title}\n\n[返回目录](../README.md)\n\n{description}\n\n" + table(rows) + "\n## 范围与证据\n\n" + "\n".join(f"- **{r['title']}**（{r['publication_status']}）：{r['decision_reason_zh']}" for r in rows) + "\n"
+        output[f"docs/{filename}.md"] = output[f"docs/{filename}.md"].rstrip() + "\n"
     main = [NOTICE + '<div align="center">',
         "",
         "# Good LLM Stats Papers",

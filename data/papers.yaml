@@ -361,7 +361,7 @@
   publication_dates: null
   arxiv_id: null
   openreview_id: null
-- title: Optimal Watermark Generation under Type I and Type II Errors
+- title: Optimal watermark generation under Type I and Type II errors
   authors:
   - Hengzhi He
   - Shirong Xu
@@ -373,7 +373,7 @@
   venue_group: statistics
   year: 2026
   track: other
-  publication_status: accepted
+  publication_status: published
   official_url: https://doi.org/10.1093/biomet/asag049
   paper_url: https://arxiv.org/abs/2512.05333
   doi: 10.1093/biomet/asag049
@@ -385,12 +385,14 @@
   llm_role_zh: LLM输出分布的水印生成被明确表述为统计假设检验设计问题。
   method_zh: 以一般f散度度量保真损失，对固定假阳性与假阴性约束推导紧下界和最优水印分布。
   evidence_basis: official-abstract
-  evidence_locator: Oxford Academic Biometrika Accepted Manuscript listing and abstract;
-    arXiv abstract and author publication page corroboration
+  evidence_locator: OUP official-page readable search index shows Biometrika113(4),asag049,2026-08-08
+    publication and2026-10-26 corrected/typeset status; publisher-deposited Crossref record independently
+    confirms six authors,DOI,volume,issue,article number,online date and VoR link. Direct OUP page returned403/JavaScript
+    challenge; no bypass and no fulltext read.
   scope_decision: include
-  decision_reason_zh: Biometrika官方页面已标记Accepted Manuscript；LLM水印检验与最优统计设计是核心。
-  limitations_zh: 截至截止日属于正式接受稿而非已编入卷期的最终版本，故与published记录分开。
-  verified_on: '2026-09-09'
+  decision_reason_zh: Biometrika官方页面的可读索引与出版商提交的Crossref记录一致，已编入113(4)、文章asag049；LLM水印检验与最优统计设计是核心。
+  limitations_zh: 本次核验正式出版元数据，未通读论文或复现实验；原方法短评仍限于摘要层级。OUP直接页面受访问验证限制，使用官方可读索引与出版商注册记录交叉核对，不能将此称为直接阅读全文。
+  verified_on: '2026-11-14'
   discovered_via:
   - web
   source_urls:
@@ -398,21 +400,34 @@
   - https://academic.oup.com/biomet
   - https://arxiv.org/abs/2512.05333
   - https://hehz2020.github.io/
+  - https://academic.oup.com/biomet/article-abstract/113/4/asag049/8757725
+  - https://api.crossref.org/works/10.1093/biomet/asag049
   code_url: null
   arxiv_id: '2512.05333'
   guarantee_zh: 在给定I/II类错误约束及一般f散度下提供紧保真损失下界和达到下界的构造。
   publication_dates:
     accepted_manuscript: '2026-08-08'
-  notes: 'Oxford Academic section: Miscellanea.'
+    accepted: '2026-08-04'
+    online_first: '2026-08-08'
+    corrected_and_typeset: '2026-10-26'
+    issue_year: 2026
+  notes: 'Oxford Academic section: Miscellanea. Volume113,issue4,articleasag049; accepted_manuscript date
+    retains the earlier public-release date,not the acceptance decision date. Corrected/typeset is a production-history
+    label,not evidence of a scientific erratum or retraction.'
   work_id: w-13cfa0841282
   publication_records:
   - venue: Biometrika
     year: 2026
     track: other
-    publication_status: accepted
+    publication_status: published
     doi: 10.1093/biomet/asag049
     official_url: https://doi.org/10.1093/biomet/asag049
     paper_url: https://arxiv.org/abs/2512.05333
+    title: Optimal watermark generation under Type I and Type II errors
+    verified_on: '2026-11-14'
+    volume: 113
+    issue: 4
+    article_number: asag049
   verification_status: official-record-checked
   fulltext_status: abstract-only
   estimand_zh: null

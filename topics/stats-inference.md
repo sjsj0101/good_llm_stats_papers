@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 2026 · ACL | [Valid Survey Simulations with Limited Human Data: The Roles of Prompting, Fine-Tuning, and Rectification](https://aclanthology.org/2026.acl-long.498/) | 比较LLM调查回答的提示、微调与PPI式事后校正，显示仅合成带来显著偏差，而把多数有限真人预算用于校正可大幅降低总体均值估计偏差。 |
 | 2026 · AISTATS | [Evaluation of Large Language Models via Coupled Token Generation](https://proceedings.mlr.press/v300/benz26a.html) | 建立共享外生随机性的耦合自回归因果模型，使不同 LLM 在相同随机源下比较，并证明基准评测可显著减少样本。 |
-| 2026 · Biometrika · 已接收稿 | [Optimal Watermark Generation under Type I and Type II Errors](https://doi.org/10.1093/biomet/asag049) | 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。 |
+| 2026 · Biometrika | [Optimal watermark generation under Type I and Type II errors](https://doi.org/10.1093/biomet/asag049) | 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。 |
 | 2026 · JASA | [Causal Inference with Generative Artificial Intelligence: Application to Texts as Treatments](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2689629) | 利用生成或再生成文本的 LLM 内部表示，识别和估计指定文本特征对人类评价的平均因果效应。 |
 | 2026 · JASA | [Towards Better Statistical Understanding of Watermarking LLMs](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290) | 把红绿词表水印的质量—可检测性权衡写成约束优化问题，并给出在线生成算法和渐近最优性分析。 |
 | 2026 · Marketing Science | [Large Language Models for Market Research: A Data-Augmentation Approach](https://pubsonline.informs.org/doi/10.1287/mksc.2025.0009) | 用少量人类数据校正 LLM 合成选择数据，提高联合分析中的偏好估计效率。 |

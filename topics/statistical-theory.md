@@ -8,7 +8,7 @@
 | --- | --- | --- |
 | 2026 · AISTATS | [An Information-Theoretic Approach to Understanding Transformers’ In-Context Learning of Variable-Order Markov Chains](https://proceedings.mlr.press/v300/zhou26b.html) | 研究Transformer在上下文中学习变阶马尔可夫链的有限样本准确率，并构造可精确实现贝叶斯context-tree weighting的多层Transformer。 |
 | 2026 · AISTATS | [Evaluation of Large Language Models via Coupled Token Generation](https://proceedings.mlr.press/v300/benz26a.html) | 建立共享外生随机性的耦合自回归因果模型，使不同 LLM 在相同随机源下比较，并证明基准评测可显著减少样本。 |
-| 2026 · Biometrika · 已接收稿 | [Optimal Watermark Generation under Type I and Type II Errors](https://doi.org/10.1093/biomet/asag049) | 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。 |
+| 2026 · Biometrika | [Optimal watermark generation under Type I and Type II errors](https://doi.org/10.1093/biomet/asag049) | 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。 |
 | 2026 · COLT | [Universal Priors: Solving Empirical Bayes via Bayesian Inference and Pretraining](https://proceedings.mlr.press/v336/cannella26a.html) | 把经验贝叶斯问题改写为在合成任务分布上预训练后进行贝叶斯预测，并在Poisson经验贝叶斯中给出接近最优的统一遗憾界与后验收缩结果。 |
 | 2026 · JASA | [Towards Better Statistical Understanding of Watermarking LLMs](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290) | 把红绿词表水印的质量—可检测性权衡写成约束优化问题，并给出在线生成算法和渐近最优性分析。 |
 | 2025 · AISTATS | [On Subjective Uncertainty Quantification and Calibration in Natural Language Generation](https://proceedings.mlr.press/v258/wang25i.html) | 从贝叶斯决策论定义自由文本生成的任务相关主观不确定性与校准，并以缺失数据和超额风险刻画认知不确定性。 |
