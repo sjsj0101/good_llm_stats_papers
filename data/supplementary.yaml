@@ -1892,3 +1892,63 @@
     publication_status: preprint
     official_url: https://arxiv.org/abs/2610.04444
     paper_url: https://arxiv.org/abs/2610.04444
+- work_id: w-d3bed7c8af53
+  title: 'HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior'
+  authors:
+  - Jin Huang
+  - Diego Ferreras Garrucho
+  - Yutong Xie
+  - Walter M. Yuan
+  - Qiaozhu Mei
+  - Chen Lian
+  - Jonathon Hazell
+  venue: NBER Working Paper
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://www.nber.org/papers/w35927
+  paper_url: https://arxiv.org/abs/2610.07563
+  doi: 10.3386/w35927
+  arxiv_id: '2610.07563'
+  openreview_id: null
+  topics:
+  - simulation
+  - synthetic-data
+  - uncertainty
+  summary_zh: 将家庭调查中的消费、收入、劳动、预期与住房行为组织为多类型预测任务，对照不变预测和梯度提升树，评估LLM作为家庭行为代理的预测能力及偏差。
+  llm_role_zh: 根据历史行为、人口特征和宏观条件预测家庭结果，并比较提示、微调和多次预测聚合；不是研究采用LLM对现实家庭的因果效应。
+  method_zh: 跨调查的数值、类别和概率预测评测，区分通常预测与政策变化响应任务；将LLM与简单基线及树模型比较。
+  evidence_basis: abstract-and-project-readme
+  evidence_locator: arXiv v1 metadata and abstract; readable official NBER index confirms WP35927/October2026/DOI;
+    author project links to GitHub README, inspected scoring/data-access/split restrictions.
+  scope_decision: supplement
+  decision_reason_zh: 直接检验LLM行为模拟的可信度与预测误差；本轮仅核验到NBER工作论文和同题arXiv版本，故列补充，不计入正式顶会顶刊主目录。
+  limitations_zh: 内容短评以摘要为主，另查代码README的评测和数据限制，未审计全文或执行代码。预测政策响应不自动提供因果识别或结构模型有效性；不能把部分公开任务的评分等同完整基准。部分原始调查需另行授权下载，模型训练截止日影响时间外推解释。NBER直接访问403，出版元数据使用官方可读索引交叉核验；未核验正式期刊或会议录用。
+  verified_on: '2026-11-17'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.nber.org/papers/w35927
+  - https://arxiv.org/abs/2610.07563
+  - https://jn-huang.github.io/householdbench/
+  - https://github.com/Jn-Huang/householdbench_eval
+  code_url: https://github.com/Jn-Huang/householdbench_eval
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  publication_dates:
+    arxiv_original: '2026-10-06'
+    working_paper_month: 2026-10
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_records:
+  - venue: NBER Working Paper
+    year: 2026
+    track: other
+    publication_status: preprint
+    doi: 10.3386/w35927
+    official_url: https://www.nber.org/papers/w35927
+    paper_url: https://arxiv.org/abs/2610.07563
+    working_paper_number: '35927'
