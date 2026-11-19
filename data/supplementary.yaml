@@ -1952,3 +1952,62 @@
     official_url: https://www.nber.org/papers/w35927
     paper_url: https://arxiv.org/abs/2610.07563
     working_paper_number: '35927'
+- work_id: w-963d5849d513
+  title: Are Human and LLM-Generated Observations Statistically Comparable? Rethinking Sampling Units,
+    Variability, and Statistical Inference
+  authors:
+  - Christos Stefanis
+  - Elisavet Stavropoulou
+  - Agathangelos Stavropoulos
+  - Ioanna Bezirtzoglou
+  - Konstantina Aftzoglou
+  - Christina Tsigalou
+  venue: AI
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.mdpi.com/2673-2688/7/11/446
+  paper_url: https://www.mdpi.com/2673-2688/7/11/446
+  doi: 10.3390/ai7110446
+  arxiv_id: null
+  openreview_id: null
+  topics:
+  - stats-inference
+  - synthetic-data
+  - simulation
+  summary_zh: 区分人群抽样的异质性与LLM重复生成的算法变异，提出按推断目标、抽样单位、依赖结构和验证证据组织人机数据比较的流程。
+  llm_role_zh: 作为合成受访者或观测生成器，研究其输出支持人群推断的条件，而不是估计采用LLM的现实因果效应。
+  method_zh: 方法性Communication：从数据生成过程与estimand出发检查独立性、重复、样本量和可比性；不是新统计估计量或实证基准。
+  evidence_basis: official-abstract-and-selected-fulltext
+  evidence_locator: Official publisher metadata,abstract,introduction,conclusions and Data Availability;
+    Communication,2026-11-01,7(11)446,six authors,no new data.
+  scope_decision: supplement
+  decision_reason_zh: 直接讨论合成受访者的统计比较条件；属于名单外期刊的方法评论，作为补充背景，不计入主目录或当作新理论/实证证明。
+  limitations_zh: 未创建或分析新数据，提出的是方法框架而非已验证的通用可比性保证。不能由相近均值、同样本量或不显著检验推断等价；本轮仅读摘要及部分正文，未审计全部引文或复现实验。
+  verified_on: '2026-11-19'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.mdpi.com/2673-2688/7/11/446
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  publication_dates:
+    online_first: '2026-11-01'
+    volume: '7'
+    issue: '11'
+    article_number: '446'
+  estimand_zh: 随研究问题确定的人群或生成协议下目标量；文章未给出单一通用estimand。
+  assumptions_zh: 分析单位、依赖结构、生成协议与目标总体需和所用推断方法一致。
+  guarantee_zh: null
+  datasets: null
+  publication_records:
+  - venue: AI
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.3390/ai7110446
+    official_url: https://www.mdpi.com/2673-2688/7/11/446
+    paper_url: https://www.mdpi.com/2673-2688/7/11/446
+    article_type: Communication
