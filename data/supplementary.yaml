@@ -2011,3 +2011,56 @@
     official_url: https://www.mdpi.com/2673-2688/7/11/446
     paper_url: https://www.mdpi.com/2673-2688/7/11/446
     article_type: Communication
+
+- work_id: w-793ec80ccd9e
+  title: Cognitive grounding improves LLM simulation of collective human behavior
+  authors:
+  - Hongan Zhu
+  - Babak Heydari
+  venue: Nature Computational Science
+  venue_group: other
+  year: 2026
+  track: journal
+  publication_status: published
+  official_url: https://www.nature.com/articles/s43588-026-01080-z
+  paper_url: https://www.nature.com/articles/s43588-026-01080-z
+  doi: 10.1038/s43588-026-01080-z
+  arxiv_id: null
+  openreview_id: null
+  topics:
+  - simulation
+  - synthetic-data
+  - marketing-behavior
+  summary_zh: 向供应链博弈中的LLM角色提供行为决策规则的定性描述，再比较多角色交互轨迹与人类校准参照。作者报告轨迹拟合得到改善，但不同角色和模型的参数对齐并不均匀。
+  llm_role_zh: 充当合成决策参与者，检验交互行为与人类参照的可比性，而非估计LLM采用的现实效果。
+  method_zh: 定性行为规则提示、轨迹比较与决策参数推断，并用独立经验数据和不同提示/记忆设计复核。
+  evidence_basis: official-abstract-and-selected-fulltext
+  evidence_locator: Official publisher metadata,abstract and Data/Code availability; Analysis,2026-11-16,two authors.
+  scope_decision: supplement
+  decision_reason_zh: 直接研究合成参与者的行为验证；期刊不在当前目标venue名单，列补充，不扩大白名单。
+  limitations_zh: 人类校准主目标由既有决策参数模拟生成，并有外部经验轨迹比较；不能将所有参照都说成逐个真实人类被试。模型与角色存在差异，单一任务的拟合不证明通用人类替代能力。本轮未读完整方法或复现实验。
+  verified_on: '2026-11-21'
+  discovered_via:
+  - web
+  source_urls:
+  - https://www.nature.com/articles/s43588-026-01080-z
+  - https://github.com/zhuhongan/cognitive-grounding-beer-game
+  code_url: https://github.com/zhuhongan/cognitive-grounding-beer-game
+  verification_status: official-record-checked
+  fulltext_status: available-partially-read
+  publication_dates:
+    online_first: '2026-11-16'
+  estimand_zh: 受测供需博弈中的订单轨迹与行为参数对齐；不是现实AI采用效果。
+  assumptions_zh: 人类校准参照及所推断参数足以表达当前任务中所比较的行为差异；外推需另验证。
+  guarantee_zh: null
+  datasets:
+  - Beer Distribution Game
+  publication_records:
+  - venue: Nature Computational Science
+    year: 2026
+    track: journal
+    publication_status: published
+    doi: 10.1038/s43588-026-01080-z
+    official_url: https://www.nature.com/articles/s43588-026-01080-z
+    paper_url: https://www.nature.com/articles/s43588-026-01080-z
+    article_type: Analysis

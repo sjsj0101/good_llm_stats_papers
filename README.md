@@ -30,7 +30,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 | --- | ---: |
 | 主目录论文 | 87 |
 | 正式发表 / 官方已接收稿 | 87 / 0 |
-| 补充 / 待核验 | 37 / 1 |
+| 补充 / 待核验 | 38 / 1 |
 | 目标 venue / 年份单元 | 33 / 165 |
 | 基础检索截止日 | 2026-09-09 |
 

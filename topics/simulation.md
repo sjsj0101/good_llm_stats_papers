@@ -16,7 +16,7 @@
 | 2024 · Marketing Science | [Frontiers: Determining the Validity of Large Language Models for Automated Perceptual Analysis](https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454) | 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。 |
 | 2023 · ICML | [Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies](https://proceedings.mlr.press/v202/aher23a.html) | 用 Turing Experiments 模拟参与者群体，复现经济学、语言和社会心理实验并识别系统偏差。 |
 
-## 补充阅读（9 篇）
+## 补充阅读（10 篇）
 
 预印本、名单外 venue、特别轨或背景指南，均不计入上方主目录数。具体理由见[补充列表](../docs/supplementary.md)。
 
@@ -31,5 +31,6 @@
 | 2026 · arXiv · 预印本 | [Causally Fair Generation with Large Language Models](https://arxiv.org/abs/2610.04444) | 以参考人群数据和因果图约束LLM生成，选择性移除用户指定的因果路径效应，并保留被允许的路径；同时处理不按因果顺序给出信息的查询。 |
 | 2026 · NBER Working Paper · 预印本 | [HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior](https://www.nber.org/papers/w35927) | 将家庭调查中的消费、收入、劳动、预期与住房行为组织为多类型预测任务，对照不变预测和梯度提升树，评估LLM作为家庭行为代理的预测能力及偏差。 |
 | 2026 · AI | [Are Human and LLM-Generated Observations Statistically Comparable? Rethinking Sampling Units, Variability, and Statistical Inference](https://www.mdpi.com/2673-2688/7/11/446) | 区分人群抽样的异质性与LLM重复生成的算法变异，提出按推断目标、抽样单位、依赖结构和验证证据组织人机数据比较的流程。 |
+| 2026 · Nature Computational Science | [Cognitive grounding improves LLM simulation of collective human behavior](https://www.nature.com/articles/s43588-026-01080-z) | 向供应链博弈中的LLM角色提供行为决策规则的定性描述，再比较多角色交互轨迹与人类校准参照。作者报告轨迹拟合得到改善，但不同角色和模型的参数对齐并不均匀。 |
 
 [按应用场景阅读](../docs/marketing-simulation.md)。
