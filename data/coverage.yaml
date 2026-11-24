@@ -200,8 +200,8 @@ coverage:
 - venue: ICML
   venue_group: cs-conference
   year: 2026
-  status: search-only
-  included_count: 0
+  status: partial
+  included_count: 1
   official_issue_audit_complete: false
   search_logs:
   - venue: ICML
@@ -222,11 +222,25 @@ coverage:
     - https://proceedings.mlr.press/v267/kobalczyk25a.html
     - https://proceedings.mlr.press/v267/chen25bi.html
     status: partial
-    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable
-      as a stable PMLR volume in this bounded search; CARE appeared only through OpenReview/profile
-      evidence and was not cataloged without a stable official proceedings record.
-  verified_article_urls: []
-  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+    notes: Three 2025 papers retained. The ICML 2026 proceedings were not discoverable as a stable PMLR volume in
+      this bounded search; CARE appeared only through OpenReview/profile evidence and was not cataloged without
+      a stable official proceedings record.
+  - venue: ICML
+    years:
+    - 2026
+    queries:
+    - prediction-powered language model
+    - Efficient Inference for Noisy LLM-as-a-Judge Evaluation
+    source_urls:
+    - https://proceedings.mlr.press/v306/chen26cq.html
+    - https://github.com/yiqunchen/debias-llm-as-a-judge
+    status: partial
+    checked_on: '2026-11-24'
+    notes: One official PMLR main paper verified in targeted follow-up;not a full proceedings audit. Prior September
+      availability notes are historical.
+  verified_article_urls:
+  - https://proceedings.mlr.press/v306/chen26cq.html
+  gap_zh: 2026-11-24定向核验1篇主会论文；原2026-09-09基线保留，未逐项核对完整proceedings或所有track，不声称穷尽。
 - venue: NeurIPS
   venue_group: cs-conference
   year: 2022

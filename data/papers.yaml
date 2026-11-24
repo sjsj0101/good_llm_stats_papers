@@ -4605,3 +4605,57 @@
     doi: 10.18653/v1/2023.emnlp-main.82
     official_url: https://aclanthology.org/2023.emnlp-main.82/
     paper_url: https://aclanthology.org/2023.emnlp-main.82.pdf
+
+- work_id: w-1150189e91e2
+  title: Efficient Inference for Noisy LLM-as-a-Judge Evaluation
+  authors:
+  - Yiqun T. Chen
+  - Sizhu Lu
+  - Sijia Li
+  - Moran Guo
+  - Shengyi Li
+  venue: ICML
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.mlr.press/v306/chen26cq.html
+  paper_url: https://proceedings.mlr.press/v306/chen26cq.html
+  doi: null
+  arxiv_id: null
+  openreview_id: tPcL3fgkjc
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 把有系统误差的LLM评审视为带噪声代理，比较直接误分类校正与用少量人工标签校准的预测辅助推断；通过半参数效率理论分析均值、基准平均分或两两胜率的估计。
+  llm_role_zh: 提供带测量误差的预测或评价标签，统计目标是校正总体量，而不是提升语言生成速度。
+  method_zh: 比较误分类模型与PPI类代理结果方法，以有效影响函数统一估计，并在特定条件下比较渐近方差；作者另报告模拟与真实数据示例。
+  evidence_basis: official-abstract
+  evidence_locator: PMLR306:15836–15860 confirms ICML2026 main and5authors;officialabstract read;PMLR-linked software
+    README checked,notexecuted. OpenReview browserchallenge notbypassed,notusedasacceptanceproof.
+  scope_decision: include
+  decision_reason_zh: 目标主会正式论文；LLM带噪标签、人工校准与总体均值估计直接结合，属于统计推断而非一般LLM推理或inference加速。
+  limitations_zh: 本轮仅读官方摘要与作者代码README，未审计影响函数推导、校准样本设计或证明所需条件。方差优势为条件性渐近结论，不能推为所有误差结构、样本量或数据漂移下均占优；代码已确认未执行，未复现实验。
+  verified_on: '2026-11-24'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.mlr.press/v306/chen26cq.html
+  - https://github.com/yiqunchen/debias-llm-as-a-judge
+  code_url: https://github.com/yiqunchen/debias-llm-as-a-judge
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: 总体均值，如平均基准分数、两两胜率；不等于单个标签必然正确。
+  assumptions_zh: 有效性及效率依赖正文规定的模型与校准条件；本轮摘要不能补全条件，应用前需核验。
+  guarantee_zh: 作者报告有效影响函数及特定条件下的渐近方差比较；本轮未独立验证证明。
+  datasets: null
+  publication_dates: null
+  publication_records:
+  - venue: ICML
+    year: 2026
+    track: main
+    publication_status: published
+    official_url: https://proceedings.mlr.press/v306/chen26cq.html
+    paper_url: https://proceedings.mlr.press/v306/chen26cq.html
+    volume: 306
+    pages: 15836–15860
