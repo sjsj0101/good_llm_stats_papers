@@ -2,12 +2,13 @@
 
 # 不确定性、校准与统计评测
 
-[返回目录](../README.md) · 25 篇主目录论文
+[返回目录](../README.md) · 26 篇主目录论文
 
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2026 · AISTATS | [Evaluation of Large Language Models via Coupled Token Generation](https://proceedings.mlr.press/v300/benz26a.html) | 建立共享外生随机性的耦合自回归因果模型，使不同 LLM 在相同随机源下比较，并证明基准评测可显著减少样本。 |
 | 2026 · Biometrika | [Optimal watermark generation under Type I and Type II errors](https://doi.org/10.1093/biomet/asag049) | 在同时约束第一类和第二类错误下求解LLM水印生成的最小保真损失，并构造达到下界的分布与采样规则。 |
+| 2026 · ICLR | [Multiple-Prediction-Powered Inference](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html) | 在昂贵高质量测量与多个成本、精度和相关性不同的预测代理之间分配预算，构造多预测器辅助估计。作者在LLM评测中比较估计误差，并给出MultiPPI的条件性理论分析。 |
 | 2026 · ICML | [Efficient Inference for Noisy LLM-as-a-Judge Evaluation](https://proceedings.mlr.press/v306/chen26cq.html) | 把有系统误差的LLM评审视为带噪声代理，比较直接误分类校正与用少量人工标签校准的预测辅助推断；通过半参数效率理论分析均值、基准平均分或两两胜率的估计。 |
 | 2026 · JASA | [Towards Better Statistical Understanding of Watermarking LLMs](https://www.tandfonline.com/doi/full/10.1080/01621459.2026.2618290) | 把红绿词表水印的质量—可检测性权衡写成约束优化问题，并给出在线生成算法和渐近最优性分析。 |
 | 2026 · JMLR | [UQLM: A Python Package for Uncertainty Quantification in Large Language Models](https://www.jmlr.org/papers/v27/25-1557.html) | 提供统一的LLM不确定性量化软件接口，把多类幻觉检测和回答可靠性评分标准化为0到1的置信分数，并支持黑盒与白盒模型。 |

@@ -703,8 +703,8 @@ coverage:
 - venue: ICLR
   venue_group: cs-conference
   year: 2026
-  status: search-only
-  included_count: 0
+  status: partial
+  included_count: 1
   official_issue_audit_complete: false
   search_logs:
   - venue: ICLR
@@ -723,9 +723,8 @@ coverage:
     - https://openreview.net/forum?id=pAoqRlTBtY
     - https://openreview.net/forum?id=9juyeCqL0u
     status: partial
-    notes: Only records with an ICLR poster/conference publication status or a PDF
-      banner stating publication were included. Under-review, rejected, and workshop-only
-      submissions were not treated as main-track acceptance.
+    notes: Only records with an ICLR poster/conference publication status or a PDF banner stating publication were
+      included. Under-review, rejected, and workshop-only submissions were not treated as main-track acceptance.
   - venue: ICLR
     years:
     - 2022
@@ -743,12 +742,22 @@ coverage:
     - https://iclr.cc/virtual/2024/poster/17755
     - https://iclr.cc/virtual/2025/poster/30640
     status: partial
-    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty,
-      conformal language modeling and conformal factuality. Targeted 2026 search found
-      additional controlled-theory and causal-structure papers; causal papers were
-      left to the causal worker and the search was not exhaustive.
-  verified_article_urls: []
-  gap_zh: 未逐项核对全部卷期/会议录及所有 track；零收录不代表零相关论文。2026 仅截至 9 月 9 日；尚未公开的录用/发表记录不计入。
+    notes: Included official 2022–2025 papers on implicit Bayesian ICL, semantic uncertainty, conformal language
+      modeling and conformal factuality. Targeted 2026 search found additional controlled-theory and causal-structure
+      papers; causal papers were left to the causal worker and the search was not exhaustive.
+  - venue: ICLR
+    years:
+    - 2026
+    queries:
+    - Multiple-Prediction-Powered Inference
+    source_urls:
+    - https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+    status: partial
+    checked_on: '2026-11-25'
+    notes: One official main paper verified from conference proceedings;not complete roster screening.
+  verified_article_urls:
+  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+  gap_zh: 2026-11-25定向补核MultiPPI，维持partial；原2026-09-09基线及既有条目核验日不变，不声称完整proceedings/track覆盖。
 - venue: AISTATS
   venue_group: cs-conference
   year: 2022

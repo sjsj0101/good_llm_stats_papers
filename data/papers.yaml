@@ -4659,3 +4659,57 @@
     paper_url: https://proceedings.mlr.press/v306/chen26cq.html
     volume: 306
     pages: 15836–15860
+
+- work_id: w-c677fe33e32f
+  title: Multiple-Prediction-Powered Inference
+  authors:
+  - Charlie Cowen-Breen
+  - Alekh Agarwal
+  - Stephen Bates
+  - William W. Cohen
+  - Jacob Eisenstein
+  - Amir Globerson
+  - Adam Fisch
+  venue: ICLR
+  venue_group: cs-conference
+  year: 2026
+  track: main
+  publication_status: published
+  official_url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+  paper_url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+  doi: null
+  arxiv_id: '2603.27414'
+  openreview_id: null
+  topics:
+  - stats-inference
+  - uncertainty
+  summary_zh: 在昂贵高质量测量与多个成本、精度和相关性不同的预测代理之间分配预算，构造多预测器辅助估计。作者在LLM评测中比较估计误差，并给出MultiPPI的条件性理论分析。
+  llm_role_zh: 不同LLM提供成本与相关结构不同的代理预测，目标是高效统计估计，而非推理速度或单模型生成准确率。
+  method_zh: 学习预测源之间的成本与相关结构，以预算自适应分配组合多个代理；官方摘要报告极小极大、有限样本及渐近性质。
+  evidence_basis: official-abstract
+  evidence_locator: Official ICLR2026 Conference proceedings publicGET200:seven ordered authors,main conference
+    identity and abstract;arXiv title/author record supplements identity only.
+  scope_decision: include
+  decision_reason_zh: 目标ICLR主会正式论文，明确结合多个LLM预测代理、测量成本和统计估计的效率分析。
+  limitations_zh: 本轮仅读官方摘要，未审计预算优化、成本估计、抽样规则或理论证明。效率与最优性依赖正文条件，不能推广为任意代理、预算或分布漂移下均有效；未确认作者代码链接，未复现实验。
+  verified_on: '2026-11-25'
+  discovered_via:
+  - web
+  source_urls:
+  - https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+  - https://arxiv.org/abs/2603.27414
+  code_url: null
+  verification_status: official-record-checked
+  fulltext_status: abstract-only
+  estimand_zh: 由高质量测量定义的目标统计量；具体任务和适用范围需依正文核验。
+  assumptions_zh: 代理成本、相关结构及抽样条件影响理论结论；摘要不足以列出完整假设。
+  guarantee_zh: 作者报告极小极大、有限样本和渐近性质；本轮不独立验证证明或补写未读条件。
+  datasets: null
+  publication_dates: null
+  publication_records:
+  - venue: ICLR
+    year: 2026
+    track: main
+    publication_status: published
+    official_url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html
+    paper_url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html

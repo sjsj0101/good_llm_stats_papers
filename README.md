@@ -8,7 +8,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 2022–2026 · 计算机、统计、经济与营销：方法和应用
 
-[![Papers](https://img.shields.io/badge/Papers-88-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-33-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-2026--09--09-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)
+[![Papers](https://img.shields.io/badge/Papers-89-0B7285?style=flat-square)](#paper-index) [![Target%20venues](https://img.shields.io/badge/Target_venues-33-364FC7?style=flat-square)](docs/coverage.md) [![Verified](https://img.shields.io/badge/Verified-2026--09--09-5F3DC4?style=flat-square)](data/coverage.yaml) [![License](https://img.shields.io/badge/License-CC_BY_4.0-2B8A3E?style=flat-square)](LICENSE)
 
 [**Suggest a Paper**](https://github.com/sjsj0101/good_llm_stats_papers/issues/new?template=paper-suggestion.yml)
 
@@ -28,8 +28,8 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 | Metric | Value |
 | --- | ---: |
-| 主目录论文 | 88 |
-| 正式发表 / 官方已接收稿 | 88 / 0 |
+| 主目录论文 | 89 |
+| 正式发表 / 官方已接收稿 | 89 / 0 |
 | 补充 / 待核验 | 38 / 1 |
 | 目标 venue / 年份单元 | 33 / 165 |
 | 基础检索截止日 | 2026-09-09 |
@@ -46,9 +46,9 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 
 ## Browse by Topic
 
-- [LLM 辅助统计推断](topics/stats-inference.md)：24 篇
+- [LLM 辅助统计推断](topics/stats-inference.md)：25 篇
 - [统计学习理论与上下文学习](topics/statistical-theory.md)：23 篇
-- [不确定性、校准与统计评测](topics/uncertainty.md)：25 篇
+- [不确定性、校准与统计评测](topics/uncertainty.md)：26 篇
 - [因果发现与识别](topics/causal-discovery.md)：12 篇
 - [因果估计与推断](topics/causal-estimation.md)：12 篇
 - [因果推理能力与评测](topics/causal-reasoning.md)：18 篇
@@ -65,7 +65,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 | --- | ---: | ---: | ---: | ---: | ---: |
 | ICML | [1](papers/2026/icml.md) | [7](papers/2025/icml.md) | [1](papers/2024/icml.md) | [2](papers/2023/icml.md) | 0 |
 | NeurIPS | 0 | [7](papers/2025/neurips.md) | [8](papers/2024/neurips.md) | [7](papers/2023/neurips.md) | [2](papers/2022/neurips.md) |
-| ICLR | 0 | [2](papers/2025/iclr.md) | [3](papers/2024/iclr.md) | [1](papers/2023/iclr.md) | [1](papers/2022/iclr.md) |
+| ICLR | [1](papers/2026/iclr.md) | [2](papers/2025/iclr.md) | [3](papers/2024/iclr.md) | [1](papers/2023/iclr.md) | [1](papers/2022/iclr.md) |
 | AISTATS | [2](papers/2026/aistats.md) | [2](papers/2025/aistats.md) | 0 | 0 | 0 |
 | UAI | [1](papers/2026/uai.md) | [2](papers/2025/uai.md) | [1](papers/2024/uai.md) | 0 | 0 |
 | COLT | [1](papers/2026/colt.md) | 0 | [1](papers/2024/colt.md) | 0 | 0 |
@@ -107,6 +107,7 @@ Curated research on LLMs, statistics, causal inference, marketing, and behaviora
 - **2026** · [JMLR](papers/2026/jmlr.md) — 1 篇
 - **2026** · [JASA](papers/2026/jasa.md) — 2 篇
 - **2026** · [ICML](papers/2026/icml.md) — 1 篇
+- **2026** · [ICLR](papers/2026/iclr.md) — 1 篇
 - **2026** · [COLT](papers/2026/colt.md) — 1 篇
 - **2026** · [CLeaR](papers/2026/clear.md) — 2 篇
 - **2026** · [Biometrika](papers/2026/biometrika.md) — 1 篇
@@ -199,6 +200,12 @@ python3 scripts/render.py --check
 | 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
 | --- | --- | --- |
 | 2026 · ICML | [Efficient Inference for Noisy LLM-as-a-Judge Evaluation](https://proceedings.mlr.press/v306/chen26cq.html) | 把有系统误差的LLM评审视为带噪声代理，比较直接误分类校正与用少量人工标签校准的预测辅助推断；通过半参数效率理论分析均值、基准平均分或两两胜率的估计。 |
+
+### ICLR 2026
+
+| 年份 / Venue | 论文 | 方法或应用与 LLM 的关系 |
+| --- | --- | --- |
+| 2026 · ICLR | [Multiple-Prediction-Powered Inference](https://proceedings.iclr.cc/paper_files/paper/2026/hash/d79ead018586772763ee1e486bd12b3a-Abstract-Conference.html) | 在昂贵高质量测量与多个成本、精度和相关性不同的预测代理之间分配预算，构造多预测器辅助估计。作者在LLM评测中比较估计误差，并给出MultiPPI的条件性理论分析。 |
 
 ### COLT 2026
 
