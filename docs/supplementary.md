@@ -46,6 +46,7 @@
 | 2026 · NBER Working Paper · 预印本 | [HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior](https://www.nber.org/papers/w35927) | 将家庭调查中的消费、收入、劳动、预期与住房行为组织为多类型预测任务，对照不变预测和梯度提升树，评估LLM作为家庭行为代理的预测能力及偏差。 |
 | 2026 · AI | [Are Human and LLM-Generated Observations Statistically Comparable? Rethinking Sampling Units, Variability, and Statistical Inference](https://www.mdpi.com/2673-2688/7/11/446) | 区分人群抽样的异质性与LLM重复生成的算法变异，提出按推断目标、抽样单位、依赖结构和验证证据组织人机数据比较的流程。 |
 | 2026 · Nature Computational Science | [Cognitive grounding improves LLM simulation of collective human behavior](https://www.nature.com/articles/s43588-026-01080-z) | 向供应链博弈中的LLM角色提供行为决策规则的定性描述，再比较多角色交互轨迹与人类校准参照。作者报告轨迹拟合得到改善，但不同角色和模型的参数对齐并不均匀。 |
+| 2026 · arXiv · 预印本 | [Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science Applications](https://arxiv.org/abs/2611.00256) | 以合成样本的使用目的区分个体预测、边际分布与实质关系三种验证目标，在欧盟居民AI态度调查上比较由真实受访者画像条件生成的LLM回答。作者报告不同模型、结果和验证维度表现不一致，不能用单一准确率判断可用性。 |
 
 ## 范围与证据
 
@@ -87,3 +88,4 @@
 - **HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior**（preprint）：直接检验LLM行为模拟的可信度与预测误差；本轮仅核验到NBER工作论文和同题arXiv版本，故列补充，不计入正式顶会顶刊主目录。
 - **Are Human and LLM-Generated Observations Statistically Comparable? Rethinking Sampling Units, Variability, and Statistical Inference**（published）：直接讨论合成受访者的统计比较条件；属于名单外期刊的方法评论，作为补充背景，不计入主目录或当作新理论/实证证明。
 - **Cognitive grounding improves LLM simulation of collective human behavior**（published）：直接研究合成参与者的行为验证；期刊不在当前目标venue名单，列补充，不扩大白名单。
+- **Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science Applications**（preprint）：直接提出并演示合成受访者的用途依赖验证方法，符合行为模拟与合成数据研究问题；仅核验预印本，列补充而非顶会顶刊主目录。

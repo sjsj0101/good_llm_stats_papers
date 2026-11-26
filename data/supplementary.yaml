@@ -2064,3 +2064,56 @@
     official_url: https://www.nature.com/articles/s43588-026-01080-z
     paper_url: https://www.nature.com/articles/s43588-026-01080-z
     article_type: Analysis
+
+- work_id: w-287fff596d56
+  title: 'Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science
+    Applications'
+  authors:
+  - Enrico Angelo Raffaele D'Ecclesiis
+  - Fulvio Castellacci
+  - Arash Ahmadi
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2611.00256
+  paper_url: https://arxiv.org/abs/2611.00256
+  doi: null
+  arxiv_id: '2611.00256'
+  openreview_id: null
+  topics:
+  - simulation
+  - synthetic-data
+  summary_zh: 以合成样本的使用目的区分个体预测、边际分布与实质关系三种验证目标，在欧盟居民AI态度调查上比较由真实受访者画像条件生成的LLM回答。作者报告不同模型、结果和验证维度表现不一致，不能用单一准确率判断可用性。
+  llm_role_zh: 充当条件于已观测受访者画像的合成问卷回答者，研究对象是行为代理的验证，不是采用LLM的现实因果效应。
+  method_zh: 对照真实调查结果和监督学习预测参照，分别评价个体对应、分布保真及下游关系保留。
+  evidence_basis: official-abstract
+  evidence_locator: Official arXiv v1 metadata,ordered three authors,2026-10-30 first submission and abstract; no
+    formal venue acceptance claimed.
+  scope_decision: supplement
+  decision_reason_zh: 直接提出并演示合成受访者的用途依赖验证方法，符合行为模拟与合成数据研究问题；仅核验预印本，列补充而非顶会顶刊主目录。
+  limitations_zh: 仅读arXiv摘要和元数据，未通读47页正文或复现实验。受测画像来自真实调查，不能据此认定能从零生成代表性人口；作者报告的局部关系保留不保证所有模型、问卷或因果估计有效。未核验正式录用或作者代码，字段留空。
+  verified_on: '2026-11-26'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2611.00256
+  code_url: null
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets:
+  - Eurobarometer AI attitudes
+  publication_dates:
+    first_preprint: '2026-10-30'
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    official_url: https://arxiv.org/abs/2611.00256
+    paper_url: https://arxiv.org/abs/2611.00256
+    arxiv_id: '2611.00256'
