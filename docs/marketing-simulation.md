@@ -2,7 +2,7 @@
 
 [返回目录](../README.md) · [营销索引](../topics/marketing.md) · [Simulation 索引](../topics/simulation.md)
 
-当前营销索引有 **6 篇主目录、3 篇背景补充**；simulation 索引有 **9 篇主目录、6 篇补充**。标签交叉，不能相加。营销目标期刊包括 Marketing Science、Journal of Marketing Research、Journal of Marketing、Journal of Consumer Research。
+当前营销索引有 **6 篇主目录、4 篇背景补充**；simulation 索引有 **9 篇主目录、12 篇补充**。标签交叉，不能相加。营销目标期刊包括 Marketing Science、Journal of Marketing Research、Journal of Marketing、Journal of Consumer Research。
 
 ## 可以从哪些应用入手
 
@@ -24,6 +24,7 @@
 - [LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals](https://arxiv.org/abs/2411.10109)：原题为 **Generative Agent Simulations of 1,000 People**；条目采用 2026-06-28 的 v3，保留首次预印本年份 2024。比较访谈、调查和人口学画像构建的个人代理。
 - [AgentSociety 的并行模拟框架](https://aclanthology.org/2025.acl-industry.94/)：ACL 2025 **Industry Track**，按特别轨列补充，不能标成 ACL 主会研究论文。
 - [Homo Silicus](https://www.nber.org/papers/w31122)：NBER 工作论文，首次 2023、修订 2026；为代理设置禀赋、信息和偏好，探索经济实验及变体。
+- [Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538)：2026 工作论文，以预测市场、分析师和家庭调查检验生成预期替代人类测量的有效性，以及替代对回归结论的影响。适合与 Homo Silicus 和 [LLM 应用计量框架](https://www.annualreviews.org/content/journals/10.1146/annurev-economics-120925-105620)连读；当前修订版只核对摘要，旧版局部正文阅读单独注明，详见[来源记录](sources.md)。
 - [Evaluating the statistical realism of LLM-generated social science data](https://www.pnas.org/doi/10.1073/pnas.2538145123)：PNAS 2026，用于检查合成数据的统计真实性；PNAS 在当前主目录名单之外。
 
 ## 范围与证据如何区分

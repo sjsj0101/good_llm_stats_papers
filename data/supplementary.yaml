@@ -2117,3 +2117,65 @@
     official_url: https://arxiv.org/abs/2611.00256
     paper_url: https://arxiv.org/abs/2611.00256
     arxiv_id: '2611.00256'
+
+- work_id: w-80fc1332fb32
+  title: 'Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?'
+  title_aliases:
+  - 'Completions, Not Convictions: Can LLM Probabilities Proxy for Human Beliefs?'
+  - 'Completions, Not Convictions: Can LLM Outputs Proxy for Human Beliefs?'
+  authors:
+  - Stefan Nagel
+  - Claire Tseng
+  - Dacheng Xiu
+  venue: SSRN
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
+  paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
+  doi: 10.2139/ssrn.7265538
+  arxiv_id: null
+  openreview_id: null
+  topics:
+  - synthetic-data
+  - simulation
+  - stats-inference
+  summary_zh: 对照预测市场、分析师预测和家庭调查，检验LLM生成预期能否替代人类测量。作者报告替代会扭曲部分群体差异与下游回归结论，真人验证数据可减小部分估计偏差。
+  llm_role_zh: 生成作为人类预期代理的概率或调查回答，研究其测量有效性与下游统计推断，而非LLM采用的现实因果效应。
+  method_zh: 以三类人类预期作参照，比较生成预期差异及替换后的回归结果，并用真人验证样本进行predict-then-debias校正；本条对最新版方法的描述限于官方摘要。
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets:
+  - Prediction market probabilities
+  - Analyst forecasts
+  - Household expectations surveys
+  code_url: null
+  evidence_basis: official-abstract
+  evidence_locator: SSRN可读检索记录核对三位作者、DOI、2026-08-13首次发布和2026-11-09修订；Chicago Booth Fama-Miller官方页核对当前标题、摘要和working-paper身份。补充阅读为作者托管2026-08-11旧版引言及第6节局部，不能作为最新版全文已读证据。
+  verification_status: preprint-record-checked
+  fulltext_status: abstract-only
+  scope_decision: supplement
+  decision_reason_zh: 直接验证LLM生成预期的测量有效性和下游推断偏差，符合合成调查与行为模拟研究范围；当前仅核实工作论文，列为重点补充，不计主目录。
+  limitations_zh: 最新80页修订版全文未取得；SSRN直接访问403，学校下载链接失效，可读官方摘要与检索记录用于核验。旧版75页PDF仅局部阅读，未将其数值结果或校正细节移植到新版；未复现实验，不将特定模型和场景的差异推广为所有LLM均无法代理人类预期。
+  verified_on: '2026-11-27'
+  publication_dates:
+    date_written: '2026-07-01'
+    first_preprint: '2026-08-13'
+    latest_revision: '2026-11-09'
+  discovered_via:
+  - web
+  source_urls:
+  - https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
+  - https://www.chicagobooth.edu/research/fama-miller/finance-research/working-papers/2026/completions-not-convictions
+  - https://dachxiu.chicagobooth.edu/
+  - https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/f/575/files/2026/08/LLM.pdf
+  publication_records:
+  - venue: SSRN
+    year: 2026
+    track: other
+    publication_status: preprint
+    doi: 10.2139/ssrn.7265538
+    official_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
+    paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538

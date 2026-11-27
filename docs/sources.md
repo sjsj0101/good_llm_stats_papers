@@ -63,3 +63,11 @@ EDITH 推进 1 篇 BERT 评论分析应用，官方在线年核实为 2022，现
 补充[Are Human and LLM-Generated Observations Statistically Comparable?](https://www.mdpi.com/2673-2688/7/11/446)。官方页核验六位作者、2026-11-01、AI 7(11):446、DOI及Communication类型；仅读摘要、引言、结论与数据声明。文章未产生或分析新数据，作为合成受访者推断的方法评论，不当作新理论或实证验证。名单外期刊仅列补充，主目录87、补充37、待核验1。
 
 本库本轮3项文献库精确短语查询成功、0命中、无截断；新增来自网络。原2026-09-09覆盖基线和其他候选证据缺口保留，不声称全量检索或实验复现。
+
+## 2026-11-27：LLM 生成人类预期的有效性
+
+按用户提供的链接补入 [Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538)。SSRN 可读检索记录核对三位作者（Stefan Nagel、Claire Tseng、Dacheng Xiu）、DOI、2026-08-13 首次发布和 2026-11-09 修订；[Chicago Booth Fama-Miller 官方页](https://www.chicagobooth.edu/research/fama-miller/finance-research/working-papers/2026/completions-not-convictions)交叉确认当前标题、摘要与工作论文身份。保留旧标题，与同一 SSRN ID 的其他版本合并为一篇。未取得目标 venue 正式发表或接收证据，新增 1 篇补充；当前主目录 89、补充 40、待核验 1。
+
+最新版内容短评仅依据官方摘要。SSRN 直接页面与下载返回 403，学校下载链接失效；取得的作者托管 PDF 是 2026-08-11 的 75 页旧版，仅局部阅读引言和第 6 节，未取得 80 页最新版全文。条目以 `abstract-only` 标明当前修订版的阅读深度；不混用新旧版本的数值结论或校正细节，没有复现实验。
+
+同轮适配评估已于 2026-11-27 21:39:43（Asia/Hong_Kong）实际搜索 EDITH：按完整标题关键词、新旧副标题和三位作者组合执行 4 组 FTS 查询，并查标题/DOI，均成功、零命中、无截断。范围为当前库全部 16 刊、41,873 条记录的元数据索引，不是全库原文扫描；源库 SHA-256、大小和修改时间保持。EDITH 来源最终纳入 0，用户链接经网络原始来源核验后纳入 1。本次收录继续使用该轮查询，未另起搜索或宣称全领域覆盖；实际 SQL、时间、筛查与版本证据保存在本机交接所指日志中。基础覆盖日期、venue 注册表及主目录覆盖计数保持不变。
