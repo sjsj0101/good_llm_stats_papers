@@ -16,7 +16,7 @@
 | 2024 · Marketing Science | [Frontiers: Determining the Validity of Large Language Models for Automated Perceptual Analysis](https://pubsonline.informs.org/doi/10.1287/mksc.2023.0454) | 研究 LLM 生成品牌感知数据与人类调查数据的一致性及适用范围。 |
 | 2023 · ICML | [Using Large Language Models to Simulate Multiple Humans and Replicate Human Subject Studies](https://proceedings.mlr.press/v202/aher23a.html) | 用 Turing Experiments 模拟参与者群体，复现经济学、语言和社会心理实验并识别系统偏差。 |
 
-## 补充阅读（12 篇）
+## 补充阅读（13 篇）
 
 预印本、名单外 venue、特别轨或背景指南，均不计入上方主目录数。具体理由见[补充列表](../docs/supplementary.md)。
 
@@ -34,5 +34,6 @@
 | 2026 · Nature Computational Science | [Cognitive grounding improves LLM simulation of collective human behavior](https://www.nature.com/articles/s43588-026-01080-z) | 向供应链博弈中的LLM角色提供行为决策规则的定性描述，再比较多角色交互轨迹与人类校准参照。作者报告轨迹拟合得到改善，但不同角色和模型的参数对齐并不均匀。 |
 | 2026 · arXiv · 预印本 | [Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science Applications](https://arxiv.org/abs/2611.00256) | 以合成样本的使用目的区分个体预测、边际分布与实质关系三种验证目标，在欧盟居民AI态度调查上比较由真实受访者画像条件生成的LLM回答。作者报告不同模型、结果和验证维度表现不一致，不能用单一准确率判断可用性。 |
 | 2026 · SSRN · 预印本 | [Completions, Not Convictions: Can LLM Outputs Proxy for Human Expectations?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538) | 对照预测市场、分析师预测和家庭调查，检验LLM生成预期能否替代人类测量。作者报告替代会扭曲部分群体差异与下游回归结论，真人验证数据可减小部分估计偏差。 |
+| 2026 · arXiv · 预印本 | [Training decision models for simulating human respondents](https://arxiv.org/abs/2611.31613) | 用历史个体选择数据训练决策模型，再在未参与训练的研究中评估合成受访者对下游偏好与处理效应的恢复。作者报告跨研究训练能降低部分任务误差，但更低的选择预测损失不必然带来更准确的效应估计。 |
 
 [按应用场景阅读](../docs/marketing-simulation.md)。

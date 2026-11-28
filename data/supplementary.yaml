@@ -2179,3 +2179,54 @@
     doi: 10.2139/ssrn.7265538
     official_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
     paper_url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7265538
+
+- work_id: w-62a34e7dfd74
+  title: Training decision models for simulating human respondents
+  authors:
+  - Davood Wadi
+  - Yu Ma
+  venue: arXiv
+  venue_group: other
+  year: 2026
+  track: other
+  publication_status: preprint
+  official_url: https://arxiv.org/abs/2611.31613
+  paper_url: https://arxiv.org/abs/2611.31613
+  doi: null
+  arxiv_id: '2611.31613'
+  openreview_id: null
+  topics:
+  - simulation
+  - synthetic-data
+  - marketing-behavior
+  summary_zh: 用历史个体选择数据训练决策模型，再在未参与训练的研究中评估合成受访者对下游偏好与处理效应的恢复。作者报告跨研究训练能降低部分任务误差，但更低的选择预测损失不必然带来更准确的效应估计。
+  llm_role_zh: 作为合成受访者与偏好模拟器；研究LLM生成数据的计量有效性，而非采用LLM的现实因果效果。
+  method_zh: 在推断前用条件极大似然训练KEV决策模型，比较不同规模及跨领域留出研究的选择预测与下游推断误差。
+  evidence_basis: official-abstract
+  evidence_locator: Official arXiv v1 metadata and abstract;two ordered authors,first submission2026-11-23. No formal
+    venue status inferred.
+  scope_decision: supplement
+  decision_reason_zh: 直接研究市场调查与联合分析中合成受访者训练和下游估计有效性；仅核验预印本，列补充，不扩大主目录venue。
+  limitations_zh: 仅读摘要与元数据，未审计数据划分、训练、效应定义或实验。受测研究的误差改善不是一般因果识别保证；单研究训练即使降低交叉熵也可能加大效应误差。未确认正式录用及作者代码，未复现，不能泛化到所有调查或人群。
+  verified_on: '2026-11-28'
+  discovered_via:
+  - web
+  source_urls:
+  - https://arxiv.org/abs/2611.31613
+  code_url: null
+  verification_status: needs-official-verification
+  fulltext_status: abstract-only
+  estimand_zh: null
+  assumptions_zh: null
+  guarantee_zh: null
+  datasets: null
+  publication_dates:
+    first_preprint: '2026-11-23'
+  publication_records:
+  - venue: arXiv
+    year: 2026
+    track: other
+    publication_status: preprint
+    official_url: https://arxiv.org/abs/2611.31613
+    paper_url: https://arxiv.org/abs/2611.31613
+    arxiv_id: '2611.31613'
